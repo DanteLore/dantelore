@@ -1,0 +1,5 @@
+baseURL = "http://dantelore.com/"
+languageCode = "en-gb"
+title = "Dante Lore"
+theme = "ananke"
+
