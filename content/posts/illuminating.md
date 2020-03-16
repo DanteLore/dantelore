@@ -1,0 +1,9 @@
+
+---
+title: "Illuminating"
+date: 2012-02-05T01:09:00
+draft: False
+---
+
+Since converting to 12v I haven't had much use for the map reading light I bought from Sodbury a couple of years back.  Decided to use some cheap LED strips - the sort boy racers use as underlighters - and a length of platic round bar to convert the lamp to 12 volts and the 21st century.
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;">[<img src="http://2.bp.blogspot.com/-1v02wGFnFmk/Ty3Up4Y0hWI/AAAAAAAACX0/LUcl75WiYqE/s320/IMG_3256.JPG"/>](http://2.bp.blogspot.com/-1v02wGFnFmk/Ty3Up4Y0hWI/AAAAAAAACX0/LUcl75WiYqE/s1600/IMG_3256.JPG)</td></tr><tr><td style="text-align: center;">Finished product.  Slightly brighter than the original flourencent bulb and uses much less power.</td></tr></tbody></table>Sould come in handy when we go to Wales in a few weeks.  Still need to think about sleeping and heating issues though...

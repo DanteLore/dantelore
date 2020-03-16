@@ -1,0 +1,82 @@
+
+---
+title: "Live Train Route Animation"
+date: 2016-06-16T09:46:06
+draft: False
+---
+
+The code for this article is available on my github, here: https://github.com/DanteLore/national-rail
+
+Building on the [Live Departures Board](http://logicalgenetics.com/train-departure-board/) project from the other day, I decided to try out mapping some departure data. The other article shows pretty much all the back-end code, which wasn't changed much.
+
+[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner.gif"/>](http://logicalgenetics.com/live-train-route-animation/route-planner/)
+
+The AngularJS app takes the routes of imminent departures from various stations and displays them on a [CartoDB](http://leaflet-extras.github.io/leaflet-providers/preview/index.html), which is free, unlike Mapbox.
+
+[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner2.gif"/>](http://logicalgenetics.com/live-train-route-animation/route-planner2/)
+
+Here's the code-behind for the Angular app:
+[sourcecode lang="javascript"]
+var mapApp = angular.module('mapApp', ['ngRoute']);
+
+mapApp
+    .config(function($routeProvider){
+	    $routeProvider
+		    .when('/',
+		    {
+		    	controller: 'MapController',
+			    templateUrl: 'map.html'
+		    })
+		    .otherwise({redirectTo: '/'});
+	})
+	.controller('MapController', function($scope, $http, $timeout, $routeParams) {
+
+        var mymap = L.map('mapid').fitBounds([ [51.3933180851, -1.24174419711], [51.5154681995, -0.174688620494] ]);
+        L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+            attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; &amp;copy; &lt;a href=&quot;http://cartodb.com/attributions&quot;&gt;CartoDB&lt;/a&gt;',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(mymap);
+
+        $scope.routeLayer = L.featureGroup().addTo(mymap);
+        $scope.categoryScale = d3.scale.category10();
+
+        $scope.doStation = function(data) {
+            data.forEach(function(route){
+                var color = $scope.categoryScale(route[0].crs)
+                var path = []
+
+                route.filter(function(x) {return x.latitude &amp;&amp; x.longitude}).forEach(function(station) {
+                    var location = [station.latitude, station.longitude];
+                    path.push(location);
+                });
+
+                var line = L.polyline(path, {
+                    weight: 4,
+                    color: color,
+                    opacity: 0.5
+                }).addTo($scope.routeLayer);
+
+                line.snakeIn();
+            });
+        };
+
+        $scope.refresh = function() {
+            $scope.routeLayer.clearLayers();
+
+            $scope.crsList.forEach(function(crs) {
+                $http.get(&quot;/routes/&quot; + crs).success($scope.doStation);
+            });
+
+            $timeout(function(){
+                $scope.refresh();
+            }, 10000)
+        };
+
+        $http.get(&quot;/loaded-crs&quot;).success(function(crsData) {
+            $scope.crsList = crsData;
+
+            $scope.refresh();
+        })
+    });
+[/sourcecode]
