@@ -11,4 +11,8 @@ Yesterday I started fitting the new rear <span>crossmember</span> and cleaning o
 
 A&E on a Saturday night was as lovely as ever.  The doctors didn't laugh at me and employed all sorts of high tech gadgetry to remove a massive boulder (OK, it was barely visible) from my eye.  I felt much better til the anesthetic wore off!
 
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_9321-782192.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_9321-782189.JPG"/></a><span style="font-size:85%;"><span>Lookin</span>' Good!</span>
+
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_9305-747063.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_9305-747038.JPG"/></a><span style="font-size:85%;">Some actual work.</span>
+
 <a href="http://danandtheduke.co.uk/uploaded_images/IMG_9308-747111.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_9308-747087.JPG"/></a><span style="font-size:85%;">Almost ready to get welded.</span>

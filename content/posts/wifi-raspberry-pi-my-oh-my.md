@@ -14,11 +14,10 @@ After hours of faffing about, it turns out I could have had this nailed with two
 Assuming you have a recent Arch Linux, I think you just need to:
 
 <strong>1. Use the GUI tool to connect to your WiFi</strong>
-
-[sourcecode language="bash"]
+```bash
 sudo wifi-menu -o
-[/sourcecode]
 
+```
 Select the right network and enter the password when prompted.  When you exit the application you should be connected to your router and the tool will have saved a config file to <strong>/etc/netctl/wlan0-YourNetwork</strong>
 
 <strong>2. Change to a static IP address</strong>
@@ -30,23 +29,23 @@ Use your favorite editor (I like nano) to change the config file just generated 
 IP=dhcp
 [/sourcecode]
 ...and adding this in it's place...
-[sourcecode language="bash"]
+
+```bash
 IP=static
 Address=('192.168.1.188/24')
 Gateway=('192.168.1.254')
 DNS=('8.8.8.8')
-[/sourcecode]
 
+```
 After you've done that, repeat step 1 and proceed to step 3.  Note that when you run <strong>wifi-menu</strong> the second time it will show that there is an existing config for your network.  You might also find that step 1 works and you don't need to do step 2 at all, because you might have downloaded a fixed Arch image.  In which case, I salute your fortitude!
 
 <strong>3. Install the config</strong>
 
 Since you probably want to reconnect the wireless after reboots, you need to install the config using the funky new "netctl" tool.
-
-[sourcecode language="bash"]
+```bash
 sudo netctl enable wlan0-YourNetwork
-[/sourcecode]
 
+```
 Now you should have a working wireless connection after reboots and a raspberry pi that works like your old one did!
 
 <strong>Rant: Who moved my cheese?</strong>

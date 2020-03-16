@@ -16,8 +16,7 @@ There are some great guides out there about soldering up the right pins (<a href
 Out of the box the Raspberry has a console running on the serial port.  You need to disable this before you can do anything with the port.  Very easy to do: Edit /etc/inittab and remove the line that refers to /dev/ttyAMA0;  Edit /boot/cmdline.txt and remove the chunks of text that refer to /dev/ttyAMA0.  After a reboot the terminal will be gone.
 ## Reading from the Serial Port in Mono
 Right, now we're ready to write some code.  First off I wrote this simple bit of C# to test that I was getting messages. The ReadData method reads text from the serial port one character at a time, detecting end of line characters to return a string for each line. The main method loops forever reading these lines and printing them to the console if they start with the NMEA "Recommended Minimum Content" message $GPRMC.
-
-[sourcecode language="csharp"]
+```csharp
 using System;
 using System.IO.Ports;
 
@@ -25,14 +24,14 @@ public class Serial
 {
    public static void Main()
    {
-      SerialPort serial = new SerialPort(&quot;/dev/ttyAMA0&quot;, 4800);
+      SerialPort serial = new SerialPort("/dev/ttyAMA0", 4800);
       serial.Open();
       serial.ReadTimeout = 1000;
 
       while(true)
       {
          string data = ReadData(serial);
-         if(!string.IsNullOrEmpty(data) &amp;&amp; data.StartsWith(&quot;$GPRMC&quot;))
+         if(!string.IsNullOrEmpty(data) &amp;&amp; data.StartsWith("$GPRMC"))
          {
              Console.WriteLine(data);
          }
@@ -42,7 +41,7 @@ public class Serial
    public static string ReadData(SerialPort serial)
    {
       byte tmpByte;
-      string rxString = &quot;&quot;;
+      string rxString = "";
 
       do
       {
@@ -54,16 +53,17 @@ public class Serial
       return rxString.Trim();
    }
 }
-[/sourcecode]
+
+```
+
 ## Parsing the NMEA Data
 I then did a bit of a Test Driven Development exercise to write a *proper* parser for NMEA messages. To do this in a test driven way I got my hands on some data files containing raw NMEA data and used that to create a *Mock* serial port reader. I could then pass these messages through my parser and test that I had managed to extract the right data.
 
 Unit testing and using mocks was a great way to develop this part of the application. I could use recorded routes with real movement to test the parsing of speed data - since coding in a moving car seemed silly. I could also do all the coding work in Visual Studio on my Windows machine. This meant I could make the most of a nice big screen, code completion, resharper's excellent testing interface and so on, then just push the code onto the Pi when it was done; I didn't have to worry that "/dev/ttyAMA0" is "COM3" in Windows land, because I wasn't using a real serial port to do 99% of the development.
 
 A typical test for parsing of individual messages (hand typed!):
-
-[sourcecode language="csharp"]
-[TestCase(&quot;$GPRMC,005959,V,4807.038,N,11130.00,E,022.4,084.4,010101,003.1,W*4E&quot;, 48.1173, 111.5)]
+```csharp
+[TestCase("$GPRMC,005959,V,4807.038,N,11130.00,E,022.4,084.4,010101,003.1,W*4E", 48.1173, 111.5)]
 public void CanParseLatLongFromRmcMessage(string input, double expectedLat, double expectedLong)
 {
     NmeaParser parser = new NmeaParser();
@@ -72,11 +72,10 @@ public void CanParseLatLongFromRmcMessage(string input, double expectedLat, doub
     Assert.That(measurement.Latitude, Is.EqualTo(expectedLat));
     Assert.That(measurement.Longitude, Is.EqualTo(expectedLong));
 }
-[/sourcecode]
 
+```
 The mock serial reader class:
-
-[sourcecode language="csharp"]
+```csharp
 public class MockSerialPortReader : IPortReader
 {
     private readonly string filename;
@@ -100,11 +99,10 @@ public class MockSerialPortReader : IPortReader
         }
     }
 }
-[/sourcecode]
 
+```
 A typical unit test using the mock reader:
-
-[sourcecode language="csharp"]
+```csharp
 [Test]
 public void CanGetMeasurementsFromMockReaderDataSet1()
 {
@@ -116,43 +114,43 @@ public void CanGetMeasurementsFromMockReaderDataSet1()
     CollectionAssert.AllItemsAreInstancesOfType(measurements, typeof(GpsMeasurement));
     CollectionAssert.AllItemsAreNotNull(measurements);
 
-    Console.WriteLine(&quot;{0}, {1}&quot;, measurements.Last().Latitude, measurements.Last().Longitude);
+    Console.WriteLine("{0}, {1}", measurements.Last().Latitude, measurements.Last().Longitude);
 }
-[/sourcecode]
+
+```
+
 ## Displaying the Speedo Text
 The final stage of this little mini-project was to knock up a user interface. I spent a while looking at how to get something working under X Windows, then decided to go back to the Old School and just use ASCII art.
 
 First thing was to find a quick and dirty way to define how each big number would look. Each number is made up of a grid of characters, defined in a class:
-
-[sourcecode language="csharp"]
+```csharp
 public class TextConstants
 {
     public static readonly string[] Zero = new[]
         {
-            &quot;   000000&quot;,
-            &quot;  00000000&quot;,
-            &quot; 000    000&quot;,
-            &quot; 000    000&quot;,
-            &quot; 000    000&quot;,
-            &quot; 000    000&quot;,
-            &quot;  00000000&quot;,
-            &quot;   000000&quot;
+            "   000000",
+            "  00000000",
+            " 000    000",
+            " 000    000",
+            " 000    000",
+            " 000    000",
+            "  00000000",
+            "   000000"
         };
 
    ...etc etc...
 }
-[/sourcecode]
 
+```
 Writing this out then becomes an exercise in text placement:
-
-[sourcecode language="csharp"]
+```csharp
 public void DrawSpeed(int speed)
 {
     Console.Clear();
 
     DrawOutline();
 
-    char[] asciiSpeed = speed.ToString(&quot;00&quot;).ToCharArray();
+    char[] asciiSpeed = speed.ToString("00").ToCharArray();
 
     int xOffset = 20;
     foreach (char c in asciiSpeed)
@@ -171,7 +169,9 @@ private void DrawNumber(IEnumerable lines, int xOffset, int yOffset)
         lineNo++;
     }
 }
-[/sourcecode]
+
+```
+
 ## Did it Work?
 Well, yes! The main issue was the update speed. This is because the old GPS module outputs data very very slowly and has quite a slow refresh rate. As a speedometer it wasn't much good - it generally showed the speed I *was* doing about 15 seconds ago. As a project it worked brilliantly though.
 

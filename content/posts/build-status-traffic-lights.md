@@ -22,14 +22,13 @@ Power for the lamps is supplied by a 12v wall adaptor I got from Maplins.  Again
 <a href="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-07-22-22.27.19.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-07-22-22.27.19.jpg"/></a>
 
 The arduino inside the lights implements a very simple serial protocol.  It listens for commands "red", "green" and "off", terminated with a newline.  There's a USB connection to the old laptop which drives our Information Radiator TV; the idea with the traffic lights was to keep all the intelligence on the PC end to make upgrades and changes easier.  Here's the arduino code.  Told you it was simple!
-
-[sourcecode lang="c"]
+```c
 const int redPin = 2;
 const int greenPin = 3;
 int redState = LOW;
 int greenState = LOW;
 long interval = 1000;
-String inputString = &quot;&quot;;
+String inputString = "";
 boolean stringComplete = false;
 
 void setup() {
@@ -46,20 +45,20 @@ void loop()
   if(stringComplete) {
     stringComplete = false;
 
-    if (inputString.equalsIgnoreCase(&quot;off&quot;)) {
+    if (inputString.equalsIgnoreCase("off")) {
       redState = LOW;
       greenState = LOW;
     }
-    else if (inputString.equalsIgnoreCase(&quot;red&quot;)) {
+    else if (inputString.equalsIgnoreCase("red")) {
       redState = HIGH;
       greenState = LOW;
     }
-    else if(inputString.equalsIgnoreCase(&quot;green&quot;)) {
+    else if(inputString.equalsIgnoreCase("green")) {
       redState = LOW;
       greenState = HIGH;
     }
 
-    inputString = &quot;&quot;;
+    inputString = "";
   }
 
   digitalWrite(redPin, redState);
@@ -78,8 +77,8 @@ void serialEvent() {
     }
   }
 }
-[/sourcecode]
 
+```
 The code on the PC end is a little more complex, but all the heavy lifting is done by <a href="http://paulstack.co.uk/blog/post/introducing-teamcitysharp.aspx">Team City Sharp</a> which connects to our Team City server and get the status of our multitude of builds.  The only other complicated thing it does is open a serial port and dump the commands "red" and "green" to show the build status.  It also sends "off" at 7 o'clock in the evening... just in case a red light shining from an office window at midnight were to attract the attention of the local constabulary.
 
 <a href="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-27-14.15.19.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-27-14.15.19.jpg"/></a>

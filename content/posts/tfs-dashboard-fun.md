@@ -14,23 +14,25 @@ Three useful bits of information worth recording here.  How to get information 
 I'm not going to go into huge depth on how I structured by queries as everyone uses TFS slightly differently.  If you've got the smarts to knock up some TFS queries - and if you don't you might need to learn anyway - then you should be good to go with these code snippets.
 
 Get a list of sprints (iterations).  This one was a bit tricky and took some time to work out!
-[sourcecode language="csharp"]
+
+```csharp
         [Test]
         public void CanGetListOfSprints()
         {
             var tpc = new TfsTeamProjectCollection(tfsUri);
             var workItemStore = (WorkItemStore)tpc.GetService(typeof(WorkItemStore));
 
-            IEnumerable&lt;string&gt; names =
+            IEnumerable<string> names =
                 from Node node in workItemStore.Projects[projectName].IterationRootNodes[releaseName].ChildNodes
                 select node.Name;
 
             Assert.That(names, Is.Not.Empty);
         }
-[/sourcecode]
 
+```
 Get a list of stories waiting for signoff by product managers.
-[sourcecode language="csharp"]
+
+```csharp
         [Test]
         public void CanGetStoriesAwaitingProductManagerSignoff()
         {
@@ -38,86 +40,89 @@ Get a list of stories waiting for signoff by product managers.
             var workItemStore = (WorkItemStore)tpc.GetService(typeof(WorkItemStore));
 
             StringBuilder queryText = new StringBuilder();
-            queryText.AppendLine(@&quot;Select [ID], [Title]&quot;);
-            queryText.AppendLine(@&quot;From WorkItems&quot;);
-            queryText.AppendLine(@&quot;Where&quot;);
-            queryText.AppendFormat(&quot; [Team Project] = '{0}'\n&quot;, projectName);
-            queryText.AppendLine(@&quot;And&quot;);
-            queryText.AppendLine(@&quot; [Work Item Type] = 'Product Backlog Item'&quot;);
-            queryText.AppendLine(@&quot;And&quot;);
-            queryText.AppendFormat(&quot; [Iteration Path] under '{0}\\{1}'\n&quot;, projectName, releaseName);
-            queryText.AppendLine(@&quot;And&quot;);
-            queryText.AppendLine(@&quot; [State] = 'Committed'&quot;);
-            queryText.AppendLine(@&quot;And&quot;);
-            queryText.AppendFormat(@&quot; [Assigned To] in ( {0} )&quot;, productManagers);
+            queryText.AppendLine(@"Select [ID], [Title]");
+            queryText.AppendLine(@"From WorkItems");
+            queryText.AppendLine(@"Where");
+            queryText.AppendFormat(" [Team Project] = '{0}'\n", projectName);
+            queryText.AppendLine(@"And");
+            queryText.AppendLine(@" [Work Item Type] = 'Product Backlog Item'");
+            queryText.AppendLine(@"And");
+            queryText.AppendFormat(" [Iteration Path] under '{0}\\{1}'\n", projectName, releaseName);
+            queryText.AppendLine(@"And");
+            queryText.AppendLine(@" [State] = 'Committed'");
+            queryText.AppendLine(@"And");
+            queryText.AppendFormat(@" [Assigned To] in ( {0} )", productManagers);
 
-            IEnumerable&lt;string&gt; workItemNames = from WorkItem wi in workItemStore.Query(queryText.ToString())
+            IEnumerable<string> workItemNames = from WorkItem wi in workItemStore.Query(queryText.ToString())
                                                 select wi.Title;
 
             Assert.That(workItemNames, Is.Not.Empty);
         }
-[/sourcecode]
 
+```
 ## WPF Line Charts
 
 For the charts I used the <a href="http://wpf.codeplex.com/">WPF toolkit</a>.  It's not seen much development in recent years but it's still an easy and quick way to get a chart on screen.  Here are some XAML snippets.  
 
 Here's the chart itself.  Two line series here.  You select the <strong>ItemsSource</strong>: list of objects corresponding to points on the line; <strong>DependentValuePath</strong>: name of a property on the object to use as the value for the Y axis; IndependentValuePath: value/label for the X axis.
-[sourcecode language="xml"]
-            &lt;chart:Chart x:Name=&quot;TheChart&quot; Width=&quot;1024&quot; Height=&quot;728&quot; Foreground=&quot;White&quot; FontWeight=&quot;Bold&quot; FontSize=&quot;18&quot;
-                         Template=&quot;{StaticResource ChartTemplate}&quot;
-                         LegendStyle=&quot;{StaticResource InvisibleStyle}&quot; &gt;
-                &lt;chart:LineSeries DependentValuePath=&quot;ProjectedBurndown&quot; Foreground=&quot;White&quot; IndependentValuePath=&quot;SprintName&quot; ItemsSource=&quot;{Binding Sprints}&quot; IsSelectionEnabled=&quot;False&quot;
-                               PolylineStyle=&quot;{StaticResource ProjectedLineStyle}&quot; DataPointStyle=&quot;{StaticResource ProjectedDataPointStyle}&quot;/&gt;
-                &lt;chart:LineSeries DependentValuePath=&quot;ActualBurndown&quot; IndependentValuePath=&quot;SprintName&quot; ItemsSource=&quot;{Binding Sprints}&quot; IsSelectionEnabled=&quot;False&quot;
-                               PolylineStyle=&quot;{StaticResource ActualLineStyle}&quot; DataPointStyle=&quot;{StaticResource ActualDataPointStyle}&quot;/&gt;
-            &lt;/chart:Chart&gt;
-[/sourcecode]
 
+```xml
+            <chart:Chart x:Name="TheChart" Width="1024" Height="728" Foreground="White" FontWeight="Bold" FontSize="18"
+                         Template="{StaticResource ChartTemplate}"
+                         LegendStyle="{StaticResource InvisibleStyle}" >
+                <chart:LineSeries DependentValuePath="ProjectedBurndown" Foreground="White" IndependentValuePath="SprintName" ItemsSource="{Binding Sprints}" IsSelectionEnabled="False"
+                               PolylineStyle="{StaticResource ProjectedLineStyle}" DataPointStyle="{StaticResource ProjectedDataPointStyle}"/>
+                <chart:LineSeries DependentValuePath="ActualBurndown" IndependentValuePath="SprintName" ItemsSource="{Binding Sprints}" IsSelectionEnabled="False"
+                               PolylineStyle="{StaticResource ActualLineStyle}" DataPointStyle="{StaticResource ActualDataPointStyle}"/>
+            </chart:Chart>
+
+```
 This one is used to hide the legend:
-[sourcecode language="xml"]
-        &lt;Style x:Key=&quot;InvisibleStyle&quot; TargetType=&quot;Control&quot;&gt;
-            &lt;Setter Property=&quot;Width&quot; Value=&quot;0&quot; /&gt;
-        &lt;/Style&gt;
-[/sourcecode]
 
+```xml
+        <Style x:Key="InvisibleStyle" TargetType="Control">
+            <Setter Property="Width" Value="0" />
+        </Style>
+
+```
 Control Template to give better control over the look of the chart area:
-[sourcecode language="xml"]
-        &lt;ControlTemplate TargetType=&quot;chart:Chart&quot; x:Key=&quot;ChartTemplate&quot;&gt;
-            &lt;Border Background=&quot;{TemplateBinding Background}&quot; BorderBrush=&quot;{TemplateBinding BorderBrush}&quot; 
-                    BorderThickness=&quot;{TemplateBinding BorderThickness}&quot; Padding=&quot;{TemplateBinding Padding}&quot;&gt;
-                &lt;Grid&gt;
-                    &lt;primitives:EdgePanel x:Name=&quot;ChartArea&quot; Style=&quot;{TemplateBinding ChartAreaStyle}&quot;&gt;
-                        &lt;Grid Canvas.ZIndex=&quot;-1&quot; Style=&quot;{StaticResource PlotAreaStyle}&quot; /&gt;
-                    &lt;/primitives:EdgePanel&gt;
-                &lt;/Grid&gt;
-            &lt;/Border&gt;
-        &lt;/ControlTemplate&gt;
-[/sourcecode]
 
+```xml
+        <ControlTemplate TargetType="chart:Chart" x:Key="ChartTemplate">
+            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" 
+                    BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                <Grid>
+                    <primitives:EdgePanel x:Name="ChartArea" Style="{TemplateBinding ChartAreaStyle}">
+                        <Grid Canvas.ZIndex="-1" Style="{StaticResource PlotAreaStyle}" />
+                    </primitives:EdgePanel>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+
+```
 Two styles needed to render the lines with no data points and custom colour etc:
-[sourcecode language="xml"]
 
-        &lt;Style x:Key=&quot;ProjectedDataPointStyle&quot; TargetType=&quot;Control&quot;&gt;
-            &lt;Setter Property=&quot;Width&quot; Value=&quot;0&quot; /&gt;
-            &lt;Setter Property=&quot;Background&quot; Value=&quot;LightGray&quot;/&gt;
-        &lt;/Style&gt;
-        &lt;Style TargetType=&quot;Polyline&quot; x:Key=&quot;ProjectedLineStyle&quot;&gt;
-            &lt;Setter Property=&quot;StrokeThickness&quot; Value=&quot;4&quot;/&gt;
-            &lt;Setter Property=&quot;StrokeDashArray&quot; Value=&quot;2,1&quot;/&gt;
-        &lt;/Style&gt;
-[/sourcecode]
+```xml
 
+        <Style x:Key="ProjectedDataPointStyle" TargetType="Control">
+            <Setter Property="Width" Value="0" />
+            <Setter Property="Background" Value="LightGray"/>
+        </Style>
+        <Style TargetType="Polyline" x:Key="ProjectedLineStyle">
+            <Setter Property="StrokeThickness" Value="4"/>
+            <Setter Property="StrokeDashArray" Value="2,1"/>
+        </Style>
+
+```
 ## Borderless Click-Drag
 
 This last one was insanely simple but I don't want to forget, so here it is.  All code is in MainWindow.xaml.  Adding these few lines gives you an app with no border that can be dragged by clicking and dragging anywhere.  I also added a double-click-to-toggle-maximised-state feature.  Use Viewboxes libreally in your XAML to make it look nice!
-
-[sourcecode language="csharp"]
+```csharp
 public partial class MainWindow 
     {
         public MainWindow()
         {
-            DataContext = new BurndownViewModel(new Uri(&quot;http://whatnot/tfs/thingy&quot;));
+            DataContext = new BurndownViewModel(new Uri("http://whatnot/tfs/thingy"));
 
             InitializeComponent();
 
@@ -140,4 +145,5 @@ public partial class MainWindow
             Close();
         }
     }
-[/sourcecode]
+
+```

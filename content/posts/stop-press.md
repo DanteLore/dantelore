@@ -5,7 +5,11 @@ date: 2009-01-07T13:09:00
 draft: False
 ---
 
-About five minutes after I posted about history last night I decided to put The Duke's military reg into <a href="http://www.boscombedownaviationcollection.co.uk/">Boscombe Down Aviation Collection</a> (BDAC), who restore and maintain aircraft which have been let-go by the flight testing centre.
+About five minutes after I posted about history last night I decided to put The Duke's military reg into <a href="http://www.google.co.uk/search?q=%2252+AJ+79%22">Google</a>.  I'm sure I'd tried this before, but maybe without the quotes or something.  Anyway, this time I found something...
+<a href="http://plamill.tripod.com/id19.html">
+<span style="font-weight: bold;">Pictures of my beloved Land Rover!</span></a>
+
+Bit of a shocker really, and not what I'd expected to find.  Turns out that Boscombe Down is also home to the <a href="http://www.boscombedownaviationcollection.co.uk/">Boscombe Down Aviation Collection</a> (BDAC), who restore and maintain aircraft which have been let-go by the flight testing centre.
 
 The bloke who took the pictures helped out there and took some time to investigate a Land Rover 109 HSV - now known as The Duke!  Pictures of the identification plates in the cab, complete with military reg and chassis number, confirm this.
 

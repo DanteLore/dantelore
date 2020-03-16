@@ -25,59 +25,59 @@ Based on the above there are three broad areas for development: send the webhook
 Slack allows you to post Interactive Messages using an Incoming Webhook. In order to do this you'll need to add a new slack bot integration using their very friendly web UI. I called mine "MoodBot". Once you have a bot set up, you need to enable "Incoming Webhooks" and add the target URL to an environment variable (see <a href="https://gist.github.com/nmrony/789ad378552c27b1c4e9af6e77c2764e">here</a> for more details).
 
 The format of the message you send needs to be something like the following.  Note that the "interactive" part of the message is included as an attachment.
-
-[sourcecode lang="javascript"]const message = {
-  &quot;text&quot;: &quot;:thermometer: @channel *Time for a Team Temp Check!* @channel :thermometer: \n _Click as many times as you like, only your last vote will be counted._&quot;,
-  &quot;channel&quot;: &quot;@laurence.hubbard&quot;,
-  &quot;attachments&quot;: [
+```javascript
+const message = {
+  "text": ":thermometer: @channel *Time for a Team Temp Check!* @channel :thermometer: \n _Click as many times as you like, only your last vote will be counted._",
+  "channel": "@laurence.hubbard",
+  "attachments": [
     {
-      &quot;text&quot;: &quot;How are you feeling this week?&quot;,
-      &quot;fallback&quot;: &quot;I am unable to understand your feelings. Too deep maybe?&quot;,
-      &quot;callback_id&quot;: &quot;mood_survey&quot;,
-      &quot;color&quot;: &quot;#3AA3E3&quot;,
-      &quot;actions&quot;: [
+      "text": "How are you feeling this week?",
+      "fallback": "I am unable to understand your feelings. Too deep maybe?",
+      "callback_id": "mood_survey",
+      "color": "#3AA3E3",
+      "actions": [
         {
-          &quot;name&quot;: &quot;mood&quot;,
-          &quot;text&quot;: &quot;Good :+1:&quot;,
-          &quot;type&quot;: &quot;button&quot;,
-          &quot;value&quot;: &quot;good&quot;
+          "name": "mood",
+          "text": "Good :+1:",
+          "type": "button",
+          "value": "good"
         },
         {
-          &quot;name&quot;: &quot;mood&quot;,
-          &quot;text&quot;: &quot;Meh :neutral_face:&quot;,
-          &quot;type&quot;: &quot;button&quot;,
-          &quot;value&quot;: &quot;meh&quot;
+          "name": "mood",
+          "text": "Meh :neutral_face:",
+          "type": "button",
+          "value": "meh"
         },
         {
-          &quot;name&quot;: &quot;mood&quot;,
-          &quot;text&quot;: &quot;Bad :-1:&quot;,
-          &quot;type&quot;: &quot;button&quot;,
-          &quot;value&quot;: &quot;bad&quot;
+          "name": "mood",
+          "text": "Bad :-1:",
+          "type": "button",
+          "value": "bad"
         },
         {
-          &quot;name&quot;: &quot;mood&quot;,
-          &quot;text&quot;: &quot;Terrible :rage:&quot;,
-          &quot;type&quot;: &quot;button&quot;,
-          &quot;value&quot;: &quot;terrible&quot;
+          "name": "mood",
+          "text": "Terrible :rage:",
+          "type": "button",
+          "value": "terrible"
         },
         {
-          &quot;name&quot;: &quot;mood&quot;,
-          &quot;text&quot;: &quot;AWESOME!!!   :doge:&quot;,
-          &quot;type&quot;: &quot;button&quot;,
-          &quot;value&quot;: &quot;awesome&quot;
+          "name": "mood",
+          "text": "AWESOME!!!   :doge:",
+          "type": "button",
+          "value": "awesome"
         }
       ]
     }
   ]
-}[/sourcecode]
-
+}
+```
 This gives you a slack message looking like this:
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-15.27.38.jpg"/>
 
 The webhook is sent by a Lambda function, which is triggered crontab-style by a CloudWatch event rule.  The Lambda looks like this:
-
-[sourcecode lang="javascript"]const AWS = require('aws-sdk');
+```javascript
+const AWS = require('aws-sdk');
 const url = require('url');
 const https = require('https');
 
@@ -93,11 +93,11 @@ function postMessage(inputData, callback) {
         'Content-Length': Buffer.byteLength(body),
     };
 
-    const postReq = https.request(options, (res) =&gt; {
+    const postReq = https.request(options, (res) => {
         const chunks = [];
         res.setEncoding('utf8');
-        res.on('data', (chunk) =&gt; chunks.push(chunk));
-        res.on('end', () =&gt; {
+        res.on('data', (chunk) => chunks.push(chunk));
+        res.on('end', () => {
             if (callback) {
                 callback({
                     body: chunks.join(''),
@@ -116,22 +116,22 @@ function postMessage(inputData, callback) {
 function processEvent(slackMessage, callback) {
     slackMessage.channel = slackChannel;
     
-    postMessage(slackMessage, (response) =&gt; {
-        if (response.statusCode &lt; 400) {
+    postMessage(slackMessage, (response) => {
+        if (response.statusCode < 400) {
             console.info('Message posted successfully');
             callback(null);
-        } else if (response.statusCode &lt; 500) { console.error(`Error posting message to Slack API: ${response.statusCode} - ${response.statusMessage}`); callback(null); // Don't retry because the error is due to a problem with the request } else { // Let Lambda retry callback(`Server error when processing message: ${response.statusCode} - ${response.statusMessage}`); } }); } exports.handler = (event, context, callback) =&gt; {
-    console.log(&quot;Sending a temp check request&quot;)
+        } else if (response.statusCode < 500) { console.error(`Error posting message to Slack API: ${response.statusCode} - ${response.statusMessage}`); callback(null); // Don't retry because the error is due to a problem with the request } else { // Let Lambda retry callback(`Server error when processing message: ${response.statusCode} - ${response.statusMessage}`); } }); } exports.handler = (event, context, callback) => {
+    console.log("Sending a temp check request")
     
     if (hookUrl) {
         // Container reuse, simply process with the key in memory
         processEvent(event, callback);
-    } else if (kmsEncryptedHookUrl &amp;&amp; kmsEncryptedHookUrl !== '&lt;kmsEncryptedHookUrl&gt;') {
+    } else if (kmsEncryptedHookUrl &amp;&amp; kmsEncryptedHookUrl !== '<kmsEncryptedHookUrl>') {
         const encryptedBuf = new Buffer(kmsEncryptedHookUrl, 'base64');
         const cipherText = { CiphertextBlob: encryptedBuf };
 
         const kms = new AWS.KMS();
-        kms.decrypt(cipherText, (err, data) =&gt; {
+        kms.decrypt(cipherText, (err, data) => {
             if (err) {
                 console.log('Decrypt error:', err);
                 return callback(err);
@@ -142,10 +142,14 @@ function processEvent(slackMessage, callback) {
     } else {
         callback('Hook URL has not been set.');
     }
-};[/sourcecode]
+};
+```
+Setting up the rule to trigger the event is pretty simple. Log into the AWS console, select CloudWatch and choose <strong>Events -> Rules</strong> from the menu on the left. You can specify when the rule will run using a crontab line.  I used...
 
-Setting up the rule to trigger the event is pretty simple. Log into the AWS console, select CloudWatch and choose <strong>Events -&gt; Rules</strong> from the menu on the left. You can specify when the rule will run using a crontab line.  I used...
+```
 <strong>0 09 ? * WED *</strong>
+```
+
 Which will run at 9am (GMT) every Wednesday.  All this is set up via a reasonably clunky web interface!
 # Collating Responses
 This is the most complicated bit (and there's an extra tricky bit to deal with too). To handle the responses when users click buttons on the interactive Slack message you need four things: 1. A lambda function to handle the POST request and push data to a database, 2. an API Gateway resource to provide an HTTP end-point, translate the request and forward it to the Lambda function, 3. a database to store the data and finally 4. a config setting in Slack to tell it where to send the POST.
@@ -153,16 +157,16 @@ This is the most complicated bit (and there's an extra tricky bit to deal with 
 <img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-14.53.16.jpg"/>
 
 Here's the code for my Lambda function. It's simple enough - it just takes the JSON in the incoming request, grabs the bits it wants and adds a few dates and times to create another JSON object to post to DynamoDB. The response sent back to slack is a replacement message, which will overwrite the one already in the channel. Here I add a list of users who have clicked so far (a better man would have pulled this list from the DB!).
-
-[sourcecode lang="javascript"]var AWS = require('aws-sdk');
+```javascript
+var AWS = require('aws-sdk');
 
 var dynamo = new AWS.DynamoDB.DocumentClient();
-const table = &quot;MoodResponses&quot;;
+const table = "MoodResponses";
 
 function updateVoters(original, voter) {
     var updated = original;
     
-    var msg = &quot;\nVoted so far: &quot;;
+    var msg = "\nVoted so far: ";
     var comma = true;
     if(!updated.includes(msg)) {
         updated = updated + msg;
@@ -171,10 +175,10 @@ function updateVoters(original, voter) {
     
     if(!updated.includes(voter)) {
         if(comma) {
-            updated = updated + &quot;, &quot;;
+            updated = updated + ", ";
         }
         
-        updated = updated + &quot;&lt;@&quot; + voter + &quot;&gt;&quot;;
+        updated = updated + "<@" + voter + ">";
     }
 
     return updated;
@@ -191,7 +195,7 @@ exports.handler = function(event, context, callback) {
     
     var mood = event.actions[0].value;
     var date = new Date(Number(event.message_ts) * 1000);
-    var key = event.user.id + &quot;@&quot; + date.getFullYear() + &quot;-&quot; + date.getWeek();
+    var key = event.user.id + "@" + date.getFullYear() + "-" + date.getWeek();
     var record = {
         TableName: table,
         Item: {
@@ -208,19 +212,19 @@ exports.handler = function(event, context, callback) {
         }
     };
     
-    console.log(&quot;Created mood record: &quot; + JSON.stringify(record, null, 2));
+    console.log("Created mood record: " + JSON.stringify(record, null, 2));
 
     dynamo.put(record, function(err, data) {
         if (err) {
-            console.error(&quot;Unable to add item. Error JSON:&quot;, JSON.stringify(err, null, 2));
+            console.error("Unable to add item. Error JSON:", JSON.stringify(err, null, 2));
                 
             callback(null, {
-                  text: &quot;An error occurred inserting to DynamoDB. Error attached.&quot;,
+                  text: "An error occurred inserting to DynamoDB. Error attached.",
                   attachments: [{text: JSON.stringify(err, null, 2)}],
                   replace_original: false
                 });
         } else {
-            console.log(&quot;Added item:&quot;, JSON.stringify(record, null, 2));
+            console.log("Added item:", JSON.stringify(record, null, 2));
             
             callback(null, {
                   text: updateVoters(event.original_message.text, event.user.id),
@@ -229,8 +233,8 @@ exports.handler = function(event, context, callback) {
                 });
         }
     });
-};[/sourcecode]
-
+};
+```
 ### Setting up the API Gateway (The Extra Tricky Bit)
 Setting up the API Gateway should be simple enough - you add a new <strong>API</strong> then a new <strong>resource</strong> then a new POST <strong>method</strong>. Then configure the method to forward requests to the Lambda function you just created. *However*, there are a couple of issues.
 
@@ -248,7 +252,7 @@ I decided to use DynamoDB - Amazon's "Document Database as a Service" (DDaaS?). 
 
 For this step, just use the web UI to create a new table called "MoodResponses". I used an "id" field as the index.  The lambda creates "id" by concatenating the user ID and current week. This means you automatically limit each user to a single vote per week, which is exactly the functionality I was looking for - more or less for free!
 ### Slack Request URL
-Final step is very simple - use the Slack admin UI for your bot to add the address of your API resource as the target for interactive message callbacks.  Go to the admin page and select <strong>Features -&gt; Interactive Messages</strong> from the panel on the left and paste in the URL of your API Gateway method.
+Final step is very simple - use the Slack admin UI for your bot to add the address of your API resource as the target for interactive message callbacks.  Go to the admin page and select <strong>Features -> Interactive Messages</strong> from the panel on the left and paste in the URL of your API Gateway method.
 # Displaying Results
 Though there are more boxes on the diagram below, this is actually the easiest step by far. We serve up a simple D3js "single page app" direct from S3 as static content. This SPA page calls a GET method on the REST service we created above which in turn calls a Lambda function. The Lambda hits out database, pulls out the results and sends them back as a JSON payload.
 
@@ -261,8 +265,8 @@ There's not much more to explain, so I'll just link to a Fiddle which includes t
 Serving this code up as a static HTML file is very easy: Create an index.html document and add the javascript, HTML and CSS from the fiddle; create a new S3 bucket and, in the properties for the bucket, enable "Static Website Hosting"; upload your index.html file to the bucket, select it and select "Make Public" from the "Actions" dropdown.
 
 Here's the code for the Lambda function which is servicing the GET request:
-
-[sourcecode lang="javascript"]var AWS = require(&quot;aws-sdk&quot;);
+```javascript
+var AWS = require("aws-sdk");
 
 var docClient = new AWS.DynamoDB.DocumentClient();
 
@@ -284,29 +288,29 @@ Date.prototype.previousWeek = function() {
 
 function forWeek(week) {
     return {
-        TableName : &quot;MoodResponses&quot;,
+        TableName : "MoodResponses",
         IndexName: 'week-user_id-index',
-        KeyConditionExpression: &quot;#wk = :week&quot;,
+        KeyConditionExpression: "#wk = :week",
         ExpressionAttributeNames:{
-            &quot;#wk&quot;: &quot;week&quot;
+            "#wk": "week"
         },
         ExpressionAttributeValues: {
-            &quot;:week&quot;:week
+            ":week":week
         }
     };
 }
 
 function handleError(err, callback) {
-    console.error(&quot;Unable to query. Error:&quot;, JSON.stringify(err, null, 2));
-    callback(null, {&quot;error&quot;: JSON.stringify(err, null, 2)});
+    console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+    callback(null, {"error": JSON.stringify(err, null, 2)});
 }
 
 function handleData(data, callback, week) {
-    console.log(&quot;Query succeeded.&quot;);
+    console.log("Query succeeded.");
             
     var results = {
         week: week,
-        moods: data.Items.countBy(&quot;mood&quot;)
+        moods: data.Items.countBy("mood")
     };
 
     callback(null, results);
@@ -319,7 +323,7 @@ function runFor(date, tries, callback) {
     docClient.query(forWeek(week), function(err, data) {
         if (err) {
             handleError(err, callback);
-        } else if(data.Items.length &gt; 0 || tries &lt;= 0) {
+        } else if(data.Items.length > 0 || tries <= 0) {
             handleData(data, callback, week);
         } else {
             runFor(date.previousWeek(), tries - 1, callback);
@@ -329,8 +333,8 @@ function runFor(date, tries, callback) {
 
 exports.handler = function(event, context, callback) {
     runFor(new Date(), 1, callback);
-};[/sourcecode]
-
+};
+```
 ### One Last Thing!
 Dynamo can only query against fields which are part of an index. Here we need to query by week number, so I added a new index to my Dynamo table by week. This took 5 minutes to update (even though the table only had 5 records in it at the time!) but was simple enough to do.  If you look at the code above, you can see where I specify the index in the query parameters.
 # Wrap Up

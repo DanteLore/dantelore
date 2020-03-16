@@ -25,28 +25,31 @@ The script also sends direct messages if the trains are more than 15 minutes lat
 I host my instance of the script on my raspberry pi, which is small, cheap, quiet and can be left on 24x7 without much hassle. These instructions are therefore specific to setup on the pi, but the script will work on Windows and other version of Linux too.
 
 1. Install the python libraries you need. You may already have these installed.
-[sourcecode lang="bash"]
+
+```bash
 $ sudo easy_install argparse
 $ sudo easy_install requests
 $ sudo easy_install xmltodict
 $ sudo easy_install flask
-[/sourcecode]
 
+```
 2. Get a twitter account and a set of API keys by following the <a href="https://dev.twitter.com/oauth/overview">steps on the Twitter developers page</a>. You'll need four magic strings in total, which you pass to the script as command line parameters.
 
 3. Get a national rail API key <a href="http://www.nationalrail.co.uk/100296.aspx">from their website</a>. You just need one key for this API, which is nice!
 
 4. Clone the source and run the script using the three commands below... simples!
-[sourcecode lang="bash"]
+
+```bash
 $ git clone https://github.com/DanteLore/national-rail.git
 $ cd national-rail
 $ python twitterrail.py --rail-key YOUR_NATIONAL_RAIL_KEY --consumer-key YOUR_CUST_KEY --consumer-secret YOUR_CUST_SECRET --access-token YOUR_ACCESS_TOKEN --access-token-secret YOUR_ACCESS_TOKEN_SECRET --users YourTwitterName --forever
-[/sourcecode]
 
+```
 When run with the --forever option, the script will query the NR API and post to twitter every 5 minutes. Note that there are some basic checks to prevent annoying behaviour and duplicate messages. You can specify one or more usernames who you'd like to receive direct messages when there are delays and cancellations; note that only users who follow you can receive DMs on twitter.
 
 You can use other stations by specifying the three character station codes (CRS) for "home" and "work" on the command line. Here are the command line options:
-[sourcecode lang="bash"]
+
+```bash
 $ python twitterrail.py --help
 
 usage: twitterrail.py [-h] [--home HOME] [--work WORK] [--users USERS]
@@ -59,8 +62,8 @@ Tweeting about railways
 
 optional arguments:
 -h, --help            show this help message and exit
---home HOME           Home station CRS (default &quot;THA&quot;)
---work WORK           Work station CRS (default &quot;PAD&quot;)
+--home HOME           Home station CRS (default "THA")
+--work WORK           Work station CRS (default "PAD")
 --users USERS         Users to DM (comma separated)
 --forever             Use this switch to run the script forever (once ever 5 mins)
 --rail-key RAIL_KEY   API Key for National Rail
@@ -72,7 +75,9 @@ Consumer Secret for Twitter
 Access Token for Twitter
 --access-token-secret ACCESS_TOKEN_SECRET
 Access Token Secret for Twitter
-[/sourcecode]
+
+```
+
 # The Code
 There's not much to say about the code, since I've covered the National Rail API in graphic detail in a <a href="http://logicalgenetics.com/live-train-route-animation/">previous adventures</a> with the API is that this time I did unit testing.
 

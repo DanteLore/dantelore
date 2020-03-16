@@ -11,8 +11,8 @@ SQL Server Azure doesn't support the "traditional" batch insert stuff and you ca
 
 What you *can* do is run a tool called <strong>BCP</strong>.  This tool is specially designed for loading large datasets into the cloud and is perfect for all your dimension table needs.  The tool takes a tab delimited file as input as well as a huge list of command line parameters.
 
-[sourcecode]C:\&gt;bcp [myDatabase].[dbo].[TableName] in C:\Users\Dan.Taylor\Dropbox\Stuff\DansDataFile.txt -c -U dansUsername
-@dansAzureServerName -P &lt;password&gt; -S tcp:dansAzureServerName.database.windows.net -e c:\errors.txt[/sourcecode]
+[sourcecode]C:\>bcp [myDatabase].[dbo].[TableName] in C:\Users\Dan.Taylor\Dropbox\Stuff\DansDataFile.txt -c -U dansUsername
+@dansAzureServerName -P <password> -S tcp:dansAzureServerName.database.windows.net -e c:\errors.txt[/sourcecode]
 
 Piping the errored records to a text file is very helpful!
 

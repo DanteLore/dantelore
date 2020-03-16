@@ -8,7 +8,6 @@ draft: true
 
 
 <img src="https://logicalgenetics.com/wp-content/uploads/2019/02/2018-12-15-14.05.58-e1549357996731.jpg"/>
-
 # Dan woz ere!
 
 ## Second

@@ -20,7 +20,6 @@ I slackened the bolts holding the rotary to the mill table, bunged my new tool i
 <a href="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.54.38.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.54.38.jpg"/></a>
 
 For next time, the formula for making these things is as follows, using a 3mm end mill:
-
 ```
 From centre, with rotary set at 0 degrees
 Wind X out to 15mm

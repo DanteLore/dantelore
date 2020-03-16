@@ -11,9 +11,12 @@ I tried that answer with my boss but he didn't seem happy.  It's true though; M
 
 After some googling and much swearing we finally managed to get it to work.  The solution isn't to rename the project but to create a new one and move all your work items over. Here's how I did it.  <strong>Note that this post only covers work items, not source control</strong>.
 <ul>
-	<li>Create a new team project with the correct name</li>
-	<li>Make sure the work item templates match and all your customisations have been applied to the new project</li>
-	<li>Use the TFS Integration Tool to migrate all your work items over</li>
+	* Create a new team project with the correct name
+
+	* Make sure the work item templates match and all your customisations have been applied to the new project
+
+	* Use the TFS Integration Tool to migrate all your work items over
+
 </ul>
 ## Creating a New Project
 I always forget where to click, but the next image makes it clear. Make sure you set the name and choose the correct project template.
@@ -23,21 +26,30 @@ If you haven't customised the project template at all then you can skip this ste
 <ul>
 	<li>Export work item types from your old project
 <ul>
-	<li>Tools → Process Editor → Work Item Types → Export WIT</li>
-	<li>Choose the item type - make sure you export all the types you've changed. You'll have to do them one at a time.</li>
-	<li>Save it to a file somewhere sensible</li>
+	* Tools → Process Editor → Work Item Types → Export WIT
+
+	* Choose the item type - make sure you export all the types you've changed. You'll have to do them one at a time.
+
+	* Save it to a file somewhere sensible
+
 </ul>
 </li>
-	<li>Restart Visual Studio or it won't pick up the new project! This annoying but true. If you've not restarted VS since you added the new project, do it now.</li>
+	* Restart Visual Studio or it won't pick up the new project! This annoying but true. If you've not restarted VS since you added the new project, do it now.
+
 	<li>Import the work item types into the new project
 <ul>
-	<li>Tools → Process Editor → Work Item Types → Import WIT</li>
-	<li>Select the file you saved</li>
-	<li>Select the new project</li>
-	<li>Do this for every file you saved</li>
+	* Tools → Process Editor → Work Item Types → Import WIT
+
+	* Select the file you saved
+
+	* Select the new project
+
+	* Do this for every file you saved
+
 </ul>
 </li>
-	<li>Check that the work item templates now look as you'd expect them to</li>
+	* Check that the work item templates now look as you'd expect them to
+
 </ul>
 ## Migrating Work Items
 Work items can be moved between projects using the TFS Integration Tools from Microsoft.  You can download them <a href="http://visualstudiogallery.msdn.microsoft.com/eb77e739-c98c-4e36-9ead-fa115b27fefe">here</a>, though I'd suggest you search for the latest version, just in case! Install the tool on your TFS server and run it from the start menu.
@@ -73,7 +85,7 @@ When I first tried to run a migration I hit a permissions error.  Three warning
 
 *"...the migration service account 'Administrator' is not in the Service Accounts Group"* being the important thing here. The annoying thing is that the group in question turns out to be hidden. Luckily, <a href="http://blog.hinshelwood.com/tfs-integration-tools-issue-tfs-wit-bypass-rule-submission-is-enabled/">somebody has posted a solution</a>. Basically you need to run the following command on your TFS server:
 
-[sourcecode]c:\Program Files\Microsoft Team Foundation Server 11.0\Tools\tfssecurity /g+ &quot;Team Foundation Service Accounts&quot; n:YourMachine\YourUser ALLOW /server:http://yourserver:8080/tfs
+[sourcecode]c:\Program Files\Microsoft Team Foundation Server 11.0\Tools\tfssecurity /g+ "Team Foundation Service Accounts" n:YourMachine\YourUser ALLOW /server:http://yourserver:8080/tfs
 [/sourcecode]
 ## What's not copied?
 The big thing for me is queries. I have 20+ custom queries that all relate to different parts of the process. All these will need to be moved over by hand as the tool doesn't do it for you.

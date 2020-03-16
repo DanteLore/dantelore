@@ -34,6 +34,9 @@ It turns out that there are several, freely available, pre-trained neural nets a
 
 Yet again, using Python and the work of chap called <a href="https://github.com/ageitgey/face_recognition">face_recognition</a> library wraps a pre-trained face recognition network.  Here's the sum total of the code I had to write to use it:
 
+
+```
+
 ```
 import face_recognition
 
@@ -52,6 +55,9 @@ class NeuralFeatureDetector:
             }
             yield face_data
 ```
+
+```
+
 
 I wrapped the strategy for creating an embedding in a class so I could swap out the "Old School" strategy from the previous article.  The code loads the image, gets the embeddings and returns them wrapped up with the filename.  That's it.  Easy!
 
@@ -99,7 +105,8 @@ K-Means is not very good at dealing with outliers!  Also, it is a very naive cl
 
 Given that this all started with a theory on similarity, before I close out this post, I thought I should at least share the results of the Neural Clustering on the Unfamiliar Faces.  I'm going to present them without comment - you can make your own mind up on which one is better and whether either does a good job… 
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-12-08.07.40-1.jpg"/>
+<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-12-08.07.40-1.jpg"/><figcaption>Clustered by naive feature measurements (Old School)
+</figcaption>
 
 Remember, the original challenge was to group similar looking people on each row...
 

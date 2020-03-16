@@ -15,45 +15,45 @@ This is not a new concept - Talend have been around for a while doing the same t
 
 # Garmin Track Data
 So I don't have access to a huge amount of "big data" on my laptop, and I've done articles on MOT and National Rail data recently, so I decided to use a couple of gigs of Garmin Track data to test NiFi. The track data is a good test as it's XML: exactly the sort of data you <strong>don't</strong> want going into your big data system and therefore exactly the right use-case for NiFi.
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xsi:schemaLocation="blah blah blah">
+  <Activities>
+    <Activity Sport="Biking">
+      <Id>2015-04-06T13:26:53.000Z</Id>
+      <Lap StartTime="2015-04-06T13:26:53.000Z">
+        <TotalTimeSeconds>3159.267</TotalTimeSeconds>
+        <DistanceMeters>12408.35</DistanceMeters>
+        <MaximumSpeed>8.923999786376953</MaximumSpeed>
+        <Calories>526</Calories>
+        <Track>
+          <Trackpoint>
+            <Time>2015-04-06T13:26:53.000Z</Time>
+            <Position>
+              <LatitudeDegrees>51.516099665910006</LatitudeDegrees>
+              <LongitudeDegrees>-1.244160421192646</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>91.80000305175781</AltitudeMeters>
+            <DistanceMeters>0.0</DistanceMeters>
+          </Trackpoint>
 
-[sourcecode lang="xml"]&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;TrainingCenterDatabase xsi:schemaLocation=&quot;blah blah blah&quot;&gt;
-  &lt;Activities&gt;
-    &lt;Activity Sport=&quot;Biking&quot;&gt;
-      &lt;Id&gt;2015-04-06T13:26:53.000Z&lt;/Id&gt;
-      &lt;Lap StartTime=&quot;2015-04-06T13:26:53.000Z&quot;&gt;
-        &lt;TotalTimeSeconds&gt;3159.267&lt;/TotalTimeSeconds&gt;
-        &lt;DistanceMeters&gt;12408.35&lt;/DistanceMeters&gt;
-        &lt;MaximumSpeed&gt;8.923999786376953&lt;/MaximumSpeed&gt;
-        &lt;Calories&gt;526&lt;/Calories&gt;
-        &lt;Track&gt;
-          &lt;Trackpoint&gt;
-            &lt;Time&gt;2015-04-06T13:26:53.000Z&lt;/Time&gt;
-            &lt;Position&gt;
-              &lt;LatitudeDegrees&gt;51.516099665910006&lt;/LatitudeDegrees&gt;
-              &lt;LongitudeDegrees&gt;-1.244160421192646&lt;/LongitudeDegrees&gt;
-            &lt;/Position&gt;
-            &lt;AltitudeMeters&gt;91.80000305175781&lt;/AltitudeMeters&gt;
-            &lt;DistanceMeters&gt;0.0&lt;/DistanceMeters&gt;
-          &lt;/Trackpoint&gt;
+          <!-- ... -->
 
-          &lt;!-- ... --&gt;
-
-          &lt;Trackpoint&gt;
-            &lt;Time&gt;2015-04-06T13:26:54.000Z&lt;/Time&gt;
-            &lt;Position&gt;
-              &lt;LatitudeDegrees&gt;51.516099665910006&lt;/LatitudeDegrees&gt;
-              &lt;LongitudeDegrees&gt;-1.244160421192646&lt;/LongitudeDegrees&gt;
-            &lt;/Position&gt;
-            &lt;AltitudeMeters&gt;91.80000305175781&lt;/AltitudeMeters&gt;
-            &lt;DistanceMeters&gt;0.0&lt;/DistanceMeters&gt;
-          &lt;/Trackpoint&gt;
-        &lt;/Track&gt;
-      &lt;/Lap&gt;
-    &lt;/Activity&gt;
-  &lt;/Activities&gt;
-&lt;/TrainingCenterDatabase&gt;[/sourcecode]
-
+          <Trackpoint>
+            <Time>2015-04-06T13:26:54.000Z</Time>
+            <Position>
+              <LatitudeDegrees>51.516099665910006</LatitudeDegrees>
+              <LongitudeDegrees>-1.244160421192646</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>91.80000305175781</AltitudeMeters>
+            <DistanceMeters>0.0</DistanceMeters>
+          </Trackpoint>
+        </Track>
+      </Lap>
+    </Activity>
+  </Activities>
+</TrainingCenterDatabase>
+```
 The only data in the file I'm particularly interested in is "where I went". The calorie counts and suchlike are great on the day, but don't tell us much after the fact. So, the plan is to extract the Latitude and Longitude fields from the Track element. Everything else is just noise.
 
 # Working with NiFi

@@ -27,15 +27,15 @@ Being in a large number of films doesn't imply you're a great actor, or a sure f
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors2-1.png"/>
 
 This chart is a bit busy, but having categorised the movies by the amount of profit they made, the bars show the proportion of movies in that category for a given actor.  Simply put, having bigger bars on the right hand side is good.  SLJ has a healthy spread, way over a billion dollars in some cases.  Nick Cage is doing the worst of the three, with no movies over the half-billion mark and a big spike right on zero.
-<!-- wp:quote -->
+
 <blockquote class="wp-block-quote">NOTE:  The y axis in this histogram (and those which follow) is normalised to run from 0..1 so we can compare the spread of data for each actor, without being biased by the number of movies they've made.</blockquote>
-<!-- /wp:quote -->
+
 Let's look at the total profit made by films each actor has been in...
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors3.jpg"/>
-<!-- wp:quote -->
+
 <blockquote class="wp-block-quote">The observant will notice that the above chart looks much like the comics of Randall Munroe.  This is because matplotlib has built-in support for XKCD styles.  Yes, it really does!  I genuinely think this second horizontal bar chart is *much* more engaging than the one higher up the page.</blockquote>
-<!-- /wp:quote -->
+
 Two key things to note here - first, and thanks almost entirely to the Lord of the Rings trilogy, there is finally a woman on the list.  Secondly, Stan Lee shot right to the top, he's appeared in films totalling an unbelievable $13billion.  That's the GDP of Albania!
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors4.png"/>
@@ -51,7 +51,11 @@ So two key learnings here:  Marvel Comic movies consistently make money... and 
 ## So...
 
 I'm not really sure what I set out to prove here.  But I guess what I did was...
-<!-- wp:list {"ordered":true} -->
-<ol><li>Demonstrate some tools to analyse and explore a dataset - remember to <a href="https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo">check out the Colab link for more code, charts and ramblings</a></li><li>Create a cut-and-paste nirvana for various pandas and matplotlib tricks (see the above link)</li><li>Find out that Stan Lee is more effective than the whole of Albania, when it comes to making money</li><li>Draw some pretty charts</li></ol>
-<!-- /wp:list -->
+
+<ol>* Demonstrate some tools to analyse and explore a dataset - remember to <a href="https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo">check out the Colab link for more code, charts and ramblings</a>
+* Create a cut-and-paste nirvana for various pandas and matplotlib tricks (see the above link)
+* Find out that Stan Lee is more effective than the whole of Albania, when it comes to making money
+* Draw some pretty charts
+</ol>
+
 Maybe four things is enough for any blog post? :)

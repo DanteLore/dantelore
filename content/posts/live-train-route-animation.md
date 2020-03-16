@@ -16,7 +16,8 @@ The AngularJS app takes the routes of imminent departures from various stations 
 <a href="http://logicalgenetics.com/live-train-route-animation/route-planner2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner2.gif"/></a>
 
 Here's the code-behind for the Angular app:
-[sourcecode lang="javascript"]
+
+```javascript
 var mapApp = angular.module('mapApp', ['ngRoute']);
 
 mapApp
@@ -33,7 +34,7 @@ mapApp
 
         var mymap = L.map('mapid').fitBounds([ [51.3933180851, -1.24174419711], [51.5154681995, -0.174688620494] ]);
         L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-            attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; &amp;copy; &lt;a href=&quot;http://cartodb.com/attributions&quot;&gt;CartoDB&lt;/a&gt;',
+            attribution: '&amp;copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
             subdomains: 'abcd',
             maxZoom: 19
         }).addTo(mymap);
@@ -65,7 +66,7 @@ mapApp
             $scope.routeLayer.clearLayers();
 
             $scope.crsList.forEach(function(crs) {
-                $http.get(&quot;/routes/&quot; + crs).success($scope.doStation);
+                $http.get("/routes/" + crs).success($scope.doStation);
             });
 
             $timeout(function(){
@@ -73,10 +74,11 @@ mapApp
             }, 10000)
         };
 
-        $http.get(&quot;/loaded-crs&quot;).success(function(crsData) {
+        $http.get("/loaded-crs").success(function(crsData) {
             $scope.crsList = crsData;
 
             $scope.refresh();
         })
     });
-[/sourcecode]
+
+```

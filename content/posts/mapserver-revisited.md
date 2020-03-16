@@ -20,12 +20,12 @@ Note that the image is a little jagged looking.  Turns out you can fix this by 
 [sourcecode]
 OUTPUTFORMAT
 NAME png
-DRIVER &quot;AGG/PNG&quot;
-MIMETYPE &quot;image/png&quot;
+DRIVER "AGG/PNG"
+MIMETYPE "image/png"
 		# Change to IMAGEMODE RGBA for transparent background
 IMAGEMODE RGB
-EXTENSION &quot;png&quot;
-FORMATOPTION &quot;INTERLACE=OFF&quot;
+EXTENSION "png"
+FORMATOPTION "INTERLACE=OFF"
 END
 [/sourcecode]
 
@@ -45,17 +45,17 @@ MAP
 	# The top right of SU is...
 	EXTENT		450000 150000 500000 200000
 
-	FONTSET &quot;C:\Users\Dan.Taylor\Desktop\Mapfiles\Fonts.txt&quot;
+	FONTSET "C:\Users\Dan.Taylor\Desktop\Mapfiles\Fonts.txt"
 
 	SIZE           6400 6400
 	IMAGECOLOR     0 0 0
-	CONFIG &quot;MS_ERRORFILE&quot; &quot;C:\Users\Dan.Taylor\Desktop\Mapfiles\Errors.txt&quot;
-	CONFIG &quot;CPL_DEBUG&quot; &quot;ON&quot;
-	CONFIG &quot;PROJ_DEBUG&quot; &quot;ON&quot;
+	CONFIG "MS_ERRORFILE" "C:\Users\Dan.Taylor\Desktop\Mapfiles\Errors.txt"
+	CONFIG "CPL_DEBUG" "ON"
+	CONFIG "PROJ_DEBUG" "ON"
 	DEBUG 5
 
 	SYMBOL
-		NAME &quot;triangle&quot;
+		NAME "triangle"
 		TYPE vector
 		POINTS
 			0 1
@@ -68,7 +68,7 @@ MAP
 
 	LAYER
 		NAME         Woodland
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_Woodland&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_Woodland"
 		STATUS       default
 		TYPE         POLYGON
 
@@ -81,7 +81,7 @@ MAP
 
 	LAYER
 		NAME         SurfaceWater
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_SurfaceWater_Area&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_SurfaceWater_Area"
 		STATUS       default
 		TYPE         POLYGON
 
@@ -94,7 +94,7 @@ MAP
 
 	LAYER
 		NAME         TidalWater
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_TidalWater&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_TidalWater"
 		STATUS       default
 		TYPE         POLYGON
 
@@ -107,7 +107,7 @@ MAP
 
 	LAYER
 		NAME         Buildings
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_Building&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_Building"
 		STATUS       default
 		TYPE         POLYGON
 
@@ -120,7 +120,7 @@ MAP
 
 	LAYER
 		NAME         Foreshore
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_Foreshore&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_Foreshore"
 		STATUS       default
 		TYPE         POLYGON
 
@@ -133,14 +133,14 @@ MAP
 
 	LAYER
 		NAME         Roads
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_Road&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_Road"
 		STATUS       default
 		TYPE         LINE
 
-		CLASSITEM	&quot;CLASSIFICA&quot;
+		CLASSITEM	"CLASSIFICA"
 
 		CLASS
-			EXPRESSION	 &quot;Motorway&quot;
+			EXPRESSION	 "Motorway"
 			STYLE
 				COLOR 20 128 128
 				WIDTH 8
@@ -151,7 +151,7 @@ MAP
 			END
 		END
 		CLASS
-			EXPRESSION	 &quot;Primary Road&quot;
+			EXPRESSION	 "Primary Road"
 			STYLE
 				COLOR 20 128 20
 				WIDTH 6
@@ -162,42 +162,42 @@ MAP
 			END
 		END
 		CLASS
-			EXPRESSION	 &quot;A Road&quot;
+			EXPRESSION	 "A Road"
 			STYLE
 				COLOR 20 128 20
 				WIDTH 6
 			END
 		END
 		CLASS
-			EXPRESSION	 &quot;B Road&quot;
+			EXPRESSION	 "B Road"
 			STYLE
 				COLOR 128 20 20
 				WIDTH 4
 			END
 		END
 		CLASS
-			EXPRESSION	&quot;Private Road, Publicly Accessible&quot;
+			EXPRESSION	"Private Road, Publicly Accessible"
 			STYLE
 				COLOR 128 128 128
 				WIDTH 2
 			END
 		END
 		CLASS
-			EXPRESSION	 &quot;Local Street&quot;
+			EXPRESSION	 "Local Street"
 			STYLE
 				COLOR 128 128 128
 				WIDTH 2
 			END
 		END
 		CLASS
-			EXPRESSION	&quot;Pedestrianised Street&quot;
+			EXPRESSION	"Pedestrianised Street"
 			STYLE
 				COLOR 128 128 128
 				WIDTH 2
 			END
 		END
 		CLASS
-			EXPRESSION	 &quot;Minor Road&quot;
+			EXPRESSION	 "Minor Road"
 			STYLE
 				COLOR 128 128 128
 				WIDTH 2
@@ -206,7 +206,7 @@ MAP
 	END
 
 	SYMBOL
-		NAME &quot;station&quot;
+		NAME "station"
 		TYPE ellipse
 		FILLED true
 		POINTS
@@ -216,10 +216,10 @@ MAP
 
 	LAYER
 		NAME         RailwayStations
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_RailwayStation&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_RailwayStation"
 		STATUS       default
 		TYPE         POINT
-		LABELITEM    &quot;NAME&quot;
+		LABELITEM    "NAME"
 
 		CLASS
 			LABEL
@@ -246,10 +246,10 @@ MAP
 
 	LAYER
 		NAME         Airports
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_Airport&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_Airport"
 		STATUS       default
 		TYPE         POINT
-		LABELITEM    &quot;NAME&quot;
+		LABELITEM    "NAME"
 
 		CLASS
 			LABEL
@@ -266,7 +266,7 @@ MAP
 			END
 
 			STYLE
-				SYMBOL &quot;triangle&quot;
+				SYMBOL "triangle"
 				COLOR 255 180 50
 				OUTLINECOLOR 100 50 0
 				SIZE 20
@@ -276,10 +276,10 @@ MAP
 
 	LAYER
 		NAME         NamedPlaces
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_NamedPlace&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_NamedPlace"
 		STATUS       off
 		TYPE         POINT
-		LABELITEM    &quot;NAME&quot;
+		LABELITEM    "NAME"
 
 		CLASS
 			LABEL
@@ -305,10 +305,10 @@ MAP
 
 	LAYER
 		NAME         MotorwayJunctions
-		DATA         &quot;C:\Users\Dan.Taylor\Desktop\SU\SU_MotorwayJunction&quot;
+		DATA         "C:\Users\Dan.Taylor\Desktop\SU\SU_MotorwayJunction"
 		STATUS       default
 		TYPE         POINT
-		LABELITEM    &quot;JUNCTIONNU&quot;
+		LABELITEM    "JUNCTIONNU"
 
 		CLASS
 			LABEL

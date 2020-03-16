@@ -15,9 +15,8 @@ In a slack moment at work today I knocked up a couple of functions to detect tra
 I quite like these static pages for output. They are very simple to create with some code and can be pushed up onto the web easily. No faffing about with databases, just some HTML and Javascript. On the map above the placemarks show places where I stopped for more than 30 seconds (there was traffic at junction 12 that morning!) and the colour of the line shows my speed. In the end I'd like to detect more events - when we go off road, when I brake suddenly or go round a corner too fast, when we get stuck in a traffic jam and when we visit places we know. I also got the webcam working on the raspberry pi, along with a wireless internet dongle so I can embed photos and videos then upload *live* and post on twitter.
 
 Here's some code snippets. I'm just playing, so please don't think of me as somebody who'd ever return an "Enumerable Of Enumerables" in production code!  First is the function which splits the list of speed measurements based on bands of 10MPH...
-
-[sourcecode language="csharp"]
-        private IEnumerable&lt;IEnumerable&lt;GpsMeasurement&gt;&gt; SplitRouteBySpeed(IEnumerable route)
+```csharp
+        private IEnumerable<IEnumerable<GpsMeasurement>> SplitRouteBySpeed(IEnumerable route)
         {
             var bandedMeasurements = (from measurement in route
                                       select new { Band = (int) (measurement.GroundSpeedMph/10), Measurement = measurement }).ToList();
@@ -30,7 +29,7 @@ Here's some code snippets. I'm just playing, so please don't think of me as some
                 if(bm.Band != currentBand)
                 {
                     currentBand = bm.Band;
-                    if (currentSection.Count &gt; 0)
+                    if (currentSection.Count > 0)
                     {
                         currentSection.Add(bm.Measurement);
                         yield return currentSection;
@@ -42,11 +41,10 @@ Here's some code snippets. I'm just playing, so please don't think of me as some
                 currentSection.Add(bm.Measurement);
             }
         }
-[/sourcecode]
 
+```
 Second is based on somebody else's hard work really, but I changed it enough to make it worth posting here.  I'm basically using speed as a percentage, squishing to a value between -1 and 1 then using four colour "axis" as beautifully described in the comment-linked blog.
-
-[sourcecode language="csharp"]
+```csharp
         private string SpeedToColour(double groundSpeedMph)
         {
             // Based on this post - which has a very cool image to show what we're doing.
@@ -55,19 +53,19 @@ Second is based on somebody else's hard work really, but I changed it enough to 
             double fraction = (groundSpeedMph             
             double red, green, blue;
 
-            if ( fraction &lt; -0.5 )
+            if ( fraction < -0.5 )
             {
                 red = 0.0;
                 green = 2*(fraction + 1);
                 blue = 1.0;
             }
-            else if ( fraction &lt; 0 )
+            else if ( fraction < 0 )
             {
                 red = 0.0;
                 green = 1.0;
                 blue = 1.0 - 2.0*(fraction + 0.5);
             }
-            else if ( fraction &lt; 0.5 )
+            else if ( fraction < 0.5 )
             {
                 red = 2.0*fraction;
                 green = 1.0;
@@ -84,6 +82,7 @@ Second is based on somebody else's hard work really, but I changed it enough to 
             byte greenByte = (byte) (255 * green);
             byte blueByte = (byte) (255 * blue);
 
-            return string.Format(&quot;#{0}{1}{2}&quot;, redByte.ToString(&quot;x2&quot;), greenByte.ToString(&quot;x2&quot;), blueByte.ToString(&quot;x2&quot;));
+            return string.Format("#{0}{1}{2}", redByte.ToString("x2"), greenByte.ToString("x2"), blueByte.ToString("x2"));
         }
-[/sourcecode]
+
+```
