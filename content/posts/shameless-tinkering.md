@@ -11,5 +11,5 @@ Spent most of the weekend clearing out the shed, which gave me the sneezes to en
 
 That done, the tinkering could begin.  <span>Bitten</span> hard by the cleaning bug I spent most of my time putting stuff away, sweeping and screwing the dash back together.  Lorna still does a face when she looks at it, but I think it's looking pretty tidy in there now.
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6781-797680.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6781-797689.JPG)<span style="font-size:85%;">The brake light switch.
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6781-797689.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6781-797680.JPG"/></a><span style="font-size:85%;">The brake light switch.
 </span>

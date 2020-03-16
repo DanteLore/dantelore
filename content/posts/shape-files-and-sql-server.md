@@ -27,11 +27,11 @@ The first ogr2ogr call is used to simplify the polygons.  The value 0.01 is the 
 
 You can use SQL Server Management Studio to show the spatial results of your query, which is nice!  Here I just did a "select * from testPolygons" to see the first 5000 polygons from my file.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/09/PolygonsInSqlServer.png"/>](http://logicalgenetics.com/wp-content/uploads/2013/09/PolygonsInSqlServer.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/PolygonsInSqlServer.png"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/PolygonsInSqlServer.png"/></a>
 
 Sql Server contains all sorts of interesting data processing options, which I'll look at another time.  Here I'll just skip to the final step - exporting the polygon data from the database to a local KML file.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/09/polygonsInKml.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/09/polygonsInKml.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/polygonsInKml.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/polygonsInKml.jpg"/></a>
 
 [sourcecode language="powershell"]
 SET KmlFile=&quot;D:\Dropbox\Data\Brazil.kml&quot;
@@ -47,4 +47,4 @@ SET SQL=&quot;select * from TestPolygons&quot;
 
 Obviously you can make the SQL in that command as complex as you like.
 
-Polygons here are from [this site](http://www.diva-gis.org/gdata) which allows you to download various polygon datasets for various countries.
+Polygons here are from <a href="http://www.diva-gis.org/gdata">this site</a> which allows you to download various polygon datasets for various countries.

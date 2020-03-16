@@ -5,11 +5,11 @@ date: 2012-12-05T12:19:38
 draft: False
 ---
 
-Last night I unpacked my new MultiWii controller and plugged it into my PC.  I [bought it from Hobby King](http://www.hobbyking.com/hobbyking/store/__27033__MultiWii_328P_Flight_Controller_w_FTDI_DSM2_Port.html) and it comes ready to fly out of the box - configured for an X-quad, which is perfect for my carbon H-copter.
+Last night I unpacked my new MultiWii controller and plugged it into my PC.  I <a href="http://www.hobbyking.com/hobbyking/store/__27033__MultiWii_328P_Flight_Controller_w_FTDI_DSM2_Port.html">bought it from Hobby King</a> and it comes ready to fly out of the box - configured for an X-quad, which is perfect for my carbon H-copter.
 
 The Multi-Wii board attracted me because it comes with so many sensors out of the box.  Barometric pressure, compass, gyros and accelerometers as well as the option to add GPS in future.  That's compared to *just gyros* on the KK board.  I love the KK board to bits - it's a great board for line-of sight flying, allowing a fair amount of acrobatics and some nimble and fast flight.  It's scary flying FPV with the KK though.  I managed a good FPV flight at the weekend (see video later) but it would be great to push more of the stability control onto the 'copter for less stressful remote piloting.
 
-I didn't get the board hooked up to the quad or the receiver last night, just plugged it into the PC and fired up the Java tool.[<img src="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWii1.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWii1.png)
+I didn't get the board hooked up to the quad or the receiver last night, just plugged it into the PC and fired up the Java tool.<a href="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWii1.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWii1.png"/></a>
 
 I have to say I was very impressed with the board and the UI tool.  The tool shows a live trace from all of the on-board sensors and a 3D model of the 'copter which moves in real-time.  Every single setting is configurable, including the PID terms, throttle travel, behaviour of the auxiliary "switch" channels and so on.
 

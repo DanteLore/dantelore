@@ -11,6 +11,6 @@ Just been out for a test drive round a muddy byway just South of the M4.  Works 
 
 <span><span>Speedo</span></span> is still knackered and there hasn't been much of a change in top speed.  Still, <span>mustn't</span> grumble...
 
-[<img src="http://2.bp.blogspot.com/_62oTnOHwOSo/S5QXLNiHvJI/AAAAAAAACGM/B_gFy-xHXog/s320/IMG_7286.JPG"/>](http://2.bp.blogspot.com/_62oTnOHwOSo/S5QXLNiHvJI/AAAAAAAACGM/B_gFy-xHXog/s1600-h/IMG_7286.JPG)Gearbox back in place.  Woo!
+<a href="http://2.bp.blogspot.com/_62oTnOHwOSo/S5QXLNiHvJI/AAAAAAAACGM/B_gFy-xHXog/s1600-h/IMG_7286.JPG"><img src="http://2.bp.blogspot.com/_62oTnOHwOSo/S5QXLNiHvJI/AAAAAAAACGM/B_gFy-xHXog/s320/IMG_7286.JPG"/></a>Gearbox back in place.  Woo!
 
 </span>

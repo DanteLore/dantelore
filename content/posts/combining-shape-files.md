@@ -7,7 +7,7 @@ draft: False
 
 This is one of those things that's easy when you know how. Just so I don't forget, here's how to combine shape files using <strong>ogr2ogr</strong>.
 
-I wrote it as a batch file to combine all the OSGB grid squares from the [OS VectorMap District](https://www.ordnancesurvey.co.uk/opendatadownload/products.html) dataset into a single large data file for use with MapServer.
+I wrote it as a batch file to combine all the OSGB grid squares from the <a href="https://www.ordnancesurvey.co.uk/opendatadownload/products.html">OS VectorMap District</a> dataset into a single large data file for use with MapServer.
 
 [sourcecode language="powershell"]
 echo off
@@ -33,8 +33,8 @@ FOR %%T IN %tiles% DO FOR %%L IN %layers% DO (
 
 After a little map file jiggery-pokery I can now render a huge map of the UK or tiles with smaller maps without the many layer definitions needed to use ~20 shape file sets.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"/></a>
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/09/london-big.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/09/london-big.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/london-big.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/london-big.jpg"/></a>
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/09/uk-big.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/09/uk-big.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/uk-big.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/uk-big.jpg"/></a>

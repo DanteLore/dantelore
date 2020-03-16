@@ -16,7 +16,7 @@ What you *can* do is run a tool called <strong>BCP</strong>.  This tool is spec
 
 Piping the errored records to a text file is very helpful!
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png"/>](http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png"><img src="http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png"/></a>
 
 The first column in my table is an auto-generated ID, so I make sure that every line in my file starts with a tab.  This basically nulls the first column, letting the database generate an ID as normal.
 

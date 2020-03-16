@@ -9,5 +9,5 @@ Been researching my engine recently, in order to get the right bits and bobs for
 
 Most of the info was actually on a different forum, but here are some links anyway!
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6667-770555.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6667-771370.JPG)<span style="font-size:85%;">Bottom of engine block with "ribs".  Shows that it's a 5 bearing block.
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6667-771370.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6667-770555.JPG"/></a><span style="font-size:85%;">Bottom of engine block with "ribs".  Shows that it's a 5 bearing block.
 </span>

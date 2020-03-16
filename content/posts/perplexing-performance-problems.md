@@ -11,6 +11,6 @@ In the Zenith <span>carb</span> that I have, there is a small piston which squir
 
 Sure enough, I found that I wasn't getting any little squirt when I pressed the throttle.  So the <span>carb</span> had to be opened up.  Not as complicated a job as I'd thought, but a very stinky one!
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_2095-739597.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_2095-739600.JPG)And here's the problem.  At the bottom of the piston is a ball bearing valve which ensures that petrol is pumped into the engine rather than just squirting back into the <span>carb</span> reservoir.  You can see that the ball has jumped out of the hole and got stuck.
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_2095-739600.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_2095-739597.JPG"/></a>And here's the problem.  At the bottom of the piston is a ball bearing valve which ensures that petrol is pumped into the engine rather than just squirting back into the <span>carb</span> reservoir.  You can see that the ball has jumped out of the hole and got stuck.
 
 So I fixed the problem and got the engine up and running again.  Things are slightly better... BUT... I can still stall the engine by jumping on the gas.  Very odd.  More investigation needed.

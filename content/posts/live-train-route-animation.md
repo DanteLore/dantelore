@@ -7,13 +7,13 @@ draft: False
 
 The code for this article is available on my github, here: https://github.com/DanteLore/national-rail
 
-Building on the [Live Departures Board](http://logicalgenetics.com/train-departure-board/) project from the other day, I decided to try out mapping some departure data. The other article shows pretty much all the back-end code, which wasn't changed much.
+Building on the <a href="http://logicalgenetics.com/train-departure-board/">Live Departures Board</a> project from the other day, I decided to try out mapping some departure data. The other article shows pretty much all the back-end code, which wasn't changed much.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner.gif"/>](http://logicalgenetics.com/live-train-route-animation/route-planner/)
+<a href="http://logicalgenetics.com/live-train-route-animation/route-planner/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner.gif"/></a>
 
-The AngularJS app takes the routes of imminent departures from various stations and displays them on a [CartoDB](http://leaflet-extras.github.io/leaflet-providers/preview/index.html), which is free, unlike Mapbox.
+The AngularJS app takes the routes of imminent departures from various stations and displays them on a <a href="http://leaflet-extras.github.io/leaflet-providers/preview/index.html">CartoDB</a>, which is free, unlike Mapbox.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner2.gif"/>](http://logicalgenetics.com/live-train-route-animation/route-planner2/)
+<a href="http://logicalgenetics.com/live-train-route-animation/route-planner2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner2.gif"/></a>
 
 Here's the code-behind for the Angular app:
 [sourcecode lang="javascript"]

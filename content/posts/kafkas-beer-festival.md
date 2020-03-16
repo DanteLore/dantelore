@@ -6,11 +6,11 @@ draft: False
 ---
 
 
-In [part 1 of this series](http://logicalgenetics.com/data-engineering-in-real-time/), I explained the age-old problem of converting events (stuff that happens, y'know) into models (details about things; databases).&nbsp; In this post I'm going to get down and dirty, showing some awesome features of Apache Kafka which make this unbelievably simple.
+In <a href="http://logicalgenetics.com/data-engineering-in-real-time/">part 1 of this series</a>, I explained the age-old problem of converting events (stuff that happens, y'know) into models (details about things; databases).&nbsp; In this post I'm going to get down and dirty, showing some awesome features of Apache Kafka which make this unbelievably simple.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafka-Beer-with-Border.jpg"/>
 
-You can find all the code, details of the data and install instructions on my [this kaggle](https://www.kaggle.com/nickhould/craft-cans#beers.csv).
+You can find all the code, details of the data and install instructions on my <a href="https://www.kaggle.com/nickhould/craft-cans#beers.csv">this kaggle</a>.
 
 ### The Plan
 
@@ -24,15 +24,15 @@ The plan is to spin up a streaming platform, with Kafka at its heart; push in so
 <!-- /wp:list -->
 ### Prerequisites
 
-If you want to follow along, clone the gihub repo which contains all the code for this article, get the confluent platform up and running on your laptop and build the Scala code with IntelliJ or your dev tool of choice.&nbsp; You'll also need to download and tweak the source data.&nbsp; All is explained in the [README](https://github.com/DanteLore/events_to_models/blob/master/README.md).
+If you want to follow along, clone the gihub repo which contains all the code for this article, get the confluent platform up and running on your laptop and build the Scala code with IntelliJ or your dev tool of choice.&nbsp; You'll also need to download and tweak the source data.&nbsp; All is explained in the <a href="https://github.com/DanteLore/events_to_models/blob/master/README.md">README</a>.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/GitHub-Mark.png"/>](https://github.com/DanteLore/events_to_models)
+<a href="https://github.com/DanteLore/events_to_models"><img src="http://logicalgenetics.com/wp-content/uploads/2018/11/GitHub-Mark.png"/></a>
 
 ### Creating Sale Events
 <!-- wp:quote {"className":"is-style-default"} -->
 <blockquote class="wp-block-quote is-style-default">In order to monitor beer sales in real time and do reporting, as a beer festival organiser, I want to record every purchase as it happens.</blockquote>
 <!-- /wp:quote -->
-Below are the key methods from the [SaleProducer](https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/beer/SaleProducer.scala) object, which sends a random sale record into the Kafka topic 'sales' every second to simulate a busy beer festival.
+Below are the key methods from the <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/beer/SaleProducer.scala">SaleProducer</a> object, which sends a random sale record into the Kafka topic 'sales' every second to simulate a busy beer festival.
 <!-- wp:syntaxhighlighter/code {"language":"scala"} -->
 object SaleProducer {
 
@@ -116,7 +116,7 @@ Several really cool things are happening here.&nbsp; Firstly, we created a strea
 <!-- /wp:quote -->
 OK, let's unpack that requirement a little: First we're going to need to load some reference data, which maps <strong>beer_id</strong> to&nbsp;<strong>name</strong>.&nbsp; Secondly, we need to have a way to manage changes to this reference data, as updates are part of real life.&nbsp; Finally, we're going to need to do a join, as the beer records arrive, to add the name to the query results.&nbsp;
 
-Loading the reference data is done by the&nbsp;[BeerProducer](https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/beer/BeerProducer.scala) object. It reads the data from the CSV file, registers a schema and sends each row over in avro format to a topic called 'beers'.&nbsp; Click through to the source code to see how that works, but it's much the same as with the SaleProducer above.
+Loading the reference data is done by the&nbsp;<a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/beer/BeerProducer.scala">BeerProducer</a> object. It reads the data from the CSV file, registers a schema and sends each row over in avro format to a topic called 'beers'.&nbsp; Click through to the source code to see how that works, but it's much the same as with the SaleProducer above.
 <!-- wp:syntaxhighlighter/code {"language":"sql"} -->
 ksql> create stream raw_beer_stream with (kafka_topic='beers', value_format='avro');
 

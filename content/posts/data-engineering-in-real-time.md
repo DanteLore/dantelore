@@ -42,9 +42,9 @@ A modern batch process would usually be used to populate bulk data in warehouses
 
 ### Streaming and Event Sourcing
 
-In the front office, things have been changing over the last few years.&nbsp; For all sorts of sensible reasons, the front-end folks are moving away from fat, monolithic applications, desktop clients and complex MVC apps towards lightweight [micro-services](https://martinfowler.com/articles/microservices.html).&nbsp; The single responsibility principal now applies to services not classes, and scores of them are wired together in complex webs promoting re-use, scalability and a clear separation of concerns.
+In the front office, things have been changing over the last few years.&nbsp; For all sorts of sensible reasons, the front-end folks are moving away from fat, monolithic applications, desktop clients and complex MVC apps towards lightweight <a href="https://martinfowler.com/articles/microservices.html">micro-services</a>.&nbsp; The single responsibility principal now applies to services not classes, and scores of them are wired together in complex webs promoting re-use, scalability and a clear separation of concerns.
 
-But getting consistent and repeatable results from a complex web of services is hard. Timing starts to play a big part in what happens, as calls happen slightly earlier or later and the state of data in services becomes prone to race conditions and emergent behaviour.  For this reason, the next step on from micro services is  [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html), which uses a central log of events to give consistency, repeatability and traceability.
+But getting consistent and repeatable results from a complex web of services is hard. Timing starts to play a big part in what happens, as calls happen slightly earlier or later and the state of data in services becomes prone to race conditions and emergent behaviour.  For this reason, the next step on from micro services is  <a href="https://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a>, which uses a central log of events to give consistency, repeatability and traceability.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Micro-Services.png"/>
 
@@ -70,7 +70,7 @@ It seems that there may be a better way though.&nbsp; Over the past couple of ye
 
 Kafka has, for a long time now, been the worlds greatest data integration tool.&nbsp; It was just a scalable commit log; a queue of things which supported ordering and multiple producers and consumers.&nbsp; It was incredibly reliable and popular, exactly because of its simplicity.
 
-With the addition of Kafka Streams and KSQL, Kafka has grown to become a fully fledged streaming data platform, which provides us with a solution to our events to models problem,  out of the box. You can watch Jay Kreps, one of the original authors of Kafka, talking about this [here](https://www.confluent.io/kafka-summit-SF18/apache-kafka-and-event-oriented-architecture).
+With the addition of Kafka Streams and KSQL, Kafka has grown to become a fully fledged streaming data platform, which provides us with a solution to our events to models problem,  out of the box. You can watch Jay Kreps, one of the original authors of Kafka, talking about this <a href="https://www.confluent.io/kafka-summit-SF18/apache-kafka-and-event-oriented-architecture">here</a>.
 
 In part 2 I'll walk through how I investigated these cool new features and show a demo based on a Beer Festival...
 

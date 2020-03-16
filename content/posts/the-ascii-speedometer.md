@@ -5,13 +5,13 @@ date: 2012-10-25T19:36:48
 draft: False
 ---
 
-Once I'd [got Mono up and running](http://logicalgenetics.com/raspberry-pi-and-mono-hello-world/), the first little project I did with the Raspberry Pi was to hook up an old GPS module and use it to create a text based speedometer for the car.  It was the first step I took towards <span style="text-decoration: line-through;">making The Duke sentient</span> building an on-board computer for my Land Rover.  I was fun to do and raised a smile with the people who I told about it, so I thought I'd bung the details online.
+Once I'd <a href="http://logicalgenetics.com/raspberry-pi-and-mono-hello-world/">got Mono up and running</a>, the first little project I did with the Raspberry Pi was to hook up an old GPS module and use it to create a text based speedometer for the car.  It was the first step I took towards <span style="text-decoration: line-through;">making The Duke sentient</span> building an on-board computer for my Land Rover.  I was fun to do and raised a smile with the people who I told about it, so I thought I'd bung the details online.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/10/105qmj5.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2012/10/105qmj5.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/10/105qmj5.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/10/105qmj5.jpg"/></a>
 ## The Hardware Bit
-First step is to get the serial port working.  If you have a USB GPS module then it's just a case of plugging it in, but mine is a 3.3v logic-level serial module that I bought about eight years ago to use with my Gumstix in [big charity walks](http://logicalgenetics.com/longwalk/index.php) we did back in 2004 and 2006.  It's safe to say that hooking it up to the Raspberry Pi was a much simpler affair!
+First step is to get the serial port working.  If you have a USB GPS module then it's just a case of plugging it in, but mine is a 3.3v logic-level serial module that I bought about eight years ago to use with my Gumstix in <a href="http://logicalgenetics.com/longwalk/index.php">big charity walks</a> we did back in 2004 and 2006.  It's safe to say that hooking it up to the Raspberry Pi was a much simpler affair!
 
-There are some great guides out there about soldering up the right pins ([here](http://benosteen.wordpress.com/2012/04/24/raspberry-pis-onboard-serial-connection/)).  I hooked up 3.3v power, ground and connected TX on the GPS to RX on the Raspberry Pi.  I used a little bit of veroboard, a 0.1" header, some ribbon cable and made the GPS pluggable.
+There are some great guides out there about soldering up the right pins (<a href="http://benosteen.wordpress.com/2012/04/24/raspberry-pis-onboard-serial-connection/">here</a>).  I hooked up 3.3v power, ground and connected TX on the GPS to RX on the Raspberry Pi.  I used a little bit of veroboard, a 0.1" header, some ribbon cable and made the GPS pluggable.
 
 Out of the box the Raspberry has a console running on the serial port.  You need to disable this before you can do anything with the port.  Very easy to do: Edit /etc/inittab and remove the line that refers to /dev/ttyAMA0;  Edit /boot/cmdline.txt and remove the chunks of text that refer to /dev/ttyAMA0.  After a reboot the terminal will be gone.
 ## Reading from the Serial Port in Mono
@@ -175,4 +175,4 @@ private void DrawNumber(IEnumerable lines, int xOffset, int yOffset)
 ## Did it Work?
 Well, yes! The main issue was the update speed. This is because the old GPS module outputs data very very slowly and has quite a slow refresh rate. As a speedometer it wasn't much good - it generally showed the speed I *was* doing about 15 seconds ago. As a project it worked brilliantly though.
 
-I extended the code slightly to add some logging. This saved the location data to a set of simple, size-limited, CSV files on the Pi's flash card. I then knocked up some more code to[ turn the measurements into a "Trip Report" using the Google Maps API](http://logicalgenetics.com/a-trip-to-work/). Top Notch!
+I extended the code slightly to add some logging. This saved the location data to a set of simple, size-limited, CSV files on the Pi's flash card. I then knocked up some more code to<a href="http://logicalgenetics.com/a-trip-to-work/"> turn the measurements into a "Trip Report" using the Google Maps API</a>. Top Notch!

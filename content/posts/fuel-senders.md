@@ -9,4 +9,4 @@ This week I decided to drop the voltage for the gauges down to 12v. Buying all t
 
 Today I decided to bung the new fuel senders in, ready to wire up all the gauges when the voltage dropper arrives.  The passenger side sender was a doddle: lift the seat up, unscrew the sender and bung the new one in.  The drivers side was not so easy: the sender is underneath the seat frame, which would be a real pain to remove.
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6823-769126.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6823-769146.JPG)<span style="font-size:85%;">Is petrol supposed to be red and full of crap?</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6823-769146.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6823-769126.JPG"/></a><span style="font-size:85%;">Is petrol supposed to be red and full of crap?</span>

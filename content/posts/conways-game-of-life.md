@@ -5,7 +5,7 @@ date: 2016-11-09T18:22:53
 draft: False
 ---
 
-For some reason, I have started playing with [this snippet on bl.ocks.org](http://bl.ocks.org/sylvaingi/2369589) but I made a few subtle changes to the code and the visual style.
+For some reason, I have started playing with <a href="http://bl.ocks.org/sylvaingi/2369589">this snippet on bl.ocks.org</a> but I made a few subtle changes to the code and the visual style.
 
 [d3-source canvas="wpd3-1214-0"]
 

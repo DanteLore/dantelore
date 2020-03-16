@@ -7,7 +7,7 @@ draft: False
 
 A friend of mine has always said that young cars with high mileage are better than old cars with low mileage. The theory being that company cars, which have spent their time cruising on the motorways, have had a much easier life than their stay-at-home cousins who've done short hops around town and sat on their driveways seizing up.
 
-So I pointed some very simple Spark queries at the [here](http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/)). First factoid to note is that both mileage and age are relevant when it comes to predicting pass rates. The following two charts show pass rate vs mileage and age.
+So I pointed some very simple Spark queries at the <a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/">here</a>). First factoid to note is that both mileage and age are relevant when it comes to predicting pass rates. The following two charts show pass rate vs mileage and age.
 ## Pass Rate vs Mileage
 [d3-source canvas="wpd3-1167-1"]
 ## Pass Rate vs Age

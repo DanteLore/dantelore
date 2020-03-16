@@ -7,7 +7,7 @@ draft: False
 
 I don't drive The Duke that often because it'd cost a fortune and make me deaf. So to test his new GPS powered brain I have been collecting test data in Vinny the Vectra. I can then use this data to write some unit tests and develop cool stuff while stationary.
 
-In a slack moment at work today I knocked up a couple of functions to detect traffic jams and visualise my speed on my way to work. Here's a typical trip. Click on the pic or [here to explore the interactive "report".](http://logicalgenetics.com/assorted/upload/VinnyLog20120914.html)
+In a slack moment at work today I knocked up a couple of functions to detect traffic jams and visualise my speed on my way to work. Here's a typical trip. Click on the pic or <a href="http://logicalgenetics.com/assorted/upload/VinnyLog20120914.html">here to explore the interactive "report".</a>
 
 <a href="http://logicalgenetics.com/assorted/upload/VinnyLog20120914.html"> <img src="http://logicalgenetics.com/assorted/upload/speedmap.png"/>
 </a>

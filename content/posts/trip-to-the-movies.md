@@ -8,13 +8,13 @@ draft: False
 
 Well... this post isn't really about movies, it's more about how I spent the last week or so brushing up my data manipulation skills using python, matplotlib, numpy, pandas, seaborn and the fantastic Google Colaboratory.  But I *did* learn some interesting things about Stan Lee in the process...
 
-Google Colaboratory is a python notebook within Google Docs.  So it has all the features you'd expect from a vanilla notebook like [jupyter](http://jupyter.org/) (on which I think it is based) but you also get the online, shared editing, live update experience you'd get with Google Sheets and the like.  When you fire up the notebook, it's attached to a 'blank' debian instance, running somewhere in the cloud.  You can install all the tools and libraries you like, then jump straight into python code.  Review:  *5 stars!  Would recommend.*
+Google Colaboratory is a python notebook within Google Docs.  So it has all the features you'd expect from a vanilla notebook like <a href="http://jupyter.org/">jupyter</a> (on which I think it is based) but you also get the online, shared editing, live update experience you'd get with Google Sheets and the like.  When you fire up the notebook, it's attached to a 'blank' debian instance, running somewhere in the cloud.  You can install all the tools and libraries you like, then jump straight into python code.  Review:  *5 stars!  Would recommend.*
 
-You can find all the code and charts for this article on [this shared colab notebook](https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo).
+You can find all the code and charts for this article on <a href="https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo">this shared colab notebook</a>.
 
 ### What's the Story?
 
-The [movie data](https://www.kaggle.com/tmdb/tmdb-movie-metadata/) I downloaded is linked to a kaggle challenge to predict profitability.  I started off with some basic investigation of the covariance and correlation of various fields.  I soon got bored though - there's not really any field in the dataset that helps predict the profit a movie makes.  I guess that's why it's a challenge... but I was here to play with charts, not machine learning.
+The <a href="https://www.kaggle.com/tmdb/tmdb-movie-metadata/">movie data</a> I downloaded is linked to a kaggle challenge to predict profitability.  I started off with some basic investigation of the covariance and correlation of various fields.  I soon got bored though - there's not really any field in the dataset that helps predict the profit a movie makes.  I guess that's why it's a challenge... but I was here to play with charts, not machine learning.
 
 So, I started to look at the cast:
 
@@ -52,6 +52,6 @@ So two key learnings here:  Marvel Comic movies consistently make money... and 
 
 I'm not really sure what I set out to prove here.  But I guess what I did was...
 <!-- wp:list {"ordered":true} -->
-<ol><li>Demonstrate some tools to analyse and explore a dataset - remember to [check out the Colab link for more code, charts and ramblings](https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo)</li><li>Create a cut-and-paste nirvana for various pandas and matplotlib tricks (see the above link)</li><li>Find out that Stan Lee is more effective than the whole of Albania, when it comes to making money</li><li>Draw some pretty charts</li></ol>
+<ol><li>Demonstrate some tools to analyse and explore a dataset - remember to <a href="https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo">check out the Colab link for more code, charts and ramblings</a></li><li>Create a cut-and-paste nirvana for various pandas and matplotlib tricks (see the above link)</li><li>Find out that Stan Lee is more effective than the whole of Albania, when it comes to making money</li><li>Draw some pretty charts</li></ol>
 <!-- /wp:list -->
 Maybe four things is enough for any blog post? :)

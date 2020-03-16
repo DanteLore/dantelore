@@ -6,7 +6,7 @@ draft: False
 ---
 
 
-Last year I published an "annual project review" blog post called [Stuff I made in 2017](http://logicalgenetics.com/stuff-i-made-in-2017/).  I found writing it to be quite a fun exercise (catharsis perhaps). As a middle-manager by trade, I could easily fall into a trap where I spend my entire life using a sad combination of MS Office, Netflix and XBox - never actually *doing* anything. So, I like to challenge myself to actually *make* as much stuff as possible both in my spare time and at work. This might be as simple as keeping my GitHub commit rate up or fixing something round the house, but I also like to try something challenging every now and again. It doesn't always work out, but it's always a learning experience... here goes...
+Last year I published an "annual project review" blog post called <a href="http://logicalgenetics.com/stuff-i-made-in-2017/">Stuff I made in 2017</a>.  I found writing it to be quite a fun exercise (catharsis perhaps). As a middle-manager by trade, I could easily fall into a trap where I spend my entire life using a sad combination of MS Office, Netflix and XBox - never actually *doing* anything. So, I like to challenge myself to actually *make* as much stuff as possible both in my spare time and at work. This might be as simple as keeping my GitHub commit rate up or fixing something round the house, but I also like to try something challenging every now and again. It doesn't always work out, but it's always a learning experience... here goes...
 
 ### The Bunk Beds
 
@@ -46,7 +46,7 @@ A very small project that made me inexplicably happy.  One afternoon on a warm d
 
 ### The Wizards
 
-One Saturday morning, YouTube decided to recommend a video by a guy in Canada about [carving wizards](https://youtu.be/AlIr95-ZlCc).  Two hours later I was sat in the garden with a coffee, whittling away on some bunkbed offcuts.  Since then I've bought a little carving knife and a few shaped chisels from eBay - nothing expensive, but enough to crank out a wizard or two.  Here's a selection:
+One Saturday morning, YouTube decided to recommend a video by a guy in Canada about <a href="https://youtu.be/AlIr95-ZlCc">carving wizards</a>.  Two hours later I was sat in the garden with a coffee, whittling away on some bunkbed offcuts.  Since then I've bought a little carving knife and a few shaped chisels from eBay - nothing expensive, but enough to crank out a wizard or two.  Here's a selection:
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2019/02/2018-12-15-14.05.58-e1549357996731-768x1024.jpg" class="gallery"/><img src="http://logicalgenetics.com/wp-content/uploads/2019/02/2018-09-02-12.10.42-576x1024.jpg" class="gallery"/><img src="http://logicalgenetics.com/wp-content/uploads/2019/02/2018-07-08-19.05.40-1024x576.jpg" class="gallery"/>
 

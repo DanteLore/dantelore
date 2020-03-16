@@ -8,7 +8,7 @@ draft: False
 
 This is the fourth part of my not-so-mini blog mini-series on Kafka, KSQL and transforming event data into models.
 <!-- wp:list -->
-<ul><li>[All the code is in Github](https://github.com/DanteLore/events_to_models)</li></ul>
+<ul><li><a href="https://github.com/DanteLore/events_to_models">All the code is in Github</a></li></ul>
 <!-- /wp:list -->
 
 <!-- wp:separator -->
@@ -26,7 +26,7 @@ Two parts of the system are yet to be developed: loading brewery data and monito
 <!-- wp:quote -->
 <blockquote class="wp-block-quote">In order to give the award for Best Selling Brewery, as the chairperson of the Beer Festival awards committee, I want to see a breakdown of sales by brewery.</blockquote>
 <!-- /wp:quote -->
-First job is to load the data, which I'll do with Kafka Connect.&nbsp; I guess I could have written another Scala app to do the load, but this time I wanted to test out some of the more standard tools for the job.&nbsp; Here we'll use [README in git](https://github.com/DanteLore/events_to_models#setting-up-kafka-connect).
+First job is to load the data, which I'll do with Kafka Connect.&nbsp; I guess I could have written another Scala app to do the load, but this time I wanted to test out some of the more standard tools for the job.&nbsp; Here we'll use <a href="https://github.com/DanteLore/events_to_models#setting-up-kafka-connect">README in git</a>.
 
 Once you have dowloaded, compiled and installed SpoolDir you'll need to create a Source config and post it via REST to start it.&nbsp; Here's the config I ended up with:
 <!-- wp:syntaxhighlighter/code {"language":"jscript"} -->
@@ -49,7 +49,7 @@ Once you have dowloaded, compiled and installed SpoolDir you'll need to create a
 <!-- /wp:syntaxhighlighter/code -->
 It's quite cool that we can impose a schema on the CSV as it's loaded.&nbsp; For one thing, it means the data goes into Kafka in AVRO format, which saves us some work.&nbsp; Secondly, it allows some rudimentary error handling, should rows in the file be weirdly formatted.&nbsp; However, in a production system, it may make sense to load both good and bad rows and transform/validate them *within Kafka*... more on this later.
 
-Once SpoolDir's up and running (like I said, check the [README](https://github.com/DanteLore/events_to_models#setting-up-kafka-connect) for details) you can throw the ```
+Once SpoolDir's up and running (like I said, check the <a href="https://github.com/DanteLore/events_to_models#setting-up-kafka-connect">README</a> for details) you can throw the ```
 breweries.csv
 ```&nbsp;file into the input directory and, as if by magic, you have data in the ```
 breweries
@@ -145,7 +145,7 @@ $ kafka-console-producer --broker-list localhost:9092 --topic raw_brewery_text &
 <!-- /wp:syntaxhighlighter/code -->
 Kafka streams, which we'll use to do the brewery validation task, is a library of functions to make interacting with Kafka easy.&nbsp; It handles all the semantics of consuming and producing messages for you.&nbsp; It's horizontally scalable and pretty lightweight.
 
-The code can be [found in full on my github](https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/streams/BreweryCsvProcessorStream.scala)&nbsp;and is pretty concise.&nbsp; The key bit is the setup of the streams themselves, which is shown below.&nbsp; If you're going to code a Kafka streams app yourself, pay attention to the implicit serdes (serialiser/deserialisers) which are defined higher up the object definition.&nbsp; These had me puzzled for hours!&nbsp; Anyway, the code...
+The code can be <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/streams/BreweryCsvProcessorStream.scala">found in full on my github</a>&nbsp;and is pretty concise.&nbsp; The key bit is the setup of the streams themselves, which is shown below.&nbsp; If you're going to code a Kafka streams app yourself, pay attention to the implicit serdes (serialiser/deserialisers) which are defined higher up the object definition.&nbsp; These had me puzzled for hours!&nbsp; Anyway, the code...
 <!-- wp:syntaxhighlighter/code {"language":"scala"} -->
 // Get the lines
 val builder = new StreamsBuilder()

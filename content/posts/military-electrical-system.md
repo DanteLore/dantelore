@@ -7,4 +7,4 @@ draft: False
 
 Spent some time yesterday night working out what most of the components actually <span style="font-style: italic;">do</span>.  Here are my findings, along with a new version of the military circuit diagram.
 
-[More info on hazard switch and flasher here](http://www.lrforum.com/forum/index.php?showtopic=30584&view=findpost&p=291850).
+<a href="http://www.lrforum.com/forum/index.php?showtopic=30584&view=findpost&p=291850">More info on hazard switch and flasher here</a>.

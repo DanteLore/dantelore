@@ -7,11 +7,11 @@ draft: False
 
 So, this isn't supposed to be the ultimate guide to AngularJS or anything like that - I'm not even using the latest version - this is just some notes on my return to *The World of the View Model* after a couple of years away from WPF. Yeah, that's right, I just said WPF while talking about Javascript development. They may be different technologies from different eras: one may be the last hurrah of bloated fat-client development and the other may be the latest and greatest addition to the achingly-cool, tie dyed hemp tool belt of the Single Page App hipster, but under the hood they're very very similar. Put that in your e-pipe and vape it, designer-bearded UX developers!
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"/>](http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/)
+<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"/></a>
 
-Anyway, when I started, I knew *nothing* about SPA development. I'd last done JavaScript several years ago and never really used it as a *real* language. I still contend that JavaScript isn't a real language (give me Scala or C# any day of the week) but you can't ignore the fact that this is how user interfaces are developed these days... so, yeah, I started with a [tutorial on YouTube](https://www.youtube.com/watch?v=i9MHigUZKEM).
+Anyway, when I started, I knew *nothing* about SPA development. I'd last done JavaScript several years ago and never really used it as a *real* language. I still contend that JavaScript isn't a real language (give me Scala or C# any day of the week) but you can't ignore the fact that this is how user interfaces are developed these days... so, yeah, I started with a <a href="https://www.youtube.com/watch?v=i9MHigUZKEM">tutorial on YouTube</a>.
 
-I decided to do an [old radiators](http://logicalgenetics.com/dan-dan-the-kanban-man/) are coded in WPF, which looks awesome on the big TVs dotted around the office, but doesn't translate well for remote workers.
+I decided to do an <a href="http://logicalgenetics.com/dan-dan-the-kanban-man/">old radiators</a> are coded in WPF, which looks awesome on the big TVs dotted around the office, but doesn't translate well for remote workers.
 
 There is no sunshine and there are no rainbows in this article. I found javascript to be a hateful language, filled with boilerplate and confusion. Likewise, though TeamCity is doubtless the best enterprise CI platform on planet earth, the REST APIs are pretty painful to consume. With that in mind, let's get into the weeds and see how this thing works...
 
@@ -35,9 +35,9 @@ You might want to be a little more selective on who you allow to access the serv
 
 ## Tool Chain
 
-This article is about AngularJS and it's about TeamCity. It's not about NPM or Bower or any of that nonsense. I'm not going to minify my code or use to crazy new-fangled pseudo-cosmic CSS. So setting up the build environment for me was pretty easy: create a folder, add a file called "index.html", fire up the fantastic [Fenix Web Server](http://fenixwebserver.com/) and configure it to serve up the folder we just created. Awesome.
+This article is about AngularJS and it's about TeamCity. It's not about NPM or Bower or any of that nonsense. I'm not going to minify my code or use to crazy new-fangled pseudo-cosmic CSS. So setting up the build environment for me was pretty easy: create a folder, add a file called "index.html", fire up the fantastic <a href="http://fenixwebserver.com/">Fenix Web Server</a> and configure it to serve up the folder we just created. Awesome.
 
-If you're already confused, or if you just want to play with the code, you can download the lot from GitHib:  [https://github.com/DanteLore/teamcity-status-with-angular](https://github.com/DanteLore/teamcity-status-with-angular)
+If you're already confused, or if you just want to play with the code, you can download the lot from GitHib:  <a href="https://github.com/DanteLore/teamcity-status-with-angular">https://github.com/DanteLore/teamcity-status-with-angular</a>
 
 ## I promise to do my best
 
@@ -111,11 +111,11 @@ But a screen with 100+ builds on it means very little. This is an information ra
 	<li>Mark any "running" build with a flag so we can give feedback in the UI</li>
 </ol>
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus2.png"/>](http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus2/)
+<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus2.png"/></a>
 
 ## Displaying It
 
-Not much very exciting here. I used [derivative of Bootstrap](https://bootswatch.com/cyborg/) to make the UI look nice. I bound some content to the View Model and that's about it.  Download the code and have a look if you like.
+Not much very exciting here. I used <a href="https://bootswatch.com/cyborg/">derivative of Bootstrap</a> to make the UI look nice. I bound some content to the View Model and that's about it.  Download the code and have a look if you like.
 
 Here's my index.html (which shows all the libraries I used):
 
@@ -197,6 +197,6 @@ I think I summarized how I feel about this project in the introduction. It looks
 
 One thing I will say: that whole page is less than 300 lines of code. That's pretty darned cool.
 
-[Feel free to download and use the app however you like](https://github.com/DanteLore/teamcity-status-with-angular) - just bung in a link to this page!
+<a href="https://github.com/DanteLore/teamcity-status-with-angular">Feel free to download and use the app however you like</a> - just bung in a link to this page!
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"/>](http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/)
+<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"/></a>

@@ -9,4 +9,4 @@ More help from Ron today means that the roof is now on!  Sadly, the rubber seal 
 
 Had a BBQ to celebrate the occasion!
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_0881-746018.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_0881-746053.JPG)
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_0881-746053.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_0881-746018.JPG"/></a>

@@ -5,7 +5,7 @@ date: 2009-01-07T13:09:00
 draft: False
 ---
 
-About five minutes after I posted about history last night I decided to put The Duke's military reg into [Boscombe Down Aviation Collection](http://www.boscombedownaviationcollection.co.uk/) (BDAC), who restore and maintain aircraft which have been let-go by the flight testing centre.
+About five minutes after I posted about history last night I decided to put The Duke's military reg into <a href="http://www.boscombedownaviationcollection.co.uk/">Boscombe Down Aviation Collection</a> (BDAC), who restore and maintain aircraft which have been let-go by the flight testing centre.
 
 The bloke who took the pictures helped out there and took some time to investigate a Land Rover 109 HSV - now known as The Duke!  Pictures of the identification plates in the cab, complete with military reg and chassis number, confirm this.
 

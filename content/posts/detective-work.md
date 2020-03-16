@@ -13,7 +13,7 @@ Amesbury
 Salisbury
 SP4 0JF
 
-On April Fool's Day, 1997, they registered him on a Q plate because the date of first registration was unknown.   Very interesting!  Didn't take long to find a map of Boscombe Down and work out some possible usages for a helicopter servicing platform:  The [Heritage Motor Centre](http://www.heritage-motor-centre.co.uk/shop/heritage-certificates/index.html) to find out.  I guess some sloppy employee needed to get it on the road but couldn't be bothered to work it out.
+On April Fool's Day, 1997, they registered him on a Q plate because the date of first registration was unknown.   Very interesting!  Didn't take long to find a map of Boscombe Down and work out some possible usages for a helicopter servicing platform:  The <a href="http://www.heritage-motor-centre.co.uk/shop/heritage-certificates/index.html">Heritage Motor Centre</a> to find out.  I guess some sloppy employee needed to get it on the road but couldn't be bothered to work it out.
 
 Finally, Witham didn't mention that it wasn't a direct sale from the MOD.  Obviously they didn't say it <span style="font-style: italic;">was</span> an MOD vehicle either, but given that their website is entitled "MOD Sales" there's a strong implication!  Nothing massive to complain about I suppose, but slightly annoying.
 

@@ -21,5 +21,5 @@ So, I can think of three possible explanations:
 
 Anyway, it's obvious that the tail lights have caused problems in the past and somebody has tried a half arsed fix (see photo).  I will have to run a new cable all the way back, I think.
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6700-705635.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6700-705646.JPG)<span style="font-size:85%;">You can't really see it here, but the red and black tail light supply was badly melted when I got the "replacement" switch.
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6700-705646.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6700-705635.JPG"/></a><span style="font-size:85%;">You can't really see it here, but the red and black tail light supply was badly melted when I got the "replacement" switch.
 </span>

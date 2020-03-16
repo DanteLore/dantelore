@@ -14,5 +14,5 @@ So, I need to find new reasons to tinker with The Duke.  I've decided that attac
 The first thing to do is work out a way to measure fuel economy.  Not sure how to do this, but it could involve anything from wiring up a <span>DIY</span> rev counter, temperature sensors and GPS or it could just involve carefully filling a tank with a known quantity of fuel and running it dry.
 
 Once I can measure how much fuel is being used, I can start to fit some of the popular fuel saving devices which seem to be available.  Things like...
-<ul><li>An overdrive - claimed to [save up to 33%](http://www.whatgas.com/petrol-prices/lpg-prices.aspx)!
+<ul><li>An overdrive - claimed to <a href="http://www.whatgas.com/petrol-prices/lpg-prices.aspx">save up to 33%</a>!
 </li></ul>So there's plenty of cool stuff to think about over the winter, ready for some more happy hours on the drive next summer... though that's tempting fate of course, I should be concentrating on the MOT!

@@ -9,7 +9,7 @@ Refilled after my first full tank of diesel with the 200Di yesterday.  Results 
 
 Here's the graph.  The news is good really, getting just under 25MPG and I'd expect much much better on a long run where the overdrive would start to make a big difference.  Money-wise it's now costing £25 per 100miles as opposed to an <i>average</i> of £39 per 100miles (up to £45 round town!).  
 
-[<img src="https://docs.google.com/spreadsheet/oimg?key=0Ag_iQzbv8XX6cEZnT1FXQjU5NFhxdDZvRWhSUS0yWWc&oid=11&zx=b2phym4nc11h"/>](https://docs.google.com/spreadsheet/oimg?key=0Ag_iQzbv8XX6cEZnT1FXQjU5NFhxdDZvRWhSUS0yWWc&oid=11&zx=b2phym4nc11h)The second to last data point on the graph is the last time Dr J and I went to Sodbury.  The petrol engine was best on a long run, but even then it failed to beat the 200Di round town.  Here are some examples...
+<a href="https://docs.google.com/spreadsheet/oimg?key=0Ag_iQzbv8XX6cEZnT1FXQjU5NFhxdDZvRWhSUS0yWWc&oid=11&zx=b2phym4nc11h"><img src="https://docs.google.com/spreadsheet/oimg?key=0Ag_iQzbv8XX6cEZnT1FXQjU5NFhxdDZvRWhSUS0yWWc&oid=11&zx=b2phym4nc11h"/></a>The second to last data point on the graph is the last time Dr J and I went to Sodbury.  The petrol engine was best on a long run, but even then it failed to beat the 200Di round town.  Here are some examples...
 
 Petrol Round Town: 13MPG, <b>£45</b>/100miles, Range 100miles
 Petrol to Sodbury:  19MPG, <b>£33</b>/100miles, Range 160miles

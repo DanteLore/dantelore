@@ -7,7 +7,7 @@ draft: False
 
 It turns out it's really quite simple to get data out of Team Foundation Server.  You can do it using the built-in reporting tools, but that seems a bit boring to me.  After the Big Cheese agreed to buy us a super-sized telly to get some project propaganda into the office I decided to whack out a WPF app.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"/></a>
 
 Three useful bits of information worth recording here.  How to get information out of TFS, how to draw nice looking graphs and how to make a borderless, click-anywhere-drag style app without the windows title bar.
 ## Getting Information From TFS
@@ -60,7 +60,7 @@ Get a list of stories waiting for signoff by product managers.
 
 ## WPF Line Charts
 
-For the charts I used the [WPF toolkit](http://wpf.codeplex.com/).  It's not seen much development in recent years but it's still an easy and quick way to get a chart on screen.  Here are some XAML snippets.  
+For the charts I used the <a href="http://wpf.codeplex.com/">WPF toolkit</a>.  It's not seen much development in recent years but it's still an easy and quick way to get a chart on screen.  Here are some XAML snippets.  
 
 Here's the chart itself.  Two line series here.  You select the <strong>ItemsSource</strong>: list of objects corresponding to points on the line; <strong>DependentValuePath</strong>: name of a property on the object to use as the value for the Y axis; IndependentValuePath: value/label for the X axis.
 [sourcecode language="xml"]

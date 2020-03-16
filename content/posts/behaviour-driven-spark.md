@@ -9,7 +9,7 @@ Spark is a big deal these days, people are using this for all sorts of exciting 
 
 But for those of us who got past Hello World some time ago and are now using Spark as the basis of large and important projects there's also the chance to do things *right*. In fact, since Spark is based on a proper language (Scala, not R or python please!) it's a great chance to bring some well established best practices into a world where uncontrolled script hackers have held sway for too long!
 
-Check out the source for this article on my GitHub: [https://github.com/DanteLore/bdd-spark](https://github.com/DanteLore/bdd-spark)
+Check out the source for this article on my GitHub: <a href="https://github.com/DanteLore/bdd-spark">https://github.com/DanteLore/bdd-spark</a>
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2016/08/cucumber-300x98.jpg"/>
 
@@ -234,7 +234,7 @@ Likewise, you can define a function to compare the output data frame with the "e
 [/sourcecode]
 
 # Coverage Reporting
-There's a [great coverage plugin for Scala](https://github.com/scoverage/sbt-scoverage) which can easily be added to the project by adding a single line to <strong>plugins.sbt</strong>:
+There's a <a href="https://github.com/scoverage/sbt-scoverage">great coverage plugin for Scala</a> which can easily be added to the project by adding a single line to <strong>plugins.sbt</strong>:
 
 [sourcecode lang="scala"]
 logLevel := Level.Warn

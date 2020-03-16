@@ -17,7 +17,7 @@ After some googling and much swearing we finally managed to get it to work.  Th
 </ul>
 ## Creating a New Project
 I always forget where to click, but the next image makes it clear. Make sure you set the name and choose the correct project template.
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"/></a>
 ## Moving Over Custom Work Item Types
 If you haven't customised the project template at all then you can skip this step. If you have made any changes you need to make sure you copy them to the new project before you migrate. If you don't want to move your changes over there are clever things you can do with an XML mapping file but I'm not going to cover that today.
 <ul>
@@ -40,11 +40,11 @@ If you haven't customised the project template at all then you can skip this ste
 	<li>Check that the work item templates now look as you'd expect them to</li>
 </ul>
 ## Migrating Work Items
-Work items can be moved between projects using the TFS Integration Tools from Microsoft.  You can download them [here](http://visualstudiogallery.msdn.microsoft.com/eb77e739-c98c-4e36-9ead-fa115b27fefe), though I'd suggest you search for the latest version, just in case! Install the tool on your TFS server and run it from the start menu.
+Work items can be moved between projects using the TFS Integration Tools from Microsoft.  You can download them <a href="http://visualstudiogallery.msdn.microsoft.com/eb77e739-c98c-4e36-9ead-fa115b27fefe">here</a>, though I'd suggest you search for the latest version, just in case! Install the tool on your TFS server and run it from the start menu.
 
 Run the tool and select "Create New" from the menu on the left.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"/></a>
 
 Choose the template: <strong>C:\Program Files (x86)\Microsoft Team Foundation Server Integration Tools\Configurations\Team Foundation Server\WorkItemTracking.xml</strong>
 
@@ -53,13 +53,13 @@ In the configuration you need to select a project on the left and on the right. 
 Click "Save to Database" then click the "Start" button on the menu bar on the left.
 
 <strong>Off it goes...</strong>
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"/></a>
 <strong>Looking good so far...</strong>
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"/></a>
 <strong>Almost there...</strong>
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"/></a>
 <strong>Yes!</strong>
-[<img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"/>](http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png)
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"/></a>
 ## Possible Issue With Permissions
 When I first tried to run a migration I hit a permissions error.  Three warnings popped up as soon as I started the migration, the full text of which is below:
 
@@ -71,7 +71,7 @@ When I first tried to run a migration I hit a permissions error.  Three warning
    at Microsoft.TeamFoundation.Migration.Toolkit.MigrationEngine.Initialize(Int32 sessionRunId)
 [/sourcecode]
 
-*"...the migration service account 'Administrator' is not in the Service Accounts Group"* being the important thing here. The annoying thing is that the group in question turns out to be hidden. Luckily, [somebody has posted a solution](http://blog.hinshelwood.com/tfs-integration-tools-issue-tfs-wit-bypass-rule-submission-is-enabled/). Basically you need to run the following command on your TFS server:
+*"...the migration service account 'Administrator' is not in the Service Accounts Group"* being the important thing here. The annoying thing is that the group in question turns out to be hidden. Luckily, <a href="http://blog.hinshelwood.com/tfs-integration-tools-issue-tfs-wit-bypass-rule-submission-is-enabled/">somebody has posted a solution</a>. Basically you need to run the following command on your TFS server:
 
 [sourcecode]c:\Program Files\Microsoft Team Foundation Server 11.0\Tools\tfssecurity /g+ &quot;Team Foundation Service Accounts&quot; n:YourMachine\YourUser ALLOW /server:http://yourserver:8080/tfs
 [/sourcecode]

@@ -9,11 +9,11 @@ I've decided to add some more "creature comforts" to The Duke. I am sick of the 
 
 After much research I found some 7mm thick closed-cell "van insulation" foam on eBay.  It cost me £70 for 8m and I used 7m of it lining the roof and walls. A couple of cans of "trimfix" glue were included in the price.  I almost managed to do the whole job with just one can of glue but had to open the second for the last roof section over the front seats!
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180253.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180253.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180253.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180253.jpg"/></a>
 
 It looks like the international space station in there now!  Emma enjoyed looking around once I was finished - though she still refers to The Duke as "Daddy's Tractor".
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180343.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180343.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180343.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180343.jpg"/></a>
 
 It was all pretty easy except the final section over the front seats.  The roof tapers and the chunk of foam needed to be aligned on all sides.  I had to peel and re-stick several times before I got it right.
 

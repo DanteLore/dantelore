@@ -13,4 +13,4 @@ It's made from aluminium bar and all the parts were turned on the lathe.  I eve
 
 The only bit not shown in the pictures is how I've attached the cable to the shaft.  I drilled a 2mm hole a short way down the centre of the shaft, then drilled another 2mm hole through the side to meet it.  I then hammered an L-shaped hook into the end of the choke cable and hooked it through the holes.  To make extra sure it'll stay secure, I soldered cable and shaft together.  Not sure if the solder was needed, but it can't hurt!
 
-[<img src="http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s320/IMG_0958.JPG"/>](http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s1600/IMG_0958.JPG)
+<a href="http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s1600/IMG_0958.JPG"><img src="http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s320/IMG_0958.JPG"/></a>

@@ -5,7 +5,7 @@ date: 2017-05-04T08:27:00
 draft: False
 ---
 
-<blockquote>[<strong>Pull me on GitHub!</strong>](https://github.com/DanteLore/mood-bot)</blockquote>
+<blockquote><a href="https://github.com/DanteLore/mood-bot"><strong>Pull me on GitHub!</strong></a></blockquote>
 # Mood Bot
 
 So it's been a tradition in my office to use Slack to gauge the team's mood once a week. Previously our PM would post a message asking for feedback and people would add a reaction to show how they were feeling. This worked fine, though there were a couple of issues: firstly it was pretty hard to interpret the weird collection of party parrots and doges, and secondly people tend to follow the herd when they can see how others have reacted.
@@ -22,7 +22,7 @@ Based on the above there are three broad areas for development: send the webhook
 # Sending the Web Hook
 <img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-14.53.04.jpg"/>
 
-Slack allows you to post Interactive Messages using an Incoming Webhook. In order to do this you'll need to add a new slack bot integration using their very friendly web UI. I called mine "MoodBot". Once you have a bot set up, you need to enable "Incoming Webhooks" and add the target URL to an environment variable (see [here](https://gist.github.com/nmrony/789ad378552c27b1c4e9af6e77c2764e) for more details).
+Slack allows you to post Interactive Messages using an Incoming Webhook. In order to do this you'll need to add a new slack bot integration using their very friendly web UI. I called mine "MoodBot". Once you have a bot set up, you need to enable "Incoming Webhooks" and add the target URL to an environment variable (see <a href="https://gist.github.com/nmrony/789ad378552c27b1c4e9af6e77c2764e">here</a> for more details).
 
 The format of the message you send needs to be something like the following.  Note that the "interactive" part of the message is included as an attachment.
 

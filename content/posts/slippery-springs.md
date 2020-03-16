@@ -9,4 +9,4 @@ I haven't finished yet, but this leaf spring refurbishment job is taking a very 
 
 Here are some photos.  Taken over a period of many days they document a long and drawn out labour of love!
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_8513-742721.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_8513-742726.JPG)<span style="font-size:85%;">Finally, just before dark, I bunged a light coat of paint on the outer surfaces.  Not sure it'll stick because <span>everything's</span> covered in a thin layer grease, but I <span>wiped</span> it and gave it a try anyway!</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_8513-742726.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_8513-742721.JPG"/></a><span style="font-size:85%;">Finally, just before dark, I bunged a light coat of paint on the outer surfaces.  Not sure it'll stick because <span>everything's</span> covered in a thin layer grease, but I <span>wiped</span> it and gave it a try anyway!</span>

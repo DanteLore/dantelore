@@ -11,12 +11,12 @@ Since flying was out of the question, we decided to go on a survey mission round
 
 Here are some photos and a video from the 'copter.  I am somewhat annoyed that a drop of water got on the lens (again!) and smudged up the image.  We shall return to the base soon I hope.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8297.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8297.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8297.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8297.jpg"/></a>
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8294.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8294.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8294.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8294.jpg"/></a>
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8290.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8290.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8290.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8290.jpg"/></a>
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/02/Snapshot-2-15-02-2013-08-31.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/02/Snapshot-2-15-02-2013-08-31.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/02/Snapshot-2-15-02-2013-08-31.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/02/Snapshot-2-15-02-2013-08-31.jpg"/></a>
 
 http://www.youtube.com/watch?v=CnsGt-jWH1U

@@ -11,4 +11,4 @@ Each of the bushes is made of an inner and an outer steel tube with a rubber bit
 
 Here's a recipe...
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_9299-713617.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_9299-713640.JPG)
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_9299-713640.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_9299-713617.JPG"/></a>

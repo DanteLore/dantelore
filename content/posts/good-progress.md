@@ -11,7 +11,7 @@ I got up early today - on a Saturday - to get a full day working on The Duke.  I
 
 First off, I got the pressure washer out - kindly lent to us by Lorna's boss - and cleaned off the drive, the chassis and the underside of the tub.  With a nice clean surface to paint (decided to leave any old covering which withstood the <span>Karcher</span>) I could whack a thick coat of <span>underseal</span> on and get it looking smart.  Well, smart for the underside of a twenty year old car anyway!
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_0097-782142.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_0097-782146.JPG)<span style="font-size:85%;">Just to prove I have a charge</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_0097-782146.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_0097-782142.JPG"/></a><span style="font-size:85%;">Just to prove I have a charge</span>
 
 All this good news obviously needs to be tempered with a bit of bad - and there was some bad news today.  Annoyingly, I found another outrigger that is totally and utterly knackered.  That makes two which need replacing and I only have spare parts for one.  Also, this one is under the cab, so will be a right pain to get to. 
 

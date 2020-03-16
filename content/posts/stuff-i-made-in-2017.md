@@ -37,7 +37,7 @@ The windows are made of 10mm perspex (found in a skip!) which worked really well
 
 The roof is OSB too, with 250+ wooden tiles made from pallet wood nailed on.&nbsp; I should have left bigger gaps between the tiles though, a few months on they have expanded in the rain and lifted in places.
 ## The Mood Bot
-I haven't done many software projects this year, but the Mood Bot is one I'm quite happy with.&nbsp; It's a Slack integration which tests a team's mood and draws some pretty graphs.&nbsp; You can read more about it [here](http://logicalgenetics.com/mood-bot-a-serverless-slack-integration/).
+I haven't done many software projects this year, but the Mood Bot is one I'm quite happy with.&nbsp; It's a Slack integration which tests a team's mood and draws some pretty graphs.&nbsp; You can read more about it <a href="http://logicalgenetics.com/mood-bot-a-serverless-slack-integration/">here</a>.
 
 [gallery size="medium" columns="2" ids="1319,1318"]
 ## The Coffee Table
@@ -45,7 +45,7 @@ Well, actually it's more of a TV stand for the loft conversion in our house, whi
 
 [gallery size="medium" ids="1385,1384,1328,1327,1326"]
 ## The Map
-While looking for an unusual picture for the top room, we thought about buying some kind of world map.&nbsp; This led me to start looking at [Mapserver](http://logicalgenetics.com/mapserver-revisited/)&nbsp;again, and ultimately the creation of this map of Thatcham.&nbsp; We got it printed on a canvas by one of those online photo companies and I matched the colours to our garish new sofa!
+While looking for an unusual picture for the top room, we thought about buying some kind of world map.&nbsp; This led me to start looking at <a href="http://logicalgenetics.com/mapserver-revisited/">Mapserver</a>&nbsp;again, and ultimately the creation of this map of Thatcham.&nbsp; We got it printed on a canvas by one of those online photo companies and I matched the colours to our garish new sofa!
 
 [gallery columns="2" size="medium" ids="1321,1320"]
 ## The Skull Mask

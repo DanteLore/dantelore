@@ -11,4 +11,4 @@ I got the switch off eBay, so I guess I could go the whole "bad feedback" route,
 
 So, I decided to have a look inside tonight.  Here are some pictures.  Can't find any pictures on the web, so I've done a few in the hopes that they might help other people.
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6724-782236.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6724-782246.JPG)<span style="font-size:85%;">The grub screw in place in the central moving <span>part</span> of the switch - only <span>accessible</span> when the back part is removed.</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6724-782246.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6724-782236.JPG"/></a><span style="font-size:85%;">The grub screw in place in the central moving <span>part</span> of the switch - only <span>accessible</span> when the back part is removed.</span>

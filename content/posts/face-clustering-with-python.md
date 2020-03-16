@@ -22,11 +22,11 @@ Finding a database of faces turned out to be pretty simple.  I wanted to use a 
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-15.58.41.jpg"/>
 
-In the end, I discovered [The Glasgow Unfamiliar Face Dataset](http://www.facevar.com/glasgow-unfamiliar-face-database), which contains a reasonable number of photos of faces, for women and men.  I used the women's faces for the majority of work.  Statistically speaking, women are more likely to wear makeup, so if this dude's theory is true, he's probably talking about women's faces, and that's how this started.
+In the end, I discovered <a href="http://www.facevar.com/glasgow-unfamiliar-face-database">The Glasgow Unfamiliar Face Dataset</a>, which contains a reasonable number of photos of faces, for women and men.  I used the women's faces for the majority of work.  Statistically speaking, women are more likely to wear makeup, so if this dude's theory is true, he's probably talking about women's faces, and that's how this started.
 
 ## Face Detection Library
 
-So, having filled my laptop with unfamiliar faces, the next step was to see if I could detect some features in those faces.  Get the coordinates of the nose, the eyes, the jawline and so on.  Of course there's a library to do this in Python, in fact there are several.  I started with the DLib and opencv libraries, following [this epic tutorial](https://www.pyimagesearch.com/2017/04/10/detect-eyes-nose-lips-jaw-dlib-opencv-python/).  I won't duplicate the code here, as I didn't add much.  Suffice it to say that within an hour or so (mostly wrestling installers on my macbook) I was able to detect features in faces like this:
+So, having filled my laptop with unfamiliar faces, the next step was to see if I could detect some features in those faces.  Get the coordinates of the nose, the eyes, the jawline and so on.  Of course there's a library to do this in Python, in fact there are several.  I started with the DLib and opencv libraries, following <a href="https://www.pyimagesearch.com/2017/04/10/detect-eyes-nose-lips-jaw-dlib-opencv-python/">this epic tutorial</a>.  I won't duplicate the code here, as I didn't add much.  Suffice it to say that within an hour or so (mostly wrestling installers on my macbook) I was able to detect features in faces like this:
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-18.03.40.jpg"/>
 
@@ -75,7 +75,7 @@ So now we have a crude set of embeddings for our sample image data, let's employ
 
 ### K-Means
 
-Everyone knows it, the easiest way to cluster vectors of data is to use [K-Means](https://www.google.co.uk/search?q=k+means).  It's even easier in Python, where the libraries do all the hard work for you.
+Everyone knows it, the easiest way to cluster vectors of data is to use <a href="https://www.google.co.uk/search?q=k+means">K-Means</a>.  It's even easier in Python, where the libraries do all the hard work for you.
 
 Imagine you have some objects, each of which is represented by a vector of numeric values.  It could be anything: rows in a spreadsheet, house prices, salaries, ages or (bet you saw this coming...) crude measurements of a face.  Each of these vectors *describes a point in n-dimensional* space.  Easy to imagine if you have one, two or three values - so keep a 3D space in your head and don't give yourself an 8-dimensional headache.  Now imagine you randomly choose a set number (k) of "centres" in the same n-dimensional space.  Now you can associate points with their nearest cluster, then move the cluster centres closer to their associated points, then iterate.  Points attract centres, centres group points, eventually the cluster centres creep into the right places and, when they stop moving, define the discreet clusters in our data.  Boom!
 <!-- wp:preformatted -->
@@ -91,7 +91,7 @@ do {
 } while (something changed)
 
 <!-- /wp:preformatted -->
-I used the [Scikit Learn](http://scikit-learn.org/) implementation of K-means to do my clustering.  Here's a snippet:
+I used the <a href="http://scikit-learn.org/">Scikit Learn</a> implementation of K-means to do my clustering.  Here's a snippet:
 <!-- wp:preformatted -->
 <strong>import </strong>numpy <strong>as </strong>np
 <strong>from </strong>sklearn.cluster <strong>import </strong>KMeans

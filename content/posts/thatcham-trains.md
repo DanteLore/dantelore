@@ -7,7 +7,7 @@ draft: False
 
 This is the final article in my brief series on the National Rail API.  As usual, the code can be found on github:
 
-[https://github.com/DanteLore/national-rail](https://github.com/DanteLore/national-rail)
+<a href="https://github.com/DanteLore/national-rail">https://github.com/DanteLore/national-rail</a>
 # The Idea
 https://twitter.com/ThatchamTrains/status/745593012290461696
 
@@ -15,7 +15,7 @@ There are a million and one different websites and apps which will tell you the 
 
 Enter stage left, the Twitter API. This article is all about a simple *mash-up* of the National Rail and twitter APIs to show information on direct trains between London and Thatcham. You can use it for other stations too - it's all in the command line parameters.
 
-People who live in Thatcham can use my twitter feed [@ThatchamTrains](https://twitter.com/ThatchamTrains) or you can set up your own feed and run the python script to populate it with the stations you're interested in.
+People who live in Thatcham can use my twitter feed <a href="https://twitter.com/ThatchamTrains">@ThatchamTrains</a> or you can set up your own feed and run the python script to populate it with the stations you're interested in.
 
 https://twitter.com/ThatchamTrains/status/745592675378823168
 https://twitter.com/ThatchamTrains/status/745557198038675456
@@ -32,9 +32,9 @@ $ sudo easy_install xmltodict
 $ sudo easy_install flask
 [/sourcecode]
 
-2. Get a twitter account and a set of API keys by following the [steps on the Twitter developers page](https://dev.twitter.com/oauth/overview). You'll need four magic strings in total, which you pass to the script as command line parameters.
+2. Get a twitter account and a set of API keys by following the <a href="https://dev.twitter.com/oauth/overview">steps on the Twitter developers page</a>. You'll need four magic strings in total, which you pass to the script as command line parameters.
 
-3. Get a national rail API key [from their website](http://www.nationalrail.co.uk/100296.aspx). You just need one key for this API, which is nice!
+3. Get a national rail API key <a href="http://www.nationalrail.co.uk/100296.aspx">from their website</a>. You just need one key for this API, which is nice!
 
 4. Clone the source and run the script using the three commands below... simples!
 [sourcecode lang="bash"]
@@ -74,10 +74,10 @@ Access Token for Twitter
 Access Token Secret for Twitter
 [/sourcecode]
 # The Code
-There's not much to say about the code, since I've covered the National Rail API in graphic detail in a [previous adventures](http://logicalgenetics.com/live-train-route-animation/) with the API is that this time I did unit testing.
+There's not much to say about the code, since I've covered the National Rail API in graphic detail in a <a href="http://logicalgenetics.com/live-train-route-animation/">previous adventures</a> with the API is that this time I did unit testing.
 
 There's a fair bit of business logic in the twitter app: rules about when to post and when to be quiet, duplicate message detection and all sorts of time- and data-based rules which can't be tested using real data. It's also pretty bad form to test code like this against a live API, so I mocked out the NR query and the Twitter API and wrote a small suite of tests to check that the behaviour is right.
 
 Like I said, all the code is on GitHub, so I won't bang on about it here.
 
-[https://github.com/DanteLore/national-rail](https://github.com/DanteLore/national-rail)
+<a href="https://github.com/DanteLore/national-rail">https://github.com/DanteLore/national-rail</a>

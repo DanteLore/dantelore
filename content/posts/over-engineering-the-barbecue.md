@@ -9,15 +9,15 @@ Our trusty old barbecue is getting old.  I think it's about five or six years o
 
 The lid and bowl are fine, but most of the ironwork is made of poor quality pressed steel, less than a millimetre thick.  I have already replaced the hinges with some rock-solid 3mm steel ones, born of a sheet of scrap and my own blood sweat and tears.  This weekend I decided to replace the vent jobbie in the lid.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-11-21.55.19.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-11-21.55.19.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-11-21.55.19.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-11-21.55.19.jpg"/></a>
 
 I used some aluminium salvaged from an old computer case and the rotary table on the mill. The vast majority of the time was spent setting things up. After that I got the job done in an hour or so. The hardest job was to centre the rotary table on the mill. In the end I made a tool to do it. I turned a steel rod down to 16mm on one end to fit into the hole in the middle of the rotary table and 19mm at the other end to fit the largest collet I have.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.56.14.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.56.14.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.56.14.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.56.14.jpg"/></a>
 
 I slackened the bolts holding the rotary to the mill table, bunged my new tool in the mill and into the rotary table, got it all centred and tightened the bolts.  After that the rest was easy!
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.54.38.jpg"/>](http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.54.38.jpg)
+<a href="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.54.38.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-10-21.54.38.jpg"/></a>
 
 For next time, the formula for making these things is as follows, using a 3mm end mill:
 

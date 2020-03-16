@@ -6,7 +6,7 @@ draft: False
 ---
 
 
-This is part three in a blog mini-series about the power of Streaming Platforms with Kafka, KSQL and Confluent.&nbsp; Part 1 was an introduction to the problem of converting [github](https://github.com/DanteLore/events_to_models).
+This is part three in a blog mini-series about the power of Streaming Platforms with Kafka, KSQL and Confluent.&nbsp; Part 1 was an introduction to the problem of converting <a href="https://github.com/DanteLore/events_to_models">github</a>.
 <!-- wp:separator -->
 <hr class="wp-block-separator"/>
 <!-- /wp:separator -->
@@ -54,11 +54,11 @@ ksql> select * from takings_by_bar;
 1543264444458 | 3 | 3 | 8496
 1543264450501 | 1 | 1 | 16409
 <!-- /wp:syntaxhighlighter/code -->
-Obviously, the beer festival can't pause every time the organisers want to draw a bar chart, so I added a little dictionary-based cache between Kafka and the front end.&nbsp; You can find [the code for my simple caching web service on Github](https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/reports/SalesServer.scala) as always.
+Obviously, the beer festival can't pause every time the organisers want to draw a bar chart, so I added a little dictionary-based cache between Kafka and the front end.&nbsp; You can find <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/reports/SalesServer.scala">the code for my simple caching web service on Github</a> as always.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/DIY-Kafka-REST-Proxy-1-1024x233.png"/>
 
-The middle-tier is a basic self-contained REST service based on [code here](https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/barchart.html)), which pulls data from the middle tier in JSON format.&nbsp; I'm not recommending this as a production architecture, but it's a nice demo!
+The middle-tier is a basic self-contained REST service based on <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/barchart.html">code here</a>), which pulls data from the middle tier in JSON format.&nbsp; I'm not recommending this as a production architecture, but it's a nice demo!
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-26-21.14.26-1024x555.png"/>
 
@@ -114,7 +114,7 @@ ksql> select * from beer_league_table limit 4;
 <!-- /wp:syntaxhighlighter/code -->
 Here comes the tricky part though.&nbsp; KSQL does have a function called 'TOPK' which will return the top k values for a given column.&nbsp; However, this will only return the counts, not the associated rows.&nbsp; Since it doesn't help us much to show only counts, I'm just going to do the sort on the client side!
 
-You can find the code for&nbsp;[the chart here](https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/top-beers.html).
+You can find the code for&nbsp;<a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/top-beers.html">the chart here</a>.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-27-08.15.08-1024x694.png"/>
 

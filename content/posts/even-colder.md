@@ -11,6 +11,6 @@ Firstly, thanks to the Lovely Lorna for some more excellent pedal pumping.  Bled
 
 I also spent some time yesterday taking off the front suspension.  I worked out that it would be easier to patch the front <span>dumbiron</span> without the spring on, so decided to take the lot off and refurbish both springs as I did at the back.
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6961-713107.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6961-713111.JPG)<span style="font-size:85%;">Speed demon</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6961-713111.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6961-713107.JPG"/></a><span style="font-size:85%;">Speed demon</span>
 
 So, that's a couple of niggles sorted and some prep done for the big welding jobs.  Other than the welding, all I need to do now is get some new spark plugs to get it firing on all four cylinders again, split and grease the springs and refit the front suspension.  Just hope the weather warms up a bit!

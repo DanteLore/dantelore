@@ -5,19 +5,19 @@ date: 2016-06-15T12:51:36
 draft: False
 ---
 
-You can find the code for this article on my github: [https://github.com/DanteLore/national-rail](https://github.com/DanteLore/national-rail).
+You can find the code for this article on my github: <a href="https://github.com/DanteLore/national-rail">https://github.com/DanteLore/national-rail</a>.
 
-Having found myself time-wealthy for a couple of weeks I've been playing around with some open data sets. One of which is the [National Rail SOAP API](http://www.nationalrail.co.uk/100296.aspx). It's not a new dataset, I think it's been around for a decade or so, but it seemed like a sensible thing for me to play with as I'll be on trains a lot more when I start selling my time to a new employer next month!
+Having found myself time-wealthy for a couple of weeks I've been playing around with some open data sets. One of which is the <a href="http://www.nationalrail.co.uk/100296.aspx">National Rail SOAP API</a>. It's not a new dataset, I think it's been around for a decade or so, but it seemed like a sensible thing for me to play with as I'll be on trains a lot more when I start selling my time to a new employer next month!
 
 I live about a mile away from the local station (Thatcham) so it only takes a few minutes to get there. If a train is delayed or cancelled I'd like to know so I can have another coffee. So what I need is a live departures board, for my local station, in my house. Something like this:
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/departures.png"/>](http://logicalgenetics.com/train-departure-board/departures/)
+<a href="http://logicalgenetics.com/train-departure-board/departures/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/departures.png"/></a>
 
 The UI is web based - using AngularJS again. Sadly though, the cross origin nonsense means I can't make the soap calls directly from the web client, I need a back-end to gather and store the data for use on the UI. I used Python for this because that gives me the option to (easily) run it on a Raspberry Pi, reducing power and space costs as well as noise. Python's library support is stunning, and this is another great reason to use it for small "hacks" like this one.
 
 ## SOAPing Up
 
-SOAP is horrible. It's old, it's heavy, it's complex and worst of all it's XML based. This isn't a huge handicap though, as we can hit a SOAP service using the [requests HTTP library](http://docs.python-requests.org/en/master/) - simply sending a POST with some XML like so:
+SOAP is horrible. It's old, it's heavy, it's complex and worst of all it's XML based. This isn't a huge handicap though, as we can hit a SOAP service using the <a href="http://docs.python-requests.org/en/master/">requests HTTP library</a> - simply sending a POST with some XML like so:
 [sourcecode lang="python"]
 import requests
 import xmltodict
@@ -75,13 +75,13 @@ def fetch_trains(url, key, crs):
         }
 [/sourcecode]
 
-So, I take a pre-formatted XML request, add the key and station code then POST it to the API URL. Easy. The result comes back in XML which can be parsed very easily using the [Postman ](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)to test the calls before translating to Python (and if you're lazy, Postman will even write the code for you!).
+So, I take a pre-formatted XML request, add the key and station code then POST it to the API URL. Easy. The result comes back in XML which can be parsed very easily using the <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en">Postman </a>to test the calls before translating to Python (and if you're lazy, Postman will even write the code for you!).
 
-The Python script takes the data its gathered and stores it in an SQLite database. I'm not going to show the code because it's all in [github](https://github.com/DanteLore/national-rail) anyway.
+The Python script takes the data its gathered and stores it in an SQLite database. I'm not going to show the code because it's all in <a href="https://github.com/DanteLore/national-rail">github</a> anyway.
 
 ## Having a REST
 
-So the data is all in a DB, now it needs to be made available to the Javascript client somehow.  To do this I created a simple REST service using the excellent [microservice](http://martinfowler.com/articles/microservices.html) frameworks I love to use. Here's all the code you need to serve up data via REST:
+So the data is all in a DB, now it needs to be made available to the Javascript client somehow.  To do this I created a simple REST service using the excellent <a href="http://martinfowler.com/articles/microservices.html">microservice</a> frameworks I love to use. Here's all the code you need to serve up data via REST:
 [sourcecode lang="python"]
 import argparse
 import sqlite3
@@ -105,11 +105,11 @@ if __name__ == '__main__':
 
 ## Front End
 
-The front end is a very simple Angular JS app. Not much point showing the code here (see [Bootswatch](https://bootswatch.com/).
+The front end is a very simple Angular JS app. Not much point showing the code here (see <a href="https://bootswatch.com/">Bootswatch</a>.
 
 The design is based on a real life station departures board like this:
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/departures-750.jpg"/>](http://logicalgenetics.com/train-departure-board/departures-750/)
+<a href="http://logicalgenetics.com/train-departure-board/departures-750/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/departures-750.jpg"/></a>
 
 All in all the project took me a little over a day. A leisurely day with many interruptions from my daughters! Feel free to pull the code down and play with it - let me know what you do.
 
-[<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/2016-06-14-11.32.01.jpg"/>](http://logicalgenetics.com/train-departure-board/2016-06-14-11-32-01/)
+<a href="http://logicalgenetics.com/train-departure-board/2016-06-14-11-32-01/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/2016-06-14-11.32.01.jpg"/></a>

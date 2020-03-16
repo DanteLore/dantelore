@@ -7,7 +7,7 @@ draft: False
 
 Well, I expected a fail and a <span>fail's</span> what I got!
 
-Have to say, before I say anything else, that [<span>LRSeries</span> ](http://www.lrseries.com)were also excellent - going out of their way to ship my emergency order of replacements within two hours of me placing the order!
+Have to say, before I say anything else, that <a href="http://www.lrseries.com"><span>LRSeries</span> </a>were also excellent - going out of their way to ship my emergency order of replacements within two hours of me placing the order!
 
 Anyway, let's not get carried away just yet, there's a long way to go before The Duke is back on the road.
 

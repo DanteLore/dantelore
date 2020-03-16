@@ -6,9 +6,9 @@ draft: False
 ---
 
 
-This is part two of a mini series.  You can find part one here: [Face Clustering with Python](http://logicalgenetics.com/face-clustering-with-python/).
+This is part two of a mini series.  You can find part one here: <a href="http://logicalgenetics.com/face-clustering-with-python/">Face Clustering with Python</a>.
 
-I coded my first neural network in 1998 or so... *literally* last century.  I published [my first paper](https://ieeexplore.ieee.org/document/1004548/) on the subject in 2002 in a proper peer-reviewed publication and got a free trip to Hawaii for my troubles.  Then, a few years later, after a couple more papers, I gave up my doctorate and went to work in industry.  Maybe I'm more engineer than scientist.  Maybe I prefer building stuff than theorising about stuff.  Maybe...  anyway...
+I coded my first neural network in 1998 or so... *literally* last century.  I published <a href="https://ieeexplore.ieee.org/document/1004548/">my first paper</a> on the subject in 2002 in a proper peer-reviewed publication and got a free trip to Hawaii for my troubles.  Then, a few years later, after a couple more papers, I gave up my doctorate and went to work in industry.  Maybe I'm more engineer than scientist.  Maybe I prefer building stuff than theorising about stuff.  Maybe...  anyway...
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-15-13.11.17-1.jpg"/>
 
@@ -32,7 +32,7 @@ It turns out that there are several, freely available, pre-trained neural nets a
 
 ## Clustering with Neural Embeddings
 
-Yet again, using Python and the work of chap called [face_recognition](https://github.com/ageitgey/face_recognition) library wraps a pre-trained face recognition network.  Here's the sum total of the code I had to write to use it:
+Yet again, using Python and the work of chap called <a href="https://github.com/ageitgey/face_recognition">face_recognition</a> library wraps a pre-trained face recognition network.  Here's the sum total of the code I had to write to use it:
 
 ```
 import face_recognition
@@ -77,7 +77,7 @@ So is k=5 *worse* than k=4?  Did the "cluster of strangers" plan fail?  Well, 
 
 With a lot of machine learning algorithms, you need to think about whether you care more about False Positives or False Negatives.  Depending on the use case, you might need to say "I am *certain* that this is a photo of Dan" or alternatively "these are *all* the photos I *think* contain Dan".
 
-My clustering attempt with k=5 lowered my false positive rate, increasing my [*recall*](https://en.wikipedia.org/wiki/Precision_and_recall#Recall).  That is, the first four clusters were now almost 100% correct: the rate of *false positives* was low.  The 5th cluster, however, contained a mixture of strangers (true negatives - a good thing) and family members (false negatives - a bad thing).  If I wanted to be *sure* that every photo is who I think it is, I might have been happy with this.
+My clustering attempt with k=5 lowered my false positive rate, increasing my <a href="https://en.wikipedia.org/wiki/Precision_and_recall#Recall">*recall*</a>.  That is, the first four clusters were now almost 100% correct: the rate of *false positives* was low.  The 5th cluster, however, contained a mixture of strangers (true negatives - a good thing) and family members (false negatives - a bad thing).  If I wanted to be *sure* that every photo is who I think it is, I might have been happy with this.
 
 In the k=4 example, the *recall* was higher - there were more photos of each of us in our respective clusters, but the number of false positives was also higher - the *precision* was lower.  If I was searching CCTV for potential sightings of a master criminal, I might well opt for this alternative as it increases the chances of finding who I'm looking for and I could easily filter the false negatives manually.
 

@@ -11,7 +11,7 @@ After some weeks of planning, research and wire tracing I actually got the crimp
 
 Managed to get all the exterior lights working, with the exception of the brake lights.  Tried to investigate the brake switch but it has been raining pretty heavily so I just ended up cold, wet and miserable.  Didn't find the switch!  I'll have a look at the parts catalogue tomorrow and have another go when the rain stops.  Sad news about the headlights too - they are badly corroded and will probably need to be replaced.  The reflectors are rusty (an MOT fail) and there is a very bad earth between bulb and lamp housing (no better after a wire brushing and attack with a file), so one light is always dim.
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6695-772308.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6695-772803.JPG)<span style="font-size:85%;">Lookin' good!</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6695-772803.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6695-772308.JPG"/></a><span style="font-size:85%;">Lookin' good!</span>
 
 After all the hard work was done, the clothes in the washer, the lamb shanks in my belly and I'd had a shower, I got myself on eBay and spend £80 on parts for the military lighting panel.  Managed to get a hazard switch, brake test switch, 6-way light switch, a hazard unit, the dash panel itself and a spare relay for my money.  Not bad at all, but I don't think the sellers got a bad deal either.  Let's just hope it all works!
 

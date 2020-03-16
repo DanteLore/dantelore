@@ -11,7 +11,7 @@ I'm quite pleased with the outcome as it does not stop me swapping back to a sta
 
 First job was to come up with a way to keep the motor central in it's hole.  The 24v motor has a slightly smaller diameter than the Discovery 12v version, so it needs something to help keep it centred.  Using first the lathe, then a hand file and sand paper I made a very thin ring from an offcut of aluminium plate.  I cut the ring to give it a tiny bit of expansion and glued it in place over the starter motor mounting flange as shown in the photo below.
 
-[<img src="https://lh3.googleusercontent.com/-Mn0fGZmOWig/TXujdOJLYBI/AAAAAAAACQg/L5Q6gm5rF8w/s320/IMG_5670.JPG"/>](https://lh3.googleusercontent.com/-Mn0fGZmOWig/TXujdOJLYBI/AAAAAAAACQg/L5Q6gm5rF8w/s1600/IMG_5670.JPG)<span style="font-size: x-small;"> As above but with the starter gear engaged.</span>
+<a href="https://lh3.googleusercontent.com/-Mn0fGZmOWig/TXujdOJLYBI/AAAAAAAACQg/L5Q6gm5rF8w/s1600/IMG_5670.JPG"><img src="https://lh3.googleusercontent.com/-Mn0fGZmOWig/TXujdOJLYBI/AAAAAAAACQg/L5Q6gm5rF8w/s320/IMG_5670.JPG"/></a><span style="font-size: x-small;"> As above but with the starter gear engaged.</span>
 I was worried that the starter engages from the back rather than the front, but this works fine.  The Series III flywheel has no tapering on the teeth and relies on the starter gear's tapers for a smooth engagement, so there should be no issues with the TDi flywheel's untapered teeth.
 
 Tested it by hand on the 200TDi and it works like a charm.  Not tried it under power yet, but I see no reason why it wouldn't work.  Fingers crossed!

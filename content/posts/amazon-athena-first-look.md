@@ -11,7 +11,7 @@ Amazon recently launched Athena - their answer to Google's Big Query. It's basic
 
 The barrier to entry is very low. Upload the data files (CSV, Parquet and JSON are supported, amongst others), define a table, run a query. All this is done using a simple query editor.
 # Quick "Hello World"
-To test Athena I uploaded some Parquet files, containing data from the [open house price dataset](http://prod.publicdata.landregistry.gov.uk.s3-website-eu-west-1.amazonaws.com/pp-complete.csv) to an&nbsp;S3 bucket (I had wanted to load the CSV files "as is" but due to limitations in the CSV reader I couldn't). I then declared a table like so:
+To test Athena I uploaded some Parquet files, containing data from the <a href="http://prod.publicdata.landregistry.gov.uk.s3-website-eu-west-1.amazonaws.com/pp-complete.csv">open house price dataset</a> to an&nbsp;S3 bucket (I had wanted to load the CSV files "as is" but due to limitations in the CSV reader I couldn't). I then declared a table like so:
 
 [sourcecode lang="sql"]CREATE EXTERNAL TABLE IF NOT EXISTS house_prices.price_paid (
 `id` string,

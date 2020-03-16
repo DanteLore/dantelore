@@ -9,4 +9,4 @@ Lorna came outside to help me bleed the brakes again tonight.  A few more bubble
 
 So clearly something is wrong.  But what?  My adjusters are wound in tightly and there are no leaks.  After much searching on the <span>Internet</span> I found a possible <span>explanation</span>...
 
-[<img src="http://danandtheduke.co.uk/uploaded_images/IMG_6723-740595.JPG"/>](http://danandtheduke.co.uk/uploaded_images/IMG_6723-740600.JPG)After a little digging through the millions of photos in my "Duke" directory, I found a photo which shows that the pads on the other side are the right way round.  Less work to do but possibly proof that this isn't the only cause of the problem.  Watch this space!
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_6723-740600.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_6723-740595.JPG"/></a>After a little digging through the millions of photos in my "Duke" directory, I found a photo which shows that the pads on the other side are the right way round.  Less work to do but possibly proof that this isn't the only cause of the problem.  Watch this space!

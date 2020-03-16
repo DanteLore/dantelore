@@ -7,7 +7,7 @@ draft: False
 
 Found this very useful website which documents the MOT process in detail.
 
-[http://www.motuk.co.uk/manual/contents.htm](http://www.motuk.co.uk/manual/contents.htm)
+<a href="http://www.motuk.co.uk/manual/contents.htm">http://www.motuk.co.uk/manual/contents.htm</a>
 
 I think I may employ an impartial, private MOT tester (beer fueled mate with printouts from the website) to double check everything for me as I go!
 
