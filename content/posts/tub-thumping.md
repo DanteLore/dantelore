@@ -1,9 +1,12 @@
 
 ---
 title: "Tub Thumping"
-date: 2009-08-04T21:40:00
-draft: False
+
+date: "2009-08-04T21:40:00"
+
+featured_image: ""
 ---
+
 
 Ron popped round this evening and helped lift the tub on.  I have a Land Rover shaped Land Rover again!  Woo!
 

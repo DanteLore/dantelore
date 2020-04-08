@@ -1,9 +1,12 @@
 
 ---
 title: "A Message from DoRIS"
-date: 2009-02-17T09:37:00
-draft: False
+
+date: "2009-02-17T09:37:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/hilton-735809.jpg"
 ---
+
 
 <span style="font-size:100%;">I'd almost given up hope of hearing anything from the RAF museum in response to my history search request, but today I got an email from Peter Elliott, the <span style="font-style: italic;">Senior Keeper</span> in the Department of Research & Information Services. He very kindly attached a scan of The Duke's record card.
 

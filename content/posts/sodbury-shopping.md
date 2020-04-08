@@ -1,9 +1,12 @@
 
 ---
 title: "Sodbury Shopping"
-date: 2009-05-18T22:23:00
-draft: False
+
+date: "2009-05-18T22:23:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_9328-771967.jpg"
 ---
+
 
 This Sunday, Doctor Johnson and myself drove down to <span>Beaulieu</span> for the <span>Sodbury</span> <span>Sortout</span>.  It used to be a lot closer, on the <span>Newbury</span> Showground, but it wasn't a terrible journey down to the New Forest.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Circular Polarisation the Easy Way"
-date: 2012-12-19T21:38:58
-draft: False
+
+date: "2012-12-19T21:38:58"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7613.jpg"
 ---
+
 
 Antennas?  Antennae?  I'm not an expert on pluralisation, but I know how to <a href="http://grammarist.com/usage/antennae-antennas/">search the internet</a>.  Seems English authors don't differentiate between metallic apparatus and sensory appendages, so antennae it is.
 

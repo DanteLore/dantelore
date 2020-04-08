@@ -1,9 +1,12 @@
 
 ---
 title: "Frozen in Carbonite"
-date: 2012-10-02T09:34:52
-draft: False
+
+date: "2012-10-02T09:34:52"
+
+featured_image: "http://logicalgenetics.com/assorted/upload/tn_IMG_7008.jpg"
 ---
+
 
 Wooo!  My parcel of carbon fibre bits arrived from HobbyKing yesterday so I shot out to the garage straight after dinner to start playing.
 

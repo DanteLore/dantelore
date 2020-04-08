@@ -1,9 +1,12 @@
 
 ---
 title: "Detective Work"
-date: 2009-01-06T18:04:00
-draft: False
+
+date: "2009-01-06T18:04:00"
+
+featured_image: ""
 ---
+
 
 The quest to find out about The Duke's history makes for an interesting alternative to going outside when it's below freezing.   I got the log book through a few days ago, but it wasn't 'til today that I actually thought to look who the previous keeper was.
 

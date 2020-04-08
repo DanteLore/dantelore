@@ -1,11 +1,14 @@
 
 ---
 title: "Mood Bot - a Serverless Slack Integration"
-date: 2017-05-04T08:27:00
-draft: False
+
+date: "2017-05-04T08:27:00"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2017/04/Screenshot-2017-05-03-12.20.48.jpg"
 ---
 
-<blockquote><a href="https://github.com/DanteLore/mood-bot"><strong>Pull me on GitHub!</strong></a></blockquote>
+
+<blockquote><a href="https://github.com/DanteLore/mood-bot">**Pull me on GitHub!**</a></blockquote>
 # Mood Bot
 
 So it's been a tradition in my office to use Slack to gauge the team's mood once a week. Previously our PM would post a message asking for feedback and people would add a reaction to show how they were feeling. This worked fine, though there were a couple of issues: firstly it was pretty hard to interpret the weird collection of party parrots and doges, and secondly people tend to follow the herd when they can see how others have reacted.
@@ -144,10 +147,10 @@ function processEvent(slackMessage, callback) {
     }
 };
 ```
-Setting up the rule to trigger the event is pretty simple. Log into the AWS console, select CloudWatch and choose <strong>Events -> Rules</strong> from the menu on the left. You can specify when the rule will run using a crontab line.  I used...
+Setting up the rule to trigger the event is pretty simple. Log into the AWS console, select CloudWatch and choose **Events -> Rules** from the menu on the left. You can specify when the rule will run using a crontab line.  I used...
 
 ```
-<strong>0 09 ? * WED *</strong>
+**0 09 ? * WED ***
 ```
 
 Which will run at 9am (GMT) every Wednesday.  All this is set up via a reasonably clunky web interface!
@@ -236,7 +239,7 @@ exports.handler = function(event, context, callback) {
 };
 ```
 ### Setting up the API Gateway (The Extra Tricky Bit)
-Setting up the API Gateway should be simple enough - you add a new <strong>API</strong> then a new <strong>resource</strong> then a new POST <strong>method</strong>. Then configure the method to forward requests to the Lambda function you just created. *However*, there are a couple of issues.
+Setting up the API Gateway should be simple enough - you add a new **API** then a new **resource** then a new POST **method**. Then configure the method to forward requests to the Lambda function you just created. *However*, there are a couple of issues.
 
 Firstly, you need to enable cross site access (CORS) which is easy enough - you just select "Enable CORS" from the "Actions" dropdown. This will open your method up to calls from other sites.
 
@@ -244,7 +247,7 @@ The second and far more infuriating issue is that Slack's Interactive Buttons s
 
 https://gist.github.com/willdages/dcac226b8d482b9dc105e6044a677345
 
-This code needs to be placed into a <strong>Body Mapping Template</strong> for your POST method within the AWS API Gateway UI. The following screenshot hopefully give you enough of a clue on how to set this up.  Now, when Slack sends the malformed (IMHO) POST, the API gateway will reformat it and pass it through to your lambda function as if it were a normal JSON payload.
+This code needs to be placed into a **Body Mapping Template** for your POST method within the AWS API Gateway UI. The following screenshot hopefully give you enough of a clue on how to set this up.  Now, when Slack sends the malformed (IMHO) POST, the API gateway will reformat it and pass it through to your lambda function as if it were a normal JSON payload.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2017/04/Screenshot-2017-04-24-18.45.47.png"/>
 ### Database Setup
@@ -252,7 +255,7 @@ I decided to use DynamoDB - Amazon's "Document Database as a Service" (DDaaS?). 
 
 For this step, just use the web UI to create a new table called "MoodResponses". I used an "id" field as the index.  The lambda creates "id" by concatenating the user ID and current week. This means you automatically limit each user to a single vote per week, which is exactly the functionality I was looking for - more or less for free!
 ### Slack Request URL
-Final step is very simple - use the Slack admin UI for your bot to add the address of your API resource as the target for interactive message callbacks.  Go to the admin page and select <strong>Features -> Interactive Messages</strong> from the panel on the left and paste in the URL of your API Gateway method.
+Final step is very simple - use the Slack admin UI for your bot to add the address of your API resource as the target for interactive message callbacks.  Go to the admin page and select **Features -> Interactive Messages** from the panel on the left and paste in the URL of your API Gateway method.
 # Displaying Results
 Though there are more boxes on the diagram below, this is actually the easiest step by far. We serve up a simple D3js "single page app" direct from S3 as static content. This SPA page calls a GET method on the REST service we created above which in turn calls a Lambda function. The Lambda hits out database, pulls out the results and sends them back as a JSON payload.
 

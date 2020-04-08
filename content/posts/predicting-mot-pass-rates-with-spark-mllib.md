@@ -1,9 +1,12 @@
 
 ---
 title: "Predicting MOT Pass Rates with Spark MLlib"
-date: 2016-06-23T12:13:19
-draft: False
+
+date: "2016-06-23T12:13:19"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/06/mot1.png"
 ---
+
 
 Every car in the UK, once its's three years old, need to have an MOT test annually to prove it's safe to drive. The good people at the DVLA have made a large chunk of the data available as part of the government's push to make more data "open".  You can <a href="https://github.com/DanteLore/mot-data-in-spark">all the code for this article in my GitHub</a>.
 # Visualising the data
@@ -97,7 +100,7 @@ Not sure what else there is to say about the code. Have a read or hit my github 
 # Machine Learning:  Predicting pass rate
 Spark's MLlib codes with all sorts of machine learning algorithms for predicting and classifying (mainly the latter) data.  I looked at decision trees, random forests and neural networks for this.  The idea was to turn some properties of a vehicle such as age, mileage, manufacturer, model, fuel type and so on into a pass/fail prediction.
 
-<strong>It didn't work!</strong> Yes, sorry, that's right, it's not really possible to predict a straight pass or fail.  Even in the worst case, the first-test pass rate for all different classes of car is over 50%. Machine learning techniques being as they are, this means that the simplest solution for any predictive model is simply to predict a pass every time.
+**It didn't work!** Yes, sorry, that's right, it's not really possible to predict a straight pass or fail.  Even in the worst case, the first-test pass rate for all different classes of car is over 50%. Machine learning techniques being as they are, this means that the simplest solution for any predictive model is simply to predict a pass every time.
 
 This happened with all three techniques - neural nets, decision trees and random forests all "learned" to predict a pass every time, giving them a 50-60-ish% accuracy.  Darn it!
 ## Predicting Pass Probability Classes
@@ -105,8 +108,8 @@ So, if you can't predict two classes ("PASS" and "FAIL") maybe its easier to pre
 
 The best results I got were predicting 10 pass rate classes for each decile of probability. This gave me these rather lame results:
 
-<strong>Mean Error:</strong> 1.1532896239958372
-<strong>Precision:</strong> 0.3961880457753499
+**Mean Error:** 1.1532896239958372
+**Precision:** 0.3961880457753499
 
 So the mean error is greater than 1 - i.e. most test data entries are classified *over one class away* from their true class.  The precision shows only 40% of samples being predicted correctly.  Pants.
 

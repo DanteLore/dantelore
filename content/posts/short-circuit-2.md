@@ -1,9 +1,12 @@
 
 ---
 title: "Short Circuit 2"
-date: 2009-03-08T22:43:00
-draft: False
+
+date: "2009-03-08T22:43:00"
+
+featured_image: ""
 ---
+
 
 Found the cause of the short in the tail lights today.  The connection for the number plate lamp wasn't insulated properly and was touching the floor of the <span>cubby</span> box.  The damage that had been done was pretty shocking - behind the dash the wire just got hot, but towards the back the insulation was totally burned away.
 

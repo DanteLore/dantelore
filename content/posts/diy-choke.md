@@ -1,9 +1,12 @@
 
 ---
 title: "DIY Choke"
-date: 2010-11-27T18:18:00
-draft: False
+
+date: "2010-11-27T18:18:00"
+
+featured_image: ""
 ---
+
 
 The Duke's choke broke a few weeks ago and, idiot that I am, I managed to order the wrong part to replace it.  This left me with two options: return the part and get it exchanged for the right one or make a choke myself.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Slippery Springs"
-date: 2009-04-29T19:57:00
-draft: False
+
+date: "2009-04-29T19:57:00"
+
+featured_image: ""
 ---
+
 
 I haven't finished yet, but this leaf spring refurbishment job is taking a very very long time.  One spring is more or less done - pending a good coat of <span><span>Hammerite</span></span>.  Split the other one <span>apart</span> tonight, though it will take at least another week to get it finished.  Then there's the front ones to worry about!
 

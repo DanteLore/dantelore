@@ -1,9 +1,12 @@
 
 ---
 title: "The Duke delivers a lathe"
-date: 2010-08-07T18:53:00
-draft: False
+
+date: "2010-08-07T18:53:00"
+
+featured_image: ""
 ---
+
 
 Tom decided he doesn't like his billion quid's worth of machine tools, so they're coming to The Duke's new house for some kind of permanent loan arrangement. 
 

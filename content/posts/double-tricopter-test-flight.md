@@ -1,9 +1,12 @@
 
 ---
 title: "Double Tricopter Test Flight"
-date: 2012-09-17T10:37:55
-draft: False
+
+date: "2012-09-17T10:37:55"
+
+featured_image: "http://logicalgenetics.com/assorted/upload/tn_IMG_6706.jpg"
 ---
+
 
 So what happens if you take two Tricopters and bolt all the bits together?  This week I extended the legs of my old frame and made a six-motor tricopter.
 

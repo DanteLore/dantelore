@@ -1,9 +1,12 @@
 
 ---
 title: "Fuel Senders"
-date: 2009-03-07T17:10:00
-draft: False
+
+date: "2009-03-07T17:10:00"
+
+featured_image: ""
 ---
+
 
 This week I decided to drop the voltage for the gauges down to 12v. Buying all the 24v stuff is expensive and since I got some gauges with the new dash, I've got some of the stuff already.  My mind was further made up when I found that the 30+ year old 24v fuel gauge I bought a few weeks ago was knackered.  So I sent that back, ordered some 12v fuel senders (£25 or so) and have got my hands on a 24v-12v dropper via the land rover forums (£10ish).
 

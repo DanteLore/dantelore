@@ -1,9 +1,12 @@
 
 ---
 title: "Double Tricopter Failure and Flight of the Firegoat"
-date: 2012-09-26T13:05:07
-draft: False
+
+date: "2012-09-26T13:05:07"
+
+featured_image: ""
 ---
+
 
 Popped to the Green last night to test out the 6-way tricopter from my last post.  Something was horribly wrong with the control system and after the second massive crash an arm snapped off.  I doubt I'll bother to rebuild the stupid thing!
 

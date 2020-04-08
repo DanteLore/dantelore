@@ -1,9 +1,12 @@
 
 ---
 title: "Oil FIlter Plugs"
-date: 2011-05-10T21:21:00
-draft: False
+
+date: "2011-05-10T21:21:00"
+
+featured_image: ""
 ---
+
 
 The 200TDi engine has an oil cooler which sits next to the radiator and is connected to the oil filter housing by a couple of flexible pipes.  The oil cooler is needed because the turbo allows a large amount of heat from the exhaust manifold to be transferred into the oil which needs to be lost somehow (the heat, I mean, not the oil!).  Since I'm fitting the TDi engine in non-turbo form I won't need the oil cooler (or even a fan for that matter!) so the thermostat in the oil filter housing needs to be removed and the pipe connections blanked off. 
 

@@ -19,11 +19,16 @@ disqusShortname = "spf13"
       name = "Dan Taylor"
       description = "Big Data, amateur welding, improvised woodwork and high adventure!"
       bio = "Still crushin' it"
-      # Enter optionally your twitter account
       twitter = "DanteLore"
-      enableRSS = true
+      enableRSS = false
+
+      home = "home"
+      title404 = ""
+      subtitle404 = ""
 
       # Integrate Javascript files or stylesheets by adding the url to the external assets or by
       # linking local files with their path relative to the static folder, e.g. "css/styles.css"
       customCSS = ["css/styles.css"]
       customJS  = []
+
+      socialIconStyle = "circle"

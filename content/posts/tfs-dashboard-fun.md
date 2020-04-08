@@ -1,9 +1,12 @@
 
 ---
 title: "TFS Dashboard Fun"
-date: 2012-11-24T22:22:13
-draft: False
+
+date: "2012-11-24T22:22:13"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"
 ---
+
 
 It turns out it's really quite simple to get data out of Team Foundation Server.  You can do it using the built-in reporting tools, but that seems a bit boring to me.  After the Big Cheese agreed to buy us a super-sized telly to get some project propaganda into the office I decided to whack out a WPF app.
 
@@ -64,7 +67,7 @@ Get a list of stories waiting for signoff by product managers.
 
 For the charts I used the <a href="http://wpf.codeplex.com/">WPF toolkit</a>.  It's not seen much development in recent years but it's still an easy and quick way to get a chart on screen.  Here are some XAML snippets.  
 
-Here's the chart itself.  Two line series here.  You select the <strong>ItemsSource</strong>: list of objects corresponding to points on the line; <strong>DependentValuePath</strong>: name of a property on the object to use as the value for the Y axis; IndependentValuePath: value/label for the X axis.
+Here's the chart itself.  Two line series here.  You select the **ItemsSource**: list of objects corresponding to points on the line; **DependentValuePath**: name of a property on the object to use as the value for the Y axis; IndependentValuePath: value/label for the X axis.
 
 ```xml
             <chart:Chart x:Name="TheChart" Width="1024" Height="728" Foreground="White" FontWeight="Bold" FontSize="18"

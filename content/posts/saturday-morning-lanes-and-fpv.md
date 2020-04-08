@@ -1,9 +1,12 @@
 
 ---
 title: "Saturday Morning Lanes and FPV"
-date: 2012-11-19T23:49:11
-draft: False
+
+date: "2012-11-19T23:49:11"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/20121117_1147501.jpg"
 ---
+
 
 This weekend Dr J, My Assistant and I were allowed out to play in the Land Rovers for a few hours.  We made it up to some of the Lanes north of Newbury and had fun with axes, sand ladders and 'copters.
 

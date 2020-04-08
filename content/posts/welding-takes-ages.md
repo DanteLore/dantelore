@@ -1,9 +1,12 @@
 
 ---
 title: "Welding takes ages!"
-date: 2009-06-13T18:26:00
-draft: False
+
+date: "2009-06-13T18:26:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0422-719026.jpg"
 ---
+
 
 Good progress on the welding today.  Made a plate for the bottom of the chassis, welded side plates onto each side of that and then welded the whole thing onto the chassis.  Job's a good 'un!  Welding is bloody hard work though - I went through my last three grinding wheels and have a back ache and a white stripe on my face from the welding mask strap.
 

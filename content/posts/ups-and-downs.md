@@ -1,9 +1,12 @@
 
 ---
 title: "Ups and Downs"
-date: 2008-12-21T22:19:00
-draft: False
+
+date: "2008-12-21T22:19:00"
+
+featured_image: ""
 ---
+
 
 Spent a day doing some odd jobs with the assistance of Jason.  I spent most of my time poking about with my multimeter and he did some more satisfying hammer-oriented tasks.  Sadly, I think I found at least four additional problems for the list...
 <ul>* The prop shaft is bent.  I'd be willing to bet some large amount of money that I have <span><span>Witham's</span></span> <span><span>forklifting</span></span> to thank for this.  Maybe not the time we were watching, but the shaft is badly flattened and bent level with the chassis.  Annoying.

@@ -1,15 +1,18 @@
 
 ---
 title: "Changing Project Name in TFS 2012"
-date: 2012-11-21T17:41:19
-draft: False
+
+date: "2012-11-21T17:41:19"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"
 ---
+
 
 Renaming a project in Team Foundation Server 2012. Seems like a sensible thing to do and not something that would take you very much time. Except for the fact that...
 <blockquote>You can't do it!  It can't be done.  Simple as that.</blockquote>
 I tried that answer with my boss but he didn't seem happy.  It's true though; Microsoft are very clear about it.  That doesn't change the fact that we have a project with a confusing name and a very clear need to change that name.  Nor does it change the fact that muggins got lumbered with the job of sorting this mess out.
 
-After some googling and much swearing we finally managed to get it to work.  The solution isn't to rename the project but to create a new one and move all your work items over. Here's how I did it.  <strong>Note that this post only covers work items, not source control</strong>.
+After some googling and much swearing we finally managed to get it to work.  The solution isn't to rename the project but to create a new one and move all your work items over. Here's how I did it.  **Note that this post only covers work items, not source control**.
 <ul>
 	* Create a new team project with the correct name
 
@@ -58,19 +61,19 @@ Run the tool and select "Create New" from the menu on the left.
 
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"/></a>
 
-Choose the template: <strong>C:\Program Files (x86)\Microsoft Team Foundation Server Integration Tools\Configurations\Team Foundation Server\WorkItemTracking.xml</strong>
+Choose the template: **C:\Program Files (x86)\Microsoft Team Foundation Server Integration Tools\Configurations\Team Foundation Server\WorkItemTracking.xml**
 
 In the configuration you need to select a project on the left and on the right. For a one way migration the left is the Source and the right is the Target. Make sure you give the migration a sensible name and choose "One Way Migration". Click the "Configure" button on the left and select your old project. Click the "Configure" button on the right and select your new project.
 
 Click "Save to Database" then click the "Start" button on the menu bar on the left.
 
-<strong>Off it goes...</strong>
+**Off it goes...**
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"/></a>
-<strong>Looking good so far...</strong>
+**Looking good so far...**
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"/></a>
-<strong>Almost there...</strong>
+**Almost there...**
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"/></a>
-<strong>Yes!</strong>
+**Yes!**
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"/></a>
 ## Possible Issue With Permissions
 When I first tried to run a migration I hit a permissions error.  Three warnings popped up as soon as I started the migration, the full text of which is below:

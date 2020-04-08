@@ -1,9 +1,12 @@
 
 ---
 title: "Dashboard and some eBay Fun"
-date: 2009-01-25T23:09:00
-draft: False
+
+date: "2009-01-25T23:09:00"
+
+featured_image: ""
 ---
+
 
 Made some progress this weekend, both in terms of work and some bargains on eBay.
 

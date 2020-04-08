@@ -1,9 +1,12 @@
 
 ---
 title: "The Wobbler"
-date: 2014-02-02T22:35:31
-draft: False
+
+date: "2014-02-02T22:35:31"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2014/02/2014-01-23-21.07.06.jpg"
 ---
+
 
 I made a Wobbler!  A single acting, oscillating air engine, to be precise.  I was inspired by the amazing <a href="http://www.youtube.com/user/mrpete222">Tubalcain</a>, who's YouTube channel has been the source of many top tips and the cause of many late nights.  Though the design of the wobbler wasn't new to me, the old *Mamod* steam engine I had when I was a kid used the same principle.
 

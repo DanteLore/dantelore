@@ -1,9 +1,12 @@
 
 ---
 title: "Even Colder!"
-date: 2010-01-02T11:59:00
-draft: False
+
+date: "2010-01-02T11:59:00"
+
+featured_image: ""
 ---
+
 
 Got up early again today to do a bit more on The Duke before Lorna crawled out of bed.  Along with some work yesterday, I've managed to make some good progress.
 

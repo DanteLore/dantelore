@@ -1,9 +1,12 @@
 
 ---
 title: "Fairey Enough"
-date: 2011-01-12T00:03:00
-draft: False
+
+date: "2011-01-12T00:03:00"
+
+featured_image: ""
 ---
+
 
 Finally found the cash to buy an overdrive!  Got it on eBay for £333.33 - about the going rate.  You'll be interested to know that The Duke himself was £555.55, so this purchase was far from cheap; but it actually comes out somewhere around 5% of the total cost of the restoration, so maybe not so bad.  The 5th gear which the overdrive gives me should also give a pretty good improvement to The Duke's woeful fuel economy and might well pay for itself at some point.  So if you ignore the fact that I could, instead, have spent the money on a five-year-old Mondeo with one careful previous owner, it's money well spent.
 <a href="http://4.bp.blogspot.com/_62oTnOHwOSo/TSzldyqsHaI/AAAAAAAACOU/cyOpIs517WY/s1600/IMG_0980.JPG"><img src="http://4.bp.blogspot.com/_62oTnOHwOSo/TSzldyqsHaI/AAAAAAAACOU/cyOpIs517WY/s320/IMG_0980.JPG"/></a><span style="font-size: x-small;">An overdrive</span>

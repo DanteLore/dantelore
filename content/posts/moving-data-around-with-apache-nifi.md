@@ -1,9 +1,12 @@
 
 ---
 title: "Moving data around with Apache NiFi"
-date: 2016-07-04T17:42:03
-draft: False
+
+date: "2016-07-04T17:42:03"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-01-17.44.54.jpg"
 ---
+
 
 I've been playing around with <a href="https://nifi.apache.org/">Apache NiFi</a> in my spare time (on the train) for the last few days. I'm rather impressed so far so I thought I'd document some of my findings here.
 
@@ -14,7 +17,7 @@ This is not a new concept - Talend have been around for a while doing the same t
 <a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-01-17-44-54/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-01-17.44.54.jpg"/></a>
 
 # Garmin Track Data
-So I don't have access to a huge amount of "big data" on my laptop, and I've done articles on MOT and National Rail data recently, so I decided to use a couple of gigs of Garmin Track data to test NiFi. The track data is a good test as it's XML: exactly the sort of data you <strong>don't</strong> want going into your big data system and therefore exactly the right use-case for NiFi.
+So I don't have access to a huge amount of "big data" on my laptop, and I've done articles on MOT and National Rail data recently, so I decided to use a couple of gigs of Garmin Track data to test NiFi. The track data is a good test as it's XML: exactly the sort of data you **don't** want going into your big data system and therefore exactly the right use-case for NiFi.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <TrainingCenterDatabase xsi:schemaLocation="blah blah blah">

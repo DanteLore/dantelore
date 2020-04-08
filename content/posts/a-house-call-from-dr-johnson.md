@@ -1,9 +1,12 @@
 
 ---
 title: "A House Call from Dr Johnson"
-date: 2009-01-02T21:09:00
-draft: False
+
+date: "2009-01-02T21:09:00"
+
+featured_image: ""
 ---
+
 
 Today we were graced with the presence of the good Doctor Johnson, Consultant Land Rover specialist.  We spent the first hour on a guided tour.  Johnson hadn't seen The Duke since we picked it up from Witham, so some <span style="font-style: italic;">getting to know you</span> time was required.
 

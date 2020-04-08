@@ -1,9 +1,12 @@
 
 ---
 title: "Data Engineering in Real Time"
-date: 2018-11-21T12:36:28
-draft: False
+
+date: "2018-11-21T12:36:28"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Life-Events.jpg"
 ---
+
 
 
 This article is part 1 of a mini-series about events and models.  The following parts are quite technical, with Kafka, Scala and KSQL code, but this part is a bit of an introduction to the problem at hand.  Enjoy!
@@ -14,7 +17,7 @@ This article is part 1 of a mini-series about events and models.  The following 
 
 I'm a Data Engineer by trade.  I've been working with Data Platforms for some years now, usually building tools to ingest and manage data, in a whole heap of industries from supermarket fridges to telecoms networks to insurance websites.  Each industry has it's own unique challenges, be it latency, data volume or data quality  but each use-case has ended up being essentially the same...
 
-<blockquote class="wp-block-quote is-style-large">"The fundamental role of a Data Engineer is to translate *<strong>events</strong>* into *<strong>entities</strong>*"<cite>- Dan Taylor, Today
+<blockquote class="wp-block-quote is-style-large">"The fundamental role of a Data Engineer is to translate ***events*** into ***entities***"<cite>- Dan Taylor, Today
 </cite></blockquote>
 
 Our lives, the universe, *everything* is simply a stream of events. People buy things on websites, make calls on their phones, order beers, click *like* on cat videos.  Everything that makes us who we are can be encapsulated in a time-ordered change log.  These days, many companies are adopting event-driven architectures to handle the endless firehose of stuff that happens.
@@ -57,7 +60,7 @@ To cut a long story short, the front office is now sending events to record ever
 
 The challenge is simple - we need to process a stream of events, ensuring that every change is immediately mapped onto a database entity.  The standard, simple, usual way to do this is to just use a fast database as a cache, thus:
 ```
-```
+
 foreach(event : ProductPurchasedEvent) {
     with(new DatabaseTransaction) {
         customer = cacheDB.selectOrCreateCustomerRecord(event.customerId)
@@ -66,7 +69,7 @@ foreach(event : ProductPurchasedEvent) {
         cacheDB.saveCustomerRecord(customer)
     }
 }
-```
+
 ```
 Every time a customer buys a product, we pull their customer record from the cache database, update the appropriate fields and write the data back.  Since we want to avoid race conditions and respect running queries, this is all done under a transaction.
 

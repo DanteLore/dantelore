@@ -1,9 +1,12 @@
 
 ---
 title: "MultiWii Mission Report"
-date: 2012-12-06T15:17:59
-draft: False
+
+date: "2012-12-06T15:17:59"
+
+featured_image: ""
 ---
+
 
 Just been out to do a quick 20 minute flight with the MultiWii plugged in.  Verdict is overall a good one, though to be honest it flew better with everything but the gyros disabled!
 

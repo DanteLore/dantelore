@@ -1,9 +1,12 @@
 
 ---
 title: "Live Train Route Animation"
-date: 2016-06-16T09:46:06
-draft: False
+
+date: "2016-06-16T09:46:06"
+
+featured_image: "http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
 ---
+
 
 The code for this article is available on my github, here: https://github.com/DanteLore/national-rail
 

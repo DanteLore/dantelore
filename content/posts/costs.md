@@ -1,9 +1,12 @@
 
 ---
 title: "Costs"
-date: 2009-06-24T21:53:00
-draft: False
+
+date: "2009-06-24T21:53:00"
+
+featured_image: ""
 ---
+
 
 During a quiet moment today I made this chart of the costs of the Land Rover project so far.  The various things I've bought are shown by type.  I'm quite pleased that "Tools" is winning, as they'll last me for many years.  "Collection" includes the cost of The Duke and the diesel, trailer rental and whisky bribes needed to get him onto my drive!
 

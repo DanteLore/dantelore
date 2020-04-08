@@ -1,9 +1,12 @@
 
 ---
 title: "MOT done, brakes done in!"
-date: 2011-03-22T19:45:00
-draft: False
+
+date: "2011-03-22T19:45:00"
+
+featured_image: ""
 ---
+
 
 On the way back from the passed MOT this evening I pressed down on the brake in a traffic jam and there was a cracking/popping sound from the rear offside area and the pedal went a bit spongy.  I guess the pipe must have been a bit stressed by all the work going on on the wheel hub over the weekend...
 

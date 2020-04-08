@@ -1,9 +1,12 @@
 
 ---
 title: "Deconstructed gearbox"
-date: 2010-06-24T22:19:00
-draft: False
+
+date: "2010-06-24T22:19:00"
+
+featured_image: ""
 ---
+
 
 Following on from the work on the transfer case, this evening's task was to get the main gearbox to bits.  I was pleased to find that it's a newer fully <span>synchromeshed</span> version, which means it'll be a drop-in replacement for my current box where double clutching is an option rather than a necessity.
 

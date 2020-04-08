@@ -1,9 +1,12 @@
 
 ---
 title: "Garage Webcam"
-date: 2010-08-22T15:07:00
-draft: False
+
+date: "2010-08-22T15:07:00"
+
+featured_image: ""
 ---
+
 
 Just installed a webcam in the garage.  Working out which way to point it is hard work - shame it's not a wide angle one!
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Mapserver Revisited"
-date: 2012-11-08T09:16:38
-draft: False
+
+date: "2012-11-08T09:16:38"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web1.jpg"
 ---
+
 
 Years ago, before they invented Google Earth and Bing Maps and all that, I did some work to show GPS data using Mapserver.  At work yesterday I was forced to revisit it while maintaining an aged and creaking part of our product.  It took a while to get my head back into the right state but once I'd got going I started to enjoy it again.  This time around, because I'm at work, I'm using <a href="http://spatialhorizons.com/2007/05/19/mapserver-1-10-minute-tutorial/">found here</a>.
 

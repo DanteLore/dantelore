@@ -1,9 +1,12 @@
 
 ---
 title: "Chassis Inspection"
-date: 2009-04-01T20:53:00
-draft: False
+
+date: "2009-04-01T20:53:00"
+
+featured_image: ""
 ---
+
 
 Having whipped the tub off last night, tonight I cycled home as fast as my little legs would carry me to check out what was underneath.  Not much worse than I expected really; though there's lots of cleaning up to do under there.
 

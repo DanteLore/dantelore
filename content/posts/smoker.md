@@ -1,9 +1,12 @@
 
 ---
 title: "Smoker"
-date: 2016-06-13T20:29:30
-draft: False
+
+date: "2016-06-13T20:29:30"
+
+featured_image: ""
 ---
+
 
 A few weeks ago I made a smoker out of an exhaust pipe and two old party-balloon helium cylinders. Since then I have smoked many a brisket! Check out the pics.
 

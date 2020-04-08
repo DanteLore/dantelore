@@ -1,9 +1,12 @@
 
 ---
 title: "Greenham Common Sunrise"
-date: 2013-02-15T08:58:59
-draft: False
+
+date: "2013-02-15T08:58:59"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8297.jpg"
 ---
+
 
 Woke up early and met Dr Johnson just after dawn at Greenham Common.  The control tower car park was closed so we stopped in a lay-by with the dog walkers and wandered over to the north taxiway.  The ground is very wet and I am hopelessly out of practice with FPV so I stuck to line-of-sight flying.  Turns out I am also out of practice at that as after about 10 minutes I got disoriented and crashed, snapping a leg off and ending the festivities for the morning.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Engine Start"
-date: 2011-07-31T22:11:00
-draft: False
+
+date: "2011-07-31T22:11:00"
+
+featured_image: ""
 ---
+
 
 Another visit from Dr Johnson this weekend and we got the new engine started!  Not a very complex process really, just took a bit of faffing about with the electrics.
 <table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-mYxFGl7CpLc/TjXL6KYkr8I/AAAAAAAACUw/38tJsVUiZdI/s1600/IMG_0997.JPG"><img src="http://1.bp.blogspot.com/-mYxFGl7CpLc/TjXL6KYkr8I/AAAAAAAACUw/38tJsVUiZdI/s320/IMG_0997.JPG"/></a></td></tr><tr><td style="text-align: center;">Adding some fuel</td></tr></tbody></table>

@@ -1,9 +1,12 @@
 
 ---
 title: "MultiWii Reflash"
-date: 2012-12-06T22:55:30
-draft: False
+
+date: "2012-12-06T22:55:30"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiInProgress.jpg"
 ---
+
 
 Got home from work and started working on this here MultiWii.  This time I finally built up the courage to flash the thing with some new software. <a href="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiInProgress.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiInProgress.jpg"/></a>
 
@@ -11,15 +14,15 @@ It took me ages to find any documentation on the HobbyKing MultiWii 328P 2.1 boa
 
 There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X331045X6.txt">code snippet</a>. These actually contradict each other quite seriously. I can only assume that HobbyKing have put quite a few versions of this board out and the settings are different. Here are the only changes I made...
 <ul>
-	* <strong>TAKE THE PROPS OFF!</strong>
+	* **TAKE THE PROPS OFF!**
 
 	* Download and install the <a href="http://arduino.cc/en/Main/Software">Arduino 1.0+ IDE</a>.
 
 	* Download the<a href="http://code.google.com/p/multiwii/downloads/detail?name=MultiWii_2_1.zip&amp;can=2&amp;q="> MultiWii software</a> from their website.
 
-	* Run the Arduino IDE. Open the file "<strong>\MultiWii_2_1\MultiWii_2_1.ino</strong>" this will cause all of the files in the folder to be opened up in tabs in the IDE.
+	* Run the Arduino IDE. Open the file "**\MultiWii_2_1\MultiWii_2_1.ino**" this will cause all of the files in the folder to be opened up in tabs in the IDE.
 
-	* Add the following lines to <strong>config.h</strong> at the end of the *Combined IMU Boards* section. Leave everything else in this section commented out.
+	* Add the following lines to **config.h** at the end of the *Combined IMU Boards* section. Leave everything else in this section commented out.
 
 </ul>
 
@@ -28,7 +31,7 @@ There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X33
 ```
 
 <ul>
-	* Add this block to <strong>def.h</strong>. I added it around line 924, at the end of all the board specific configuration blocks.
+	* Add this block to **def.h**. I added it around line 924, at the end of all the board specific configuration blocks.
 
 </ul>
 

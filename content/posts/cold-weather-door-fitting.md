@@ -1,9 +1,12 @@
 
 ---
 title: "Cold Weather Door Fitting"
-date: 2009-01-10T22:40:00
-draft: False
+
+date: "2009-01-10T22:40:00"
+
+featured_image: ""
 ---
+
 
 <a href="http://danandtheduke.co.uk/uploaded_images/IMG_5813-751546.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5813-751491.JPG"/></a>It was very very cold today and I had a raging hang over, but I also had new doors tops, locks and electrical stuff for The Duke.  So, I donned various layers of clothes (two coats and long johns included) and headed out into the garden.
 

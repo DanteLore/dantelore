@@ -1,9 +1,12 @@
 
 ---
 title: "Face Clustering II: Neural Networks and K-Means"
-date: 2018-09-14T17:04:37
-draft: False
+
+date: "2018-09-14T17:04:37"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-15-13.11.17-1.jpg"
 ---
+
 
 
 This is part two of a mini series.  You can find part one here: <a href="http://logicalgenetics.com/face-clustering-with-python/">Face Clustering with Python</a>.
@@ -36,8 +39,6 @@ Yet again, using Python and the work of chap called <a href="https://github.com/
 
 
 ```
-
-```
 import face_recognition
 
 class NeuralFeatureDetector:
@@ -54,8 +55,6 @@ class NeuralFeatureDetector:
                 "features": encoding.tolist()
             }
             yield face_data
-```
-
 ```
 
 
@@ -93,7 +92,7 @@ Where k=5 there is in fact only *one* false positive in the whole dataset - thi
 
 ## Why it's Hard to Cluster Strangers
 
-So why didn't K-Means make a cluster of strangers as we expected it to?  The answer to this <strong>is not</strong> that it was unable to differentiate between the Strangers and the Taylors - it actually comes back to the similarity theory that started this whole journey.
+So why didn't K-Means make a cluster of strangers as we expected it to?  The answer to this **is not** that it was unable to differentiate between the Strangers and the Taylors - it actually comes back to the similarity theory that started this whole journey.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/09/2018-09-13-11.53.24-2.jpg"/>
 

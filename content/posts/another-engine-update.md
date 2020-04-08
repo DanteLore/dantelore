@@ -1,9 +1,12 @@
 
 ---
 title: "Another Engine Update"
-date: 2011-03-11T13:49:00
-draft: False
+
+date: "2011-03-11T13:49:00"
+
+featured_image: ""
 ---
+
 
 Spent another few hours in the garage with the 200TDi last night.  The main aim was to find out whether the 24v starter motor from the Series III would fit into the flywheel housing of the 200TDi.  The answer was, sadly, no. 
 <a href="https://lh3.googleusercontent.com/-fhAC8wxSiJE/TXojjSPPBwI/AAAAAAAACQY/jIk9iYXyKzg/s1600/IMG_5654.JPG"><img src="https://lh3.googleusercontent.com/-fhAC8wxSiJE/TXojjSPPBwI/AAAAAAAACQY/jIk9iYXyKzg/s320/IMG_5654.JPG"/></a><span style="font-size: x-small;">Starter motors:  new 12v 200TDi starter on the left and old 24v starter on the right.</span>

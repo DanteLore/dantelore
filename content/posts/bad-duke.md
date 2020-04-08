@@ -1,9 +1,12 @@
 
 ---
 title: "Bad Duke!"
-date: 2009-06-27T16:51:00
-draft: False
+
+date: "2009-06-27T16:51:00"
+
+featured_image: ""
 ---
+
 
 As a software developer, I'm used to things working fine 'til you show them to somebody else.  Computers know when there's a senior bod from your biggest customer watching and do their best to screw things up.  Seems that Land Rovers are the same!
 

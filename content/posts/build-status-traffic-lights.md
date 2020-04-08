@@ -1,9 +1,12 @@
 
 ---
 title: "Build Status Traffic Lights"
-date: 2013-08-29T12:00:58
-draft: False
+
+date: "2013-08-29T12:00:58"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/08/2013-07-21-21.48.54.jpg"
 ---
+
 
 Recently I got the time to knock up a set of build status traffic lights for the office. It's likely that I am the world's greatest fan of <a href="http://en.wikipedia.org/wiki/Continuous_integration">Continuous Integration</a>. I'm not going to bang on about why it's a good idea here, suffice it to say that anyone who isn't rabidly devoted to the greenness of the build will surely pay the price in time.
 

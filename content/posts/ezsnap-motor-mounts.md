@@ -1,9 +1,12 @@
 
 ---
 title: "EZSnap Motor Mounts"
-date: 2013-02-28T12:37:42
-draft: False
+
+date: "2013-02-28T12:37:42"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/02/20130219_074255.jpg"
 ---
+
 
 I really liked my old motor mounts for the Quadrotor. I made them on the lathe out of "Engineering Nylon" which costs very little, is easy to machine and can be found on eBay (search for "nylon round bar"). The motor snuggly fits into a 9mm hole and is fixed with two 3mm hex head set screws from either side. Another 3mm set screw goes through the bottom and bolts the mount onto the frame. To stop the torque from the motor spinning the mount I milled a 10mm wide slot into the bottom which fits over the aluminium frame.
 

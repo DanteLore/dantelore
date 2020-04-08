@@ -1,9 +1,12 @@
 
 ---
 title: "Carbon Copter Cables"
-date: 2012-10-03T22:09:08
-draft: False
+
+date: "2012-10-03T22:09:08"
+
+featured_image: "http://logicalgenetics.com/assorted/upload/tn_IMG_7054.jpg"
 ---
+
 
 Spent a couple of hours in the garage soldering the ESCs onto the new Carbon Copter tonight. Four was more than enough. The soldering is without a doubt the most annoying part of multi-rotor construction and I haven't got a clue how people who make Y6 and Octos don't go stark raving bonkers.
 

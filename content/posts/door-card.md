@@ -1,9 +1,12 @@
 
 ---
 title: "Door Card"
-date: 2013-01-28T14:49:36
-draft: False
+
+date: "2013-01-28T14:49:36"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/01/wpid-20130128_143550.jpg"
 ---
+
 
 <a href="http://logicalgenetics.com/wp-content/uploads/2013/01/wpid-20130128_143550.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/01/wpid-20130128_143550.jpg"/></a>
 

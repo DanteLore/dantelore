@@ -1,9 +1,12 @@
 
 ---
 title: "MOT Party, Track Rod Troubles and a Maddening Manifold"
-date: 2009-10-25T17:10:00
-draft: False
+
+date: "2009-10-25T17:10:00"
+
+featured_image: ""
 ---
+
 
 Lots to report today - some good, some bad as usual!  Not posted much on the blog for a while as I've been doing jobs that are too boring to bother talking about.  Fixing the driver's door, spending £23 on new headlight adjuster screws, fixing the brake light switch and cleaning out the interior are not particularly exciting, so I did them without taking any photos.
 

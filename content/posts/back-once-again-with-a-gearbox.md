@@ -1,9 +1,12 @@
 
 ---
 title: "Back once again... with a gearbox"
-date: 2010-06-24T20:23:00
-draft: False
+
+date: "2010-06-24T20:23:00"
+
+featured_image: ""
 ---
+
 
 
 Well, I haven't posted for quite a while, but that doesn't mean that I haven't been busy.  Since my last post quite a bit has changed.  Not least among the changes being the fact that I am now a married man.  Also, in a week's time we're moving to a new house.

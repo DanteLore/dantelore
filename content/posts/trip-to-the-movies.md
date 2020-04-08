@@ -1,9 +1,12 @@
 
 ---
 title: "A Trip to the Movies"
-date: 2018-11-06T13:54:05
-draft: False
+
+date: "2018-11-06T13:54:05"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/actors1.png"
 ---
+
 
 
 Well... this post isn't really about movies, it's more about how I spent the last week or so brushing up my data manipulation skills using python, matplotlib, numpy, pandas, seaborn and the fantastic Google Colaboratory.  But I *did* learn some interesting things about Stan Lee in the process...

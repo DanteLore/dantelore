@@ -1,9 +1,12 @@
 
 ---
 title: "Welding finished"
-date: 2010-01-17T16:50:00
-draft: False
+
+date: "2010-01-17T16:50:00"
+
+featured_image: ""
 ---
+
 
 I've said this before and I'm sure I'll probably say it again: <span style="font-weight: bold;"> All the welding is now finished!</span>  Not much to say about it really.  <span>Wasn't</span> the simplest bit of welding, but I managed it in the end.
 

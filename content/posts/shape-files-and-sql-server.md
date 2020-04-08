@@ -1,13 +1,16 @@
 
 ---
 title: "Shape Files and SQL Server"
-date: 2013-09-23T13:43:15
-draft: False
+
+date: "2013-09-23T13:43:15"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/09/PolygonsInSqlServer.png"
 ---
+
 
 Over the last couple of weeks I have been doing a lot of work importing polygons into an SQL server database, using them for some data processing tasks and then exporting the results as KML for display.  I thought it'd be worth a post to record how I did it.
 
-Inserting polygons (or any other geometry type) from a shape file to the database can be done with the <strong>ogr2ogr</strong> tool which ships with the gdal libraries (and with Mapserver for Windows).  I knocked up a little batch file to do it:
+Inserting polygons (or any other geometry type) from a shape file to the database can be done with the **ogr2ogr** tool which ships with the gdal libraries (and with Mapserver for Windows).  I knocked up a little batch file to do it:
 ```powershell
 SET InputShapeFile="D:\Dropbox\Data\SingleView\Brazillian Polygons\BRA_adm3.shp"
 

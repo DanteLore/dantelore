@@ -1,9 +1,12 @@
 
 ---
 title: "Quick TeamCity Build Status with AngularJS"
-date: 2016-05-16T20:07:11
-draft: False
+
+date: "2016-05-16T20:07:11"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"
 ---
+
 
 So, this isn't supposed to be the ultimate guide to AngularJS or anything like that - I'm not even using the latest version - this is just some notes on my return to *The World of the View Model* after a couple of years away from WPF. Yeah, that's right, I just said WPF while talking about Javascript development. They may be different technologies from different eras: one may be the last hurrah of bloated fat-client development and the other may be the latest and greatest addition to the achingly-cool, tie dyed hemp tool belt of the Single Page App hipster, but under the hood they're very very similar. Put that in your e-pipe and vape it, designer-bearded UX developers!
 
@@ -19,7 +22,7 @@ There is no sunshine and there are no rainbows in this article. I found javascri
 
 You can't hit a server from a web page unless that server is the server that served the web page you're hitting the server with... unless of course you tell the server you want to hit that the web page you want to hit it with, served from a different server, is allowed to hit it. Got that? Thought so. This is all because of a really logical thing called "Cross Origin Resource Sharing", which you can enable pretty easily in TeamCity as long as you have admin permissions.
 
-Check out <strong>Administration -> Server Administration -> Diagnostics -> Internal Properties</strong>.  From there you should be able to edit, or at least get the location of the <strong>internal.properties</strong> file.  Weirdly, if the file doesn't exist, there is no option to edit, so you have to go and create the file.  Since my TeamCity server is running on a Windows box, I created the new file here: 
+Check out **Administration -> Server Administration -> Diagnostics -> Internal Properties**.  From there you should be able to edit, or at least get the location of the **internal.properties** file.  Weirdly, if the file doesn't exist, there is no option to edit, so you have to go and create the file.  Since my TeamCity server is running on a Windows box, I created the new file here: 
 
 ```C:\ProgramData\JetBrains\TeamCity\config\internal.properties ```
 

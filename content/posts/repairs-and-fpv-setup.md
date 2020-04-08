@@ -1,9 +1,12 @@
 
 ---
 title: "Repairs and FPV Setup"
-date: 2012-10-07T13:55:20
-draft: False
+
+date: "2012-10-07T13:55:20"
+
+featured_image: "http://logicalgenetics.com/assorted/upload/tn_IMG_7130.jpg"
 ---
+
 
 While repairing the crash damage to the Carbon-Copter I decided to do a more scientific investigation into the differences between carbon and aluminium...
 

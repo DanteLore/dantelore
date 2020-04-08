@@ -1,9 +1,12 @@
 
 ---
 title: "Making Me Dizzy"
-date: 2009-01-15T13:51:00
-draft: False
+
+date: "2009-01-15T13:51:00"
+
+featured_image: ""
 ---
+
 
 <span style="font-size:100%;">Just worked out costings for the ignition system parts needed for getting the engine going.  The difference in cost between genuine military bits and a hacked-together system with 12v parts is quite amazing...  </span>
 

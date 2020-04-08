@@ -1,9 +1,12 @@
 
 ---
 title: "Shameless Plug"
-date: 2010-01-11T20:34:00
-draft: False
+
+date: "2010-01-11T20:34:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/plugsofasparkynature-757616.jpg"
 ---
+
 
 The new spark plugs I ordered from eBay arrived today and I couldn't resist plugging them in to see if they made a difference.  They did!
 

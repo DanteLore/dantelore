@@ -1,9 +1,12 @@
 
 ---
 title: "Well travelled or just plain old?"
-date: 2016-10-04T17:22:12
-draft: False
+
+date: "2016-10-04T17:22:12"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/10/144-150x150.jpg"
 ---
+
 
 A friend of mine has always said that young cars with high mileage are better than old cars with low mileage. The theory being that company cars, which have spent their time cruising on the motorways, have had a much easier life than their stay-at-home cousins who've done short hops around town and sat on their driveways seizing up.
 
@@ -26,19 +29,19 @@ So should we all be buying a four-year-old car with 180k miles on the clock? Wel
 That last chart shows the same heat-matrix view, but to the full extents of the data. There are some interesting facts hidden in that chart... but I'll leave them as an exercise for the reader!<img class="aligncenter size-thumbnail wp-image-1192" src="http://logicalgenetics.com/wp-content/uploads/2016/10/144-150x150.jpg" alt="144" width="150" height="150">
 ## UPDATE: Proper Stats:
 So it turns out that calculating correlation and covariance with Spark is pretty easy. Here's the results and the code:
-<blockquote><strong>For cars < 20 years and < 250,000 miles</strong>
-cov(testMileage, pass) =<strong> -3615.011</strong>
-corr(testMileage, pass) = <strong>-0.195</strong>
-cov(age, pass) = <strong>-0.401</strong>
-corr(age, pass) =<strong> -0.235</strong>
-<strong>For all data</strong>
-cov(testMileage, pass) =<strong> -3680.0456</strong>
-corr(testMileage, pass) =<strong> -0.177</strong>
-cov(age, pass) = <strong>-0.383</strong>
-corr(age, pass) = <strong>-0.152</strong></blockquote>
-Looking at cars in the "normal" range (i.e. less than 20 years old and less than 250k miles) there's a stronger correlation between age and pass rate than between mileage and pass rate. Interestingly, looking over the full range of the data this relationship is inverted, with mileage being *very slightly* better.  There's little to separate the two as a predictor for pass or fail - not least because age and mileage are largely dependant on each other (with a correlation of <strong>0.277</strong> across all data).
+<blockquote>**For cars < 20 years and < 250,000 miles**
+cov(testMileage, pass) =** -3615.011**
+corr(testMileage, pass) = **-0.195**
+cov(age, pass) = **-0.401**
+corr(age, pass) =** -0.235**
+**For all data**
+cov(testMileage, pass) =** -3680.0456**
+corr(testMileage, pass) =** -0.177**
+cov(age, pass) = **-0.383**
+corr(age, pass) = **-0.152**</blockquote>
+Looking at cars in the "normal" range (i.e. less than 20 years old and less than 250k miles) there's a stronger correlation between age and pass rate than between mileage and pass rate. Interestingly, looking over the full range of the data this relationship is inverted, with mileage being *very slightly* better.  There's little to separate the two as a predictor for pass or fail - not least because age and mileage are largely dependant on each other (with a correlation of **0.277** across all data).
 
-Basic statistical functions are available under <strong>DataFrame.stat</strong>. See the calls hidden in the <strong>println</strong> lines below:
+Basic statistical functions are available under **DataFrame.stat**. See the calls hidden in the **println** lines below:
 ```scala
 it should "calculate covariance and correlation for normal cars" in {
 val motTests = Spark.sqlContext.read.parquet(parquetData).toDF()

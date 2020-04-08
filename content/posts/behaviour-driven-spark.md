@@ -1,9 +1,12 @@
 
 ---
 title: "Behaviour Driven Spark"
-date: 2016-08-08T17:23:14
-draft: False
+
+date: "2016-08-08T17:23:14"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/08/cucumber-300x98.jpg"
 ---
+
 
 Spark is a big deal these days, people are using this for all sorts of exciting data wrangling. There's a huge trend for ease of use within the Spark community and with tools like Apache Zeppelin coming onto the scene the barrier to entry is very low. This is all good stuff: open source projects live and die in the first half an hour of use. New users need to get something cool working quickly or they'll get bored and wander off...
 
@@ -20,7 +23,7 @@ For me, TDD and BDD differ in these two critical ways: BDD tests at the right le
 # Project Setup
 Before we can crack on and write some Cucumber, there is some setup to be done in the project. I am using IntelliJ, but these steps should work for command line SBT also.
 
-First job, get <b>build.sbt</b> set up for Spark and BDD:
+First job, get **build.sbt** set up for Spark and BDD:
 
 ```scala
 name := "spark-bdd-example"
@@ -43,7 +46,7 @@ libraryDependencies ++= Seq(
 )
 
 ```
-For this example I am wrapping Spark up in an object to make it globally available and save me mocking it out "properly". In a production app, where you need tighter control of the options you pass to spark, you might want to mock it out and write a "Given" to spin Spark up. Here's my simple object in <b>Spark.scala</b>:
+For this example I am wrapping Spark up in an object to make it globally available and save me mocking it out "properly". In a production app, where you need tighter control of the options you pass to spark, you might want to mock it out and write a "Given" to spin Spark up. Here's my simple object in **Spark.scala**:
 
 ```scala
 object Spark {
@@ -61,7 +64,7 @@ object Spark {
 }
 
 ```
-If using IntelliJ, like me, you'll also need a test class to run your cucumber. Mine's in <b>Runtests.scala</b>. Right click on this and select "Run tests" from the context menu and it'll run the tests.
+If using IntelliJ, like me, you'll also need a test class to run your cucumber. Mine's in **Runtests.scala**. Right click on this and select "Run tests" from the context menu and it'll run the tests.
 
 ```scala
 @RunWith(classOf[Cucumber])
@@ -69,13 +72,13 @@ class RunTests extends {
 }
 
 ```
-If using the command line, add this line to <b>project/plugins.sbt</b>:
+If using the command line, add this line to **project/plugins.sbt**:
 
 ```scala
 addSbtPlugin("com.waioeka.sbt" % "cucumber-plugin" % "0.0.3")
 
 ```
-And these to <b>build.sbt</b>:
+And these to **build.sbt**:
 
 ```scala
 enablePlugins(CucumberPlugin)
@@ -83,7 +86,7 @@ CucumberPlugin.glue := ""
 
 ```
 # First Very Simple Example
-Here's the first bit of actual cucumber. We're using it for a contrived word-counting example here. The file starts with some furniture, defining the name of the <b>Feature</b> and some information on it's purpose, usually in the format *<b>In order to</b> achieve some business aim, <b>As</b> the user or beneficiary of the feature, <b>I want</b> some feature*.
+Here's the first bit of actual cucumber. We're using it for a contrived word-counting example here. The file starts with some furniture, defining the name of the **Feature** and some information on it's purpose, usually in the format ***In order to** achieve some business aim, **As** the user or beneficiary of the feature, **I want** some feature*.
 
 [code lang="gherkin"]
 Feature: Basic Spark
@@ -97,14 +100,14 @@ Feature: Basic Spark
     Then the number of words is '5'
 [/code]
 
-The rest of the file is devoted to a series of <b>Scenarios</b>, these are the important bits. Each scenario should test a very specific behaviour, there's no limit to the number of scenarios you can define, so take the opportunity to keep them focussed. As well as a descriptive name, each scenario is made of a number of steps. Steps can be <b>Givens</b>, <b>Whens</b> or <b>Thens</b>. 
+The rest of the file is devoted to a series of **Scenarios**, these are the important bits. Each scenario should test a very specific behaviour, there's no limit to the number of scenarios you can define, so take the opportunity to keep them focussed. As well as a descriptive name, each scenario is made of a number of steps. Steps can be **Givens**, **Whens** or **Thens**. 
 
 <ul>
-	* *"<b>Given</b> some precondition*": pre-test setup. Stuff like creating a mock filesystem object, setting up a dummy web server or initialising the Spark context
+	* *"**Given** some precondition*": pre-test setup. Stuff like creating a mock filesystem object, setting up a dummy web server or initialising the Spark context
 
-	* *"<b>When</b> some action*": call the function you're testing; make the REST call, whatever
+	* *"**When** some action*": call the function you're testing; make the REST call, whatever
 
-	* *"<b>Then</b> some test*": test the result is what you expected
+	* *"**Then** some test*": test the result is what you expected
 
 </ul>
 
@@ -123,14 +126,14 @@ class SparkSteps extends ScalaDsl with EN with Matchers {
 
 ```
 ## The Context
-The <b>Context</b> object here is used to store things... any variables needed by the steps. You *could* use private fields on the step classes to achieve this, but you'd quickly encounter problems when you began to define steps over multiple classes. 
+The **Context** object here is used to store things... any variables needed by the steps. You *could* use private fields on the step classes to achieve this, but you'd quickly encounter problems when you began to define steps over multiple classes. 
 ```scala
 object Context {
   var result = 0
 }
 
 ```
-I don't particularly like using a Context object like this, as it relies on having <b>vars</b>, which isn't nice. If you know a better way, please do let me know via the comments box below!
+I don't particularly like using a Context object like this, as it relies on having **vars**, which isn't nice. If you know a better way, please do let me know via the comments box below!
 
 # Data Tables
 So the word counting example above shows how we can do BDD with spark - we pass in some data and check the result. Great! But it's not very *real*. The following example uses Spark DataFrames and Cucumber DataTables to do something a bit more realistic:
@@ -237,7 +240,7 @@ Likewise, you can define a function to compare the output data frame with the "e
 
 ```
 # Coverage Reporting
-There's a <a href="https://github.com/scoverage/sbt-scoverage">great coverage plugin for Scala</a> which can easily be added to the project by adding a single line to <strong>plugins.sbt</strong>:
+There's a <a href="https://github.com/scoverage/sbt-scoverage">great coverage plugin for Scala</a> which can easily be added to the project by adding a single line to **plugins.sbt**:
 ```scala
 logLevel := Level.Warn
 

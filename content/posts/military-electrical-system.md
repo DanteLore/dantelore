@@ -1,9 +1,12 @@
 
 ---
 title: "Military Electrical System"
-date: 2009-01-12T08:55:00
-draft: False
+
+date: "2009-01-12T08:55:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736485.png"
 ---
+
 
 Spent some time yesterday night working out what most of the components actually <span style="font-style: italic;">do</span>.  Here are my findings, along with a new version of the military circuit diagram.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Frosty Brake Replacement"
-date: 2009-12-28T13:56:00
-draft: False
+
+date: "2009-12-28T13:56:00"
+
+featured_image: ""
 ---
+
 
 It's not snowy or rainy at the moment, so I decided to get up extra early this morning (well, 8am) to get a few hours done on The Duke before we go to a wedding later on today. 
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Starting out with MultiWii"
-date: 2012-12-05T12:19:38
-draft: False
+
+date: "2012-12-05T12:19:38"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWii1.png"
 ---
+
 
 Last night I unpacked my new MultiWii controller and plugged it into my PC.  I <a href="http://www.hobbyking.com/hobbyking/store/__27033__MultiWii_328P_Flight_Controller_w_FTDI_DSM2_Port.html">bought it from Hobby King</a> and it comes ready to fly out of the box - configured for an X-quad, which is perfect for my carbon H-copter.
 

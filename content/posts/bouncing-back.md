@@ -1,9 +1,12 @@
 
 ---
 title: "Bouncing Back"
-date: 2009-07-20T22:04:00
-draft: False
+
+date: "2009-07-20T22:04:00"
+
+featured_image: ""
 ---
+
 
 The people who share my office were again confused as I opened a parcel as if it contained the Lost Treasure of Atlantis today, only to find me staring in awe at four 70mm M8 bolts with Allen heads.  Bought from an eBay shop called "Bolt Me Up", they were the vital missing component for the reattachment of the suspension.
 

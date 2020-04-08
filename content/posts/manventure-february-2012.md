@@ -1,9 +1,12 @@
 
 ---
 title: "Manventure - February 2012"
-date: 2012-02-28T22:12:00
-draft: False
+
+date: "2012-02-28T22:12:00"
+
+featured_image: ""
 ---
+
 
 Went away for a couple of days last weekend to Blaenavon in South Wales.  Had a brilliant time and managed to fit in a bit of green laning in West Berkshire on the way there and back.  Here's some pictures and there's a video too.
 

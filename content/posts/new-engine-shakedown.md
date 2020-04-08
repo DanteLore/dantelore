@@ -1,9 +1,12 @@
 
 ---
 title: "New Engine Shakedown"
-date: 2011-03-10T00:16:00
-draft: False
+
+date: "2011-03-10T00:16:00"
+
+featured_image: ""
 ---
+
 
 
 Just a few pics of the new engine.  Thanks to the burgling sons of hookers who took my camera, the photos are all taken on my phone...

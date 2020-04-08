@@ -1,9 +1,12 @@
 
 ---
 title: "Short Circuit"
-date: 2009-03-07T18:08:00
-draft: False
+
+date: "2009-03-07T18:08:00"
+
+featured_image: ""
 ---
+
 
 Turned the electrics on today and was a bit scared to smell burning plastic.  The battery voltage was dipping by 5-6v too - a clear sign that there's a serious short circuit going on.
 

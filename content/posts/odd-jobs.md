@@ -1,9 +1,12 @@
 
 ---
 title: "Odd Jobs"
-date: 2009-10-10T16:52:00
-draft: False
+
+date: "2009-10-10T16:52:00"
+
+featured_image: ""
 ---
+
 
 Did a load of odd jobs today and fancied posting some pictures of my <span>handiwork</span>! The Duke is starting to look much smarter now, with refitted dash, new seats and a fancy spare wheel strap.
 

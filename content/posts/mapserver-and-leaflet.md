@@ -1,9 +1,12 @@
 
 ---
 title: "Mapserver and Leaflet"
-date: 2014-06-18T08:56:55
-draft: False
+
+date: "2014-06-18T08:56:55"
+
+featured_image: "http://{s}.tiles.mapbox.com/v3/genious.igfmnea7/{z}/{x}/{y}.png"
 ---
+
 
 ## Leaflet
 <a href="http://leafletjs.com/">Leaflet</a> is a very simple but incredibly powerful Javascript mapping library that lets you add interactive maps to your website very easily.  Try scrolling and zooming around this one:

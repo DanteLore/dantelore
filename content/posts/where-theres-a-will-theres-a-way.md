@@ -1,9 +1,12 @@
 
 ---
 title: "Where there's a will there's a way!"
-date: 2011-03-12T17:14:00
-draft: False
+
+date: "2011-03-12T17:14:00"
+
+featured_image: ""
 ---
+
 
 In my last post I explained why you can't put a 24v Series III starter motor into a 200TDi engine.  In this post I am going to explain how, regardless of the impossibility factor, I did manage to put the 24v starter from a Series III into a 200TDi.
 

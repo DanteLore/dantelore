@@ -1,9 +1,12 @@
 
 ---
 title: "It's all in the timing"
-date: 2010-10-16T21:48:00
-draft: False
+
+date: "2010-10-16T21:48:00"
+
+featured_image: ""
 ---
+
 
 A bloke on the EMLRA forums had a rotor arm and set of points for the 24v distributor (found on the military 2.286 petrol engine) up for sale.  Seemed like a bargain so I snapped them up and this weekend (with a nasty cold) I fitted them to The Duke.
 

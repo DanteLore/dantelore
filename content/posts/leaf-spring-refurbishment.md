@@ -1,9 +1,12 @@
 
 ---
 title: "Leaf Spring Refurbishment"
-date: 2009-04-02T21:19:00
-draft: False
+
+date: "2009-04-02T21:19:00"
+
+featured_image: ""
 ---
+
 
 The leaf springs on the back of The Duke are rusty as hell, but seem to be in good condition otherwise.  They need some serious TLC.
 

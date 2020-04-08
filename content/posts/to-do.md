@@ -1,9 +1,12 @@
 
 ---
 title: "To Do"
-date: 2009-10-09T14:30:00
-draft: False
+
+date: "2009-10-09T14:30:00"
+
+featured_image: ""
 ---
+
 
 My initial target of September has long passed, but on the plus side, this could be one of the last to-do lists before I take The Duke for his MOT.
 <ul><li><span style="color: rgb(51, 204, 0);">Fit new clutch parts</span> <span style="color: rgb(51, 204, 0);">- DONE</span>

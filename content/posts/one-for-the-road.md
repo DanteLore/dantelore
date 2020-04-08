@@ -1,9 +1,12 @@
 
 ---
 title: "One for the Road"
-date: 2018-12-12T08:06:45
-draft: False
+
+date: "2018-12-12T08:06:45"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival-1024x630.jpg"
 ---
+
 
 
 This is the fourth part of my not-so-mini blog mini-series on Kafka, KSQL and transforming event data into models.
@@ -36,8 +39,6 @@ First job is to load the data, which I'll do with Kafka Connect.  I guess I coul
 Once you have dowloaded, compiled and installed SpoolDir you'll need to create a Source config and post it via REST to start it.  Here's the config I ended up with:
 
 ```javascript
-
-```
 {
 "name": "csv-source-breweries",
 "config": {
@@ -56,15 +57,11 @@ Once you have dowloaded, compiled and installed SpoolDir you'll need to create a
 }
 ```
 
-```
-
 It's quite cool that we can impose a schema on the CSV as it's loaded.  For one thing, it means the data goes into Kafka in AVRO format, which saves us some work.  Secondly, it allows some rudimentary error handling, should rows in the file be weirdly formatted.  However, in a production system, it may make sense to load both good and bad rows and transform/validate them *within Kafka*... more on this later.
 
 Once SpoolDir's up and running (like I said, check the <a href="https://github.com/DanteLore/events_to_models#setting-up-kafka-connect">README</a> for details) you can throw the ```breweries.csv``` file into the input directory and, as if by magic, you have data in the ```breweries``` topic.
 
 ```sql
-
-```
 ksql> create stream brewery_stream with (kafka_topic='breweries', value_format='avro');
 
 ksql> select row, name, state, city from brewery_stream limit 4;
@@ -74,21 +71,15 @@ ksql> select row, name, state, city from brewery_stream limit 4;
 3 | Mike Hess Brewing Company |  CA | San Diego
 ```
 
-```
-
 Now we can create a brewery table over the top of the data using the same tricks as in Part 2.  Note that, because I loaded the CSV data with the 'row' column, we need to rename it to 'id':
 
 ```sql
-
-```
 ksql> create stream brewery_stream_with_key \
 with (kafka_topic='brewery_stream_with_key', value_format='avro') \
 as select row as id, name, state, city from brewery_stream \
 partition by id;
 
 ksql> create table brewery_table with (kafka_topic='brewery_stream_with_key', value_format='avro', key='id');
-```
-
 ```
 
 Now we have the breweries loaded, let's join the breweries data to our beer and sales data and see if we can show the top 10 breweries.  The steps are:  
@@ -100,8 +91,6 @@ Now we have the breweries loaded, let's join the breweries data to our beer and 
 
 
 ```sql
-
-```
 ksql> drop stream live_beer_sales;
 
 ksql> create stream live_beer_sales \
@@ -126,19 +115,15 @@ as select brewery, city, state, sum(price) as sales \
 from live_beer_brewery_sales group by brewery, city, state;
 ```
 
-```
-
 And given that we did all that work in KSQL, it seems only right that I quickly knocked up another web chart to show the winners:
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-29-07.55.20-1024x688.png"/>
 
 ## Handling Dirty Data
 
-<blockquote class="wp-block-quote is-style-default"><strong>BUG REPORT: </strong> The 'breweries.csv' file is manually generated, and as a result contains some invalid rows.  Yesterday a bad row prevented loading of the whole dataset.  In future, bad rows should be filtered and quarantined while good rows continue to be loaded.</blockquote>
+<blockquote class="wp-block-quote is-style-default">**BUG REPORT: ** The 'breweries.csv' file is manually generated, and as a result contains some invalid rows.  Yesterday a bad row prevented loading of the whole dataset.  In future, bad rows should be filtered and quarantined while good rows continue to be loaded.</blockquote>
 
 Having run data engineering teams for a long time, I can assure you that bugs like this are an eternal constant. Machine generated data is great - even when it arrives billions of rows at a time.  Reference data is not so great because it is often touched by unreliable, biological parts of the process.  Here is some bad data I added to the breweries file to simulate some common issues:
-```
-
 ```
 555,Ukiah Brewing Company,Ukiah, CA
 556,Butternuts Beer and Ale,Garrattsville, NY
@@ -149,8 +134,6 @@ Having run data engineering teams for a long time, I can assure you that bugs li
 560,,,
 
 The quick brown fox jumped over the lazy pint
-```
-
 ```
 The last six lines are decidedly dodgy.  Some violate the schema (missing values, wrong column count) and one has an invalid row number: '55nine'; This one wouldn't actually break the schema, because we load the column as a string to use as the Kafka key - so let's say it violates business rules.
 
@@ -167,11 +150,7 @@ With the Kafka Connect ingest solution, the schema violation errors will cause t
 Loading the CSV file is now so simple it's almost embarrassing - we can just use the console producer (though in real life you might still use a basic Kafka Connect job):
 
 ```bash
-
-```
 $ kafka-console-producer --broker-list localhost:9092 --topic raw_brewery_text < breweries.csv
-```
-
 ```
 
 Kafka streams, which we'll use to do the brewery validation task, is a library of functions to make interacting with Kafka easy.  It handles all the semantics of consuming and producing messages for you.  It's horizontally scalable and pretty lightweight.
@@ -179,8 +158,6 @@ Kafka streams, which we'll use to do the brewery validation task, is a library o
 The code can be <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/streams/BreweryCsvProcessorStream.scala">found in full on my github</a> and is pretty concise.  The key bit is the setup of the streams themselves, which is shown below.  If you're going to code a Kafka streams app yourself, pay attention to the implicit serdes (serialiser/deserialisers) which are defined higher up the object definition.  These had me puzzled for hours!  Anyway, the code...
 
 ```scala
-
-```
 // Get the lines
 val builder = new StreamsBuilder()
 val textLines: KStream[String, String] = builder.stream[String, String]("raw_brewery_text")
@@ -203,11 +180,7 @@ streams.cleanUp()
 streams.start()
 ```
 
-```
-
 Once the code has been running for a while and brewery data piped into the input topic, the output is split as follows:
-```
-
 ```
 ksql> select * from brewery_rows_good limit 5;
 1544427745358 | 0 | 0 | NorthGate Brewing | Minneapolis | MN
@@ -226,8 +199,6 @@ Format:STRING
 10/12/18 07:47:03 GMT , NULL , 
 10/12/18 07:47:03 GMT , NULL , The quick brown fox jumped over the lazy pint
 ```
-
-```
 It's easy to imagine how you could create a process for handling these dodgy input rows with Kafka, especially now we know they are isolated from the good rows, which loaded normally.
 
 ## Loading Master Data to a DB
@@ -239,8 +210,6 @@ Sounds like a sensible requirement - except maybe the bit about using MySQL as a
 Kafka Connect can be set up to write to a MySQL database directly from a topic.  This can be done in two modes - for event/timeseries data you can do a pure 'insert' where key clashes are rejected; for reference/master data you can '*upsert*' which will insert or update based on a nominated key.  Here's some example config:
 
 ```javascript
-
-```
 {
   "name": "jdbc_sink_mysql_beers",
   "config": {
@@ -259,8 +228,6 @@ Kafka Connect can be set up to write to a MySQL database directly from a topic. 
 }
 ```
 
-```
-
 Key configuration items to be aware of are:
 
 * ```insert.mode``` - we want to insert new or update existing records
@@ -272,16 +239,10 @@ Key configuration items to be aware of are:
 You can submit and start the job using the confluent CLI:
 
 ```bash
-
-```
 $ confluent load jdbc_sink_mysql_beers -d kafka-to-mysql.json
 ```
 
-```
-
 There's not much to show here, but once the connector is running (submitted as below) then all of a sudden you have a table with magically updating beer data in MySQL.  Check it out:
-```
-
 ```
 mysql> select * from beer_stream_with_key where name like "Pub Beer";
 +------+------------+---------------------+--------+-----+------+------+----------+
@@ -297,8 +258,6 @@ mysql> select count(*) from beer_stream_with_key;
 |     2410 |
 +----------+
 ```
-
-```
 I'm kind of blown away by how easy that was.  Much easier than writing an ETL, right?  It also means that we now have reliable, synchronised master data in the streaming and batch sides of our lambda architecture. Boom!
 
 ## Stock Level Management
@@ -308,18 +267,12 @@ I'm kind of blown away by how easy that was.  Much easier than writing an ETL, r
 This should be pretty simple - we just need a sensible key for the destination table.  A sensible choice is a compound key with timestamp, bar number and beer id.  Here I create a stream with the timestamp available in the message payload (in real life you probably have a better timestamp to use!)
 
 ```sql
-
-```
 ksql> create stream outgoing_sales with (kafka_topic='outgoing_sales', value_format='avro') as select beer_id, bar, price, rowtime as ts from live_sales;
-```
-
 ```
 
 Same idea as above for writing to MySQL.  Here are the config options I changed:
 
 ```javascript
-
-```
 {
   "name": "jdbc_sink_mysql_sales",
   "config": {
@@ -335,13 +288,9 @@ Same idea as above for writing to MySQL.  Here are the config options I changed:
 }
 ```
 
-```
-
 And off we go!  Just to prove that it works, here's an example join to the beer table:
 
 ```sql
-
-```
 mysql> describe outgoing_sales;
 +---------+------------+------+-----+---------+-------+
 | Field   | Type       | Null | Key | Default | Extra |
@@ -371,8 +320,6 @@ limit 5;
 5 rows in set (0.33 sec)
 ```
 
-```
-
 So now we have stock data flowing to the SQL database, which will enable our BI team to build the reports and processes they need there.
 
 ## "Sorry that one's off mate..."
@@ -382,8 +329,6 @@ So now we have stock data flowing to the SQL database, which will enable our BI 
 This last story demonstrates how we can use a traditional relational database as a source of streaming data in Kafka.  Essentially we're just wiring up Kafka Connect the other way round.  The really cool thing here is that this enables us to turn ```update``` statements in the database into change events in Kafka.  Here's the table we're reading from:
 
 ```sql
-
-```
 mysql> describe stock_levels;
 +-----------------+------------+------+-----+-------------------+-----------------------------------------------+
 | Field           | Type       | Null | Key | Default           | Extra                                         |
@@ -396,13 +341,9 @@ mysql> describe stock_levels;
 4 rows in set (0.00 sec)
 ```
 
-```
-
 Note that the table needs auto-generated timestamp columns which Kafka Connect can use to find new or changed rows.  These are then referenced in the Kafka Connect config:
 
 ```javascript
-
-```
 {
   "name": "jdbc_source_mysql_stock_levels",
   "config": {
@@ -421,13 +362,9 @@ Note that the table needs auto-generated timestamp columns which Kafka Connect c
 }
 ```
 
-```
-
 The next bit is hard to show in a blog post, but the following two snippets occurred in parallel.  As I inserted and updated rows in my source table, the changes were pushed to the topic in Kafka, as if by magic!
 
 ```sql
-
-```
 mysql> insert into stock_levels (beer_id, remaining_pints) values ("0", 45);        
 Query OK, 1 row affected (0.01 sec)
 
@@ -438,11 +375,7 @@ mysql> update stock_levels set remaining_pints=44 where beer_id = "0";
 Query OK, 1 row affected (0.07 sec)
 ```
 
-```
-
 The three rows in the stream appeared as I executed the insert and update statements above...
-```
-
 ```
 ksql> create stream stock_levels with (kafka_topic='mysql_stock_levels', value_format='avro');
 
@@ -450,8 +383,6 @@ ksql> select * from stock_levels;
 1544554098590 | null | 0 | 45 | 1544554094000 | 1544554094000
 1544554158522 | null | 1 | 38 | 1544554157000 | 1544554157000
 1544554198579 | null | 0 | 44 | 1544554094000 | 1544554197000
-```
-
 ```
 This is an incredibly neat way to pipe data out of a relational database and into a streaming system.  Unlike traditional backup/restore or periodic table dumping techniques, you get every change, as it happens.  The other good thing is that you don't miss anything - imagine doing an hourly dump of a DB table, you'd miss all updates within each hour except the last - with Kafka Connect you get every single change.
 

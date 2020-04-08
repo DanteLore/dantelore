@@ -1,9 +1,12 @@
 
 ---
 title: "Gearbox Investigation"
-date: 2011-01-13T00:30:00
-draft: False
+
+date: "2011-01-13T00:30:00"
+
+featured_image: ""
 ---
+
 
 This is more of a utility post than something that anyone is going to find massively interesting.  Hopefully you'll like the pictures though.
 

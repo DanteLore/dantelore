@@ -1,9 +1,12 @@
 
 ---
 title: "Controlling a TP-Link Smart Bulb with Python and Requests"
-date: 2017-12-12T08:32:28
-draft: False
+
+date: "2017-12-12T08:32:28"
+
+featured_image: ""
 ---
+
 
 We recently added a new build status indicator in the office, using an excellent TP-Link LB130 Smart Bulb.  Though these bulbs are pretty expensive, they are super-simple to set up and control via a simple REST API.
 

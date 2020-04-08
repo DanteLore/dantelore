@@ -1,9 +1,12 @@
 
 ---
 title: "When Blogs Collide"
-date: 2012-10-13T19:52:12
-draft: False
+
+date: "2012-10-13T19:52:12"
+
+featured_image: ""
 ---
+
 
 Today, logicalgenetics.com and danandtheduke.co.uk merged to make one Super-Blog!  It seemed daft having two websites and two blogs, so I've pulled all the Land Rover posts into the Logical Genetics blog and pointed both addresses right here.  You don't need to change your bookmarks or format your brain - both logicalgenetics.com and danandtheduke.co.uk still work fine.
 

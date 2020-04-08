@@ -1,9 +1,12 @@
 
 ---
 title: "Stuff I made in 2017"
-date: 2017-12-28T11:21:43
-draft: False
+
+date: "2017-12-28T11:21:43"
+
+featured_image: ""
 ---
+
 
 This year has been a year of making - mostly jobs around the house and garden.  It's been great fun and I thought I'd document some of the projects here for posterity.
 

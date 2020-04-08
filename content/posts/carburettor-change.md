@@ -1,9 +1,12 @@
 
 ---
 title: "Carburettor Change"
-date: 2010-12-11T23:24:00
-draft: False
+
+date: "2010-12-11T23:24:00"
+
+featured_image: ""
 ---
+
 
 I got a second hand Weber carburettor off eBay the other day.  I decided I'd give one a go as The Duke's fuel economy remains resolutely stuck around 14MPG.
 Gave it a clean in a bucket of gunk and was thinking of taking is all to bits to see what sort of condition it's in, perhaps cleaning it all out and buying a new set of gaskets before carefully reassembling and fitting.  Then I decided to forget all that and just bung it on the engine and see what happens.  

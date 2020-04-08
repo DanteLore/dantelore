@@ -1,9 +1,12 @@
 
 ---
 title: "Engine Out"
-date: 2011-06-24T20:31:00
-draft: False
+
+date: "2011-06-24T20:31:00"
+
+featured_image: ""
 ---
+
 
 Few more hours of work today and the Petrol Engine is out.  Lots of things to disconnect then some serious hoisting and out it popped.  Also found another connector on the oil cooler and managed to get that off really easily.
 <table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-CLY7uXUrCpc/TgTut16vjDI/AAAAAAAACUA/bP5q-f1nySc/s1600/IMG_0650.JPG"><img src="http://3.bp.blogspot.com/-CLY7uXUrCpc/TgTut16vjDI/AAAAAAAACUA/bP5q-f1nySc/s320/IMG_0650.JPG"/></a></td></tr><tr><td style="text-align: center;">Air filter mounting and oil cooler off.  Almost ready to go.</td></tr></tbody></table>The engine hoist and strap I got off eBay worked brilliantly.  The  annoying thing is that the lifting eye on the back of the engine is  right up against the bulkhead, so getting the shackle on there was a  pain.

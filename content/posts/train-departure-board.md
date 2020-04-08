@@ -1,9 +1,12 @@
 
 ---
 title: "Train Departure Board"
-date: 2016-06-15T12:51:36
-draft: False
+
+date: "2016-06-15T12:51:36"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/06/departures.png"
 ---
+
 
 You can find the code for this article on my github: <a href="https://github.com/DanteLore/national-rail">https://github.com/DanteLore/national-rail</a>.
 

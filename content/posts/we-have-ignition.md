@@ -1,9 +1,12 @@
 
 ---
 title: "We have ignition..."
-date: 2009-03-31T22:08:00
-draft: False
+
+date: "2009-03-31T22:08:00"
+
+featured_image: ""
 ---
+
 
 
 

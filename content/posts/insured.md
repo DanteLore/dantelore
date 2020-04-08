@@ -1,9 +1,12 @@
 
 ---
 title: "Insured!"
-date: 2009-11-14T14:25:00
-draft: False
+
+date: "2009-11-14T14:25:00"
+
+featured_image: ""
 ---
+
 
 Just sorted out some insurance for The Duke.  Starts on Monday at midnight. 
 

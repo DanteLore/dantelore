@@ -1,9 +1,12 @@
 
 ---
 title: "Exhausting"
-date: 2009-06-24T22:23:00
-draft: False
+
+date: "2009-06-24T22:23:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0668-759011.jpg"
 ---
+
 
 I've mentioned before that, long ago, some **** started to undo The Duke's exhaust (probably in a failed attempt to steal the starter) and that fixing it was going to be an absolute nightmare.  Well, this evening I spent three hours doing just that.
 

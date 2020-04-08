@@ -1,9 +1,12 @@
 
 ---
 title: "Positive ID on the Engine"
-date: 2009-01-20T22:52:00
-draft: False
+
+date: "2009-01-20T22:52:00"
+
+featured_image: ""
 ---
+
 
 Been researching my engine recently, in order to get the right bits and bobs for the carb.  After some forum posts on the EMLRA I've managed to get the info I need.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Canoeing Manventure"
-date: 2012-08-22T15:29:00
-draft: False
+
+date: "2012-08-22T15:29:00"
+
+featured_image: "http://3.bp.blogspot.com/-F_gjpb2qaFo/UDT50Klg62I/AAAAAAAACdQ/gfrK-GmP4sE/s1600/IMG_3901.jpg"
 ---
+
 
 Another green laning trip around Berkshire and South Oxfordshire on the way (sort of) to canoing in the Welsh Borders.  I forgot the camera and destroyed my mobile phone, so these pictures are provided thanks to Dr Johnson.
 <table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-F_gjpb2qaFo/UDT50Klg62I/AAAAAAAACdQ/gfrK-GmP4sE/s1600/IMG_3901.jpg"><img src="http://3.bp.blogspot.com/-F_gjpb2qaFo/UDT50Klg62I/AAAAAAAACdQ/gfrK-GmP4sE/s320/IMG_3901.jpg"/></a></td></tr><tr><td style="text-align: center;">With all the weight in the back it was impossible to drive over this fallen tree.  We resorted to chopping  it in half and towing it off the track, which was incredibly satisfying!</td></tr></tbody></table>

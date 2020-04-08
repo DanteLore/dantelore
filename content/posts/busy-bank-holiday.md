@@ -1,9 +1,12 @@
 
 ---
 title: "Busy Bank Holiday"
-date: 2011-04-25T21:15:00
-draft: False
+
+date: "2011-04-25T21:15:00"
+
+featured_image: ""
 ---
+
 
 Busy day of Dukin' today.  Fitted the flywheel housing and new oil seal to the 200TDi the went outside to enjoy the sun and paint the rear crossmember - a job I've been putting off for over a year!﻿
 <a href="http://2.bp.blogspot.com/-nTuQirlWB6w/TbXf5IoCFjI/AAAAAAAACRc/KcnVxQlJC1Q/s1600/IMG_0246.JPG"><img src="http://2.bp.blogspot.com/-nTuQirlWB6w/TbXf5IoCFjI/AAAAAAAACRc/KcnVxQlJC1Q/s320/IMG_0246.JPG"/></a><span style="font-size: x-small;"> Here's another oil seal - banged in to the flywheel housing as per usual with a block of wood.</span>

@@ -1,9 +1,12 @@
 
 ---
 title: "Dan Dan The Kanban Man"
-date: 2013-05-16T21:55:42
-draft: False
+
+date: "2013-05-16T21:55:42"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/05/StoryKanban2.png"
 ---
+
 
 Just finished a new page for my Information Radiator. This one shows the progress of user stories through the process. We do scrum and this is a kanban-style board so I'm mixing things up a little bit but I think it's fine.
 

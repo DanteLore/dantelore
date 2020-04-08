@@ -1,9 +1,12 @@
 
 ---
 title: "More Electrical Tinkering"
-date: 2009-01-11T16:14:00
-draft: False
+
+date: "2009-01-11T16:14:00"
+
+featured_image: ""
 ---
+
 
 The first bit of good news is that the starter motor works and the engine turns over.  The fuel pump works too, sending petrol flying all over the shop (added a fire extinguisher to the shopping list!).  The borrowed and resurrected batteries didn't seem to mind doing the job either - voltage dropped by about 4v while cranking but recovered afterwards.
 

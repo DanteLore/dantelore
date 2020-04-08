@@ -1,9 +1,12 @@
 
 ---
 title: "A Trip to Bruce Tunnel"
-date: 2012-08-05T20:45:00
-draft: False
+
+date: "2012-08-05T20:45:00"
+
+featured_image: "http://1.bp.blogspot.com/-T-KWH1upcsE/UB7aV0bA3YI/AAAAAAAACas/ZS9ibKQpHCg/s1600/WP_000204.jpg"
 ---
+
 
 
 Dr Johnson and I took the canoe out to Little Bedwyn today and paddled it past <a href="http://en.wikipedia.org/wiki/Bruce_Tunnel">Bruce Tunnel</a>.  Was a great trip and the weather was more-or-less kind to us all the way.  Paddling through the tunnel was a bit scary.

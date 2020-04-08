@@ -1,9 +1,12 @@
 
 ---
 title: "Bulkhead Outrigger Slide Show"
-date: 2009-08-02T16:47:00
-draft: False
+
+date: "2009-08-02T16:47:00"
+
+featured_image: ""
 ---
+
 
 Not much to say, but loads of pictures.  Feast your eyes on my Bulkhead Outrigger Slide Show...
 

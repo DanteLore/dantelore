@@ -1,9 +1,12 @@
 
 ---
 title: "Stuff I made in 2018"
-date: 2019-02-12T11:07:44
-draft: False
+
+date: "2019-02-12T11:07:44"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2019/02/2018-02-17-18.43.40-1024x576.jpg"
 ---
+
 
 
 Last year I published an "annual project review" blog post called <a href="http://logicalgenetics.com/stuff-i-made-in-2017/">Stuff I made in 2017</a>.  I found writing it to be quite a fun exercise (catharsis perhaps). As a middle-manager by trade, I could easily fall into a trap where I spend my entire life using a sad combination of MS Office, Netflix and XBox - never actually *doing* anything. So, I like to challenge myself to actually *make* as much stuff as possible both in my spare time and at work. This might be as simple as keeping my GitHub commit rate up or fixing something round the house, but I also like to try something challenging every now and again. It doesn't always work out, but it's always a learning experience... here goes...

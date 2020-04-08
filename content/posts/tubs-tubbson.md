@@ -1,9 +1,12 @@
 
 ---
 title: "Tubs Tubbson"
-date: 2009-03-28T21:48:00
-draft: False
+
+date: "2009-03-28T21:48:00"
+
+featured_image: ""
 ---
+
 
 Spent today detaching the tub from the chassis and my fingernail from my finger.  Probably less than thirty bolts in all but it took me a whole day and drove to despair more than once.  As I type, with a newly blackened fingernail, the tub is still on - I need to remove all the cabling and enlist some assistants - but most of the bolts are undone and it's just about ready to lift off.
 

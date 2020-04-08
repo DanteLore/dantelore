@@ -1,9 +1,12 @@
 
 ---
 title: "Fixing the gear stick"
-date: 2013-11-02T21:13:32
-draft: False
+
+date: "2013-11-02T21:13:32"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/11/wpid-20131102_1618531.jpg"
 ---
+
 
 For the last couple of weeks, gear changes in The Duke have been very hard work. The tiny pin which stops the stick spinning sheared off, adding a new element of drama to my commute. 
 

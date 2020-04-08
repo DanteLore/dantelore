@@ -1,9 +1,12 @@
 
 ---
 title: "Engine In"
-date: 2011-07-25T13:09:00
-draft: False
+
+date: "2011-07-25T13:09:00"
+
+featured_image: ""
 ---
+
 
 A while ago now, Dr Johnson popped round to help lift the 200TDi engine into The Duke.  This was by no means easy, but we managed it in the end!
 <table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-fqJwa7sUN04/Ti1gYCOdoBI/AAAAAAAACUU/nlnvGQQjol8/s1600/IMG_0722.JPG"><img src="http://3.bp.blogspot.com/-fqJwa7sUN04/Ti1gYCOdoBI/AAAAAAAACUU/nlnvGQQjol8/s320/IMG_0722.JPG"/></a></td></tr><tr><td style="text-align: center;">We started work at 6pm and finally got the engine and gearbox mounted by midnight</td></tr></tbody></table>In the subsequent couple of weeks I have been working on mounts for the alternator, adapters for the fuel pipes and a pipe to link the exhaust manifold to the petrol engine down pipe.  The exhaust pipe has probably been the biggest job, so here are some pictures... 

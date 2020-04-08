@@ -1,9 +1,12 @@
 
 ---
 title: "Clutch: Done!"
-date: 2010-03-07T16:06:00
-draft: False
+
+date: "2010-03-07T16:06:00"
+
+featured_image: ""
 ---
+
 
 Two more days of work on this and the new clutch is finally in!  Fitting the gearbox is not really a one man job.  By the end of yesterday, with the light fading, I still had a list of jobs as long as my arm to complete.  Coupled with a nasty cold, this left me rather <span>despondent</span>.  Today was a new day though and with the sun beaming down from on high, the Gods of the Land Rover smiled upon the project and everything was done within three hours.
 

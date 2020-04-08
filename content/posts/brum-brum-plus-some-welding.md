@@ -1,9 +1,12 @@
 
 ---
 title: "Brum Brum! Plus some Welding"
-date: 2011-08-10T19:12:00
-draft: False
+
+date: "2011-08-10T19:12:00"
+
+featured_image: ""
 ---
+
 
 Brum brum!  Quite a big update today.  Spent a few hours this afternoon doing a couple of the nastier welding jobs on my list, plus there are some photos of some other bits and bobs related to the engine conversion.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Family History"
-date: 2011-06-22T14:46:00
-draft: False
+
+date: "2011-06-22T14:46:00"
+
+featured_image: "http://4.bp.blogspot.com/-wyDO1hu2hWs/TgH92QmT3qI/AAAAAAAACTc/nW4BG61yGKQ/s1600/Grandrover.jpg"
 ---
+
 
 I never knew my Grandad - he died before I was born - but people always tell me we're quite similar.  This may have something to do with our shared obsession with tinkering, redness of hair and dashing good looks. 
 

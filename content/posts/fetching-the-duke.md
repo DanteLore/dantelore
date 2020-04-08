@@ -1,9 +1,12 @@
 
 ---
 title: "Fetching the Duke"
-date: 2008-12-18T19:56:00
-draft: False
+
+date: "2008-12-18T19:56:00"
+
+featured_image: "http://2.bp.blogspot.com/_62oTnOHwOSo/SUrBo0mqxhI/AAAAAAAAAA0/6EH0Py4V0D0/s1600-h/landrover.jpg"
 ---
+
 
 I've always harboured a desire to do practical and manly things with my spare time instead of sitting on the sofa playing on the <span>Xbox</span>.  When my good friend Doctor Johnson splashed out on a thirty-year-old Land Rover Country Station Waggon a couple of years ago I was inspired.  Helping out with maintenance tasks (i.e. chopping bits off with an angle grinder) was great fun and at the end of a hard day's work you have something real to be proud of - much better than writing software!
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Quick Update"
-date: 2009-10-14T19:40:00
-draft: False
+
+date: "2009-10-14T19:40:00"
+
+featured_image: ""
 ---
+
 
 Feeling very optimistic tonight so I thought I'd share the joy on the blog!
 

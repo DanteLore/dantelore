@@ -1,9 +1,12 @@
 
 ---
 title: "Brakes"
-date: 2008-12-29T08:46:00
-draft: False
+
+date: "2008-12-29T08:46:00"
+
+featured_image: ""
 ---
+
 
 Popped to Halfords yesterday to get some axle stands, a four ton bottle jack and an 18 inch breaker bar.  This allowed me and Jay to get the front wheels off and investigate the brakes and drive train.
 

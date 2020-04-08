@@ -1,9 +1,12 @@
 
 ---
 title: "Economy Dreams"
-date: 2009-11-09T21:12:00
-draft: False
+
+date: "2009-11-09T21:12:00"
+
+featured_image: ""
 ---
+
 
 OK, time for some dreaming...
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Convoy lights, the Auxiliary Relay and a Civilian Dashboard"
-date: 2008-12-22T21:57:00
-draft: False
+
+date: "2008-12-22T21:57:00"
+
+featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s1600-h/LandRoverTransistorised24v.png"
 ---
+
 
 Just finished my first attempt at an annotated circuit diagram for The Duke.  It's a copy of "Figure 150" from the military manual, but I've put as many notes on there as I can so I don't have to keep cross referencing.
 

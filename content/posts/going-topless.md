@@ -1,9 +1,12 @@
 
 ---
 title: "Going Topless"
-date: 2009-03-22T17:30:00
-draft: False
+
+date: "2009-03-22T17:30:00"
+
+featured_image: ""
 ---
+
 
 It's been absolutely beautiful weather for the last week or so.  Ideal for doing some work on The Duke.  The project is severely hampered, however, by the scarcity and cost of engine bits.  I'd really wanted to get the engine running before doing any other serious work, but I also want to hit my September deadline for the MOT.
 

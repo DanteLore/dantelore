@@ -1,9 +1,12 @@
 
 ---
 title: "The Duke at First Sight"
-date: 2008-12-18T21:44:00
-draft: False
+
+date: "2008-12-18T21:44:00"
+
+featured_image: ""
 ---
+
 
 OK, not really first sight.  The day after we rolled The Duke into my drive I ventured out into the cold with my camera and a dustpan and brush to assess the state of things, generally.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "A sheared bolt and a mini adventure"
-date: 2014-02-17T13:17:44
-draft: False
+
+date: "2014-02-17T13:17:44"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2014/02/2014-02-16-15.02.071.jpg"
 ---
+
 
 On Thursday night last week my charge light didn't go out.  Since it was very wet I just assumed it was down to a slippy fan belt and decided to fix it at the weekend, provided the never-ending rains let up.
 <a href="http://logicalgenetics.com/wp-content/uploads/2014/02/2014-02-16-15.02.071.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2014/02/2014-02-16-15.02.071.jpg"/></a>

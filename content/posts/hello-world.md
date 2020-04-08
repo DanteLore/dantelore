@@ -1,9 +1,12 @@
 
 ---
 title: "A new look!"
-date: 2012-06-29T21:46:29
-draft: False
+
+date: "2012-06-29T21:46:29"
+
+featured_image: ""
 ---
+
 
 So, I've decided it's about time I reinvent Logical Genetics - again!  The site's been around for over a decade now.  I remember sitting in my freezing attic room, the year after I graduated, embarking on my PhD studies and trying to think of a cool name for a website to document my adventures in artificial intelligence.
 

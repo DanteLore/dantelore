@@ -1,9 +1,12 @@
 
 ---
 title: "Tilt"
-date: 2009-07-12T22:44:00
-draft: False
+
+date: "2009-07-12T22:44:00"
+
+featured_image: ""
 ---
+
 
 Welding upside down is hard work.  For this reason I decided to tilt The Duke over a bit.  This was quite hard work, but it did make this weekend's trip to Welding <span>Purgatory</span> a little easier.  Almost done now... almost.
 

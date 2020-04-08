@@ -1,11 +1,14 @@
 
 ---
 title: "Combining Shape Files"
-date: 2013-09-10T20:33:13
-draft: False
+
+date: "2013-09-10T20:33:13"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"
 ---
 
-This is one of those things that's easy when you know how. Just so I don't forget, here's how to combine shape files using <strong>ogr2ogr</strong>.
+
+This is one of those things that's easy when you know how. Just so I don't forget, here's how to combine shape files using **ogr2ogr**.
 
 I wrote it as a batch file to combine all the OSGB grid squares from the <a href="https://www.ordnancesurvey.co.uk/opendatadownload/products.html">OS VectorMap District</a> dataset into a single large data file for use with MapServer.
 ```powershell

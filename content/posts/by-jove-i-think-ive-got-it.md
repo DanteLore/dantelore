@@ -1,9 +1,12 @@
 
 ---
 title: "By Jove, I think I've Got It!"
-date: 2009-01-13T00:24:00
-draft: False
+
+date: "2009-01-13T00:24:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/TheDuke-744559.png"
 ---
+
 
 OK, Johnson shouted at me all day for wanting to chop out all the military lighting <span>gubbins</span>.  However, I wasn't really up for spending over £250 on replacement parts.
 

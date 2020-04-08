@@ -1,9 +1,12 @@
 
 ---
 title: "The Kindness of Strangers"
-date: 2010-03-08T22:11:00
-draft: False
+
+date: "2010-03-08T22:11:00"
+
+featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s1600-h/thumbs_up.jpg"
 ---
+
 
 <a href="http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s1600-h/thumbs_up.jpg"><img src="http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s200/thumbs_up.jpg"/></a>The Duke and I had a little mishap on the way home today.  Turns out I'd missed off the insulating washer when attaching the starter motor, so unknown to me, there was a nasty short on the starter contacts.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Face Clustering with Python"
-date: 2018-09-12T13:49:55
-draft: False
+
+date: "2018-09-12T13:49:55"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-15.35.08.jpg"
 ---
+
 
 
 This journey began with a conversation - maybe a debate - with this guy who works for a makeup company.  We were talking about how makeup artists will match a finite set of "looks" to people's faces, based on a simple set of attributes.  I can't remember the precise attributes, but along the lines of "big forehead", "rounded jaw", "small nose" etc. My gut feel, at the time, was "this sounds easy!" and thus I set forth on a voyage of discovery...
@@ -36,16 +39,16 @@ So, having filled my laptop with unfamiliar faces, the next step was to see if I
 
 So this cool set of library calls allows me to turn a photo of a face into a list of coordinates for points within facial features.  Basically projecting down a very complex blob of pixel data into a smaller set of coordinate data.  Supercool!  But not good enough for clustering yet.  The first issue is that the coordinate data is in pixel coordinate space, so it's heavily influenced by the location of the face in the photo.  If we were to cluster using this data we'd group people by their location in a photo, not by any property of their face.
 ```
-```
+
 >>> print(features)
 [[ 83 348], [ 87 392], [ 97 434], [108 474], [122 511], [147 544], [180 571] ... [301 508], [268 509], [255 512], [241 510]]
-```
+
 ```
 At this point, as I often do, I decided to try the simplest, easiest technique I could think of to normalise my feature data using brute force.  I started off this post talking about features like "nose size" and "jaw width" as those are features of a human face we can all understand... and with all this coordinate data they are easy to calculate too.  Here's an example:
 ```
-```
+
 <em># Get the nose features
-</em>(i, j) = face_utils.FACIAL_LANDMARKS_IDXS[<strong>"nose"</strong>]
+</em>(i, j) = face_utils.FACIAL_LANDMARKS_IDXS[**"nose"**]
 nose_points = shape[i:j]
 nose_top = nose_points[self.NOSE_TOP_IDX]
 nose_left = nose_points[self.NOSE_LEFT_IDX]
@@ -55,16 +58,16 @@ nose_width = distance.euclidean(nose_left, nose_right)
 nose_height = distance.euclidean(nose_top, nose_bottom)
 nose_ratio = nose_height / nose_width
 nose_size = nose_height / jaw_width
-```
+
 ```
 This is just a snippet of the feature detection code I sweated out that evening!  First I extracted the nose points, then I got the top-, left-, bottom- and right-most points, then I calculated the pixel height and width and finally and critically, normalised these by dividing through by the jaw width.
 
 Expressing all the feature sizes in proportion to some arbitrary measurement of the face (in this case I chose the jaw width) moves us from pixel-space to... erm... face-space.  Now we can compare nose sizes with some level of fairness.  I expressed eight easy measurements this way to create a feature vector for every face in my database.
 ```
-```
+
 face_data = {
-    <strong>"filename"</strong>: <strong>"faces/" </strong>+ filename.split(<strong>'/'</strong>)[-1],
-    <strong>"features"</strong>: [
+    **"filename"**: **"faces/" **+ filename.split(**'/'**)[-1],
+    **"features"**: [
         jaw_ratio,
         eye_distance,
         nose_ratio,
@@ -75,7 +78,7 @@ face_data = {
         eyebrow_lift
     ]
 }
-```
+
 ```
 A vector representation of a face, in the world of image recognition, is known as an '*Embedding*'.  What I have shown here is basically the simplest, crudest and most embarassingest technique for generating an embedding from a face image.  Go me!
 
@@ -89,10 +92,10 @@ Everyone knows it, the easiest way to cluster vectors of data is to use <a href=
 
 Imagine you have some objects, each of which is represented by a vector of numeric values.  It could be anything: rows in a spreadsheet, house prices, salaries, ages or (bet you saw this coming...) crude measurements of a face.  Each of these vectors *describes a point in n-dimensional* space.  Easy to imagine if you have one, two or three values - so keep a 3D space in your head and don't give yourself an 8-dimensional headache.  Now imagine you randomly choose a set number (k) of "centres" in the same n-dimensional space.  Now you can associate points with their nearest cluster, then move the cluster centres closer to their associated points, then iterate.  Points attract centres, centres group points, eventually the cluster centres creep into the right places and, when they stop moving, define the discreet clusters in our data.  Boom!
 ```
-```
+
 generate k random cluster centres
 
-assign every point to the <strong>nearest</strong> cluster centre
+assign every point to the **nearest** cluster centre
 
 do { 
     move every cluster centre closer to it's associated points
@@ -100,17 +103,15 @@ do {
     assign every point to the nearest cluster centre again
 
 } while (something changed)
-
-```
 ```
 I used the <a href="http://scikit-learn.org/">Scikit Learn</a> implementation of K-means to do my clustering.  Here's a snippet:
 ```
-```
-<strong>import </strong>numpy <strong>as </strong>np
-<strong>from </strong>sklearn.cluster <strong>import </strong>KMeans
+
+**import **numpy **as **np
+**from **sklearn.cluster **import **KMeans
 
 <em># Get the face data
-</em>data = [np.array(face[<strong>"features"</strong>]) <strong>for </strong>face <strong>in </strong>faces]
+</em>data = [np.array(face[**"features"**]) **for **face **in **faces]
 
 <em># Build the model using the face data
 </em>kmeans = KMeans(n_clusters=cluster_count)
@@ -118,9 +119,9 @@ kmeans = kmeans.fit(data)
 
 <em># Get cluster numbers for each face
 </em>labels = kmeans.predict(data)
-<strong>for </strong>(label, face) <strong>in </strong>zip(labels, faces):
-    face[<strong>"group"</strong>] = int(label)
-```
+**for **(label, face) **in **zip(labels, faces):
+    face[**"group"**] = int(label)
+
 ```
 ### Choosing K
 

@@ -1,9 +1,12 @@
 
 ---
 title: "MPG Shopping List"
-date: 2010-02-10T19:05:00
-draft: False
+
+date: "2010-02-10T19:05:00"
+
+featured_image: ""
 ---
+
 
 OK, I think I may have found the cause of the terrible fuel economy I was <span>getting</span> out of The Duke (9.7 MPG):  The clutch is knackered.  Went to pick up a roof and some windows from a bloke off the <span>EMLRA</span> forums and the extra weight and some hills made it quite obvious that much of the engine's power is being wasted burning the clutch!
 

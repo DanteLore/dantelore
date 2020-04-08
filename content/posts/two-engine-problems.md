@@ -1,9 +1,12 @@
 
 ---
 title: "Two Engine Problems"
-date: 2009-03-07T17:52:00
-draft: False
+
+date: "2009-03-07T17:52:00"
+
+featured_image: ""
 ---
+
 
 Still trying to get all the bits together to get The Duke's engine up and running.  The new distributor, leads, coil and plugs arrived this week, so I thought I'd have a look to see if they'd all fit properly.
 

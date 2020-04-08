@@ -1,9 +1,12 @@
 
 ---
 title: "Sodbury? Sod all more like..."
-date: 2011-05-15T19:10:00
-draft: False
+
+date: "2011-05-15T19:10:00"
+
+featured_image: ""
 ---
+
 
 It's Sodbury day again!  Dr Johnson and I headed down there in The Duke as usual.  Though this year is the first in which both The Duke and Plum are on the road we couldn't afford the fuel costs of a convoy! 
 <a href="http://2.bp.blogspot.com/-cijhK5zsL60/TdAc5RWvUNI/AAAAAAAACSc/Xo1Vnpi4sL0/s1600/IMG_0524.JPG"><img src="http://2.bp.blogspot.com/-cijhK5zsL60/TdAc5RWvUNI/AAAAAAAACSc/Xo1Vnpi4sL0/s320/IMG_0524.JPG"/></a><span style="font-size: x-small;">Plum and The Duke doing some posing </span>

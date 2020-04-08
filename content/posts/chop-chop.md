@@ -1,9 +1,12 @@
 
 ---
 title: "Chop Chop"
-date: 2009-04-19T20:04:00
-draft: False
+
+date: "2009-04-19T20:04:00"
+
+featured_image: ""
 ---
+
 
 I only meant to spend an hour or so out on the drive today, but I ended up out there and working hard for about five hours.  Finished off my wooden <span>crossmember</span> jig and put the rear chassis on <span>axle</span> stands to keep it still.  In order to keep the chassis still I had to drop the rear leaf springs off, which was hard work.  Finally, just before it got dark, I got the grinder out and chopped the rear <span>crossmember</span> off.
 

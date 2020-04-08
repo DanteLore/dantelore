@@ -1,9 +1,12 @@
 
 ---
 title: "Spending Spree"
-date: 2009-01-04T22:49:00
-draft: False
+
+date: "2009-01-04T22:49:00"
+
+featured_image: ""
 ---
+
 
 Finally got round to spending some serious cash on The Duke.  Mainly stuff to beef up security levels from <span style="font-style: italic;">"Shower Curtain and Clothes Pegs"</span> to <span style="font-style: italic;">"Crap Land Rover Locks"</span>.  There's some electric stuff in there too.  Here's a list...
 

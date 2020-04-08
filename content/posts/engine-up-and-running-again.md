@@ -1,9 +1,12 @@
 
 ---
 title: "Engine up and running again"
-date: 2009-11-07T16:11:00
-draft: False
+
+date: "2009-11-07T16:11:00"
+
+featured_image: ""
 ---
+
 
 Stayed in bed 'til 10:30 today because the weather girl told me it'd be raining all day.  As usual, she was completely wrong and I ended up outside all day getting The Duke back up and running.  Here are some pics...
 

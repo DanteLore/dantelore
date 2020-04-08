@@ -1,9 +1,12 @@
 
 ---
 title: "Reclutching"
-date: 2009-10-10T17:33:00
-draft: False
+
+date: "2009-10-10T17:33:00"
+
+featured_image: ""
 ---
+
 
 Fitting and bleeding the clutch couldn't have been easier!  Just hope it doesn't leak and make me look stupid!  Lorna gave a hand (or a foot) with the bleeding process.  Luckily, her dad has press ganged her into helping to bleed his brakes for the last 20-odd years, so she's a seasoned professional!
 

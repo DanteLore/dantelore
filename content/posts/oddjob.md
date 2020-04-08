@@ -1,9 +1,12 @@
 
 ---
 title: "Oddjob"
-date: 2009-08-03T20:48:00
-draft: False
+
+date: "2009-08-03T20:48:00"
+
+featured_image: ""
 ---
+
 
 Had a sneaky couple of hours tonight to do a few odd jobs round The Duke. The good news is that I think I'm ready to put the tub back on! Woo!
 

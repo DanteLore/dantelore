@@ -1,9 +1,12 @@
 
 ---
 title: "Dry Clutch"
-date: 2009-09-28T20:36:00
-draft: False
+
+date: "2009-09-28T20:36:00"
+
+featured_image: ""
 ---
+
 
 Investigated the spongy clutch this evening.  Hopefully the problem is this ill-fitting lid, or perhaps the fluid has just run out over seven or eight years of standing still.  Of course, there's also the possibility that it's leaking like a Reading Festival urinal.
 

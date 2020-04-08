@@ -1,9 +1,12 @@
 
 ---
 title: "Off with his head!"
-date: 2011-06-23T15:20:00
-draft: False
+
+date: "2011-06-23T15:20:00"
+
+featured_image: ""
 ---
+
 
 Drove The Duke to work and back with a petrol engine for the last time last week.  On Thursday night I pulled him down the drive and put an end to the Petrol Era!
 

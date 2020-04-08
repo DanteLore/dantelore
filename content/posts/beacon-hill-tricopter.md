@@ -1,9 +1,12 @@
 
 ---
 title: "Beacon Hill Tricopter"
-date: 2012-09-11T10:56:16
-draft: False
+
+date: "2012-09-11T10:56:16"
+
+featured_image: ""
 ---
+
 
 Dr Johnson, Dr Kelly, my trusty assistant and I went for an early morning walk to the top of Beacon Hill this morning.  We began our climb at 7am sharp, leaving the noise of the Newbury Bypass behind as we clambered through the scrub.  The newborn sun cast a golden light upon the dew-soaked turf of the earthworks and a strong wind from the West made it almost impossible to fly a Tricopter.  Luckily, we had tea, coffee and cookies as well as the soothing tones of Dr K's Saxophone to keep us entertained.
 

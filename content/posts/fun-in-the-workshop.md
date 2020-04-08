@@ -1,9 +1,12 @@
 
 ---
 title: "Fun in the workshop"
-date: 2011-02-20T23:36:00
-draft: False
+
+date: "2011-02-20T23:36:00"
+
+featured_image: ""
 ---
+
 
 <span style="font-family: Verdana, sans-serif; font-size: x-small;"></span>
 <span style="font-family: Verdana, sans-serif;">Just a few interesting pictures from the last couple of weeks in the workshop.  Have got the gearbox more or less back together now and have even made my own linkage for the overdrive.</span>

@@ -1,9 +1,12 @@
 
 ---
 title: "Another To Do List"
-date: 2009-07-22T12:42:00
-draft: False
+
+date: "2009-07-22T12:42:00"
+
+featured_image: ""
 ---
+
 
 Here's an attempt at a list of things to do before the tub goes back on.  Plenty to do this weekend!
 <ul>* <span style="color: rgb(0, 153, 0);">Patch/replace rusty outriggers - DONE</span>

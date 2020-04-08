@@ -1,9 +1,12 @@
 
 ---
 title: "Hoses, Solder, Pipes and Scares"
-date: 2009-04-14T20:52:00
-draft: False
+
+date: "2009-04-14T20:52:00"
+
+featured_image: ""
 ---
+
 
 On Easter Monday I did a bit more tinkering in the engine compartment.  Fitted the air intake hose and new washer pump, sorted out the heater motor resistor and replaced a leaky water hose.  I'd hoped to do some debugging on the charge warning light too, but a strange problem put an early end to my day...
 

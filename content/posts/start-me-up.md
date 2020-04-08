@@ -1,9 +1,12 @@
 
 ---
 title: "Start me up!"
-date: 2010-07-17T13:49:00
-draft: False
+
+date: "2010-07-17T13:49:00"
+
+featured_image: ""
 ---
+
 
 A while ago, you may remember, I had an <a href="http://blog.danandtheduke.co.uk/2010/03/kindness-of-strangers.html"><span>embarrassing</span> breakdown </a>caused by dodgy connections on the starter motor cable. Same thing happened the other day when I got home from work. It had been a hot day and the temporary insulation I'd put on the positive terminal had melted away enough to allow <span>this</span> starter to short again. This in turn had welded the nut to the terminal.
 

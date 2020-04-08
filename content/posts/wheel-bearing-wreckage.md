@@ -1,9 +1,12 @@
 
 ---
 title: "Wheel Bearing Wreckage"
-date: 2011-03-18T20:50:00
-draft: False
+
+date: "2011-03-18T20:50:00"
+
+featured_image: ""
 ---
+
 
 <span style="font-size: small;"> </span>
 <span style="font-size: small;">The Duke failed his first MOT of the year this Monday.  The news wasn't massively bad - just some play in the rear offside wheel bearing.  So I ordered the parts and took the day off to sort it out today.</span>

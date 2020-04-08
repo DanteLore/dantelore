@@ -1,9 +1,12 @@
 
 ---
 title: "MOT Testing Information"
-date: 2009-01-22T14:16:00
-draft: False
+
+date: "2009-01-22T14:16:00"
+
+featured_image: ""
 ---
+
 
 Found this very useful website which documents the MOT process in detail.
 

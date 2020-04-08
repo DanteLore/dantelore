@@ -1,9 +1,12 @@
 
 ---
 title: "Wordpress: Oh deary deary me!"
-date: 2013-07-28T21:29:39
-draft: False
+
+date: "2013-07-28T21:29:39"
+
+featured_image: ""
 ---
+
 
 This evening I was innocently setting up a wireless dongle for my darling wife.  I casually typed in the address of this very web page into her browser to check it was working, only to find that all the posts were missing!
 

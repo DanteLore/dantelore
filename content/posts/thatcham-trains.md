@@ -1,9 +1,12 @@
 
 ---
 title: "Thatcham Trains"
-date: 2016-06-22T13:24:04
-draft: False
+
+date: "2016-06-22T13:24:04"
+
+featured_image: ""
 ---
+
 
 This is the final article in my brief series on the National Rail API.  As usual, the code can be found on github:
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Electrics Research"
-date: 2008-12-19T14:01:00
-draft: False
+
+date: "2008-12-19T14:01:00"
+
+featured_image: ""
 ---
+
 
 The first job to do is get the electrical system to a point where I can start work on the engine.  Since it's mid winter at the moment I don't want to spend too much time poking around under the bonnet, so working on the missing dash and belling out all the cables is a good way to make some progress without freezing to death.
 

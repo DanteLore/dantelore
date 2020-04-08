@@ -1,9 +1,12 @@
 
 ---
 title: "Good Progress!"
-date: 2009-07-25T13:50:00
-draft: False
+
+date: "2009-07-25T13:50:00"
+
+featured_image: ""
 ---
+
 
 I got up early today - on a Saturday - to get a full day working on The Duke.  I've finished now, with seven hours of hard work done, a slight sunburn and a big smile on my face!  After a long soak in the bath I'm going to hit the beers and celebrate.
 

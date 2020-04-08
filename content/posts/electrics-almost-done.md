@@ -1,9 +1,12 @@
 
 ---
 title: "Electrics Almost Done"
-date: 2009-02-15T20:53:00
-draft: False
+
+date: "2009-02-15T20:53:00"
+
+featured_image: ""
 ---
+
 
 Went out today to enjoy the couple of hours of sunshine that occurred before it rained.  Since the project overall is held up by a lack of funds, I was planning to tinker with the helicopter starting circuit to see how it works, but instead I finished off the last of the important electrical jobs - getting the brake lights working and sorting out the horn.  Sadly, no photos today.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "MultiWii Plugged In"
-date: 2012-12-05T23:35:07
-draft: False
+
+date: "2012-12-05T23:35:07"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7526.jpg"
 ---
+
 
 Just a quick pair of photos to prove I have the Multi Wii controller plugged in.
 

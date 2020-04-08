@@ -1,9 +1,12 @@
 
 ---
 title: "Insulation"
-date: 2013-04-23T07:52:29
-draft: False
+
+date: "2013-04-23T07:52:29"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180253.jpg"
 ---
+
 
 I've decided to add some more "creature comforts" to The Duke. I am sick of the noise and the condensation that runs down my neck when I start off on cold mornings. I didn't much like the ice that formed on the inside of the walls when we went camping back in December either!
 

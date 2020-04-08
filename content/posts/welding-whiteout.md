@@ -1,9 +1,12 @@
 
 ---
 title: "Welding Whiteout"
-date: 2010-01-11T19:36:00
-draft: False
+
+date: "2010-01-11T19:36:00"
+
+featured_image: ""
 ---
+
 
 Snow?  What snow?  Oh... that massive foot-deep layer of snow covering the whole of Reading.  Thanks to the bottomless positivity supplies of Doctor Johnson, the snow and negative temperatures did not stop further progress on The Duke.
 

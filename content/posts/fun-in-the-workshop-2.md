@@ -1,9 +1,12 @@
 
 ---
 title: "Fun in the Workshop"
-date: 2010-11-19T10:11:00
-draft: False
+
+date: "2010-11-19T10:11:00"
+
+featured_image: ""
 ---
+
 
 <a href="http://2.bp.blogspot.com/_62oTnOHwOSo/TOZLYiMns8I/AAAAAAAACN0/s_omBaVvXAs/s1600/IMG_0945.JPG"></a>The Duke's been running pretty well recently, so there's not much to report on the blog.  I've been spending my time in the workshop instead, making bits and bobs on the lathe and mill.
 

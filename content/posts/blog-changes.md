@@ -1,9 +1,12 @@
 
 ---
 title: "Blog Changes"
-date: 2010-02-03T09:42:00
-draft: False
+
+date: "2010-02-03T09:42:00"
+
+featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/S2lExnSLDiI/AAAAAAAACB8/8DtbHPInzq4/s1600-h/Colossus_wideweb__470x308,0.jpg"
 ---
+
 
 In their wisdom, Google have decided to remove FTP publishing from Blogger.  This is a right pain in the  backside as it means setting up a subdomain and faffing about with DNS and Blogger settings.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Shiny New Wheels"
-date: 2012-07-02T18:57:00
-draft: False
+
+date: "2012-07-02T18:57:00"
+
+featured_image: ""
 ---
+
 
 
 Not sure whether I posted about it, but I recently bought some second hand Michelin XZL off-road tyres from a bloke on eBay.  I had to drive to a military base in west London (the Defence Geographic Centre) to pick them up, which was a bit of a mission.  Got five of them for £300 including some bad-boy modern wheels.  I was going to get them swapped onto The Duke's original wheel rims, but ATS charge something like £30 a wheel to do this and there's no way I'm paying that!

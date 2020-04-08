@@ -1,9 +1,12 @@
 
 ---
 title: "All aboard the Fail Duke"
-date: 2009-12-09T18:58:00
-draft: False
+
+date: "2009-12-09T18:58:00"
+
+featured_image: ""
 ---
+
 
 Well, I expected a fail and a <span>fail's</span> what I got!
 

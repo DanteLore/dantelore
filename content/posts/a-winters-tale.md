@@ -1,9 +1,12 @@
 
 ---
 title: "A Winter's Tale"
-date: 2012-12-03T22:08:45
-draft: False
+
+date: "2012-12-03T22:08:45"
+
+featured_image: ""
 ---
+
 
 This weekend we headed off into the frozen wastes of Wiltshire to set up a rough shelter amongst the converted barns, Range Rovers and tweed-clad organic hemp farmers.  It was cold!  Apparently it got down to -4C during the night, though I slept like a warm, cosy and pleasantly drunk log in the back of The Duke.
 

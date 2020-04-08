@@ -1,9 +1,12 @@
 
 ---
 title: "Post MOT Welding Woe"
-date: 2009-12-13T11:02:00
-draft: False
+
+date: "2009-12-13T11:02:00"
+
+featured_image: ""
 ---
+
 
 Found the places where I need to get busy with the MIG for the MOT.  Here are some pictures...
 

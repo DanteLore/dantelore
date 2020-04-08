@@ -1,9 +1,12 @@
 
 ---
 title: "The Case of the Ersatz Duke"
-date: 2009-01-11T13:06:00
-draft: False
+
+date: "2009-01-11T13:06:00"
+
+featured_image: ""
 ---
+
 
 Today, a pair of Reading's Finest turned up on our doorstep and scared the hell out of me!  "Are you the owner of a green Range Rover?", well, yes, I own a green <span style="font-style: italic;">Land</span> Rover.  "It's on the drive" I told them.  "Are you sure, Mr Taylor?  Do you want to check that?".  Normally that would have made me quite worried, but since The Duke is slightly less mobile than the Great Pyramid of Khufu, I just took them out to see it.
 

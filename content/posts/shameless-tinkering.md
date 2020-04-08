@@ -1,9 +1,12 @@
 
 ---
 title: "Shameless Tinkering"
-date: 2009-02-22T22:06:00
-draft: False
+
+date: "2009-02-22T22:06:00"
+
+featured_image: ""
 ---
+
 
 The <span>XBox</span> is broken, there's nothing on the TV and the budget can't stretch to Land Rover parts til pay day.  Time for some shameless tinkering.
 

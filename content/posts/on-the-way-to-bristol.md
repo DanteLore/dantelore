@@ -1,9 +1,12 @@
 
 ---
 title: "On the way to Bristol..."
-date: 2010-03-21T18:31:00
-draft: False
+
+date: "2010-03-21T18:31:00"
+
+featured_image: ""
 ---
+
 
 Just back from the stag do.  Had a great time.  Too knackered to type any words, so here are some pictures which paint at least a thousand each!
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Outriggers Done"
-date: 2010-01-16T15:13:00
-draft: False
+
+date: "2010-01-16T15:13:00"
+
+featured_image: ""
 ---
+
 
 Well, it was a lot warmer today, but it was raining.  So today's welding had to be done under the cover of a tarp.
 

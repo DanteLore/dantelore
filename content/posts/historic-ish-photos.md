@@ -1,9 +1,12 @@
 
 ---
 title: "Historic (ish) Photos"
-date: 2009-01-09T19:04:00
-draft: False
+
+date: "2009-01-09T19:04:00"
+
+featured_image: "http://danandtheduke.blogspot.co.uk/uploaded_images/bod6-760339.jpg"
 ---
+
 
 Thanks to Tony Hoare for letting me put a few of his photos of The Duke on my blog. Also thanks to Ron Fulton at BDAC for his help.
 

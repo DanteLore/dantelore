@@ -1,9 +1,12 @@
 
 ---
 title: "Britpart Oil Seal Fail"
-date: 2010-02-20T17:04:00
-draft: False
+
+date: "2010-02-20T17:04:00"
+
+featured_image: ""
 ---
+
 
 More work on fixing the clutch today, but it all came to nothing.  It was a learning experience and a useful test fitting of the flywheel housing, but otherwise a hugely frustrating day!
 

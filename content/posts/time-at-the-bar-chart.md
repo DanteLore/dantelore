@@ -1,9 +1,12 @@
 
 ---
 title: "Time at the Bar Chart"
-date: 2018-11-27T08:43:49
-draft: False
+
+date: "2018-11-27T08:43:49"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival-1024x630.jpg"
 ---
+
 
 
 This is part three in a blog mini-series about the power of Streaming Platforms with Kafka, KSQL and Confluent.  Part 1 was an introduction to the problem of converting <a href="https://github.com/DanteLore/events_to_models">github</a>.
@@ -23,8 +26,6 @@ This post is all about aggregations.  Looking at how we can get aggregated data 
 <blockquote class="wp-block-quote">In order to understand profitability and bar utilisation, as organiser of the beer festival, I want to see real time information on sales, aggregated by bar number.</blockquote>
 
 ```sql
-
-```
 ksql> create stream live_sales \
 with (kafka_topic='live_sales', value_format='avro', partitions=4) \
 as select * from sales_stream;
@@ -34,13 +35,9 @@ with (kafka_topic='takings_by_bar', value_format='avro') \
 as select bar, sum(price) as sales from live_sales group by bar;
 ```
 
-```
-
-Writing the KSQL to do an aggregation is pretty simple.  Here I group by <strong>bar</strong> and return <strong>sum(price)</strong>, just like in regular SQL.  I also created a new stream called "live_sales" with 4 partitions, so we can do joins later. These query results gets rolled up into a table, from which we can select:
+Writing the KSQL to do an aggregation is pretty simple.  Here I group by **bar** and return **sum(price)**, just like in regular SQL.  I also created a new stream called "live_sales" with 4 partitions, so we can do joins later. These query results gets rolled up into a table, from which we can select:
 
 ```sql
-
-```
 ksql> select * from takings_by_bar;
 1543263893133 | 1 | 1 | 16110
 1543263895143 | 2 | 2 | 12162
@@ -52,15 +49,11 @@ ksql> select * from takings_by_bar;
 1543263901175 | 4 | 4 | 4147
 ```
 
-```
-
-The results of the select, however, are not what we might immediately expect.  Rather than a row for every bar (four rows total) we're getting what look like duplicates.  This is because the table is based on a stream of sales messages: the value of <strong>count(*)</strong> changes every time a new sale is recorded, and KSQL returns the updated value each time this happens.
+The results of the select, however, are not what we might immediately expect.  Rather than a row for every bar (four rows total) we're getting what look like duplicates.  This is because the table is based on a stream of sales messages: the value of **count(*)** changes every time a new sale is recorded, and KSQL returns the updated value each time this happens.
 
 If I stop the flow of sales records, by killing the producer, and tell KSQL to read the table from the start, I get more 'normal' looking results:
 
 ```sql
-
-```
 ksql> SET 'auto.offset.reset' = 'earliest';
 
 ksql> select * from takings_by_bar;
@@ -68,8 +61,6 @@ ksql> select * from takings_by_bar;
 1543264452513 | 4 | 4 | 4218
 1543264444458 | 3 | 3 | 8496
 1543264450501 | 1 | 1 | 16409
-```
-
 ```
 
 Obviously, the beer festival can't pause every time the organisers want to draw a bar chart, so I added a little dictionary-based cache between Kafka and the front end.  You can find <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/reports/SalesServer.scala">the code for my simple caching web service on Github</a> as always.
@@ -89,8 +80,6 @@ The beer festival has been running for a few days now, bar 1 is clearly nearer t
 The bar chart in the previous part showed the sales for all time.  This isn't much use if we want to see what's happening right now.  So, let's create another aggregated table to show the total beer sales, by bar for the last minute:
 
 ```sql
-
-```
 ksql> create table takings_by_bar_last_min \
 with (kafka_topic='takings_by_bar_last_min', value_format='avro', partitions=1) \
 as select bar, sum(price) as sales \
@@ -98,9 +87,7 @@ from live_sales window tumbling (size 1 minute) \
 group by bar;
 ```
 
-```
-
-The interesting bit in the query above is <strong>"window tumbling"</strong> which creates a one minute aggregation window.  When the minute elapses, the window closes and a new one opens, with the counts starting at zero again.  Here's a screenshot... everything else is the same, really.
+The interesting bit in the query above is **"window tumbling"** which creates a one minute aggregation window.  When the minute elapses, the window closes and a new one opens, with the counts starting at zero again.  Here's a screenshot... everything else is the same, really.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-26-21.28.37-1024x578.png"/>
 
@@ -113,8 +100,6 @@ Note that you can also do 'hopping' and 'session' windows which slide the window
 Let's jump straight in with a join, to get beer names and sales into a stream together... 
 
 ```sql
-
-```
 ksql> create stream live_beer_sales \
 with (kafka_topic='live_beer_sales', value_format='avro') \
 as select bar, price, name, abv from live_sales LS \
@@ -127,13 +112,9 @@ ksql> select * from live_beer_sales limit 4;
 1543303646017 | 1957 | 1 | 1 | 805 Blonde Ale | 0.047
 ```
 
-```
-
 Getting the total numbers of each beer sold is easy - as you can see from the snippet below.  We just group the joined sales data by name and sum the price to get the total sales.  Note the funky key column for the table, which is the name and ABV concatenated (since I needed both in the results and they are covariant I just grouped by both).
 
 ```sql
-
-```
 ksql> create table beer_league_table \
 with (kafka_topic='beer_league_table', value_format='avro') \
 as select name, abv, sum(price) as sales \
@@ -144,8 +125,6 @@ ksql> select * from beer_league_table limit 4;
 1543303618561 | Black Beer`d|+|0.068 | Black Beer`d | 0.068 | 1
 1543303630874 | Mustang Sixty-Six|+|0.05 | Mustang Sixty-Six | 0.05 | 1
 1543303651048 | Dubbelicious|+|0.065 | Dubbelicious | 0.065 | 1
-```
-
 ```
 
 Here comes the tricky part though.  KSQL does have a function called 'TOPK' which will return the top k values for a given column.  However, this will only return the counts, not the associated rows.  Since it doesn't help us much to show only counts, I'm just going to do the sort on the client side!

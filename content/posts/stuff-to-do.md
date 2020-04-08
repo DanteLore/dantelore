@@ -1,9 +1,12 @@
 
 ---
 title: "Stuff To Do"
-date: 2009-04-01T21:31:00
-draft: False
+
+date: "2009-04-01T21:31:00"
+
+featured_image: ""
 ---
+
 
 Here's a list of things to do for Phase II...
 

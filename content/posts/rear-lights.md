@@ -1,9 +1,12 @@
 
 ---
 title: "Rear lights"
-date: 2009-08-09T17:08:00
-draft: False
+
+date: "2009-08-09T17:08:00"
+
+featured_image: ""
 ---
+
 
 Just a quick post to say I'm almost finished with the rear lights.  The fuse box works well and looks reasonably smart mounted in the engine compartment.
 

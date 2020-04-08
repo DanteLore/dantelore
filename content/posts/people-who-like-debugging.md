@@ -1,9 +1,12 @@
 
 ---
 title: "People Who Like Debugging"
-date: 2012-11-16T18:13:56
-draft: False
+
+date: "2012-11-16T18:13:56"
+
+featured_image: ""
 ---
+
 
 Somebody said something on Twitter today that made me think about a belief I hold quite strongly...
 <blockquote>Never trust people who **enjoy debugging.</blockquote>

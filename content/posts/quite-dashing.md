@@ -1,9 +1,12 @@
 
 ---
 title: "Quite Dashing"
-date: 2012-02-05T00:19:00
-draft: False
+
+date: "2012-02-05T00:19:00"
+
+featured_image: ""
 ---
+
 
 Decided to add a cigarette-lighter-style 12v socket to The Duke's military dash for stuff like the satnav.  The old dash is pretty knackered and full of unused holes etc, so I made a new one out of a sheet of aluminium I got off ebay recently.  The pics show the process...
 

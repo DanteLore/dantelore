@@ -1,9 +1,12 @@
 
 ---
 title: "Tracking Kanban with TFS"
-date: 2013-01-25T12:09:57
-draft: False
+
+date: "2013-01-25T12:09:57"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/01/CumulativeFlowDiagram3.png"
 ---
+
 
 Kanban is a great way to manage your bug backlog.  It's much better than Scrum simply because of the nature of bugs as compared to user stories. Scrum is all about making firm commitments based on estimates but bugs are very hard to estimate up-front. Generally when you've looked hard enough into the code to find the problem, you are in a position to fix it very quickly. Bug fixing is essentially a research task - like a spike - so time-boxing the work makes much more sense.
 

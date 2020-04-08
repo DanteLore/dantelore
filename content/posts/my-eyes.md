@@ -1,9 +1,12 @@
 
 ---
 title: "My Eyes!"
-date: 2009-05-10T20:43:00
-draft: False
+
+date: "2009-05-10T20:43:00"
+
+featured_image: ""
 ---
+
 
 Yesterday I started fitting the new rear <span>crossmember</span> and cleaning off the chassis for welding.  I did the whole thing wearing my new safety glasses.  The fan from the drill managed to waft something up under the glasses and into my right eye.  I didn't think much of it at first but it got worse and worse through the day.
 

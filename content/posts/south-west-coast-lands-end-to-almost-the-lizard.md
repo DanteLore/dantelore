@@ -1,9 +1,12 @@
 
 ---
 title: "South West Coast - Lands End to (almost) The Lizard"
-date: 2013-03-25T22:10:59
-draft: False
+
+date: "2013-03-25T22:10:59"
+
+featured_image: ""
 ---
+
 
 Several years ago we finished the northern section of the South West Coast Path.  This week a smaller group of us went back to take on the next section - Lands End to The Lizard.
 

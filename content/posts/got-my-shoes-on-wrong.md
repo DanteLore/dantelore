@@ -1,9 +1,12 @@
 
 ---
 title: "Got my shoes on wrong..."
-date: 2010-01-25T23:10:00
-draft: False
+
+date: "2010-01-25T23:10:00"
+
+featured_image: ""
 ---
+
 
 Lorna came outside to help me bleed the brakes again tonight.  A few more bubbles came out and I think we managed to improve things.  However, the pedal still goes down to the floor on the first push.  On the second pump the pedal seems firm and goes down about half way.  A bit of a plus point, but it has to be said that a two-pump operating schedule is probably not ideal for your average fifty-miles-per-hour-towards-children-or-cliff situation.
 

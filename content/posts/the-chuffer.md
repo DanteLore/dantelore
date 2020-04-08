@@ -1,9 +1,12 @@
 
 ---
 title: "The Chuffer"
-date: 2014-06-18T13:32:02
-draft: False
+
+date: "2014-06-18T13:32:02"
+
+featured_image: ""
 ---
+
 
 I just completed my second ever air engine: The Chuffer.  With this project I decided that I'd go for complexity, rather than the simplistic approach I took when I built <a href="http://logicalgenetics.com/the-wobbler/">The Wobbler</a> earlier this year.
 [vine url="https://vine.co/v/MI0XEt9ZIJJ" width=400 height=400]

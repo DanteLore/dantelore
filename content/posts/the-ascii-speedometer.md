@@ -1,9 +1,12 @@
 
 ---
 title: "The ASCII Speedometer"
-date: 2012-10-25T19:36:48
-draft: False
+
+date: "2012-10-25T19:36:48"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/10/105qmj5.jpg"
 ---
+
 
 Once I'd <a href="http://logicalgenetics.com/raspberry-pi-and-mono-hello-world/">got Mono up and running</a>, the first little project I did with the Raspberry Pi was to hook up an old GPS module and use it to create a text based speedometer for the car.  It was the first step I took towards <span style="text-decoration: line-through;">making The Duke sentient</span> building an on-board computer for my Land Rover.  I was fun to do and raised a smile with the people who I told about it, so I thought I'd bung the details online.
 

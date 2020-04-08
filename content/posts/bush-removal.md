@@ -1,9 +1,12 @@
 
 ---
 title: "Bush Removal"
-date: 2009-05-10T20:04:00
-draft: False
+
+date: "2009-05-10T20:04:00"
+
+featured_image: ""
 ---
+
 
 Worst Job Ever!  Sanding the leaf springs was a doddle compared to this.  Getting the first of the suspension bushes out took over three hours and almost broke the jack from the Mondeo - which might be strong enough to lift two tons of Ford, but can't stand up to a measly bush from a Land Rover.
 

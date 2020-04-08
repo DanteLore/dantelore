@@ -1,9 +1,12 @@
 
 ---
 title: "To Do"
-date: 2009-08-17T12:37:00
-draft: False
+
+date: "2009-08-17T12:37:00"
+
+featured_image: ""
 ---
+
 
 Yet another To-Do list for the MOT...
 <ul><li><span style="color: rgb(0, 153, 0);">Attach fuel tanks - DONE</span>

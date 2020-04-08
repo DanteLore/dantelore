@@ -1,9 +1,12 @@
 
 ---
 title: "Drive Shaft"
-date: 2009-06-29T21:12:00
-draft: False
+
+date: "2009-06-29T21:12:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0722-788282.jpg"
 ---
+
 
 Ran out of welding wire today.  After a weekend of hardcore grinding and welding I got the last chassis plate fabricated and tacked on.  Almost finished the last of the welding - thank God - but there's a bit to do underneath so I'll need to splash out on more wire ASAP.
 

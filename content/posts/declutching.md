@@ -1,9 +1,12 @@
 
 ---
 title: "Declutching"
-date: 2009-10-01T20:48:00
-draft: False
+
+date: "2009-10-01T20:48:00"
+
+featured_image: ""
 ---
+
 
 Here's some pictures from the last couple of evenings, over which I've stripped off the clutch master and slave cylinders for replacement. They both came off really easily, especially the slave which benefited from being in the under-engine oil bath present on most Land Rovers!
 

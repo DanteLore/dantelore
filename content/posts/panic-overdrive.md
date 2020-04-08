@@ -1,9 +1,12 @@
 
 ---
 title: "Panic Overdrive!"
-date: 2011-11-28T21:47:00
-draft: False
+
+date: "2011-11-28T21:47:00"
+
+featured_image: ""
 ---
+
 
 Had a nasty fright on the way to work on Thursday.  Popping out of overdrive on the A33 there was a nasty graunching sound and it popped back in to neutral.  After that it wouldn't stay engaged at all.  I managed to limp through the rest of the day in overdrive - hill starts were far from fun as I had to be very gentle with the clutch.
 I assumed it was my DIY linkage, so popped the tunnel cover off and pulled the selector out with vice grips.  With the back wheels off the ground I started the engine, only to find that it still wouldn't stay engaged.  There was much swearing at this point.  I have a spare gearbox, but am using The Duke daily these days and the idea of him being laid up for a couple of weeks was not appealing.  The £340 I spend on the overdrive and possibility that it might be worthless was also a minor bugbear.

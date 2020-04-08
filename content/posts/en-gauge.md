@@ -1,9 +1,12 @@
 
 ---
 title: "En-Gauge"
-date: 2009-03-19T16:15:00
-draft: False
+
+date: "2009-03-19T16:15:00"
+
+featured_image: "http://danandtheduke.co.uk/uploaded_images/24v12v-769578.jpg"
 ---
+
 
 Still waiting for engine parts, so have been working on the electrics again.  Got this snazzy little voltage dropper off eBay this week.  Was about £17 including P&P.  It drops a 24-30v supply down to about 12-13v with a peak constant output of 10A.  I think it's designed to power a trucker's radio, but it will also work for my gauges.
 <a href="http://danandtheduke.co.uk/uploaded_images/24v12v-769578.jpg"><img src="http://danandtheduke.co.uk/uploaded_images/24v12v-769576.jpg"/></a>

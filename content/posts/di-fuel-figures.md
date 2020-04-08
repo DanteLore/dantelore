@@ -1,9 +1,12 @@
 
 ---
 title: "Di Fuel Figures"
-date: 2011-10-29T10:44:00
-draft: False
+
+date: "2011-10-29T10:44:00"
+
+featured_image: ""
 ---
+
 
 Refilled after my first full tank of diesel with the 200Di yesterday.  Results not as amazing as I'd expected, but there have been a few issues which might explain that - the speedo stopped working for 20-odd miles and there's been a lot of engine tweaking and running on the drive.  Plus of course the continuing "smoke adjuster" saga.
 
@@ -11,17 +14,17 @@ Here's the graph.  The news is good really, getting just under 25MPG and I'd ex
 
 <a href="https://docs.google.com/spreadsheet/oimg?key=0Ag_iQzbv8XX6cEZnT1FXQjU5NFhxdDZvRWhSUS0yWWc&oid=11&zx=b2phym4nc11h"><img src="https://docs.google.com/spreadsheet/oimg?key=0Ag_iQzbv8XX6cEZnT1FXQjU5NFhxdDZvRWhSUS0yWWc&oid=11&zx=b2phym4nc11h"/></a>The second to last data point on the graph is the last time Dr J and I went to Sodbury.  The petrol engine was best on a long run, but even then it failed to beat the 200Di round town.  Here are some examples...
 
-Petrol Round Town: 13MPG, <b>£45</b>/100miles, Range 100miles
-Petrol to Sodbury:  19MPG, <b>£33</b>/100miles, Range 160miles
-Diesel Round Town:  25MPG, <b>£25</b>/100miles, Range 210miles
+Petrol Round Town: 13MPG, **£45**/100miles, Range 100miles
+Petrol to Sodbury:  19MPG, **£33**/100miles, Range 160miles
+Diesel Round Town:  25MPG, **£25**/100miles, Range 210miles
 
 And what we're aiming for is something like...
 
-Diesel ideal:  34MPG, <b>£18</b>/100miles, Range 290miles
+Diesel ideal:  34MPG, **£18**/100miles, Range 290miles
 
 So now I need an excuse to head off on a long run!
 
-<b>In Other News</b>
+**In Other News**
 
 I'm having all sorts of issues with the electrics at the moment.  The mornings are getting colder now and my glowplugs aren't wired up yet.  Also, I think the batteries from the 24v system are a bit small to turn over the diesel engine.  The other morning I was forced to resort to jump starting off Marvin the Mondeo.
 

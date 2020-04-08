@@ -1,9 +1,12 @@
 
 ---
 title: "Data Science Festival"
-date: 2019-04-22T13:55:40
-draft: False
+
+date: "2019-04-22T13:55:40"
+
+featured_image: ""
 ---
+
 
 
 Earlier this year, Sam and I (no relation, despite the constant references to our marriage) did a talk at the Data Science Festival about Trainline's awesome Data Products.

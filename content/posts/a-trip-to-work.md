@@ -1,9 +1,12 @@
 
 ---
 title: "A Trip To Work"
-date: 2012-09-14T20:27:54
-draft: False
+
+date: "2012-09-14T20:27:54"
+
+featured_image: "http://logicalgenetics.com/assorted/upload/speedmap.png"
 ---
+
 
 I don't drive The Duke that often because it'd cost a fortune and make me deaf. So to test his new GPS powered brain I have been collecting test data in Vinny the Vectra. I can then use this data to write some unit tests and develop cool stuff while stationary.
 

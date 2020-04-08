@@ -1,9 +1,12 @@
 
 ---
 title: "Front of Rear Spring Hanger Outrigger Slide Show"
-date: 2009-08-02T17:48:00
-draft: False
+
+date: "2009-08-02T17:48:00"
+
+featured_image: ""
 ---
+
 
 Even more exciting than the last - and with a snappier title! Enrich your life with these fascinating photos of welding in progress...
 

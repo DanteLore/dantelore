@@ -1,9 +1,12 @@
 
 ---
 title: "Perplexing Performance Problems"
-date: 2009-12-13T10:42:00
-draft: False
+
+date: "2009-12-13T10:42:00"
+
+featured_image: ""
 ---
+
 
 As I mentioned in earlier posts, I had some trouble with a loss of power when jumping quickly onto the gas - the engine would just stall.  The only way round it was to come right off the gas and onto the clutch before the engine completely cut out.  Slowly pressing the pedal was fine - it was only a problem when I pressed too fast.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Fingers Crossed"
-date: 2009-12-08T21:17:00
-draft: False
+
+date: "2009-12-08T21:17:00"
+
+featured_image: ""
 ---
+
 
 MOT booked in for tomorrow.  Going to sleep with everything crossed tonight, but to be honest I'm expecting a fail.
 

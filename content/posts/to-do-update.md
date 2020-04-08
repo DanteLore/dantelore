@@ -1,9 +1,12 @@
 
 ---
 title: "To Do - update"
-date: 2009-11-07T17:00:00
-draft: False
+
+date: "2009-11-07T17:00:00"
+
+featured_image: ""
 ---
+
 
 Here's a quick update to the To Do list for The Duke's MOT.
 <ul><li><span style="color: rgb(51, 204, 0);">Fit handbrake gaiter - DONE</span>

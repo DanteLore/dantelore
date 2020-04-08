@@ -1,9 +1,12 @@
 
 ---
 title: "Economy Investigation"
-date: 2010-02-04T22:50:00
-draft: False
+
+date: "2010-02-04T22:50:00"
+
+featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S2tBumcHsPI/AAAAAAAACCM/vyRLmg62dDY/s1600-h/fuel_economy.png"
 ---
+
 
 
 <span>Apart</span> from a few <span><span><span>speedo</span></span></span> related problems I've had a pretty great first few days driving around in The Duke.  The engine has enough grunt and nothing has fallen off yet (OK, the idle screw fell off the <span><span><span>carb</span></span></span>, but that's not too terrible).  The gearbox seems to be OK, though there are a few problems selecting first and second when at a standstill, but that might just be driver inexperience!

@@ -1,9 +1,12 @@
 
 ---
 title: "Christening, Cruising then Crashing the Carbon-Copter"
-date: 2012-10-05T14:22:46
-draft: False
+
+date: "2012-10-05T14:22:46"
+
+featured_image: ""
 ---
+
 
 I watched the BBC weather report with a growing sense of foreboding this morning.  A huge band of rain sweeping inexorably towards Newbury from the south coast, set to smother the whole of Berkshire under a blanket of liquid misery until Saturday lunchtime.  Nothing unusual, but particularly inopportune as I had a completed carbon copter and a suitcase full of batteries in the back seat of the car.
 

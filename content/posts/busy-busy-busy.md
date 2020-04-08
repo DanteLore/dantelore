@@ -1,9 +1,12 @@
 
 ---
 title: "Busy busy busy"
-date: 2009-08-16T15:52:00
-draft: False
+
+date: "2009-08-16T15:52:00"
+
+featured_image: ""
 ---
+
 
 After a weekend of "Duking", I can honestly say that I prefer the big scary tasks to the pesky odd jobs.  I also hate doing anything with bodywork and am getting pretty fed up of the electrics too!
 

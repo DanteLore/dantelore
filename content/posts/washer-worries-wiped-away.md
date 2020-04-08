@@ -1,9 +1,12 @@
 
 ---
 title: "Washer Worries Wiped Away"
-date: 2009-10-01T20:07:00
-draft: False
+
+date: "2009-10-01T20:07:00"
+
+featured_image: ""
 ---
+
 
 Wednesday: washers and wipers working, without wasting wonga on weplacements.
 

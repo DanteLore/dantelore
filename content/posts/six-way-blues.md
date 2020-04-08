@@ -1,9 +1,12 @@
 
 ---
 title: "Six Way Blues"
-date: 2009-02-02T00:22:00
-draft: False
+
+date: "2009-02-02T00:22:00"
+
+featured_image: ""
 ---
+
 
 My six-way light switch is a bit dodgy. It works, but when you move it to a new position you have to twiddle it about a bit to make a good contact. The lights flicker when you do this wiggling and there's no way that it's going to pass an MOT like that.
 

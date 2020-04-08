@@ -1,9 +1,12 @@
 
 ---
 title: "Super Quick Mini Quad"
-date: 2015-04-20T23:01:13
-draft: False
+
+date: "2015-04-20T23:01:13"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2015/04/2015-04-19-15.35.03.jpg"
 ---
+
 
 Super quick to build and super quick buzzing round the garden! Inspired by a recent video series by <a href="https://www.youtube.com/watch?v=8jbpwqCCVbs">RC Model Reviews</a> on YouTube I bought some bits and bobs from Hobby King to build my very own mini-quad.
 

@@ -1,9 +1,12 @@
 
 ---
 title: "Apple Picking"
-date: 2012-11-05T22:00:12
-draft: False
+
+date: "2012-11-05T22:00:12"
+
+featured_image: ""
 ---
+
 
 Decided to spend lunchtime tempting fate round an apple tree.  Great fun!
 

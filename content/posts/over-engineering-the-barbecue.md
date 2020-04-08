@@ -1,9 +1,12 @@
 
 ---
 title: "Over Engineering the Barbecue"
-date: 2013-08-11T21:51:10
-draft: False
+
+date: "2013-08-11T21:51:10"
+
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-11-21.55.19.jpg"
 ---
+
 
 Our trusty old barbecue is getting old.  I think it's about five or six years old now and it's lived all that time outside in the garden, summer and winter, sun and (usually) rain.  It might make financial sense to blow £50 on a new one, but I really like ours.  Much better to refurbish it using scrap bits and bobs and the tools in the garage.
 

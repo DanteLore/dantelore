@@ -1,9 +1,12 @@
 
 ---
 title: "A Quick Update"
-date: 2009-09-28T08:17:00
-draft: False
+
+date: "2009-09-28T08:17:00"
+
+featured_image: ""
 ---
+
 
 After four weeks off, I'm back and have started working on The Duke again.  Some good news and some bad news from the four or five hours of work I managed to fit in on Sunday. 
 
