@@ -55,10 +55,6 @@ So two key learnings here:  Marvel Comic movies consistently make money... and 
 
 I'm not really sure what I set out to prove here.  But I guess what I did was...
 
-<ol>* Demonstrate some tools to analyse and explore a dataset - remember to <a href="https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo">check out the Colab link for more code, charts and ramblings</a>
-* Create a cut-and-paste nirvana for various pandas and matplotlib tricks (see the above link)
-* Find out that Stan Lee is more effective than the whole of Albania, when it comes to making money
-* Draw some pretty charts
-</ol>
+<ol><li>Demonstrate some tools to analyse and explore a dataset - remember to <a href="https://colab.research.google.com/drive/10h3iRXKa9bVFM1Dd5w96Eh_VACv0nzjo">check out the Colab link for more code, charts and ramblings</a></li><li>Create a cut-and-paste nirvana for various pandas and matplotlib tricks (see the above link)</li><li>Find out that Stan Lee is more effective than the whole of Albania, when it comes to making money</li><li>Draw some pretty charts</li></ol>
 
 Maybe four things is enough for any blog post? :)

@@ -45,16 +45,11 @@ Hopefully you've watched the video I linked above, so you know the basics of an 
 Web requests take a while to run. In a normal app you might fetch them on another thread but not in JavaScript. JavaScript is all about callbacks. A Promise is basically a callback that promises to get called some time in the future. They are actually pretty cool, and they form the *spinal column* of the build status app. This is because the TeamCity API is so annoying. Let me explain why. In order to find out the status (OK or broken) and state (running, finished) of each build configuration you need to make roughly six trillion HTTP requests as follows:
 
 <ol>
-	* Fetch a list of the build configurations in the system. These are called "Build Types" in the API and have properties like "name", "project" and "id"
-
-	* For each Build Type, make a REST request to get information on the latest running Build with a matching type ID. This will give you the "name", "id" and "status" of the last *finished *build for the given Build Type.
-
-	* Fetch a list of the *currently running* builds.
-
-	* Use the list of finished builds and the list of running builds to create a set of status tiles (more on this later)
-
-	* Add the tiles to the angular $scope and let the UI render them
-
+	<li>Fetch a list of the build configurations in the system. These are called "Build Types" in the API and have properties like "name", "project" and "id"</li>
+	<li>For each Build Type, make a REST request to get information on the latest running Build with a matching type ID. This will give you the "name", "id" and "status" of the last *finished *build for the given Build Type.</li>
+	<li>Fetch a list of the *currently running* builds.</li>
+	<li>Use the list of finished builds and the list of running builds to create a set of status tiles (more on this later)</li>
+	<li>Add the tiles to the angular $scope and let the UI render them</li>
 </ol>
 
 Here's how that looks in code. Hopefully not too much more complicated than above!
@@ -107,14 +102,10 @@ We have over 100 builds. Good teams have lots of builds. Not too many, just lots
 But a screen with 100+ builds on it means very little. This is an information radiator, not a formal report. So, I use a simple (but messy) algorithm to convert a big list of Builds into a smaller list of Tiles:
 
 <ol>
-	* Take the broken builds (hopefully not many) and turn each one into a Tile
-
-	* Take the successful builds and group them by "project" (basically the category, which is basically the team or product name)
-
-	* Turn each group of successful builds into a Tile, using the "project" as the tile name
-
-	* Mark any "running" build with a flag so we can give feedback in the UI
-
+	<li>Take the broken builds (hopefully not many) and turn each one into a Tile</li>
+	<li>Take the successful builds and group them by "project" (basically the category, which is basically the team or product name)</li>
+	<li>Turn each group of successful builds into a Tile, using the "project" as the tile name</li>
+	<li>Mark any "running" build with a flag so we can give feedback in the UI</li>
 </ol>
 
 <a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus2.png"/></a>

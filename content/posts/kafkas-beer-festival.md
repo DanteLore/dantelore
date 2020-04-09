@@ -23,11 +23,7 @@ The plan is to spin up a streaming platform, with Kafka at its heart; push in so
 
 ...then to generate some simple reports and live dashboards using only Kafka.  This should demonstrate...
 
-* Writing simple  producers and consumers using Scala and Avro
-* Using basic KSQL to explore data in Kafka
-* Keeping reference data up-to-date in real time using tables
-* Doing joins and aggregations with KSQL
-
+<ul><li>Writing simple  producers and consumers using Scala and Avro</li><li>Using basic KSQL to explore data in Kafka</li><li>Keeping reference data up-to-date in real time using tables</li><li>Doing joins and aggregations with KSQL</li></ul>
 
 ### Prerequisites
 

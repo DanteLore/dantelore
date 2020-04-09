@@ -14,16 +14,11 @@ It took me ages to find any documentation on the HobbyKing MultiWii 328P 2.1 boa
 
 There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X331045X6.txt">code snippet</a>. These actually contradict each other quite seriously. I can only assume that HobbyKing have put quite a few versions of this board out and the settings are different. Here are the only changes I made...
 <ul>
-	* **TAKE THE PROPS OFF!**
-
-	* Download and install the <a href="http://arduino.cc/en/Main/Software">Arduino 1.0+ IDE</a>.
-
-	* Download the<a href="http://code.google.com/p/multiwii/downloads/detail?name=MultiWii_2_1.zip&amp;can=2&amp;q="> MultiWii software</a> from their website.
-
-	* Run the Arduino IDE. Open the file "**\MultiWii_2_1\MultiWii_2_1.ino**" this will cause all of the files in the folder to be opened up in tabs in the IDE.
-
-	* Add the following lines to **config.h** at the end of the *Combined IMU Boards* section. Leave everything else in this section commented out.
-
+	<li>**TAKE THE PROPS OFF!**</li>
+	<li>Download and install the <a href="http://arduino.cc/en/Main/Software">Arduino 1.0+ IDE</a>.</li>
+	<li>Download the<a href="http://code.google.com/p/multiwii/downloads/detail?name=MultiWii_2_1.zip&amp;can=2&amp;q="> MultiWii software</a> from their website.</li>
+	<li>Run the Arduino IDE. Open the file "**\MultiWii_2_1\MultiWii_2_1.ino**" this will cause all of the files in the folder to be opened up in tabs in the IDE.</li>
+	<li>Add the following lines to **config.h** at the end of the *Combined IMU Boards* section. Leave everything else in this section commented out.</li>
 </ul>
 
 ```C
@@ -31,8 +26,7 @@ There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X33
 ```
 
 <ul>
-	* Add this block to **def.h**. I added it around line 924, at the end of all the board specific configuration blocks.
-
+	<li>Add this block to **def.h**. I added it around line 924, at the end of all the board specific configuration blocks.</li>
 </ul>
 
 ```C
@@ -51,8 +45,7 @@ There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X33
 
 <blockquote>I can't guarantee this these settings will work. If your 'copter decapitates you as a result of using them it's not my fault!</blockquote>
 <ul>
-	* Choose the correct board type from the Arduino IDE menu (see screenshot)
-
+	<li>Choose the correct board type from the Arduino IDE menu (see screenshot)</li>
 </ul>
 
 ```
@@ -60,12 +53,9 @@ There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X33
 ```
 
 <ul>
-	* Click "Verify" (the tick) on the Arduino IDE tool bar. There shouldn't be any errors in the message window. If there are, you may have mis-copied the code or chosen the wrong board type.
-
-	* Choose the correct Serial Port from the Arduino IDE menu (the port that isn't there when the cable is connected and is there when it is!)
-
-	* Click "Upload" on the toolbar. This will upload the code to the Multi Wii, which will then reboot. Once it has rebooted, test everything three times before putting the props back on!
-
+	<li>Click "Verify" (the tick) on the Arduino IDE tool bar. There shouldn't be any errors in the message window. If there are, you may have mis-copied the code or chosen the wrong board type.</li>
+	<li>Choose the correct Serial Port from the Arduino IDE menu (the port that isn't there when the cable is connected and is there when it is!)</li>
+	<li>Click "Upload" on the toolbar. This will upload the code to the Multi Wii, which will then reboot. Once it has rebooted, test everything three times before putting the props back on!</li>
 </ul>
 I also calibrated the magnetometer properly (RTFM, Dan!) and tweaked the throttle minimum to stop the blades running with the throttle is all the way down. This involved editing config.h, finding the "Motor minthrottle" section and setting the minimum value to 1020.  This works well with my Turnigy Plush 18A controllers and DT750 outrunners. Looking forward to testing all these changes out tomorrow, if I can find some gloves and a jumper to wear.
 

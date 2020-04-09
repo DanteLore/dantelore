@@ -1,9 +1,13 @@
 img {
   max-height: 300px;
   max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery {
+  display: inline;
   max-height: 200px;
   max-width: 200px;
   margin-left: 4px;

@@ -42,19 +42,14 @@ AsOf '21/01/2013'
 
 So the algorithm for drawing the CFD is pretty simple:
 <ul>
-	* <span style="line-height: 15px;">Grab the sprints for the project in question and use them to get the start and end dates for your chart</span>
-
+	<li><span style="line-height: 15px;">Grab the sprints for the project in question and use them to get the start and end dates for your chart</span></li>
 	<li>For each day on the X axis
 <ul>
-	* Run a WIQL statement to get the state of all the bugs in the project on that date
-
-	* Use linq to count issues in the various states you're showing on the graph series
-
-	* Populate a list of view model/data objects (one for each X value)
-
+	<li>Run a WIQL statement to get the state of all the bugs in the project on that date</li>
+	<li>Use linq to count issues in the various states you're showing on the graph series</li>
+	<li>Populate a list of view model/data objects (one for each X value)</li>
 </ul>
 </li>
-	* Throw the values at the chart
-
+	<li>Throw the values at the chart</li>
 </ul>
 The only complications were the fact that the WPF Toolkit chart doesn't support stacked area series (so I had to do it myself in the view model) and that getting data on group membership from TFS is very hard and very slow (so I build a cache of dev and QA group members up front and do comparisons on the display name).

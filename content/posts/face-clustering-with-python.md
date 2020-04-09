@@ -15,11 +15,7 @@ This journey began with a conversation - maybe a debate - with this guy who work
 
 That evening I got home, fired up PyCharm and thought about the things I'd need to prove my point:
 
-* A database of faces, to use to test my code
-* A python library for detecting the features of people's faces
-* A simple algorithm for clustering the faces, based on their features
-* Some way to display the results, to validate the approach
-
+<ul><li>A database of faces, to use to test my code</li><li>A python library for detecting the features of people's faces</li><li>A simple algorithm for clustering the faces, based on their features</li><li>Some way to display the results, to validate the approach</li></ul>
 
 Just for the record, I never saw the guy I'd originally chatted to again. I continued on my journey, motivated only by a quest for self fulfilment!
 

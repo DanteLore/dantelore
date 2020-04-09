@@ -15,8 +15,7 @@ The excitement returned last night when Jason and Dr Johnson came round to perfo
 Jason did the paperwork while Dr J ran round like a maniac, poking, prodding and probing round every nook and cranny he could find.  We jacked up all four wheels and ran the engine in gear to free-up the brakes, poked around the chassis with screwdrivers, examined the body for sharp edges and wobbly bits and ran the usual lighting checks.  All this was based on the official MOT procedure which I printed out from <a href="http://www.motuk.co.uk/manual/contents.htm">this website</a>.
 
 In the end they failed me.  Here's a list of the problems they found...
-<ul>* Headlight wiring (I knew about that one, just haven't had a chance to fix it yet)
-<li>Indicator telltale (Maybe not a problem, but they both flash regardless of direction)
+<ul><li>Headlight wiring (I knew about that one, just haven't had a chance to fix it yet)</li><li>Indicator telltale (Maybe not a problem, but they both flash regardless of direction)
 </li><li>Track rod end rubber cover/boot (split)
 </li><li>Track rod bent
 </li><li>Brake/clutch pedal rubber pads missing (Another one we're not 100% on, but may be a problem)
@@ -24,8 +23,7 @@ In the end they failed me.  Here's a list of the problems they found...
 </li><li>Trim under passenger door (Not bolted in place)
 </li><li>Body tab/outrigger (Not yet fitted - waiting for some bolts from eBay)
 </li><li>Valance - both sides (Not secured)
-</li>* Exhaust blowing at manifold
-</ul>So today I had lots to look at.  None of it massively serious, just loads more work to do.  First off was a trip to Halfords to get some exhaust sealing putty for the manifold-to-down-pipe join.  I also picked up some red oxide primer and two five litre bottles of engine oil.
+</li><li>Exhaust blowing at manifold</li></ul>So today I had lots to look at.  None of it massively serious, just loads more work to do.  First off was a trip to Halfords to get some exhaust sealing putty for the manifold-to-down-pipe join.  I also picked up some red oxide primer and two five litre bottles of engine oil.
 
 <a href="http://danandtheduke.co.uk/uploaded_images/IMG_1963-700030.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_1963-700026.JPG"/></a>First job was to squish some putty into the crack between manifold and down pipe.  Dead easy to do, though it makes your hands smell nasty.  Left it for an hour or so to cure.  While I waited I slapped a bit of red oxide primer on the new door channel bits I welded on a couple of months ago.  They were already going rusty and Johnson gave me an ear bashing yesterday!
 

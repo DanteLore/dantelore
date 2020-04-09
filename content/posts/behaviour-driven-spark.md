@@ -103,12 +103,9 @@ Feature: Basic Spark
 The rest of the file is devoted to a series of **Scenarios**, these are the important bits. Each scenario should test a very specific behaviour, there's no limit to the number of scenarios you can define, so take the opportunity to keep them focussed. As well as a descriptive name, each scenario is made of a number of steps. Steps can be **Givens**, **Whens** or **Thens**. 
 
 <ul>
-	* *"**Given** some precondition*": pre-test setup. Stuff like creating a mock filesystem object, setting up a dummy web server or initialising the Spark context
-
-	* *"**When** some action*": call the function you're testing; make the REST call, whatever
-
-	* *"**Then** some test*": test the result is what you expected
-
+	<li>*"**Given** some precondition*": pre-test setup. Stuff like creating a mock filesystem object, setting up a dummy web server or initialising the Spark context</li>
+	<li>*"**When** some action*": call the function you're testing; make the REST call, whatever</li>
+	<li>*"**Then** some test*": test the result is what you expected</li>
 </ul>
 
 ## Step Definitions

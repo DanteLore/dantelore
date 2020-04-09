@@ -77,12 +77,7 @@ Every time a customer buys a product, we pull their customer record from the cac
 
 On this plus side, this gives us a database full of up-to-date model data. There are downsides though:
 
-* Because it forms the centre of all live data access, the cache database needs to be *very* fast, which means very large and very expensive.
-* Querying the cache database (for example, to see popular products in the last hour) is the only way to access the live model data, which means we need a technology that supports fast lookup *and* efficient  querying and aggregations.
-* If we choose to periodically offload data to secondary stores, data marts and so on, it just gets us  back to the timing issues we had before.  Plus the bulk queries to offload data could impact performance. 
-* For the customer-based example here, this will work fine - if you're lucky enough to have 50 million customers you can afford a big database.  However, if you start dealing with real *big data* (like telecoms data), at tens of millions of rows per minute it's  going to blow up. 
-* All your business logic is hidden away, and tied to a database schema which you're going to find hard to change!
-
+<ul><li>Because it forms the centre of all live data access, the cache database needs to be *very* fast, which means very large and very expensive.</li><li>Querying the cache database (for example, to see popular products in the last hour) is the only way to access the live model data, which means we need a technology that supports fast lookup *and* efficient  querying and aggregations.</li><li>If we choose to periodically offload data to secondary stores, data marts and so on, it just gets us  back to the timing issues we had before.  Plus the bulk queries to offload data could impact performance. </li><li>For the customer-based example here, this will work fine - if you're lucky enough to have 50 million customers you can afford a big database.  However, if you start dealing with real *big data* (like telecoms data), at tens of millions of rows per minute it's  going to blow up. </li><li>All your business logic is hidden away, and tied to a database schema which you're going to find hard to change!</li></ul>
 
 ### Kafka, Confluent and the Table/Stream Duality
 

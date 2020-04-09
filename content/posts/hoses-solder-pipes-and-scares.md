@@ -22,9 +22,7 @@ Two or three hours later I replaced what I thought was the charge warning light 
 
 Woke up very depressed today.  Chatted to Land Rover Specialist Doctor Johnson on MSN at work and we devised a plan of attack for tonight...
 <ul><li>Slacken off the generator belts - in case the generator was dead
-</li>* Take out the plugs and turn it over - in case oil or water had flooded the pistons
-* Take off the rocker cover and turn over again - in case the timing chain had broken
-</ul>I got home, found a beer and my floodlights and set to work...
+</li><li>Take out the plugs and turn it over - in case oil or water had flooded the pistons</li><li>Take off the rocker cover and turn over again - in case the timing chain had broken</li></ul>I got home, found a beer and my floodlights and set to work...
 
 <a href="http://danandtheduke.co.uk/uploaded_images/IMG_8357-763683.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_8357-763677.JPG"/></a><span style="font-size:85%;">Under the rocker cover - all fine and dandy.</span>
 

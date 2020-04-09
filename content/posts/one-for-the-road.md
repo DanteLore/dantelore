@@ -11,10 +11,8 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Be
 
 This is the fourth part of my not-so-mini blog mini-series on Kafka, KSQL and transforming event data into models.
 
-* <a href="http://logicalgenetics.com/data-engineering-in-real-time/">Part 1: The problem: turning events into models</a>
-* <a href="http://logicalgenetics.com/kafkas-beer-festival/">Part 2: Events into models using Kafka and KSQL</a>
-* <a href="http://logicalgenetics.com/time-at-the-bar-chart/">Part 3: Aggregations and charting</a>
-* <a href="https://github.com/DanteLore/events_to_models">All the code is in Github</a>
+<ul><li><a href="https://github.com/DanteLore/events_to_models">All the code is in Github</a></li></ul>
+
 
 ---
 
@@ -25,10 +23,7 @@ We're reaching the closing stages of development of our Beer Festival system.  W
 
 Two parts of the system are yet to be developed: loading brewery data and monitoring stock levels.  While implementing them, we're going to look at...
 
-* Loading CSV data with Kafka Connect
-* Validating data and handling bad rows
-* Pushing data into an old school relational database
-
+<ul><li>Loading CSV data with Kafka Connect</li><li>Validating data and handling bad rows</li><li>Pushing data into an old school relational database</li></ul>
 
 ## Breweries
 
@@ -84,11 +79,7 @@ ksql> create table brewery_table with (kafka_topic='brewery_stream_with_key', va
 
 Now we have the breweries loaded, let's join the breweries data to our beer and sales data and see if we can show the top 10 breweries.  The steps are:  
 
-* Drop and recreate the ```live_beer_sales``` stream from the last post, to add the ```brewery_id```.  
-* Using another new stream ```live_beer_sales_stringified```, convert the brewery_id to a string.
-* Join to breweries in stream ```live_beer_brewery_sales```.  Ideally, we'd have just done a double join to 'beers' and 'breweries' in one stream definition, but right now KSQL doesn't support that. 
-* Finally, create ```brewery_league_table``` with the aggregation.
-
+<ul><li>Drop and recreate the ```live_beer_sales``` stream from the last post, to add the ```brewery_id```.  </li><li>Using another new stream ```live_beer_sales_stringified```, convert the brewery_id to a string.</li><li>Join to breweries in stream ```live_beer_brewery_sales```.  Ideally, we'd have just done a double join to 'beers' and 'breweries' in one stream definition, but right now KSQL doesn't support that. </li><li>Finally, create ```brewery_league_table``` with the aggregation.</li></ul>
 
 ```sql
 ksql> drop stream live_beer_sales;
@@ -139,11 +130,7 @@ The last six lines are decidedly dodgy.  Some violate the schema (missing values
 
 With the Kafka Connect ingest solution, the schema violation errors will cause the whole file to be rejected and moved to the "error" folder.  In some cases this is what we want - but there are many reasons why it might not be:
 
-* The rows in the file might be unrelated and important - so we might want to load those which worked ASAP and deal with the bad ones later.
-* Having the errored rows in Kafka may allow us to develop a better process for error reporting, monitoring and error correction.
-* Validation might involve other data in Kafka somehow (joins etc).
-* As much of the data flow as possible is safe within Kafka - with less files hanging around in random locations.
-
+<ul><li>The rows in the file might be unrelated and important - so we might want to load those which worked ASAP and deal with the bad ones later.</li><li>Having the errored rows in Kafka may allow us to develop a better process for error reporting, monitoring and error correction.</li><li>Validation might involve other data in Kafka somehow (joins etc).</li><li>As much of the data flow as possible is safe within Kafka - with less files hanging around in random locations.</li></ul>
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2018/12/Errors-in-Kafka-1024x883.png"/>
 
@@ -230,11 +217,7 @@ Kafka Connect can be set up to write to a MySQL database directly from a topic. 
 
 Key configuration items to be aware of are:
 
-* ```insert.mode``` - we want to insert new or update existing records
-* ```auto.create``` - create the table if it doesn't exist
-* ```pk.mode``` - take the primary key from the message value
-* ```pk.fields``` - use the 'ROW' field as primary key (case sensitive, beware!) 
-
+<ul><li>```insert.mode``` - we want to insert new or update existing records</li><li>```auto.create``` - create the table if it doesn't exist</li><li>```pk.mode``` - take the primary key from the message value</li><li>```pk.fields``` - use the 'ROW' field as primary key (case sensitive, beware!) </li></ul>
 
 You can submit and start the job using the confluent CLI:
 
