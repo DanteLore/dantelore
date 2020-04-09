@@ -11,6 +11,7 @@ featured_image: ""
 This is the final article in my brief series on the National Rail API.  As usual, the code can be found on github:
 
 <a href="https://github.com/DanteLore/national-rail">https://github.com/DanteLore/national-rail</a>
+
 # The Idea
 https://twitter.com/ThatchamTrains/status/745593012290461696
 

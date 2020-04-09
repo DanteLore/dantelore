@@ -9,6 +9,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2017/04/Screensho
 
 
 <blockquote><a href="https://github.com/DanteLore/mood-bot">**Pull me on GitHub!**</a></blockquote>
+
 # Mood Bot
 
 So it's been a tradition in my office to use Slack to gauge the team's mood once a week. Previously our PM would post a message asking for feedback and people would add a reaction to show how they were feeling. This worked fine, though there were a couple of issues: firstly it was pretty hard to interpret the weird collection of party parrots and doges, and secondly people tend to follow the herd when they can see how others have reacted.
@@ -250,6 +251,7 @@ https://gist.github.com/willdages/dcac226b8d482b9dc105e6044a677345
 This code needs to be placed into a **Body Mapping Template** for your POST method within the AWS API Gateway UI. The following screenshot hopefully give you enough of a clue on how to set this up.  Now, when Slack sends the malformed (IMHO) POST, the API gateway will reformat it and pass it through to your lambda function as if it were a normal JSON payload.
 
 <img src="http://logicalgenetics.com/wp-content/uploads/2017/04/Screenshot-2017-04-24-18.45.47.png"/>
+
 ### Database Setup
 I decided to use DynamoDB - Amazon's "Document Database as a Service" (DDaaS?). I'm not sure it's the perfect choice for this work, since querying is pretty limited, but it is very cheap and incredibly simple to use.
 

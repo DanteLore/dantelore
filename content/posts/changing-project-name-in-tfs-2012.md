@@ -18,9 +18,11 @@ After some googling and much swearing we finally managed to get it to work.  Th
 	<li>Make sure the work item templates match and all your customisations have been applied to the new project</li>
 	<li>Use the TFS Integration Tool to migrate all your work items over</li>
 </ul>
+
 ## Creating a New Project
 I always forget where to click, but the next image makes it clear. Make sure you set the name and choose the correct project template.
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"/></a>
+
 ## Moving Over Custom Work Item Types
 If you haven't customised the project template at all then you can skip this step. If you have made any changes you need to make sure you copy them to the new project before you migrate. If you don't want to move your changes over there are clever things you can do with an XML mapping file but I'm not going to cover that today.
 <ul>
@@ -42,6 +44,7 @@ If you haven't customised the project template at all then you can skip this ste
 </li>
 	<li>Check that the work item templates now look as you'd expect them to</li>
 </ul>
+
 ## Migrating Work Items
 Work items can be moved between projects using the TFS Integration Tools from Microsoft.  You can download them <a href="http://visualstudiogallery.msdn.microsoft.com/eb77e739-c98c-4e36-9ead-fa115b27fefe">here</a>, though I'd suggest you search for the latest version, just in case! Install the tool on your TFS server and run it from the start menu.
 
@@ -63,6 +66,7 @@ Click "Save to Database" then click the "Start" button on the menu bar on the le
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"/></a>
 **Yes!**
 <a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"/></a>
+
 ## Possible Issue With Permissions
 When I first tried to run a migration I hit a permissions error.  Three warnings popped up as soon as I started the migration, the full text of which is below:
 
