@@ -10,11 +10,11 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7526.
 
 Just a quick pair of photos to prove I have the Multi Wii controller plugged in.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7526.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7526.jpg"/></a>
+<a href="/images/multiwii-plugged-in/IMG_7526.jpg"><img src="/images/multiwii-plugged-in/IMG_7526.jpg"/></a>
 
 Note the lack of props!  I still don't trust this thing to fly around the way I expect it to. There's a problem with the minimum throttle setting which means the motors are always spun up when the controller is armed. It's possible to change this, but you need to flash new software onto the board and I'm not sure I'm brave enough to do that yet.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7528.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7528.jpg"/></a>
+<a href="/images/multiwii-plugged-in/IMG_7528.jpg"><img src="/images/multiwii-plugged-in/IMG_7528.jpg"/></a>
 
 Mounted the board with double-sided tape and a chunk of firm packing foam (my XBox was packed in it).
 

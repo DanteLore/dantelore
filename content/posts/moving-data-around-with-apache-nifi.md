@@ -14,7 +14,7 @@ NiFi is a tool for collecting, transforming and moving data. It's basically an E
 
 This is not a new concept - Talend have been around for a while doing the same thing. Something just never worked with talend though, perhaps they abstracted at the wrong level or prerhaps they tried to be too general. Either way, the difference between Talend and NiFi is like night and day!
 
-<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-01-17-44-54/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-01-17.44.54.jpg"/></a>
+<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-01-17-44-54/"><img src="/images/moving-data-around-with-apache-nifi/Screenshot-2016-07-01-17.44.54.jpg"/></a>
 
 # Garmin Track Data
 So I don't have access to a huge amount of "big data" on my laptop, and I've done articles on MOT and National Rail data recently, so I decided to use a couple of gigs of Garmin Track data to test NiFi. The track data is a good test as it's XML: exactly the sort of data you **don't** want going into your big data system and therefore exactly the right use-case for NiFi.
@@ -63,21 +63,21 @@ The only data in the file I'm particularly interested in is "where I went". The 
 
 NiFi uses files as the fundamental unit of work. Files are collected, processed and output by a flow of processors. Files can be transformed, split or combined into more files as needed. The links between processors act as buffers, queuing files between processing stages.
 
-<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-07-40-18/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-04-07.40.18.jpg"/></a>
+<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-07-40-18/"><img src="/images/moving-data-around-with-apache-nifi/Screenshot-2016-07-04-07.40.18.jpg"/></a>
 
 The first part of the flow gathers the XML files from their location on disk (since Garmin charge an obcene amount for access to *your own data* via their API), splits the XML into multiple files then uses a simple XPath expression to extract out the Latitude and Longitude.
 
 A GetFile processor reads whole XML file. Next a SplitXml processor takes the XML in each file and splits into multiple files by chopping the XML at a secified level (in this case 5) making a set of new files, one per TrackPoint element. Following that, an EvaluateXPath processor extracts the Lat and Long and stores them as attributes on each individual file.
 
-<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-07-47-49/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-04-07.47.49.jpg"/></a>
+<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-07-47-49/"><img src="/images/moving-data-around-with-apache-nifi/Screenshot-2016-07-04-07.47.49.jpg"/></a>
 
 The rather naive XML split will return *all* elements at the specified level within the document tree. XPath is fine with that, it will either match a Lat and Long or it won't. The issue is that we'll end up with a large number of files where no location was found. The RouteOnAttribure process can be used to discard all these empty files. Settings shown below:
 
-<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-18-28-52/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-04-18.28.52.png"/></a>
+<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-18-28-52/"><img src="/images/moving-data-around-with-apache-nifi/Screenshot-2016-07-04-18.28.52.png"/></a>
 
 So, now we have a stream of files (actually empty files!) each of which is decorated with attribues for Latitude and Longitude. The last part of the flow is all about saving these to a file.
 
-<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-18-31-06/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-04-18.31.06.jpg"/></a>
+<a href="http://logicalgenetics.com/moving-data-around-with-apache-nifi/screenshot-2016-07-04-18-31-06/"><img src="/images/moving-data-around-with-apache-nifi/Screenshot-2016-07-04-18.31.06.jpg"/></a>
 
 The first processor in this part of the flow takes the attributes of each file and converts them to JSON, dropping the JSON string into the file body. We *could* just save the file at this stage, but that would be a lot of files. The second block takes a large number of single-record JSON files and joins them together to create a single *line-delimited JSON* file which culd be read by something like Storm or Spark. I had all sorts of trouble escaping a carriage return within the MergeContent block, so in the end I stored a carriage return character in a file called "~/newLine.txt" and referenced that in the processor settings. Not pretty, but it works. The last block in the flow saves files - not much more to say about that!
 

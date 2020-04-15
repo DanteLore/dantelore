@@ -14,4 +14,4 @@ For some reason, I have started playing with <a href="http://bl.ocks.org/sylvain
 
 I don't take credit for much here - I just wanted to record that I'd spent a couple of train journeys building something cool!
 
-<img class="alignleft wp-image-1216 size-thumbnail" src="http://logicalgenetics.com/wp-content/uploads/2016/11/Screenshot-2016-11-09-18.39.39-150x150.png" alt="screenshot-2016-11-09-18-39-39" width="150" height="150">
+<img class="alignleft wp-image-1216 size-thumbnail" src="/images/conways-game-of-life/Screenshot-2016-11-09-18.39.39-150x150.png" alt="screenshot-2016-11-09-18-39-39" width="150" height="150">

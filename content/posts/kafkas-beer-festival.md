@@ -11,7 +11,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafka-Bee
 
 In <a href="http://logicalgenetics.com/data-engineering-in-real-time/">part 1 of this series</a>, I explained the age-old problem of converting events (stuff that happens, y'know) into models (details about things; databases).  In this post I'm going to get down and dirty, showing some awesome features of Apache Kafka which make this unbelievably simple.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafka-Beer-with-Border.jpg"/>
+<img src="/images/kafkas-beer-festival/Kafka-Beer-with-Border.jpg"/>
 
 You can find all the code, details of the data and install instructions on my <a href="https://www.kaggle.com/nickhould/craft-cans#beers.csv">this kaggle</a>.
 
@@ -19,7 +19,7 @@ You can find all the code, details of the data and install instructions on my <a
 
 The plan is to spin up a streaming platform, with Kafka at its heart; push in some live 'sales' events from the bar of a fictional beer festival, along with some reference data on the beers and breweries...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival.jpg"/>
+<img src="/images/kafkas-beer-festival/Kafkas-Beer-Festival.jpg"/>
 
 ...then to generate some simple reports and live dashboards using only Kafka.  This should demonstrate...
 
@@ -29,7 +29,7 @@ The plan is to spin up a streaming platform, with Kafka at its heart; push in so
 
 If you want to follow along, clone the gihub repo which contains all the code for this article, get the confluent platform up and running on your laptop and build the Scala code with IntelliJ or your dev tool of choice.  You'll also need to download and tweak the source data.  All is explained in the <a href="https://github.com/DanteLore/events_to_models/blob/master/README.md">README</a>.
 
-<a href="https://github.com/DanteLore/events_to_models"><img src="http://logicalgenetics.com/wp-content/uploads/2018/11/GitHub-Mark.png"/></a>
+<a href="https://github.com/DanteLore/events_to_models"><img src="/images/kafkas-beer-festival/GitHub-Mark.png"/></a>
 
 ### Creating Sale Events
 
@@ -200,7 +200,7 @@ limit 10;
 
 So, I think the following diagram shows where we are so far.  We've loaded live events and reference data, demonstrated how updates to reference data can be managed and shown how these two datasets can be joined within Kafka in real time...  personally, I am both astonished and in love...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafka-Beer-Festival-2-1024x630.jpg"/>
+<img src="/images/kafkas-beer-festival/Kafka-Beer-Festival-2-1024x630.jpg"/>
 
 For me, the table semantics are the killer feature here.  This blog series is about converting events to models, and these snazzy new tables do much of the heavy lifting in that area.  Updates to a cache are no longer needed, as the streaming platform handles updates internally.
 

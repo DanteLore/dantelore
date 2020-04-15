@@ -19,7 +19,7 @@ This is the fourth part of my not-so-mini blog mini-series on Kafka, KSQL and tr
 
 We're reaching the closing stages of development of our Beer Festival system.  We can load streaming and batch data, process, join and aggregate it and generate some cool-looking charts that update in real time...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival-1024x630.jpg"/>
+<img src="/images/one-for-the-road/Kafkas-Beer-Festival-1024x630.jpg"/>
 
 Two parts of the system are yet to be developed: loading brewery data and monitoring stock levels.  While implementing them, we're going to look at...
 
@@ -108,7 +108,7 @@ from live_beer_brewery_sales group by brewery, city, state;
 
 And given that we did all that work in KSQL, it seems only right that I quickly knocked up another web chart to show the winners:
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-29-07.55.20-1024x688.png"/>
+<img src="/images/one-for-the-road/Screenshot-2018-11-29-07.55.20-1024x688.png"/>
 
 ## Handling Dirty Data
 
@@ -132,7 +132,7 @@ With the Kafka Connect ingest solution, the schema violation errors will cause t
 
 <ul><li>The rows in the file might be unrelated and important - so we might want to load those which worked ASAP and deal with the bad ones later.</li><li>Having the errored rows in Kafka may allow us to develop a better process for error reporting, monitoring and error correction.</li><li>Validation might involve other data in Kafka somehow (joins etc).</li><li>As much of the data flow as possible is safe within Kafka - with less files hanging around in random locations.</li></ul>
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/12/Errors-in-Kafka-1024x883.png"/>
+<img src="/images/one-for-the-road/Errors-in-Kafka-1024x883.png"/>
 
 Loading the CSV file is now so simple it's almost embarrassing - we can just use the console producer (though in real life you might still use a basic Kafka Connect job):
 
@@ -375,7 +375,7 @@ This post has been a long one, but hopefully has demonstrated the power of Kafka
 
 We've also looked at two options for dealing with potentially messy data coming in from third parties - which is a huge drain on a Data team's time and energy if handled in a bespoke-ETL fashion.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/12/Kafka-Streams-1024x444.jpg"/>
+<img src="/images/one-for-the-road/Kafka-Streams-1024x444.jpg"/>
 
 In this blog series I set out to investigate and hopefully illustrate a modern solution for integrating streaming event data and warehoused model data.  Though there are many things I glossed over - subjects like DevOps and production hardening were notably overlooked for example - I think I at least managed to convince myself!
 

@@ -4,11 +4,11 @@ title: "The Kindness of Strangers"
 
 date: "2010-03-08T22:11:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s1600-h/thumbs_up.jpg"
+featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s200/thumbs_up.jpg"
 ---
 
 
-<a href="http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s1600-h/thumbs_up.jpg"><img src="http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s200/thumbs_up.jpg"/></a>The Duke and I had a little mishap on the way home today.  Turns out I'd missed off the insulating washer when attaching the starter motor, so unknown to me, there was a nasty short on the starter contacts.
+<a href="http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s1600-h/thumbs_up.jpg"><img src="/images/the-kindness-of-strangers/thumbs_up.jpg"/></a>The Duke and I had a little mishap on the way home today.  Turns out I'd missed off the insulating washer when attaching the starter motor, so unknown to me, there was a nasty short on the starter contacts.
 
 Got it started in the car park at work but worried there was something slightly wrong.  Decided to get home and worry about it later.  My plan failed when, at the traffic lights on the main road just round the corner from my house I put the choke in too early and The Duke stalled.  Turned the key and absolutely nothing happened.  Damn.
 

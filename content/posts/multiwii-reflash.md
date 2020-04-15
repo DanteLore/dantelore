@@ -8,7 +8,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiI
 ---
 
 
-Got home from work and started working on this here MultiWii.  This time I finally built up the courage to flash the thing with some new software. <a href="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiInProgress.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiInProgress.jpg"/></a>
+Got home from work and started working on this here MultiWii.  This time I finally built up the courage to flash the thing with some new software. <a href="/images/multiwii-reflash/MultiWiiInProgress.jpg"><img src="/images/multiwii-reflash/MultiWiiInProgress.jpg"/></a>
 
 It took me ages to find any documentation on the HobbyKing MultiWii 328P 2.1 board. There are scores of different hardware versions of the Multi Wii controller, so google tends to point you in odd directions. Anyway, it turns out there's a <a href="http://www.hobbyking.com/hobbyking/store/__27033__MultiWii_328P_Flight_Controller_w_FTDI_DSM2_Port.html">"Files" tab on the HobbyKing page</a> which has a load of useful stuff.
 
@@ -49,7 +49,7 @@ There's a <a href="http://www.hobbyking.com/hobbyking/store/uploads/471221464X33
 </ul>
 
 ```
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/12/Arduino1.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/12/Arduino1.png"/></a>
+<a href="/images/multiwii-reflash/Arduino1.png"><img src="/images/multiwii-reflash/Arduino1.png"/></a>
 ```
 
 <ul>

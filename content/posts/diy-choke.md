@@ -4,7 +4,7 @@ title: "DIY Choke"
 
 date: "2010-11-27T18:18:00"
 
-featured_image: ""
+featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLNAv4JFI/AAAAAAAACN4/WQ0A1pRYPbA/s320/IMG_0950.JPG"
 ---
 
 
@@ -16,6 +16,6 @@ It's made from aluminium bar and all the parts were turned on the lathe.  I eve
 
 The only bit not shown in the pictures is how I've attached the cable to the shaft.  I drilled a 2mm hole a short way down the centre of the shaft, then drilled another 2mm hole through the side to meet it.  I then hammered an L-shaped hook into the end of the choke cable and hooked it through the holes.  To make extra sure it'll stay secure, I soldered cable and shaft together.  Not sure if the solder was needed, but it can't hurt!
 
-<a href="http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLNAv4JFI/AAAAAAAACN4/WQ0A1pRYPbA/s1600/IMG_0950.JPG"><img src="http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLNAv4JFI/AAAAAAAACN4/WQ0A1pRYPbA/s320/IMG_0950.JPG"/></a>
-<a href="http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLOS7FPXI/AAAAAAAACN8/7yXj9OL4FHI/s1600/IMG_0957.JPG"><img src="http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLOS7FPXI/AAAAAAAACN8/7yXj9OL4FHI/s320/IMG_0957.JPG"/></a>
-<a href="http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s1600/IMG_0958.JPG"><img src="http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s320/IMG_0958.JPG"/></a>
+<a href="http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLNAv4JFI/AAAAAAAACN4/WQ0A1pRYPbA/s1600/IMG_0950.JPG"><img src="/images/diy-choke/IMG_0950.JPG"/></a>
+<a href="http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLOS7FPXI/AAAAAAAACN8/7yXj9OL4FHI/s1600/IMG_0957.JPG"><img src="/images/diy-choke/IMG_0957.JPG"/></a>
+<a href="http://3.bp.blogspot.com/_62oTnOHwOSo/TPFLPH2bQwI/AAAAAAAACOA/xHtVirHtqew/s1600/IMG_0958.JPG"><img src="/images/diy-choke/IMG_0958.JPG"/></a>

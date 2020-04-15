@@ -21,13 +21,13 @@ The <a href="https://www.kaggle.com/tmdb/tmdb-movie-metadata/">movie data</a> I 
 
 So, I started to look at the cast:
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors1.png"/>
+<img src="/images/trip-to-the-movies/actors1.png"/>
 
 Samuel L Jackson appears in the highest number of movies in the dataset, followed by a constellation of... embarrassingly male stars.
 
 Being in a large number of films doesn't imply you're a great actor, or a sure fire sign of sky-high profits.  Each actor has their own unique spread of profits from the various films they've been in.  Below I compare three actors with the power of histograms.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors2-1.png"/>
+<img src="/images/trip-to-the-movies/actors2-1.png"/>
 
 This chart is a bit busy, but having categorised the movies by the amount of profit they made, the bars show the proportion of movies in that category for a given actor.  Simply put, having bigger bars on the right hand side is good.  SLJ has a healthy spread, way over a billion dollars in some cases.  Nick Cage is doing the worst of the three, with no movies over the half-billion mark and a big spike right on zero.
 
@@ -35,19 +35,19 @@ This chart is a bit busy, but having categorised the movies by the amount of pro
 
 Let's look at the total profit made by films each actor has been in...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors3.jpg"/>
+<img src="/images/trip-to-the-movies/actors3.jpg"/>
 
 <blockquote class="wp-block-quote">The observant will notice that the above chart looks much like the comics of Randall Munroe.  This is because matplotlib has built-in support for XKCD styles.  Yes, it really does!  I genuinely think this second horizontal bar chart is *much* more engaging than the one higher up the page.</blockquote>
 
 Two key things to note here - first, and thanks almost entirely to the Lord of the Rings trilogy, there is finally a woman on the list.  Secondly, Stan Lee shot right to the top, he's appeared in films totalling an unbelievable $13billion.  That's the GDP of Albania!
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors4.png"/>
+<img src="/images/trip-to-the-movies/actors4.png"/>
 
 Looking at the profit distribution of Stan Lee films vs 'all films' it's clear that he's a sure sign of a large payday.  He's never appeared in a film that made a loss and he's generally to be found in the half-billion zone.  For context, compare this to your average film, which is more than likely going to make just a few tens of millions on average.
 
 Stan normally crops up in Super Hero movies.  Specifically movies based on comics, I guess.  It's hard to find these in the dataset, they are categorised as "Action", "Sci-Fi" and so on; there's no specific genre for heroes.  However, in the keyword field there are movies tagged "Marvel Comic" which helps us.  Pulling these out, we find that Stan doesn't appear in every one...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/actors5.png"/>
+<img src="/images/trip-to-the-movies/actors5.png"/>
 
 So two key learnings here:  Marvel Comic movies consistently make money... and those which Stan Lee chooses to appear in make around a billion more on average!
 

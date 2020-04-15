@@ -20,4 +20,4 @@ A replacement solution is "bred" each iteration, to replace the solution killed-
 
 And that's all there is to an Evolutionary Algorithm - it's just a way of finding the right combination of input variables to maximise some arbitrarily complex fitness function. It does this through a guided random search.
 
-<img class="size-thumbnail wp-image-1230 alignleft" src="http://logicalgenetics.com/wp-content/uploads/2016/11/Screenshot-2016-11-11-17.25.56-150x150.jpg" alt="screenshot-2016-11-11-17-25-56" width="150" height="150">
+<img class="size-thumbnail wp-image-1230 alignleft" src="/images/evolutionary-algorithm-playable-demo/Screenshot-2016-11-11-17.25.56-150x150.jpg" alt="screenshot-2016-11-11-17-25-56" width="150" height="150">

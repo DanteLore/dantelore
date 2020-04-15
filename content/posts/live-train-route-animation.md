@@ -4,7 +4,7 @@ title: "Live Train Route Animation"
 
 date: "2016-06-16T09:46:06"
 
-featured_image: "http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner.gif"
 ---
 
 
@@ -12,11 +12,11 @@ The code for this article is available on my github, here: https://github.com/Da
 
 Building on the <a href="http://logicalgenetics.com/train-departure-board/">Live Departures Board</a> project from the other day, I decided to try out mapping some departure data. The other article shows pretty much all the back-end code, which wasn't changed much.
 
-<a href="http://logicalgenetics.com/live-train-route-animation/route-planner/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner.gif"/></a>
+<a href="http://logicalgenetics.com/live-train-route-animation/route-planner/"><img src="/images/live-train-route-animation/route-planner.gif"/></a>
 
 The AngularJS app takes the routes of imminent departures from various stations and displays them on a <a href="http://leaflet-extras.github.io/leaflet-providers/preview/index.html">CartoDB</a>, which is free, unlike Mapbox.
 
-<a href="http://logicalgenetics.com/live-train-route-animation/route-planner2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner2.gif"/></a>
+<a href="http://logicalgenetics.com/live-train-route-animation/route-planner2/"><img src="/images/live-train-route-animation/route-planner2.gif"/></a>
 
 Here's the code-behind for the Angular app:
 

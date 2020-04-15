@@ -16,25 +16,25 @@ The data arrives in CSV format, which is very easy to digest but pretty slow whe
 ## Test counts over time
 First thing to look at: how many tests are carried out on vehicles of a given age? Basically, how many 3-year-old, 4-year-old, 20-year-old... cars are on the road.  The dataset contains records for MOTs on cars well over 100 years old, but there aren't many of them.
 
-<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot1/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot1.png"/></a>
+<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot1/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot1.png"/></a>
 
 As you can see from the histogram, most tests are carried out on cars between 3 and 15ish years old.
 
-<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot2.png"/></a>
+<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot2/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot2.png"/></a>
 
 The accompanying CDF shows that the 95% percentile is roughly around the 15 year mark.  Let's zoom in a bit...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot3-1.png"/>
+<img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot3-1.png"/>
 
 The *zoomed-in* histogram makes the 10-15 year shelf life of most cars pretty apparent.
 ## Pass rates by age
 Are people throwing away their older cars because they're uncool or because they are broken?
 
-<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot5/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot5.png"/></a>
+<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot5/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot5.png"/></a>
 
 A look at the pass rate over time shows that it's probably because they're broken.  The pass rate starts off pretty high - well over 85%, but dips top an all time low at 14 years of age.
 
-<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot6/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot6.png"/></a>
+<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot6/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot6.png"/></a>
 
 Once cars get past the 14 year "death zone" their prospects get better though. As cars get older and older the first-test pass rate heads back up towards 100%. At around 60 years old, cars have a better chance of passing their MOT than when they're brand new!
 
@@ -42,15 +42,15 @@ I guess it's safe to assume that cars over 30 years of age are treated with a li
 ## Manufacturers
 The pass rate changes differently as cars from different manufacturers get older. Some manufacturers make "disposable" cars, some make cars designed to be classics the day they leave the showroom (Aston Martin, Lotus, Rolls Royce). Some make cheap cars that people care less about (Vauxhall, Ford), some make posh cars people take care of (Audi, BMW). Japanese manufacturers seem to be able to build cars with very steady pass rates over time.
 
-<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot7-2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot7-1.png"/></a>
+<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot7-2/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot7-1.png"/></a>
 
 It might not be a shock that Bentley, Porche are at the top here, with TVR close behind. For me the biggest surprise was that Ford takes the deepest dip at the 14 year mark. Fords are clearly not built to last... or maybe people don't care for them.  Renault and Alpha Romeo join Ford at the bottom of the table here.
 ## Numbers of cars
-It's all very well to be mean to Ford about their poor longevity, but they do have more cars on the road that pretty much anyone else.  Check out the heatmap: <a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot8/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot8.png"/></a>
+It's all very well to be mean to Ford about their poor longevity, but they do have more cars on the road that pretty much anyone else.  Check out the heatmap: <a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot8/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot8.png"/></a>
 
 While we're counting cars, it looks like silver is the most popular colour. The MOT test data "runs out" in 2013, so I'd expect to see a lot more white cars these days.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot9.png"/>
+<img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot9.png"/>
 
 ## Some code
 OK, so we've looked at some charts not let's look at some code.  All the charts about were generated by simple Spark dataframe apps, wrapped up in a unit test harness for ease of use.  Here's an example:
@@ -116,7 +116,7 @@ So the mean error is greater than 1 - i.e. most test data entries are classified
 
 The confusion matrix tells a slightly more positive story though - here it is rendered as a colour map:
 
-<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot10/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/mot10.png"/></a>
+<a href="http://logicalgenetics.com/predicting-mot-pass-rates-with-spark-mllib/mot10/"><img src="/images/predicting-mot-pass-rates-with-spark-mllib/mot10.png"/></a>
 
 The confusion matrix shows the class predicted by the model (column) versus the actual class of the sample (row). A perfect predictor would give a diagonal green line from top left to bottom right, showing every class predicted correctly.
 

@@ -12,7 +12,7 @@ I don't drive The Duke that often because it'd cost a fortune and make me deaf. 
 
 In a slack moment at work today I knocked up a couple of functions to detect traffic jams and visualise my speed on my way to work. Here's a typical trip. Click on the pic or <a href="http://logicalgenetics.com/assorted/upload/VinnyLog20120914.html">here to explore the interactive "report".</a>
 
-<a href="http://logicalgenetics.com/assorted/upload/VinnyLog20120914.html"> <img src="http://logicalgenetics.com/assorted/upload/speedmap.png"/>
+<a href="http://logicalgenetics.com/assorted/upload/VinnyLog20120914.html"> <img src="/images/a-trip-to-work/speedmap.png"/>
 </a>
 
 I quite like these static pages for output. They are very simple to create with some code and can be pushed up onto the web easily. No faffing about with databases, just some HTML and Javascript. On the map above the placemarks show places where I stopped for more than 30 seconds (there was traffic at junction 12 that morning!) and the colour of the line shows my speed. In the end I'd like to detect more events - when we go off road, when I brake suddenly or go round a corner too fast, when we get stuck in a traffic jam and when we visit places we know. I also got the webcam working on the raspberry pi, along with a wireless internet dongle so I can embed photos and videos then upload *live* and post on twitter.

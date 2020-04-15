@@ -17,7 +17,7 @@ This is part three in a blog mini-series about the power of Streaming Platforms 
 
 This post is all about aggregations.  Looking at how we can get aggregated data out of the streaming platform both real-time and ad-hoc style.  Here's a reminder of the Beer Festival simulation I've been using:
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival-1024x630.jpg"/>
+<img src="/images/time-at-the-bar-chart/Kafkas-Beer-Festival-1024x630.jpg"/>
 
 *Two full days* of work went into the job of extracting results from Kafka and displaying them on a chart!  I might write another article about how difficult it was, but for now we're just going to talk about aggregations in KSQL and forget the last 48 hours never happened... OK?
 
@@ -65,11 +65,11 @@ ksql> select * from takings_by_bar;
 
 Obviously, the beer festival can't pause every time the organisers want to draw a bar chart, so I added a little dictionary-based cache between Kafka and the front end.  You can find <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/scala/com/logicalgenetics/reports/SalesServer.scala">the code for my simple caching web service on Github</a> as always.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/DIY-Kafka-REST-Proxy-1-1024x233.png"/>
+<img src="/images/time-at-the-bar-chart/DIY-Kafka-REST-Proxy-1-1024x233.png"/>
 
 The middle-tier is a basic self-contained REST service based on <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/barchart.html">code here</a>), which pulls data from the middle tier in JSON format.  I'm not recommending this as a production architecture, but it's a nice demo!
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-26-21.14.26-1024x555.png"/>
+<img src="/images/time-at-the-bar-chart/Screenshot-2018-11-26-21.14.26-1024x555.png"/>
 
 The beer festival has been running for a few days now, bar 1 is clearly nearer the door, while, tucked away behind the pork scratching stand, bar 4 is only selling pilsners.
 
@@ -89,7 +89,7 @@ group by bar;
 
 The interesting bit in the query above is **"window tumbling"** which creates a one minute aggregation window.  When the minute elapses, the window closes and a new one opens, with the counts starting at zero again.  Here's a screenshot... everything else is the same, really.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-26-21.28.37-1024x578.png"/>
+<img src="/images/time-at-the-bar-chart/Screenshot-2018-11-26-21.28.37-1024x578.png"/>
 
 Note that you can also do 'hopping' and 'session' windows which slide the window in smaller increments and lock windows to sessions, respectively.  Tumbling works fine for the beer festival though.
 
@@ -131,7 +131,7 @@ Here comes the tricky part though.  KSQL does have a function called 'TOPK' whic
 
 You can find the code for <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/top-beers.html">the chart here</a>.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Screenshot-2018-11-27-08.15.08-1024x694.png"/>
+<img src="/images/time-at-the-bar-chart/Screenshot-2018-11-27-08.15.08-1024x694.png"/>
 
 It's a shame you can't see the chart moving, because it animates beautifully!
 

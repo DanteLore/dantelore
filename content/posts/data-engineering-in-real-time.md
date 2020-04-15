@@ -22,13 +22,13 @@ I'm a Data Engineer by trade.  I've been working with Data Platforms for some ye
 
 Our lives, the universe, *everything* is simply a stream of events. People buy things on websites, make calls on their phones, order beers, click *like* on cat videos.  Everything that makes us who we are can be encapsulated in a time-ordered change log.  These days, many companies are adopting event-driven architectures to handle the endless firehose of stuff that happens.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Life-Events.jpg"/>
+<img src="/images/data-engineering-in-real-time/Life-Events.jpg"/>
 
 Humans, however, don't think in terms of events - they think in terms of of things*:  *How much money do I have? How many customers bought avocados? What's the mobile coverage like in my street? We just can't help but think in terms of *entities* and *attributes*.  As a result, pretty much every company still has an old-school BI function; a SQL data warehouse; an enterprise data model (or just an ER diagram on the office wall); overnight batch ETL jobs; daily and monthly reports...  These old-school tools help us to rationalise the world in a way that feels natural.
 
 The job of Data Engineers is to collect, filter, clean and store the endless stream of events and to map the changes they represent onto an entity-based model of the 'world'. 
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/EventsToModels.png"/>
+<img src="/images/data-engineering-in-real-time/EventsToModels.png"/>
 
 What surprises me is that, even though this problem has been around forever (as far back as the 50's and 60's in fact) there is no standard pattern for solving it.  As the latency of life decreases and we start to eek out the margin from every single minute and second, the pressure mounts to paint an accurate picture of our customers and systems in real time, 24x7.
 
@@ -36,13 +36,13 @@ What surprises me is that, even though this problem has been around forever (as 
 
 In the olden days... by which I mean, this still happens now, but when asked about it, people look sheepish and refer to it as "legacy"... anyway, in the olden days conversion from events to models happened as an overnight batch.  Take this classic example of a bank...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Batch-vs-Transaction.png"/>
+<img src="/images/data-engineering-in-real-time/Batch-vs-Transaction.png"/>
 
 Every night, all reporting operations stop, while a monstrous ETL job aggregates all the transactions from the past 24 hours, adds them to the yesterday's account balances  and updates the master database. Remember when your bank balance changed once a day? 
 
 There's actually nothing wrong with this!  Locking users out for a couple of hours while running an overnight  job is a *great* way to ensure that everyone arrives in the office next day to a view of the world which is correct, consistent, stable and reliable.  It's perfect for financial reporting, where accuracy is more important than timeliness... but if you want a more up-to-date view, you have to come back tomorrow.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Batch-in-AWS.png"/>
+<img src="/images/data-engineering-in-real-time/Batch-in-AWS.png"/>
 
 A modern batch process would usually be used to populate bulk data in warehouses and data marts used for financial reporting and long term forecasting.  Updating overnight means results are consistent all day, across all reports/departments etc.  In a typical AWS deployment, data is tapped from the ingest pipeline and archived to a "data lake" as files in S3.  Overnight a series of EMR pipelines pick up, aggregate and transform the raw data, storing the results into a relational database like RedShift.
 
@@ -52,7 +52,7 @@ In the front office, things have been changing over the last few years.  For all
 
 But getting consistent and repeatable results from a complex web of services is hard. Timing starts to play a big part in what happens, as calls happen slightly earlier or later and the state of data in services becomes prone to race conditions and emergent behaviour.  For this reason, the next step on from micro services is  <a href="https://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a>, which uses a central log of events to give consistency, repeatability and traceability.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Micro-Services.png"/>
+<img src="/images/data-engineering-in-real-time/Micro-Services.png"/>
 
 To cut a long story short, the front office is now sending events to record everything that happens, as it happens, in real time.  If Data teams are going to join in the fun, then all our reports, models and snazzy-pants neural networks need to play the same game.  We need to be predicting a customer's next action *now*, not overnight.  Which means we now need to convert events into models in real time.
 
@@ -73,7 +73,7 @@ foreach(event : ProductPurchasedEvent) {
 ```
 Every time a customer buys a product, we pull their customer record from the cache database, update the appropriate fields and write the data back.  Since we want to avoid race conditions and respect running queries, this is all done under a transaction.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Events-to-Models-Old-School.png"/>
+<img src="/images/data-engineering-in-real-time/Events-to-Models-Old-School.png"/>
 
 On this plus side, this gives us a database full of up-to-date model data. There are downsides though:
 
@@ -89,4 +89,4 @@ With the addition of Kafka Streams and KSQL, Kafka has grown to become a fully f
 
 In part 2 I'll walk through how I investigated these cool new features and show a demo based on a Beer Festival...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/11/Kafka-Beer.jpg"/>
+<img src="/images/data-engineering-in-real-time/Kafka-Beer.jpg"/>

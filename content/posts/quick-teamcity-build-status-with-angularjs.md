@@ -10,7 +10,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStat
 
 So, this isn't supposed to be the ultimate guide to AngularJS or anything like that - I'm not even using the latest version - this is just some notes on my return to *The World of the View Model* after a couple of years away from WPF. Yeah, that's right, I just said WPF while talking about Javascript development. They may be different technologies from different eras: one may be the last hurrah of bloated fat-client development and the other may be the latest and greatest addition to the achingly-cool, tie dyed hemp tool belt of the Single Page App hipster, but under the hood they're very very similar. Put that in your e-pipe and vape it, designer-bearded UX developers!
 
-<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"/></a>
+<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/"><img src="/images/quick-teamcity-build-status-with-angularjs/BuildStatus.png"/></a>
 
 Anyway, when I started, I knew *nothing* about SPA development. I'd last done JavaScript several years ago and never really used it as a *real* language. I still contend that JavaScript isn't a real language (give me Scala or C# any day of the week) but you can't ignore the fact that this is how user interfaces are developed these days... so, yeah, I started with a <a href="https://www.youtube.com/watch?v=i9MHigUZKEM">tutorial on YouTube</a>.
 
@@ -108,7 +108,7 @@ But a screen with 100+ builds on it means very little. This is an information ra
 	<li>Mark any "running" build with a flag so we can give feedback in the UI</li>
 </ol>
 
-<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus2/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus2.png"/></a>
+<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus2/"><img src="/images/quick-teamcity-build-status-with-angularjs/BuildStatus2.png"/></a>
 
 ## Displaying It
 
@@ -194,4 +194,4 @@ One thing I will say: that whole page is less than 300 lines of code. That's pre
 
 <a href="https://github.com/DanteLore/teamcity-status-with-angular">Feel free to download and use the app however you like</a> - just bung in a link to this page!
 
-<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"/></a>
+<a href="http://logicalgenetics.com/quick-teamcity-build-status-with-angularjs/buildstatus/"><img src="/images/quick-teamcity-build-status-with-angularjs/BuildStatus.png"/></a>

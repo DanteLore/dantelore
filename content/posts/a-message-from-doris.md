@@ -4,7 +4,7 @@ title: "A Message from DoRIS"
 
 date: "2009-02-17T09:37:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/hilton-735809.jpg"
+featured_image: "http://danandtheduke.co.uk/uploaded_images/hilton-735732.jpg"
 ---
 
 
@@ -15,7 +15,7 @@ featured_image: "http://danandtheduke.co.uk/uploaded_images/hilton-735809.jpg"
 <span style="font-size:100%;">
 </span><a href="http://www.derelictplaces.co.uk/main/showthread.php?t=6607">Central Vehicle Depot at Hilton</a> near Derby.  Now demolished and replaced with a housing estate.</span>  As far as I can tell, The Duke spent about a week there.
 
-<a href="http://danandtheduke.co.uk/uploaded_images/hilton-735809.jpg"><img src="http://danandtheduke.co.uk/uploaded_images/hilton-735732.jpg"/></a><span style="font-size:85%;">
+<a href="http://danandtheduke.co.uk/uploaded_images/hilton-735809.jpg"><img src="/images/a-message-from-doris/hilton-735732.jpg"/></a><span style="font-size:85%;">
 </span><a href="http://en.wikipedia.org/wiki/RAF_Catterick">RAF <span>Catterick</span></a>, now part of the <span>Catterick</span> Garrison, was transferred from the RAF to the Army in 1994.  Up until that time is was used as a depot by "various squadrons" and the RAF regiment.  This tallies with the record card, which shows that The Duke was stored there (I think) from 1985 to 1994.
 
 <span style="font-size:100%;">There's no mention of RAF <span>Boscombe</span> Down on the card, which shows that The Duke was sold by the RAF from <a href="http://www.publications.parliament.uk/pa/cm200102/cmhansrd/vo011018/text/11018w13.htm">House of Commons website</a> implies that Aston down was a storage facility, operated by <span>SERCO</span>, who's <span>responsibilities</span> included "</span><span style="font-size:100%;">Support in the disposal of surplus MOD holdings including surplus vehicles"</span>.

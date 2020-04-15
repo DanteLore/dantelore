@@ -4,7 +4,7 @@ title: "By Jove, I think I've Got It!"
 
 date: "2009-01-13T00:24:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/TheDuke-744559.png"
+featured_image: "http://danandtheduke.co.uk/uploaded_images/TheDuke-744552.png"
 ---
 
 
@@ -17,5 +17,5 @@ I think I've come up with a general plan:
 </li><li>Leave the fog lights as they are, but get a replacement switch and new fog relay.</li><li>Get a cheap replacement flasher (with bulb failure warning).</li><li>Blank off the military panel and use blanking plate as a place to mount <span style="font-style: italic;">spare</span> warning lamps, <span>gauges</span> and so on.
 </li></ul>All in all, including connectors, cable, relays, switches, flasher and so on, I think this should cost about £100.  Extra lights and gauges will be just that.  Not exactly cheap, but a good three-way compromise between original features, simplicity and safety!
 
-<a href="http://danandtheduke.co.uk/uploaded_images/TheDuke-744559.png"><img src="http://danandtheduke.co.uk/uploaded_images/TheDuke-744552.png"/></a>
+<a href="http://danandtheduke.co.uk/uploaded_images/TheDuke-744559.png"><img src="/images/by-jove-i-think-ive-got-it/TheDuke-744552.png"/></a>
 <span style="font-size:85%;">Diagram showing the current plan.  I may add to/remove from/change this over the next couple of weeks!</span>

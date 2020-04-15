@@ -26,7 +26,7 @@ So should we all be buying a four-year-old car with 180k miles on the clock? Wel
 ## Pass Rate vs Mileage and Age... to the MAX
 [d3-source canvas="wpd3-1167-4"]
 
-That last chart shows the same heat-matrix view, but to the full extents of the data. There are some interesting facts hidden in that chart... but I'll leave them as an exercise for the reader!<img class="aligncenter size-thumbnail wp-image-1192" src="http://logicalgenetics.com/wp-content/uploads/2016/10/144-150x150.jpg" alt="144" width="150" height="150">
+That last chart shows the same heat-matrix view, but to the full extents of the data. There are some interesting facts hidden in that chart... but I'll leave them as an exercise for the reader!<img class="aligncenter size-thumbnail wp-image-1192" src="/images/well-travelled-or-just-plain-old/144-150x150.jpg" alt="144" width="150" height="150">
 
 ## UPDATE: Proper Stats:
 So it turns out that calculating correlation and covariance with Spark is pretty easy. Here's the results and the code:

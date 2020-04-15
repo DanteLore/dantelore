@@ -21,7 +21,7 @@ After some googling and much swearing we finally managed to get it to work.  Th
 
 ## Creating a New Project
 I always forget where to click, but the next image makes it clear. Make sure you set the name and choose the correct project template.
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"/></a>
+<a href="/images/changing-project-name-in-tfs-2012/renametfs1.png"><img src="/images/changing-project-name-in-tfs-2012/renametfs1.png"/></a>
 
 ## Moving Over Custom Work Item Types
 If you haven't customised the project template at all then you can skip this step. If you have made any changes you need to make sure you copy them to the new project before you migrate. If you don't want to move your changes over there are clever things you can do with an XML mapping file but I'm not going to cover that today.
@@ -50,7 +50,7 @@ Work items can be moved between projects using the TFS Integration Tools from Mi
 
 Run the tool and select "Create New" from the menu on the left.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs3.png"/></a>
+<a href="/images/changing-project-name-in-tfs-2012/renametfs3.png"><img src="/images/changing-project-name-in-tfs-2012/renametfs3.png"/></a>
 
 Choose the template: **C:\Program Files (x86)\Microsoft Team Foundation Server Integration Tools\Configurations\Team Foundation Server\WorkItemTracking.xml**
 
@@ -59,13 +59,13 @@ In the configuration you need to select a project on the left and on the right. 
 Click "Save to Database" then click the "Start" button on the menu bar on the left.
 
 **Off it goes...**
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs4.png"/></a>
+<a href="/images/changing-project-name-in-tfs-2012/renametfs4.png"><img src="/images/changing-project-name-in-tfs-2012/renametfs4.png"/></a>
 **Looking good so far...**
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs5.png"/></a>
+<a href="/images/changing-project-name-in-tfs-2012/renametfs5.png"><img src="/images/changing-project-name-in-tfs-2012/renametfs5.png"/></a>
 **Almost there...**
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs6.png"/></a>
+<a href="/images/changing-project-name-in-tfs-2012/renametfs6.png"><img src="/images/changing-project-name-in-tfs-2012/renametfs6.png"/></a>
 **Yes!**
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs7.png"/></a>
+<a href="/images/changing-project-name-in-tfs-2012/renametfs7.png"><img src="/images/changing-project-name-in-tfs-2012/renametfs7.png"/></a>
 
 ## Possible Issue With Permissions
 When I first tried to run a migration I hit a permissions error.  Three warnings popped up as soon as I started the migration, the full text of which is below:

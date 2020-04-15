@@ -16,15 +16,15 @@ So it's been a tradition in my office to use Slack to gauge the team's mood once
 
 Here's my idea for the new, automated workflow...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/04/Screenshot-2017-05-03-12.20.48.jpg"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-05-03-12.20.48.jpg"/>
 
 By far the cheapest and maybe the simplest way to host all of the code to do this is to "go serverless" using many of the cool features available on AWS to host code, databases and APIs on a pay-per-use basis.  Here't the technical architecture...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/05/MoodBot-1.jpg"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/MoodBot-1.jpg"/>
 
 Based on the above there are three broad areas for development: send the webhook to Slack; deal with responses when users click the buttons and serve up a chart showing the results for the week.
 # Sending the Web Hook
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-14.53.04.jpg"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-05-03-14.53.04.jpg"/>
 
 Slack allows you to post Interactive Messages using an Incoming Webhook. In order to do this you'll need to add a new slack bot integration using their very friendly web UI. I called mine "MoodBot". Once you have a bot set up, you need to enable "Incoming Webhooks" and add the target URL to an environment variable (see <a href="https://gist.github.com/nmrony/789ad378552c27b1c4e9af6e77c2764e">here</a> for more details).
 
@@ -77,7 +77,7 @@ const message = {
 ```
 This gives you a slack message looking like this:
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-15.27.38.jpg"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-05-03-15.27.38.jpg"/>
 
 The webhook is sent by a Lambda function, which is triggered crontab-style by a CloudWatch event rule.  The Lambda looks like this:
 ```javascript
@@ -158,7 +158,7 @@ Which will run at 9am (GMT) every Wednesday.  All this is set up via a reasonab
 # Collating Responses
 This is the most complicated bit (and there's an extra tricky bit to deal with too). To handle the responses when users click buttons on the interactive Slack message you need four things: 1. A lambda function to handle the POST request and push data to a database, 2. an API Gateway resource to provide an HTTP end-point, translate the request and forward it to the Lambda function, 3. a database to store the data and finally 4. a config setting in Slack to tell it where to send the POST.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-14.53.16.jpg"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-05-03-14.53.16.jpg"/>
 
 Here's the code for my Lambda function. It's simple enough - it just takes the JSON in the incoming request, grabs the bits it wants and adds a few dates and times to create another JSON object to post to DynamoDB. The response sent back to slack is a replacement message, which will overwrite the one already in the channel. Here I add a list of users who have clicked so far (a better man would have pulled this list from the DB!).
 ```javascript
@@ -250,7 +250,7 @@ https://gist.github.com/willdages/dcac226b8d482b9dc105e6044a677345
 
 This code needs to be placed into a **Body Mapping Template** for your POST method within the AWS API Gateway UI. The following screenshot hopefully give you enough of a clue on how to set this up.  Now, when Slack sends the malformed (IMHO) POST, the API gateway will reformat it and pass it through to your lambda function as if it were a normal JSON payload.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/04/Screenshot-2017-04-24-18.45.47.png"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-04-24-18.45.47.png"/>
 
 ### Database Setup
 I decided to use DynamoDB - Amazon's "Document Database as a Service" (DDaaS?). I'm not sure it's the perfect choice for this work, since querying is pretty limited, but it is very cheap and incredibly simple to use.
@@ -261,7 +261,7 @@ Final step is very simple - use the Slack admin UI for your bot to add the addre
 # Displaying Results
 Though there are more boxes on the diagram below, this is actually the easiest step by far. We serve up a simple D3js "single page app" direct from S3 as static content. This SPA page calls a GET method on the REST service we created above which in turn calls a Lambda function. The Lambda hits out database, pulls out the results and sends them back as a JSON payload.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2017/05/Screenshot-2017-05-03-14.53.32.jpg"/>
+<img src="/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-05-03-14.53.32.jpg"/>
 
 There's not much more to explain, so I'll just link to a Fiddle which includes the code for my front end - this one actually hits my production database, so you'll be able to see how my team feel!
 

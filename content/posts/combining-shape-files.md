@@ -35,8 +35,8 @@ FOR %%T IN %tiles% DO FOR %%L IN %layers% DO (
 ```
 After a little map file jiggery-pokery I can now render a huge map of the UK or tiles with smaller maps without the many layer definitions needed to use ~20 shape file sets.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"/></a>
+<a href="/images/combining-shape-files/london-zoomed.jpg"><img src="/images/combining-shape-files/london-zoomed.jpg"/></a>
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/london-big.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/london-big.jpg"/></a>
+<a href="/images/combining-shape-files/london-big.jpg"><img src="/images/combining-shape-files/london-big.jpg"/></a>
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2013/09/uk-big.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2013/09/uk-big.jpg"/></a>
+<a href="/images/combining-shape-files/uk-big.jpg"><img src="/images/combining-shape-files/uk-big.jpg"/></a>

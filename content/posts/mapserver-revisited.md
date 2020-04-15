@@ -10,13 +10,13 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-w
 
 Years ago, before they invented Google Earth and Bing Maps and all that, I did some work to show GPS data using Mapserver.  At work yesterday I was forced to revisit it while maintaining an aged and creaking part of our product.  It took a while to get my head back into the right state but once I'd got going I started to enjoy it again.  This time around, because I'm at work, I'm using <a href="http://spatialhorizons.com/2007/05/19/mapserver-1-10-minute-tutorial/">found here</a>.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web1.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web1.jpg"/></a>
+<a href="/images/mapserver-revisited/mapserv-web1.jpg"><img src="/images/mapserver-revisited/mapserv-web1.jpg"/></a>
 
 When I last played with Mapserver there was very little decent data.  I had to settle for a very low resolution map of the world (vmap0) and some pretty poor raster data.  Yesterday, after a little googling, I found that OS have released <a href="http://mapserver.org/tutorial/example1-1.html">reasonable online tutorials</a> too.  I spent a little time getting this to render and the results are shown here in the scaled image above and full-size image below.
 
 I decided to go with a black background as I was thinking of a Raspberry Pi based "GPS" system to show The Duke's location on a small screen.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web2.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web2.png"/></a>
+<a href="/images/mapserver-revisited/mapserv-web2.png"><img src="/images/mapserver-revisited/mapserv-web2.png"/></a>
 
 Note that the image is a little jagged looking.  Turns out you can fix this by adding the following snippet into your map file (under the MAP element).  Of course, you pay a high price in processing time and image size.
 
@@ -32,7 +32,7 @@ FORMATOPTION "INTERLACE=OFF"
 END
 [/sourcecode]
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web3.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web3.jpg"/></a>
+<a href="/images/mapserver-revisited/mapserv-web3.jpg"><img src="/images/mapserver-revisited/mapserv-web3.jpg"/></a>
 
 The benefit of Mapserver over Google or Bing maps is that it works on local data with no requirement for an internet connection. This means it's more reliable for a GPS sort of system. Of course, the downside is that there are fewer layers available and you have to do a lot of coding. Was good to play with, though, and I hope to get it working on the raspberry soon.
 

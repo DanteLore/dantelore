@@ -10,7 +10,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2
 
 It turns out it's really quite simple to get data out of Team Foundation Server.  You can do it using the built-in reporting tools, but that seems a bit boring to me.  After the Big Cheese agreed to buy us a super-sized telly to get some project propaganda into the office I decided to whack out a WPF app.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"><img src="http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"/></a>
+<a href="/images/tfs-dashboard-fun/Burndown2.png"><img src="/images/tfs-dashboard-fun/Burndown2.png"/></a>
 
 Three useful bits of information worth recording here.  How to get information out of TFS, how to draw nice looking graphs and how to make a borderless, click-anywhere-drag style app without the windows title bar.
 ## Getting Information From TFS

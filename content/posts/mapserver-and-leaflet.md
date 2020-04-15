@@ -4,7 +4,7 @@ title: "Mapserver and Leaflet"
 
 date: "2014-06-18T08:56:55"
 
-featured_image: "http://{s}.tiles.mapbox.com/v3/genious.igfmnea7/{z}/{x}/{y}.png"
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2014/06/mapserverLeaflet2.jpg"
 ---
 
 
@@ -100,6 +100,6 @@ L.tileLayer.wms("http://localhost:8001/cgi-bin/mapserv.exe?map=D:\\Dropbox\\Data
 ```
 Sadly I don't have a mapserver instance on the internet, so all I can show here is a couple of screenshots.  You'll just have to take my word for it - it works brilliantly!
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2014/06/mapserverLeaflet2.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2014/06/mapserverLeaflet2.jpg"/></a>
+<a href="/images/mapserver-and-leaflet/mapserverLeaflet2.jpg"><img src="/images/mapserver-and-leaflet/mapserverLeaflet2.jpg"/></a>
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2014/06/mapserverLeaflet1.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2014/06/mapserverLeaflet1.jpg"/></a>
+<a href="/images/mapserver-and-leaflet/mapserverLeaflet1.jpg"><img src="/images/mapserver-and-leaflet/mapserverLeaflet1.jpg"/></a>

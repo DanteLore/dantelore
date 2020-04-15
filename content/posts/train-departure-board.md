@@ -14,7 +14,7 @@ Having found myself time-wealthy for a couple of weeks I've been playing around 
 
 I live about a mile away from the local station (Thatcham) so it only takes a few minutes to get there. If a train is delayed or cancelled I'd like to know so I can have another coffee. So what I need is a live departures board, for my local station, in my house. Something like this:
 
-<a href="http://logicalgenetics.com/train-departure-board/departures/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/departures.png"/></a>
+<a href="http://logicalgenetics.com/train-departure-board/departures/"><img src="/images/train-departure-board/departures.png"/></a>
 
 The UI is web based - using AngularJS again. Sadly though, the cross origin nonsense means I can't make the soap calls directly from the web client, I need a back-end to gather and store the data for use on the UI. I used Python for this because that gives me the option to (easily) run it on a Raspberry Pi, reducing power and space costs as well as noise. Python's library support is stunning, and this is another great reason to use it for small "hacks" like this one.
 
@@ -113,8 +113,8 @@ if __name__ == '__main__':
 The front end is a very simple Angular JS app. Not much point showing the code here (see <a href="https://bootswatch.com/">Bootswatch</a>.
 
 The design is based on a real life station departures board like this:
-<a href="http://logicalgenetics.com/train-departure-board/departures-750/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/departures-750.jpg"/></a>
+<a href="http://logicalgenetics.com/train-departure-board/departures-750/"><img src="/images/train-departure-board/departures-750.jpg"/></a>
 
 All in all the project took me a little over a day. A leisurely day with many interruptions from my daughters! Feel free to pull the code down and play with it - let me know what you do.
 
-<a href="http://logicalgenetics.com/train-departure-board/2016-06-14-11-32-01/"><img src="http://logicalgenetics.com/wp-content/uploads/2016/06/2016-06-14-11.32.01.jpg"/></a>
+<a href="http://logicalgenetics.com/train-departure-board/2016-06-14-11-32-01/"><img src="/images/train-departure-board/2016-06-14-11.32.01.jpg"/></a>

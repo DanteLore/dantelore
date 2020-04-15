@@ -10,7 +10,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2017/01/athena-15
 
 Amazon recently launched Athena - their answer to Google's Big Query. It's basically an SQL interpreter which runs over files in S3.  It reminds me of Apache Drill, but people round the office say it looks more like Hive.
 
-<img class="noborder aligncenter wp-image-1241 size-thumbnail" src="http://logicalgenetics.com/wp-content/uploads/2017/01/athena-150x150.jpg" alt="AWS Athena is in no way associated with the ancient goddess of wisdom. Any similarity is purely coincidental." width="150" height="150">
+<img class="noborder aligncenter wp-image-1241 size-thumbnail" src="/images/amazon-athena-first-look/athena-150x150.jpg" alt="AWS Athena is in no way associated with the ancient goddess of wisdom. Any similarity is purely coincidental." width="150" height="150">
 
 The barrier to entry is very low. Upload the data files (CSV, Parquet and JSON are supported, amongst others), define a table, run a query. All this is done using a simple query editor.
 # Quick "Hello World"

@@ -4,13 +4,13 @@ title: "Convoy lights, the Auxiliary Relay and a Civilian Dashboard"
 
 date: "2008-12-22T21:57:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s1600-h/LandRoverTransistorised24v.png"
+featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s320/LandRoverTransistorised24v.png"
 ---
 
 
 Just finished my first attempt at an annotated circuit diagram for The Duke.  It's a copy of "Figure 150" from the military manual, but I've put as many notes on there as I can so I don't have to keep cross referencing.
 
-<a href="http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s1600-h/LandRoverTransistorised24v.png"><img src="http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s320/LandRoverTransistorised24v.png"/></a>It took bloody ages, but it should be pretty handy as long as the original is kept nearby to double check things that seem weird.  There are also a few things on there that aren't fitted to The Duke (fog lights for example) so I can use that diagram as a base to add, delete and move things until I get something that actually represents my setup.
+<a href="http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s1600-h/LandRoverTransistorised24v.png"><img src="/images/convoy-lights-the-auxiliary-relay-and-a-civilian-dashboard/LandRoverTransistorised24v.png"/></a>It took bloody ages, but it should be pretty handy as long as the original is kept nearby to double check things that seem weird.  There are also a few things on there that aren't fitted to The Duke (fog lights for example) so I can use that diagram as a base to add, delete and move things until I get something that actually represents my setup.
 
 Anyway, today's puzzle is the <span style="font-style: italic;">Auxiliary Relay</span>.  Looking at the lights in the diagram, the side lights, tail lights, instrument illumination and number plate light seem to be wired (as you'd expect) to the 6-way light switch.  The main and dipped headlights are wired to the headlight switch.  Also very sensible.  In amongst all these components, though, are connections to the crazy military stuff.  The infra-red relay and switch and the auxiliary relay.
 

@@ -4,7 +4,7 @@ title: "More Electrical Tinkering"
 
 date: "2009-01-11T16:14:00"
 
-featured_image: ""
+featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_5834-738924.JPG"
 ---
 
 
@@ -25,14 +25,14 @@ The civilian dash seems to be different to the missing one.  A couple of bulb ho
 
 One final note: 24v is enough to hurt.  Must remember to work with dry hands at all times!
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5834-738937.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5834-738924.JPG"/></a><span style="font-size:85%;">The new indicator stalk fits perfectly and is an ergonomic dream.</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5834-738937.JPG"><img src="/images/more-electrical-tinkering/IMG_5834-738924.JPG"/></a><span style="font-size:85%;">The new indicator stalk fits perfectly and is an ergonomic dream.</span>
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5835-738984.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5835-738974.JPG"/></a><span style="font-size:85%;">The new ignition switch.  Works OK, but the tiny little key makes it a bit hard to turn.</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5835-738984.JPG"><img src="/images/more-electrical-tinkering/IMG_5835-738974.JPG"/></a><span style="font-size:85%;">The new ignition switch.  Works OK, but the tiny little key makes it a bit hard to turn.</span>
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5840-782331.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5840-782321.JPG"/></a><span style="font-size:85%;">This is the connector for the flasher unit.  It's gone!</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5840-782331.JPG"><img src="/images/more-electrical-tinkering/IMG_5840-782321.JPG"/></a><span style="font-size:85%;">This is the connector for the flasher unit.  It's gone!</span>
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5841-782284.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5841-782270.JPG"/></a><span style="font-size:85%;">Originally thought this was the connector for the 6-way lighting switch, but actually I think it's for the hazard switch - at least judging by the wire colours.</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5841-782284.JPG"><img src="/images/more-electrical-tinkering/IMG_5841-782270.JPG"/></a><span style="font-size:85%;">Originally thought this was the connector for the 6-way lighting switch, but actually I think it's for the hazard switch - at least judging by the wire colours.</span>
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5843-795419.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5843-795409.JPG"/></a><span style="font-size:85%;">This looks like the connector for the lighting switch.  The big fat brown wire must be the supply!  At the bottom left of the picture is the two wire connector for the fog switch (which is broken).</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5843-795419.JPG"><img src="/images/more-electrical-tinkering/IMG_5843-795409.JPG"/></a><span style="font-size:85%;">This looks like the connector for the lighting switch.  The big fat brown wire must be the supply!  At the bottom left of the picture is the two wire connector for the fog switch (which is broken).</span>
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5850-795369.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5850-795362.JPG"/></a><span style="font-size:85%;">These relays are (judging again by the wire colours) are the <span style="font-style: italic;">service brake relay</span> (closest) and <span style="font-style: italic;">auxiliary relay </span>(at the back).  Doubt either of them will be used for their intended purpose when I'm done!</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5850-795369.JPG"><img src="/images/more-electrical-tinkering/IMG_5850-795362.JPG"/></a><span style="font-size:85%;">These relays are (judging again by the wire colours) are the <span style="font-style: italic;">service brake relay</span> (closest) and <span style="font-style: italic;">auxiliary relay </span>(at the back).  Doubt either of them will be used for their intended purpose when I'm done!</span>

@@ -19,7 +19,7 @@ What you *can* do is run a tool called **BCP**.  This tool is specially designe
 
 Piping the errored records to a text file is very helpful!
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png"><img src="http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png"/></a>
+<a href="/images/bulk-inserts-to-sql-server-azure/BCP.png"><img src="/images/bulk-inserts-to-sql-server-azure/BCP.png"/></a>
 
 The first column in my table is an auto-generated ID, so I make sure that every line in my file starts with a tab.  This basically nulls the first column, letting the database generate an ID as normal.
 

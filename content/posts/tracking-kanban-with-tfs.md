@@ -14,7 +14,7 @@ Set up a prioritised backlog and blast off the top as many bugs as possible in t
 
 Scrum-style burn downs don't work with Kanban because they track progress against some committed target.  The answer is the Cumulative Flow Diagram:
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2013/01/CumulativeFlowDiagram3.png"><img src="http://logicalgenetics.com/wp-content/uploads/2013/01/CumulativeFlowDiagram3.png"/></a>
+<a href="/images/tracking-kanban-with-tfs/CumulativeFlowDiagram3.png"><img src="/images/tracking-kanban-with-tfs/CumulativeFlowDiagram3.png"/></a>
 
 So I did some tweaking to my Information Radiator to add a page showing the CFD for the last 60 days of one of our projects.  The data comes out of TFS via the C# API and a WIQL query - which has a very nice historical query feature which I'll explain below.
 ## Cumulative Flow Diagrams Explained

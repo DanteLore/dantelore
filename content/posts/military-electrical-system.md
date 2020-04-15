@@ -4,13 +4,13 @@ title: "Military Electrical System"
 
 date: "2009-01-12T08:55:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736485.png"
+featured_image: "http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736480.png"
 ---
 
 
 Spent some time yesterday night working out what most of the components actually <span style="font-style: italic;">do</span>.  Here are my findings, along with a new version of the military circuit diagram.
 
-<a href="http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736485.png"><img src="http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736480.png"/></a><span style="font-weight: bold;font-size:130%;" >6-Way lighting switch</span>
+<a href="http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736485.png"><img src="/images/military-electrical-system/LandRoverTransistorised24v-736480.png"/></a><span style="font-weight: bold;font-size:130%;" >6-Way lighting switch</span>
 Note that the lighting switch is not supplied via the ignition switch, so some lights will work when the ignition is off.
 
 Supply to the light switch is direct from the battery, via the infra red relay.

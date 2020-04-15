@@ -11,7 +11,7 @@ featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/09/Screensho
 
 This journey began with a conversation - maybe a debate - with this guy who works for a makeup company.  We were talking about how makeup artists will match a finite set of "looks" to people's faces, based on a simple set of attributes.  I can't remember the precise attributes, but along the lines of "big forehead", "rounded jaw", "small nose" etc. My gut feel, at the time, was "this sounds easy!" and thus I set forth on a voyage of discovery...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-15.35.08.jpg"/>
+<img src="/images/face-clustering-with-python/Screenshot-2018-09-11-15.35.08.jpg"/>
 
 That evening I got home, fired up PyCharm and thought about the things I'd need to prove my point:
 
@@ -23,7 +23,7 @@ Just for the record, I never saw the guy I'd originally chatted to again. I cont
 
 Finding a database of faces turned out to be pretty simple.  I wanted to use a freely-available collection of varied faces, where each person's face was posed in a pretty standard way: a neutral expression, looking straight towards the camera; consistent lighting... you get the idea.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-15.58.41.jpg"/>
+<img src="/images/face-clustering-with-python/Screenshot-2018-09-11-15.58.41.jpg"/>
 
 In the end, I discovered <a href="http://www.facevar.com/glasgow-unfamiliar-face-database">The Glasgow Unfamiliar Face Dataset</a>, which contains a reasonable number of photos of faces, for women and men.  I used the women's faces for the majority of work.  Statistically speaking, women are more likely to wear makeup, so if this dude's theory is true, he's probably talking about women's faces, and that's how this started.
 
@@ -31,7 +31,7 @@ In the end, I discovered <a href="http://www.facevar.com/glasgow-unfamiliar-face
 
 So, having filled my laptop with unfamiliar faces, the next step was to see if I could detect some features in those faces.  Get the coordinates of the nose, the eyes, the jawline and so on.  Of course there's a library to do this in Python, in fact there are several.  I started with the DLib and opencv libraries, following <a href="https://www.pyimagesearch.com/2017/04/10/detect-eyes-nose-lips-jaw-dlib-opencv-python/">this epic tutorial</a>.  I won't duplicate the code here, as I didn't add much.  Suffice it to say that within an hour or so (mostly wrestling installers on my macbook) I was able to detect features in faces like this:
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-18.03.40.jpg"/>
+<img src="/images/face-clustering-with-python/Screenshot-2018-09-11-18.03.40.jpg"/>
 
 So this cool set of library calls allows me to turn a photo of a face into a list of coordinates for points within facial features.  Basically projecting down a very complex blob of pixel data into a smaller set of coordinate data.  Supercool!  But not good enough for clustering yet.  The first issue is that the coordinate data is in pixel coordinate space, so it's heavily influenced by the location of the face in the photo.  If we were to cluster using this data we'd group people by their location in a photo, not by any property of their face.
 ```
@@ -123,7 +123,7 @@ kmeans = kmeans.fit(data)
 
 The problem with K-Means clustering is that it's hard to know what value of k to use - how many clusters naturally exist in your data?  One way to find out is to look at the cost function.  For any given value of k, you can look at the distance between elements and cluster centres.  As the value of k increases this distance will obviously decrease, until k is equal to the number of rows in your dataset, when the cost is 0.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-12-08.03.34.jpg"/>
+<img src="/images/face-clustering-with-python/Screenshot-2018-09-12-08.03.34.jpg"/>
 
 What we're looking for in the above chart is an "elbow" - a point where adding more cluster centres (increasing k) adds less benefit.  I think there's an elbow around k=4 - but it's vague, which is not promising.
 
@@ -131,7 +131,7 @@ What we're looking for in the above chart is an "elbow" - a point where adding m
 
 So here is the first set of results - shown in a very simple D3js table.  I set k to 4, based on the analysis above.
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-12-08.07.40.jpg"/>
+<img src="/images/face-clustering-with-python/Screenshot-2018-09-12-08.07.40.jpg"/>
 
 I have stared at the results for ages - sometimes I can see similarities between the faces and sometimes I can't.  Smaller noses on the top row, longer noses on row three? Eyes further apart on the bottom row?  You can draw your own conclusions about whether this worked or not!
 
@@ -139,7 +139,7 @@ Given that the success or failure of this exercise is so subjective, and I haven
 
 So, if the algorithm can cluster people by properties of their faces, and I present it with a dataset of known faces... maybe the faces of my family... I know there are four of us... so if I set k=4 and present my holiday photos the clustering should group each of the four of us into a distinct cluster...
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-12-09.49.33.jpg"/>
+<img src="/images/face-clustering-with-python/Screenshot-2018-09-12-09.49.33.jpg"/>
 
 Oh dear!  That doesn't look so good does it!  It's pretty much a random shuffle of the four of us.  There are all sorts of possible reasons for this - the most likely being the noisy nature of the input data.  Loads of sunglasses, daft expressions, funny angles, weird lighting and so on.  Given that I'm directly measuring facial features I'm bound to be prone to issues when people pull a funny face... or just smile!
 

@@ -14,7 +14,7 @@ But for those of us who got past Hello World some time ago and are now using Spa
 
 Check out the source for this article on my GitHub: <a href="https://github.com/DanteLore/bdd-spark">https://github.com/DanteLore/bdd-spark</a>
 
-<img src="http://logicalgenetics.com/wp-content/uploads/2016/08/cucumber-300x98.jpg"/>
+<img src="/images/behaviour-driven-spark/cucumber-300x98.jpg"/>
 
 Behaviour Driven Development, or BDD, is a bit like unit testing. Like unit testing done by an experienced master craftsman. On the surface they look the same - you write some "test" code which calls your production code with known inputs and checks the outputs are what you want them to be. It can be run from your IDE and automated in your CI build because it uses the same runner as your unit tests under the hood.
 
@@ -261,7 +261,7 @@ $ sbt clean coverage cucumber coverageReport
 [success] Total time: 1 s, completed 08-Aug-2016 14:27:17
 
 ```
-<a href="http://logicalgenetics.com/behaviour-driven-spark/screenshot-2016-08-08-14-29-12/" rel="attachment wp-att-1145"><img src="http://logicalgenetics.com/wp-content/uploads/2016/08/Screenshot-2016-08-08-14.29.12.png" alt="Screenshot 2016-
+<a href="http://logicalgenetics.com/behaviour-driven-spark/screenshot-2016-08-08-14-29-12/" rel="attachment wp-att-1145"><img src="/images/behaviour-driven-spark/Screenshot-2016-08-08-14.29.12.png" alt="Screenshot 2016-
 08-08 14.29.12" width="1177" height="507" class="alignnone size-full wp-image-1145" /></a>
 
 # Conclusion

@@ -4,7 +4,7 @@ title: "Washer Worries Wiped Away"
 
 date: "2009-10-01T20:07:00"
 
-featured_image: ""
+featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1841-750366.JPG"
 ---
 
 
@@ -18,7 +18,7 @@ As I've mentioned before, the washer button which screws into the back of the sw
 
 A decent quality push button for a reasonable price.  After filing the hole a bit bigger, it fits in there snuggly and even tapped its own thread into the plastic.  Soldered on the appropriate wires and the job is a good 'un!
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_1841-750372.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_1841-750366.JPG"/></a>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_1841-750372.JPG"><img src="/images/washer-worries-wiped-away/IMG_1841-750366.JPG"/></a>
 Sadly, I think my park switch is knackered.  When connected up, it blows a fuse when the wipers get to the park position.  Not exactly great for the middle of a rain storm, so I've left the park supply disconnected and will just have to twiddle the wipers off at the right moment!  Here's a pic of the wiper motor for the sake of it...
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5870-715948.JPG"><img src="http://danandtheduke.co.uk/uploaded_images/IMG_5870-715939.JPG"/></a>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_5870-715948.JPG"><img src="/images/washer-worries-wiped-away/IMG_5870-715939.JPG"/></a>

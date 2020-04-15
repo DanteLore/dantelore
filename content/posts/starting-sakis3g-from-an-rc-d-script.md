@@ -4,13 +4,13 @@ title: "Starting sakis3g from an rc.d script"
 
 date: "2012-10-13T11:10:11"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/10/IMG_7010.jpg"
+featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/10/IMG_7010-300x200.jpg"
 ---
 
 
 Have been working on The Duke's brain today.  Needed to get the mobile internet connection to start automatically when the Raspberry Pi boots.  I'm using a Huawei E220 dongle with a Giff Gaff SIM. The easiest way to get it connected to the internet is to use the fantastic <a href="http://www.sakis3g.org/">sakis3g script</a>.
 
-<a href="http://logicalgenetics.com/wp-content/uploads/2012/10/IMG_7010.jpg"><img src="http://logicalgenetics.com/wp-content/uploads/2012/10/IMG_7010-300x200.jpg"/></a>The best way to get anything to run at startup is with an rc script, but even after searching for some time I couldn't find any examples.  So here's one I crafted myself, in case anyone finds it useful. Obviously you'll have to change the "ARGS" line to set the correct APN and so on for your connection.  You'll also need to copy the sakis3g script itself to /usr/sbin.
+<a href="http://logicalgenetics.com/wp-content/uploads/2012/10/IMG_7010.jpg"><img src="/images/starting-sakis3g-from-an-rc-d-script/IMG_7010-300x200.jpg"/></a>The best way to get anything to run at startup is with an rc script, but even after searching for some time I couldn't find any examples.  So here's one I crafted myself, in case anyone finds it useful. Obviously you'll have to change the "ARGS" line to set the correct APN and so on for your connection.  You'll also need to copy the sakis3g script itself to /usr/sbin.
 
 **/etc/rc.d/sakis:**
 ```bash
