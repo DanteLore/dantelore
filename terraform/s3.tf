@@ -26,6 +26,16 @@ EOF
 
   website {
     index_document = "index.html"
-    error_document = "error.html"
+    error_document = "404.html"
+  }
+}
+
+# AWS S3 bucket for www-redirect
+resource "aws_s3_bucket" "website_redirect" {
+  bucket = "www.${var.bucket_name}"
+  acl = "public-read"
+
+  website {
+    redirect_all_requests_to = var.domain_name
   }
 }

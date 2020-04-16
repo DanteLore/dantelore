@@ -1,3 +1,5 @@
 aws_region = "eu-west-1"
 aws_profile = "dantelore"
-bucket_name = "dantelore.test.bucket"
+bucket_name = "dantelore.com"
+domain_name = "dantelore.com"
+certificate = "arn:aws:acm:us-east-1:382128238181:certificate/ee752c5a-df56-4044-994c-36995b6d53b3"
