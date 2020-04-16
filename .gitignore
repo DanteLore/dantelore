@@ -1,2 +1,5 @@
 hugo/public
 .DS_Store
+*.backup
+terraform/.terraform/*
+*.tfstate
