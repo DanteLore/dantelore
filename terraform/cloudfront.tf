@@ -1,7 +1,14 @@
 resource "aws_cloudfront_distribution" "s3_distribution" {
   origin {
-    domain_name = "${var.bucket_name}.s3.amazonaws.com"
+    domain_name = "${var.bucket_name}.s3-website-${var.aws_region}.amazonaws.com"
     origin_id   = "website"
+
+    custom_origin_config {
+      origin_protocol_policy = "match-viewer"
+      http_port = "80"
+      https_port = "443"
+      origin_ssl_protocols = ["TLSv1"]
+    }
   }
 
   enabled             = true
