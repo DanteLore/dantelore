@@ -3,7 +3,7 @@ provider "aws" {
     region = var.aws_region
 }
 
-resource "aws_s3_bucket" "prod_bucket" {
+resource "aws_s3_bucket" "bucket" {
     bucket = var.bucket_name
     acl = "public-read"
     force_destroy = true

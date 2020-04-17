@@ -3,3 +3,4 @@ hugo/public
 *.backup
 terraform/.terraform/*
 *.tfstate
+terraform/.terraform*
