@@ -13,6 +13,10 @@ $ hugo
 $ aws --profile dantelore s3 sync public s3://www.dantelore.com
 ```
 
+If you ran `terraform destroy` or recreated the route53 hosted zone, you'll need to
+log into the AWS console and update the nameservers for the domain.  There 
+doesn't seem to be a way to automate this.
+
 https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-replace-hosted-zone.html
 Note that once the hosted zone is created, the nameservers on the *domain* need
 to be updated to point to it (not the other way round!).
