@@ -27,7 +27,7 @@ Undoubtedly the hardest thing I've ever made (physically at least), this project
 
 Laying the brick edging round the lawn was incredibly difficult because I foolishly decided to mix all the cement by hand. For future projects I'll buy or hire a cement mixer!
 
-<img class="gallery" src="/images/stuff-i-made-in-2017/2017-01-28-13.26.15-1.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-05-11.38.50.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-18-12.04.39.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-04-08.44.53.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-04-14.17.59-1.jpg"/>
+<img class="gallery" src="/images/stuff-i-made-in-2017/2017-01-28-13.26.15-1.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-05-11.38.50.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-18-12.04.39.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-18-15.13.31-e1514389490874.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-04-08.44.53.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-04-14.17.59-1.jpg"/>
 
 ## The Barbecue
 
@@ -35,7 +35,7 @@ Having been given a welder (thanks Dad!) and an oil drum (thanks Mother in Law!)
 
 The chimney is made of old welding gas bottles, chopped and welded into a tube and the side tables and bottom shelf are made of pallet wood from the turf delivery for the lawn so the total materials cost was no more than some hinges and a couple of oven shelves from eBay!
 
-<img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-19-15.37.02.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-21-18.06.49.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-05-18.56.12.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-02-20.50.09.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-06-17.56.27-1.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-01-15.28.28-e1514389442682.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-02-19.50.20-e1514389416533.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-06-17.46.13-1-e1514389390242.jpg"/>
+<img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-19-15.37.02.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-03-21-18.06.49.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-05-18.56.12.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-02-20.50.09.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-06-17.56.27-1.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-05-14-15.54.05.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-01-15.28.28-e1514389442682.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-02-19.50.20-e1514389416533.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-06-17.46.13-1-e1514389390242.jpg"/>
 
 ## The Playhouse
 
@@ -43,7 +43,7 @@ With a newly cleared gap in the bottom corner of the garden, it seemed only fitt
 
 I built the house in pre-fab sections, since there was very little room on the "site", I had to complete each section then lift it into place and secure it with screws on the inside.  I deliberately left everything as "wonky" as possible, aiming for a gingerbread house sort of look.
 
-<img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-14-16.01.07.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-15-15.14.31.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-16-09.36.41-1.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-07-09.25.18.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-17-18.44.20.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-29-20.35.01.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-19-08.35.10-e1514389243128.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-05-06-13.06.10-1-e1514389221658.jpg"/>
+<img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-14-14.01.05-e1514389344308.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-15-11.36.43-e1514389465563.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-15-12.47.58-e1514389290816.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-14-16.01.07.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-15-15.14.31.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-16-09.36.41-1.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-02-07-09.25.18.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-17-18.44.20.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-29-20.35.01.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-04-19-08.35.10-e1514389243128.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-05-06-13.06.10-1-e1514389221658.jpg"/>
 
 The windows are made of 10mm perspex (found in a skip!) which worked really well as it's the same thickness as the OSB skin on the walls.  This meant I could attach the windows and OSB together in square sections then screw the window frames and cladding over the top in whatever shape I wanted.
 
@@ -63,14 +63,14 @@ Well, actually it's more of a TV stand for the loft conversion in our house, whi
 
 ## The Map
 
-While looking for an unusual picture for the top room, we thought about buying some kind of world map.  This led me to start looking at <a href="http://logicalgenetics.com/mapserver-revisited/">Mapserver</a> again, and ultimately the creation of this map of Thatcham.  We got it printed on a canvas by one of those online photo companies and I matched the colours to our garish new sofa!
+While looking for an unusual picture for the top room, we thought about buying some kind of world map.  This led me to start looking at <a href="http://logicalgenetics.com/mapserver-revisited/">Mapserver</a> again, and ultimately the creation of this map of Thatcham.  We got it printed on a canvas by one of those online photo companies and I matched the colours to our garish new sofa!
 
-<img class="gallery" src="/images/stuff-i-made-in-2017/2017-12-03-11.46.25.jpg"/><li class="blocks-gallery-item"><img data-id="1320" class="wp-image-1320"/></li>
+<img class="gallery" src="/images/stuff-i-made-in-2017/2017-12-03-11.46.25-1024x576.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-12-03-11.47.27-1024x576.jpg"/>
 
 ## The Skull Mask
 
-For one of this year's work events we were supposed to dress for a "masked ball".  I couldn't find any masks I liked on the internet and I left it too late to go to a fancy dress shop, so the weekend before the party I headed out to the garage and started snipping and hammering some scrap steel from an old office letter tray.  I was very pleased with the results, but sadly proceeded to get so drunk I left the mask itself behind!  I might have to make another...
+For one of this year's work events we were supposed to dress for a "masked ball".  I couldn't find any masks I liked on the internet and I left it too late to go to a fancy dress shop, so the weekend before the party I headed out to the garage and started snipping and hammering some scrap steel from an old office letter tray.  I was very pleased with the results, but sadly proceeded to get so drunk I left the mask itself behind!  I might have to make another...
 
-<img class="gallery" src="/images/stuff-i-made-in-2017/2017-11-23-20.14.55-e1514389186724.jpg"/><li class="blocks-gallery-item"><img data-id="1323" class="wp-image-1323"/></li><li class="blocks-gallery-item"><img data-id="1322" class="wp-image-1322"/></li>
+<img class="gallery" src="/images/stuff-i-made-in-2017/2017-11-23-20.14.55-e1514389186724-576x1024.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-11-23-20.15.14-1024x576.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-11-23-20.24.27-e1514389162586-576x1024.jpg"/><img class="gallery" src="/images/stuff-i-made-in-2017/2017-11-26-16.35.51-e1514389144318-768x1024.jpg"/>
 
 So all in all it's been a make-tastic year.  I'll have to start thinking about what projects to do in 2018 - though I suspect a new desk for the top room, a snazzy interior for the playhouse and maybe an electric rotisserie for the barbecue are on the cards at some stage...
