@@ -9,6 +9,8 @@ I'm equally excited by the really simple things Data can do, like telling you ho
 or how much money you spent on mcguffins last quarter, as I am about the 'clever' stuff like machine
 learning and AI.
 
+<img id="about-page-avatar" src="https://dantelore.com/images/avatar.png"/>
+
 If you want to know more about my professional interests and career, check out my [LinkedIn profile](https://www.linkedin.com/in/danwtaylor/)
 
 In my spare time I like tinkering around, making stuff. Anything from flying machines to steam engines
