@@ -5,14 +5,23 @@ title: "Evolutionary Algorithm: Playable Demo"
 date: "2016-11-11T17:21:54"
 
 featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/11/Screenshot-2016-11-11-17.25.56-150x150.jpg"
----
 
+customJS: ["http://rawgit.com/DanteLore/games-of-life/master/one-d-genetic-algorithm.js",
+           "/js/d3.v35.min.js"]
+customCSS: ["http://rawgit.com/DanteLore/games-of-life/master/life.css"]
+---
 
 Here I'm combining a bit of visualisation with my other favourite subject - the Evolutionary Algorithm (or Genetic Algorithm if you prefer).  I'm not going to write anything about the properties of the algorithm - you can just play with the controls below the chart and see how the different settings effect its ability to find a good solution, adapt to changes and explore the problem space.
 
 The problem: Find a value of **x** which maximises the value of **y**. The function is a set of sinusoidal waves of varying frequency and amplitude. The blue line shows the "fitness" for each value of **x**.
 
-[d3-source canvas="wpd3-1224-0"]
+<script type="text/javascript">
+window.onload = function() {
+  oneDGA(".js_target");
+};
+</script>
+
+<div class="js_target"></div>
 
 Basically, a population of different solutions is maintained - in this case, each solution is simply a value for **x**. Every individual has a fitness which can be calculated based on it's value. Each iteration (100ms here) a solution is removed from the population - killed by selective pressure. Fitter individuals have a greater chance at surviving, less fit individuals have a less of a chance.
 

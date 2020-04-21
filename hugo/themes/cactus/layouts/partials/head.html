@@ -12,6 +12,10 @@
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
 
+{{ range .Params.customCSS }}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{ end }}
+
 {{ if eq .Site.Params.iconFont "font-awesome" }}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 {{ else }}

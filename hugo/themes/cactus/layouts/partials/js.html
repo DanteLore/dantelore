@@ -7,4 +7,8 @@
 <script src="{{ . | absURL }}"></script>
 {{ end }}
 
+{{ range .Params.customJS }}
+<script src="{{ . | absURL }}"></script>
+{{ end }}
+
 {{ template "_internal/google_analytics.html" . }}
