@@ -41,6 +41,7 @@ resource "aws_route53_record" "txt" {
   ttl = "300"
 
   records = [
-    "${var.email_txt_record}"
+    "${var.email_txt_record}",
+    "${var.google_txt_record}"
   ]
 }

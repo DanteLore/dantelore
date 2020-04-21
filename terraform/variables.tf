@@ -6,3 +6,4 @@ variable "certificate" {}
 variable "email_server_1" {}
 variable "email_server_2" {}
 variable "email_txt_record" {}
+variable "google_txt_record" {}

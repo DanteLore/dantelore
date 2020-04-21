@@ -6,3 +6,4 @@ certificate = "arn:aws:acm:us-east-1:382128238181:certificate/ee752c5a-df56-4044
 email_server_1 = "mx1.improvmx.com"
 email_server_2 = "mx2.improvmx.com"
 email_txt_record = "v=spf1 include:spf.improvmx.com ~all"
+google_txt_record = "google-site-verification=b_p8pRs5T5Y1IQ9Sv2r1703-S1Vvttj9pHD6V_HSF6E"
