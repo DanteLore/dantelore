@@ -4,7 +4,7 @@ title: "Quick Update"
 
 date: "2009-10-14T19:40:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_7012-723890.JPG"
+featured_image: "/images/quick-update/IMG_7012-723890.JPG"
 ---
 
 

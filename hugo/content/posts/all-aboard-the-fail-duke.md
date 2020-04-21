@@ -4,7 +4,7 @@ title: "All aboard the Fail Duke"
 
 date: "2009-12-09T18:58:00"
 
-featured_image: ""
+featured_image: "/images/all-aboard-the-fail-duke/"
 ---
 
 

@@ -4,7 +4,7 @@ title: "En-Gauge"
 
 date: "2009-03-19T16:15:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/24v12v-769576.jpg"
+featured_image: "/images/en-gauge/24v12v-769576.jpg"
 ---
 
 

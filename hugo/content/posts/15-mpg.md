@@ -4,7 +4,7 @@ title: "15 MPG"
 
 date: "2010-03-18T18:53:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/S6J2xBAcfjI/AAAAAAAACHg/GjtFxOIs5OA/s320/pump.jpg"
+featured_image: "/images/15-mpg/pump.jpg"
 ---
 
 

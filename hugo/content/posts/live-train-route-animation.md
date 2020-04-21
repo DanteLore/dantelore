@@ -4,7 +4,7 @@ title: "Live Train Route Animation"
 
 date: "2016-06-16T09:46:06"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/06/route-planner.gif"
+featured_image: "/images/live-train-route-animation/route-planner.gif"
 ---
 
 

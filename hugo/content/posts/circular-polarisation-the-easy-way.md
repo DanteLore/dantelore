@@ -4,7 +4,7 @@ title: "Circular Polarisation the Easy Way"
 
 date: "2012-12-19T21:38:58"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7613.jpg"
+featured_image: "/images/circular-polarisation-the-easy-way/IMG_7613.jpg"
 ---
 
 

@@ -4,7 +4,7 @@ title: "More Dashboard Fun"
 
 date: "2009-02-02T22:30:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6761-755328.JPG"
+featured_image: "/images/more-dashboard-fun/IMG_6761-755328.JPG"
 ---
 
 

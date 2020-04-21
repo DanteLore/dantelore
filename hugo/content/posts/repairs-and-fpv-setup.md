@@ -4,7 +4,7 @@ title: "Repairs and FPV Setup"
 
 date: "2012-10-07T13:55:20"
 
-featured_image: "http://logicalgenetics.com/assorted/upload/IMG_7070.JPG"
+featured_image: "/images/repairs-and-fpv-setup/IMG_7070.JPG"
 ---
 
 

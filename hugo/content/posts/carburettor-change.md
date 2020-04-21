@@ -4,7 +4,7 @@ title: "Carburettor Change"
 
 date: "2010-12-11T23:24:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/TQP9S_2OcFI/AAAAAAAACOI/gU_JvoXcRVE/s320/IMG_0964.JPG"
+featured_image: "/images/carburettor-change/IMG_0964.JPG"
 ---
 
 

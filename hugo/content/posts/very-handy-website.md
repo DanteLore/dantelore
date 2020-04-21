@@ -4,7 +4,7 @@ title: "Very Handy Website"
 
 date: "2009-10-19T13:03:00"
 
-featured_image: ""
+featured_image: "/images/very-handy-website/"
 ---
 
 

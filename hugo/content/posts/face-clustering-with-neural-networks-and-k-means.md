@@ -4,7 +4,7 @@ title: "Face Clustering II: Neural Networks and K-Means"
 
 date: "2018-09-14T17:04:37"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-15-13.11.17-1.jpg"
+featured_image: "/images/face-clustering-with-neural-networks-and-k-means/Screenshot-2018-09-15-13.11.17-1.jpg"
 ---
 
 

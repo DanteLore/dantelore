@@ -4,7 +4,7 @@ title: "Blog Changes"
 
 date: "2010-02-03T09:42:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/S2lExnSLDiI/AAAAAAAACB8/8DtbHPInzq4/s320/Colossus_wideweb__470x308,0.jpg"
+featured_image: "/images/blog-changes/Colossus_wideweb__470x308,0.jpg"
 ---
 
 

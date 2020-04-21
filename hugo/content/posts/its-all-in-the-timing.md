@@ -4,7 +4,7 @@ title: "It's all in the timing"
 
 date: "2010-10-16T21:48:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/TLoahRJX_DI/AAAAAAAACM8/45g--oh-TKY/s320/IMG_0720.JPG"
+featured_image: "/images/its-all-in-the-timing/IMG_0720.JPG"
 ---
 
 

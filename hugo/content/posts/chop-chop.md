@@ -4,7 +4,7 @@ title: "Chop Chop"
 
 date: "2009-04-19T20:04:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_8429-753635.JPG"
+featured_image: "/images/chop-chop/IMG_8429-753635.JPG"
 ---
 
 

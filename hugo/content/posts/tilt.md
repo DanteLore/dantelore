@@ -4,7 +4,7 @@ title: "Tilt"
 
 date: "2009-07-12T22:44:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0803-732208.JPG"
+featured_image: "/images/tilt/IMG_0803-732208.JPG"
 ---
 
 

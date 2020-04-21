@@ -4,7 +4,7 @@ title: "Engine Out"
 
 date: "2011-06-24T20:31:00"
 
-featured_image: "http://3.bp.blogspot.com/-CLY7uXUrCpc/TgTut16vjDI/AAAAAAAACUA/bP5q-f1nySc/s320/IMG_0650.JPG"
+featured_image: "/images/engine-out/IMG_0650.JPG"
 ---
 
 

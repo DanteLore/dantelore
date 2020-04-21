@@ -4,7 +4,7 @@ title: "Manventure - February 2012"
 
 date: "2012-02-28T22:12:00"
 
-featured_image: "http://2.bp.blogspot.com/-T-MHDEzMGl8/T01O3hoUJ0I/AAAAAAAACX8/l4PJPcE67pY/s320/IMG_3384.JPG"
+featured_image: "/images/manventure-february-2012/IMG_3384.JPG"
 ---
 
 

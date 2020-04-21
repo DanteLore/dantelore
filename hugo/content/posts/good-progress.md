@@ -4,7 +4,7 @@ title: "Good Progress!"
 
 date: "2009-07-25T13:50:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0076-722374.JPG"
+featured_image: "/images/good-progress/IMG_0076-722374.JPG"
 ---
 
 

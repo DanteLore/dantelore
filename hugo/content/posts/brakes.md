@@ -4,7 +4,7 @@ title: "Brakes"
 
 date: "2008-12-29T08:46:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/SViSz1NVBoI/AAAAAAAAAFE/yrHiqKbquQE/s200/IMG_5529.JPG"
+featured_image: "/images/brakes/IMG_5529.JPG"
 ---
 
 

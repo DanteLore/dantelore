@@ -4,7 +4,7 @@ title: "Perplexing Performance Problems"
 
 date: "2009-12-13T10:42:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_2091-709115.JPG"
+featured_image: "/images/perplexing-performance-problems/IMG_2091-709115.JPG"
 ---
 
 

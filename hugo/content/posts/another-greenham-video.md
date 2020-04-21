@@ -4,7 +4,7 @@ title: "Another Greenham Video"
 
 date: "2013-02-19T08:57:28"
 
-featured_image: ""
+featured_image: "/images/another-greenham-video/"
 ---
 
 

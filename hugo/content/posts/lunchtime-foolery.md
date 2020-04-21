@@ -4,7 +4,7 @@ title: "Lunchtime foolery"
 
 date: "2010-02-05T14:45:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/S2wvG7A_XPI/AAAAAAAACCc/Lvoa9Fx9-Gg/s320/Any-747074.jpg"
+featured_image: "/images/lunchtime-foolery/Any-747074.jpg"
 ---
 
 

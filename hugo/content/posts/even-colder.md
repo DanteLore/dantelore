@@ -4,7 +4,7 @@ title: "Even Colder!"
 
 date: "2010-01-02T11:59:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6970-792283.JPG"
+featured_image: "/images/even-colder/IMG_6970-792283.JPG"
 ---
 
 

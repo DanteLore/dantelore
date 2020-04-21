@@ -4,7 +4,7 @@ title: "My Eyes!"
 
 date: "2009-05-10T20:43:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_9321-782189.JPG"
+featured_image: "/images/my-eyes/IMG_9321-782189.JPG"
 ---
 
 

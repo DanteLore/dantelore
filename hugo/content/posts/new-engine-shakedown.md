@@ -4,7 +4,7 @@ title: "New Engine Shakedown"
 
 date: "2011-03-10T00:16:00"
 
-featured_image: "https://lh5.googleusercontent.com/-28xJrioJxi8/TXgRmDooRCI/AAAAAAAACPs/lYO5ppDR9zs/s320/WP_000002.jpg"
+featured_image: "/images/new-engine-shakedown/WP_000002.jpg"
 ---
 
 

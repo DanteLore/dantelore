@@ -4,7 +4,7 @@ title: "Greenham Common Sunrise"
 
 date: "2013-02-15T08:58:59"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/02/IMG_8297.jpg"
+featured_image: "/images/greenham-common-sunrise/IMG_8297.jpg"
 ---
 
 

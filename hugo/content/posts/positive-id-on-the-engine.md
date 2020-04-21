@@ -4,7 +4,7 @@ title: "Positive ID on the Engine"
 
 date: "2009-01-20T22:52:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6641-736975.JPG"
+featured_image: "/images/positive-id-on-the-engine/IMG_6641-736975.JPG"
 ---
 
 

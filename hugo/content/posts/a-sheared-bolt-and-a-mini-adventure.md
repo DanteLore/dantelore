@@ -4,7 +4,7 @@ title: "A sheared bolt and a mini adventure"
 
 date: "2014-02-17T13:17:44"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2014/02/2014-02-16-15.02.071.jpg"
+featured_image: "/images/a-sheared-bolt-and-a-mini-adventure/2014-02-16-15.02.071.jpg"
 ---
 
 

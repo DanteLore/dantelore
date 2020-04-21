@@ -4,7 +4,7 @@ title: "Family History"
 
 date: "2011-06-22T14:46:00"
 
-featured_image: "http://4.bp.blogspot.com/-wyDO1hu2hWs/TgH92QmT3qI/AAAAAAAACTc/nW4BG61yGKQ/s400/Grandrover.jpg"
+featured_image: "/images/family-history/Grandrover.jpg"
 ---
 
 

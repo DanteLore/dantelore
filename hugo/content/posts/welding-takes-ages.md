@@ -4,7 +4,7 @@ title: "Welding takes ages!"
 
 date: "2009-06-13T18:26:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0422-718989.jpg"
+featured_image: "/images/welding-takes-ages/IMG_0422-718989.jpg"
 ---
 
 

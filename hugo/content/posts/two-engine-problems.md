@@ -4,7 +4,7 @@ title: "Two Engine Problems"
 
 date: "2009-03-07T17:52:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6851-754953.JPG"
+featured_image: "/images/two-engine-problems/IMG_6851-754953.JPG"
 ---
 
 

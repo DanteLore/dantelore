@@ -4,7 +4,7 @@ title: "Six Way Blues"
 
 date: "2009-02-02T00:22:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6701-708685.JPG"
+featured_image: "/images/six-way-blues/IMG_6701-708685.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Dashboard and some eBay Fun"
 
 date: "2009-01-25T23:09:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6689-748008.JPG"
+featured_image: "/images/dashboard-and-some-ebay-fun/IMG_6689-748008.JPG"
 ---
 
 

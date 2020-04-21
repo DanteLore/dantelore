@@ -4,7 +4,7 @@ title: "Quick TeamCity Build Status with AngularJS"
 
 date: "2016-05-16T20:07:11"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/05/BuildStatus.png"
+featured_image: "/images/quick-teamcity-build-status-with-angularjs/BuildStatus.png"
 ---
 
 

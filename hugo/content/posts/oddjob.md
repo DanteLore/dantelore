@@ -4,7 +4,7 @@ title: "Oddjob"
 
 date: "2009-08-03T20:48:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0830-738438.JPG"
+featured_image: "/images/oddjob/IMG_0830-738438.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Mood Bot - a Serverless Slack Integration"
 
 date: "2017-05-04T08:27:00"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2017/04/Screenshot-2017-05-03-12.20.48.jpg"
+featured_image: "/images/mood-bot-a-serverless-slack-integration/Screenshot-2017-05-03-12.20.48.jpg"
 ---
 
 

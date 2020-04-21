@@ -4,7 +4,7 @@ title: "Behaviour Driven Spark"
 
 date: "2016-08-08T17:23:14"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/08/cucumber-300x98.jpg"
+featured_image: "/images/behaviour-driven-spark/cucumber-300x98.jpg"
 ---
 
 

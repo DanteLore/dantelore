@@ -4,7 +4,7 @@ title: "You light up my life..."
 
 date: "2009-08-02T16:17:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0210-730209.JPG"
+featured_image: "/images/you-light-up-my-life/IMG_0210-730209.JPG"
 ---
 
 

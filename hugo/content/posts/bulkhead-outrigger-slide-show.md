@@ -4,7 +4,7 @@ title: "Bulkhead Outrigger Slide Show"
 
 date: "2009-08-02T16:47:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0126-777518.JPG"
+featured_image: "/images/bulkhead-outrigger-slide-show/IMG_0126-777518.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Leaf Spring Refurbishment"
 
 date: "2009-04-02T21:19:00"
 
-featured_image: ""
+featured_image: "/images/leaf-spring-refurbishment/"
 ---
 
 

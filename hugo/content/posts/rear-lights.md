@@ -4,7 +4,7 @@ title: "Rear lights"
 
 date: "2009-08-09T17:08:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0884-739888.JPG"
+featured_image: "/images/rear-lights/IMG_0884-739888.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Canoeing Manventure"
 
 date: "2012-08-22T15:29:00"
 
-featured_image: "http://3.bp.blogspot.com/-F_gjpb2qaFo/UDT50Klg62I/AAAAAAAACdQ/gfrK-GmP4sE/s320/IMG_3901.jpg"
+featured_image: "/images/canoeing-manventure/IMG_3901.jpg"
 ---
 
 

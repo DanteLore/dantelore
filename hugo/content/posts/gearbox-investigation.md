@@ -4,7 +4,7 @@ title: "Gearbox Investigation"
 
 date: "2011-01-13T00:30:00"
 
-featured_image: "http://2.bp.blogspot.com/_62oTnOHwOSo/TS4-oyfhptI/AAAAAAAACOw/UL0bp6QxIWg/s320/IMG_0996.JPG"
+featured_image: "/images/gearbox-investigation/IMG_0996.JPG"
 ---
 
 

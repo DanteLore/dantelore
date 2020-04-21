@@ -4,7 +4,7 @@ title: "Detective Work"
 
 date: "2009-01-06T18:04:00"
 
-featured_image: ""
+featured_image: "/images/detective-work/"
 ---
 
 

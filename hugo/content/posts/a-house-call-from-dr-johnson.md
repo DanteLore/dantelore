@@ -4,7 +4,7 @@ title: "A House Call from Dr Johnson"
 
 date: "2009-01-02T21:09:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_5788-781039.JPG"
+featured_image: "/images/a-house-call-from-dr-johnson/IMG_5788-781039.JPG"
 ---
 
 

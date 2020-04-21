@@ -4,7 +4,7 @@ title: "This is getting expensive!"
 
 date: "2010-05-11T13:05:00"
 
-featured_image: "http://2.bp.blogspot.com/_62oTnOHwOSo/S-lWyzNnvcI/AAAAAAAACJE/UaZQky7B_hU/s200/pump.jpg"
+featured_image: "/images/this-is-getting-expensive/pump.jpg"
 ---
 
 

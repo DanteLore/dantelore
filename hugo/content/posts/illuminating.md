@@ -4,7 +4,7 @@ title: "Illuminating"
 
 date: "2012-02-05T01:09:00"
 
-featured_image: "http://1.bp.blogspot.com/-TV6lqiTRXxM/Ty3UkqVjngI/AAAAAAAACXc/aBi0VuZP0qc/s320/IMG_3248.JPG"
+featured_image: "/images/illuminating/IMG_3248.JPG"
 ---
 
 

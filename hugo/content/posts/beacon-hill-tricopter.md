@@ -4,7 +4,7 @@ title: "Beacon Hill Tricopter"
 
 date: "2012-09-11T10:56:16"
 
-featured_image: ""
+featured_image: "/images/beacon-hill-tricopter/"
 ---
 
 

@@ -4,7 +4,7 @@ title: "West Berkshire Green Lane Pic-o-rama"
 
 date: "2012-06-09T23:28:00"
 
-featured_image: "http://1.bp.blogspot.com/-tfEgFI33tLw/T9PagNtyzsI/AAAAAAAACZk/s8GGAaQ6aMY/s320/IMG_4341.JPG"
+featured_image: "/images/west-berkshire-green-lane-pic-o-rama/IMG_4341.JPG"
 ---
 
 

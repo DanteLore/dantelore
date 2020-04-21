@@ -4,7 +4,7 @@ title: "Saturday Morning Lanes and FPV"
 
 date: "2012-11-19T23:49:11"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/20121117_1147501.jpg"
+featured_image: "/images/saturday-morning-lanes-and-fpv/20121117_1147501.jpg"
 ---
 
 

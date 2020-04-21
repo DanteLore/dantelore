@@ -4,7 +4,7 @@ title: "Where there's a will there's a way!"
 
 date: "2011-03-12T17:14:00"
 
-featured_image: "https://lh4.googleusercontent.com/-33DzPGx_ad8/TXujgVVHcDI/AAAAAAAACQw/w9s4Z8GF0N4/s320/IMG_5686.JPG"
+featured_image: "/images/where-theres-a-will-theres-a-way/IMG_5686.JPG"
 ---
 
 

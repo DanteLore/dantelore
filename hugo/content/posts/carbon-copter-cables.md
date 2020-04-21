@@ -4,7 +4,7 @@ title: "Carbon Copter Cables"
 
 date: "2012-10-03T22:09:08"
 
-featured_image: "http://logicalgenetics.com/assorted/upload/tn_IMG_7054.jpg"
+featured_image: "/images/carbon-copter-cables/tn_IMG_7054.jpg"
 ---
 
 

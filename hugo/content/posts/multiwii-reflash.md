@@ -4,7 +4,7 @@ title: "MultiWii Reflash"
 
 date: "2012-12-06T22:55:30"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWiiInProgress.jpg"
+featured_image: "/images/multiwii-reflash/MultiWiiInProgress.jpg"
 ---
 
 

@@ -4,7 +4,7 @@ title: "MOT done, brakes done in!"
 
 date: "2011-03-22T19:45:00"
 
-featured_image: ""
+featured_image: "/images/mot-done-brakes-done-in/"
 ---
 
 

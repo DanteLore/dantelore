@@ -4,7 +4,7 @@ title: "Britpart Oil Seal Fail"
 
 date: "2010-02-20T17:04:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S4AWnZqXc3I/AAAAAAAACFE/YYNfoHg0TZg/s320/IMG_7242.JPG"
+featured_image: "/images/britpart-oil-seal-fail/IMG_7242.JPG"
 ---
 
 

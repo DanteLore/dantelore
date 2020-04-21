@@ -4,7 +4,7 @@ title: "Off with his head!"
 
 date: "2011-06-23T15:20:00"
 
-featured_image: "http://2.bp.blogspot.com/-XHEiA6S2ebw/TgNCxG0HRwI/AAAAAAAACTg/vuPxen4iE-U/s320/IMG_0613.JPG"
+featured_image: "/images/off-with-his-head/IMG_0613.JPG"
 ---
 
 

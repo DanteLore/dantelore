@@ -4,7 +4,7 @@ title: "Start me up!"
 
 date: "2010-07-17T13:49:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/TEG1L7nI2sI/AAAAAAAACMU/VgZXeS2C9Aw/s320/IMG_0019.JPG"
+featured_image: "/images/start-me-up/IMG_0019.JPG"
 ---
 
 

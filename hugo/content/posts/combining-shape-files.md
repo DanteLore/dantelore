@@ -4,7 +4,7 @@ title: "Combining Shape Files"
 
 date: "2013-09-10T20:33:13"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/09/london-zoomed.jpg"
+featured_image: "/images/combining-shape-files/london-zoomed.jpg"
 ---
 
 

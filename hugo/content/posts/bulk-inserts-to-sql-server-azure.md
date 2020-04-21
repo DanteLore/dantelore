@@ -4,7 +4,7 @@ title: "Bulk Inserts to SQL Server Azure"
 
 date: "2013-03-01T18:04:05"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/03/BCP.png"
+featured_image: "/images/bulk-inserts-to-sql-server-azure/BCP.png"
 ---
 
 

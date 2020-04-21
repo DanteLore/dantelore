@@ -4,7 +4,7 @@ title: "Economy Investigation"
 
 date: "2010-02-04T22:50:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S2tBumcHsPI/AAAAAAAACCM/vyRLmg62dDY/s400/fuel_economy.png"
+featured_image: "/images/economy-investigation/fuel_economy.png"
 ---
 
 

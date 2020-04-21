@@ -4,7 +4,7 @@ title: "Going Topless"
 
 date: "2009-03-22T17:30:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6991-775540.JPG"
+featured_image: "/images/going-topless/IMG_6991-775540.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Odd Jobs"
 
 date: "2009-10-10T16:52:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1881-750535.JPG"
+featured_image: "/images/odd-jobs/IMG_1881-750535.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Reclutching"
 
 date: "2009-10-10T17:33:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1892-739092.JPG"
+featured_image: "/images/reclutching/IMG_1892-739092.JPG"
 ---
 
 

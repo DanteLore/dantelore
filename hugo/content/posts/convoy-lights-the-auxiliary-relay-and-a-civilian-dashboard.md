@@ -4,7 +4,7 @@ title: "Convoy lights, the Auxiliary Relay and a Civilian Dashboard"
 
 date: "2008-12-22T21:57:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/SVANu3ZXQiI/AAAAAAAAAE0/d11pdak4HOQ/s320/LandRoverTransistorised24v.png"
+featured_image: "/images/convoy-lights-the-auxiliary-relay-and-a-civilian-dashboard/LandRoverTransistorised24v.png"
 ---
 
 

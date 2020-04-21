@@ -4,7 +4,7 @@ title: "Brum Brum! Plus some Welding"
 
 date: "2011-08-10T19:12:00"
 
-featured_image: "http://1.bp.blogspot.com/-AdxOUFpF-y8/TkLq3tX_UYI/AAAAAAAACVs/UDea684MmI0/s320/IMG_1169.JPG"
+featured_image: "/images/brum-brum-plus-some-welding/IMG_1169.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Sodbury Shopping"
 
 date: "2009-05-18T22:23:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_9328-771913.jpg"
+featured_image: "/images/sodbury-shopping/IMG_9328-771913.jpg"
 ---
 
 

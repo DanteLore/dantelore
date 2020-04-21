@@ -4,7 +4,7 @@ title: "Amazon Athena - First Look"
 
 date: "2017-01-04T07:00:24"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2017/01/athena-150x150.jpg"
+featured_image: "/images/amazon-athena-first-look/athena-150x150.jpg"
 ---
 
 

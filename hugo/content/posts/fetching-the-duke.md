@@ -4,7 +4,7 @@ title: "Fetching the Duke"
 
 date: "2008-12-18T19:56:00"
 
-featured_image: "http://2.bp.blogspot.com/_62oTnOHwOSo/SUrBo0mqxhI/AAAAAAAAAA0/6EH0Py4V0D0/s200/landrover.jpg"
+featured_image: "/images/fetching-the-duke/landrover.jpg"
 ---
 
 

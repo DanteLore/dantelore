@@ -4,7 +4,7 @@ title: "EZSnap Motor Mounts"
 
 date: "2013-02-28T12:37:42"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/02/20130219_074255.jpg"
+featured_image: "/images/ezsnap-motor-mounts/20130219_074255.jpg"
 ---
 
 

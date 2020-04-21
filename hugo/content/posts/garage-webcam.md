@@ -4,7 +4,7 @@ title: "Garage Webcam"
 
 date: "2010-08-22T15:07:00"
 
-featured_image: ""
+featured_image: "/images/garage-webcam/"
 ---
 
 

@@ -4,7 +4,7 @@ title: "PASSED!"
 
 date: "2010-01-29T18:33:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/250px-MOT-744538.PNG"
+featured_image: "/images/passed/250px-MOT-744538.PNG"
 ---
 
 

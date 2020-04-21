@@ -4,7 +4,7 @@ title: "Quite Dashing"
 
 date: "2012-02-05T00:19:00"
 
-featured_image: "http://1.bp.blogspot.com/-bvctm8F2yII/Ty3GdT89t9I/AAAAAAAACXU/tBMG3XuhVmE/s320/IMG_3247.JPG"
+featured_image: "/images/quite-dashing/IMG_3247.JPG"
 ---
 
 

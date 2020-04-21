@@ -4,7 +4,7 @@ title: "Clutch: Done!"
 
 date: "2010-03-07T16:06:00"
 
-featured_image: "http://2.bp.blogspot.com/_62oTnOHwOSo/S5QW4k4BDKI/AAAAAAAACFs/TOsG4ZOlogc/s320/IMG_7273.JPG"
+featured_image: "/images/clutch-done/IMG_7273.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Tub Thumping"
 
 date: "2009-08-04T21:40:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0851-771629.JPG"
+featured_image: "/images/tub-thumping/IMG_0851-771629.JPG"
 ---
 
 

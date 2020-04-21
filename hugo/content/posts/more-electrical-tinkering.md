@@ -4,7 +4,7 @@ title: "More Electrical Tinkering"
 
 date: "2009-01-11T16:14:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_5834-738924.JPG"
+featured_image: "/images/more-electrical-tinkering/IMG_5834-738924.JPG"
 ---
 
 

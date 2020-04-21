@@ -4,7 +4,7 @@ title: "Wheel Bearing Wreckage"
 
 date: "2011-03-18T20:50:00"
 
-featured_image: "https://lh5.googleusercontent.com/-YOhl0LRH0ZQ/TYPAN5cSt8I/AAAAAAAACRA/XHwiwKYtxgE/s320/IMG_5705.JPG"
+featured_image: "/images/wheel-bearing-wreckage/IMG_5705.JPG"
 ---
 
 

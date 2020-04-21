@@ -4,7 +4,7 @@ title: "Shameless Plug"
 
 date: "2010-01-11T20:34:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/plugsofasparkynature-757614.jpg"
+featured_image: "/images/shameless-plug/plugsofasparkynature-757614.jpg"
 ---
 
 

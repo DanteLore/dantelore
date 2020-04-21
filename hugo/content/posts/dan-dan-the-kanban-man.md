@@ -4,7 +4,7 @@ title: "Dan Dan The Kanban Man"
 
 date: "2013-05-16T21:55:42"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/05/StoryKanban2.png"
+featured_image: "/images/dan-dan-the-kanban-man/StoryKanban2.png"
 ---
 
 

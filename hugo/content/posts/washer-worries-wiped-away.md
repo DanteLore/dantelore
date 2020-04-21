@@ -4,7 +4,7 @@ title: "Washer Worries Wiped Away"
 
 date: "2009-10-01T20:07:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1841-750366.JPG"
+featured_image: "/images/washer-worries-wiped-away/IMG_1841-750366.JPG"
 ---
 
 

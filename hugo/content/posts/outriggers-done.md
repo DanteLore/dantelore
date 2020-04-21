@@ -4,7 +4,7 @@ title: "Outriggers Done"
 
 date: "2010-01-16T15:13:00"
 
-featured_image: ""
+featured_image: "/images/outriggers-done/"
 ---
 
 

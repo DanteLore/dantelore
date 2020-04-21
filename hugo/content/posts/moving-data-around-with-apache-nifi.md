@@ -4,7 +4,7 @@ title: "Moving data around with Apache NiFi"
 
 date: "2016-07-04T17:42:03"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/07/Screenshot-2016-07-01-17.44.54.jpg"
+featured_image: "/images/moving-data-around-with-apache-nifi/Screenshot-2016-07-01-17.44.54.jpg"
 ---
 
 

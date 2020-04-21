@@ -4,7 +4,7 @@ title: "Engine Start"
 
 date: "2011-07-31T22:11:00"
 
-featured_image: "http://1.bp.blogspot.com/-mYxFGl7CpLc/TjXL6KYkr8I/AAAAAAAACUw/38tJsVUiZdI/s320/IMG_0997.JPG"
+featured_image: "/images/engine-start/IMG_0997.JPG"
 ---
 
 

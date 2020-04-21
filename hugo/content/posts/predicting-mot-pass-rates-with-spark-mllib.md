@@ -4,7 +4,7 @@ title: "Predicting MOT Pass Rates with Spark MLlib"
 
 date: "2016-06-23T12:13:19"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/06/mot1.png"
+featured_image: "/images/predicting-mot-pass-rates-with-spark-mllib/mot1.png"
 ---
 
 

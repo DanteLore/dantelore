@@ -4,7 +4,7 @@ title: "Slippery Springs"
 
 date: "2009-04-29T19:57:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_8485-791403.JPG"
+featured_image: "/images/slippery-springs/IMG_8485-791403.JPG"
 ---
 
 

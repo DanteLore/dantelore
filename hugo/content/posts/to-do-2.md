@@ -4,7 +4,7 @@ title: "To Do"
 
 date: "2009-08-17T12:37:00"
 
-featured_image: ""
+featured_image: "/images/to-do-2/"
 ---
 
 

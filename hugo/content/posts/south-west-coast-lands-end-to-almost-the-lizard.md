@@ -4,7 +4,7 @@ title: "South West Coast - Lands End to (almost) The Lizard"
 
 date: "2013-03-25T22:10:59"
 
-featured_image: "https://logicalgenetics.com/wp-content/uploads/2013/03/IMG_8369.jpg"
+featured_image: "/images/south-west-coast-lands-end-to-almost-the-lizard/IMG_8369.jpg"
 ---
 
 

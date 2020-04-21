@@ -4,7 +4,7 @@ title: "Mapserver and Leaflet"
 
 date: "2014-06-18T08:56:55"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2014/06/mapserverLeaflet2.jpg"
+featured_image: "/images/mapserver-and-leaflet/mapserverLeaflet2.jpg"
 ---
 
 

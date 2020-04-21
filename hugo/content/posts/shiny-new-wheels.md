@@ -4,7 +4,7 @@ title: "Shiny New Wheels"
 
 date: "2012-07-02T18:57:00"
 
-featured_image: "http://3.bp.blogspot.com/-GLU12TBVxtw/T_HtrjxRYoI/AAAAAAAACag/YSER2MCyz-4/s320/IMG_4611.JPG"
+featured_image: "/images/shiny-new-wheels/IMG_4611.JPG"
 ---
 
 

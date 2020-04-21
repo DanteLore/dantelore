@@ -4,7 +4,7 @@ title: "Electrics Almost Done"
 
 date: "2009-02-15T20:53:00"
 
-featured_image: ""
+featured_image: "/images/electrics-almost-done/"
 ---
 
 

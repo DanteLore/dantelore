@@ -4,7 +4,7 @@ title: "Changing Project Name in TFS 2012"
 
 date: "2012-11-21T17:41:19"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/renametfs1.png"
+featured_image: "/images/changing-project-name-in-tfs-2012/renametfs1.png"
 ---
 
 

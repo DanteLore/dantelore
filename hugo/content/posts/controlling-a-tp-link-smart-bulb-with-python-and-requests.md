@@ -4,7 +4,7 @@ title: "Controlling a TP-Link Smart Bulb with Python and Requests"
 
 date: "2017-12-12T08:32:28"
 
-featured_image: ""
+featured_image: "/images/controlling-a-tp-link-smart-bulb-with-python-and-requests/"
 ---
 
 

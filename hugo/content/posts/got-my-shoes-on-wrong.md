@@ -4,7 +4,7 @@ title: "Got my shoes on wrong..."
 
 date: "2010-01-25T23:10:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6735-779641-734348.JPG"
+featured_image: "/images/got-my-shoes-on-wrong/IMG_6735-779641-734348.JPG"
 ---
 
 

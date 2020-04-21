@@ -4,7 +4,7 @@ title: "MultiWii Plugged In"
 
 date: "2012-12-05T23:35:07"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/IMG_7526.jpg"
+featured_image: "/images/multiwii-plugged-in/IMG_7526.jpg"
 ---
 
 

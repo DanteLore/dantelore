@@ -4,7 +4,7 @@ title: "Over Engineering the Barbecue"
 
 date: "2013-08-11T21:51:10"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/08/2013-08-11-21.55.19.jpg"
+featured_image: "/images/over-engineering-the-barbecue/2013-08-11-21.55.19.jpg"
 ---
 
 

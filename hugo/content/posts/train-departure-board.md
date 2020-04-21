@@ -4,7 +4,7 @@ title: "Train Departure Board"
 
 date: "2016-06-15T12:51:36"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/06/departures.png"
+featured_image: "/images/train-departure-board/departures.png"
 ---
 
 

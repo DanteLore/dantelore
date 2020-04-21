@@ -4,7 +4,7 @@ title: "Reverse Lamps"
 
 date: "2008-12-30T13:32:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/TheDuke-791840.png"
+featured_image: "/images/reverse-lamps/TheDuke-791840.png"
 ---
 
 

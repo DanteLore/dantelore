@@ -4,7 +4,7 @@ title: "Fingers Crossed"
 
 date: "2009-12-08T21:17:00"
 
-featured_image: ""
+featured_image: "/images/fingers-crossed/"
 ---
 
 

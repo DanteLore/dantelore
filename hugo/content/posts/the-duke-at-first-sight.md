@@ -4,7 +4,7 @@ title: "The Duke at First Sight"
 
 date: "2008-12-18T21:44:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/SUrG6s8IiWI/AAAAAAAAAB0/M2SszmJUOS8/s200/IMG_4256.JPG"
+featured_image: "/images/the-duke-at-first-sight/IMG_4256.JPG"
 ---
 
 

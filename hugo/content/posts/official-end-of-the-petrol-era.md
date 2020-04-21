@@ -4,7 +4,7 @@ title: "Official End of the Petrol Era"
 
 date: "2012-06-28T17:10:00"
 
-featured_image: "http://4.bp.blogspot.com/-G1pTazAr98c/T-yPOK_0qdI/AAAAAAAACaU/_AoXTtKWTF0/s320/ByeByeEngine.jpg"
+featured_image: "/images/official-end-of-the-petrol-era/ByeByeEngine.jpg"
 ---
 
 

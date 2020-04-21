@@ -4,7 +4,7 @@ title: "The Kindness of Strangers"
 
 date: "2010-03-08T22:11:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S5V5sMuXa9I/AAAAAAAACG0/qCT6pC5JB-s/s200/thumbs_up.jpg"
+featured_image: "/images/the-kindness-of-strangers/thumbs_up.jpg"
 ---
 
 

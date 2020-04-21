@@ -4,7 +4,7 @@ title: "When Blogs Collide"
 
 date: "2012-10-13T19:52:12"
 
-featured_image: ""
+featured_image: "/images/when-blogs-collide/"
 ---
 
 

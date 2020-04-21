@@ -4,7 +4,7 @@ title: "Well travelled or just plain old?"
 
 date: "2016-10-04T17:22:12"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/10/144-150x150.jpg"
+featured_image: "/images/well-travelled-or-just-plain-old/144-150x150.jpg"
 ---
 
 

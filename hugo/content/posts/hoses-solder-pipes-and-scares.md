@@ -4,7 +4,7 @@ title: "Hoses, Solder, Pipes and Scares"
 
 date: "2009-04-14T20:52:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_8384-790355.JPG"
+featured_image: "/images/hoses-solder-pipes-and-scares/IMG_8384-790355.JPG"
 ---
 
 

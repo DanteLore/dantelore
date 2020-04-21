@@ -4,7 +4,7 @@ title: "Front of Rear Spring Hanger Outrigger Slide Show"
 
 date: "2009-08-02T17:48:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0177-756628.JPG"
+featured_image: "/images/front-of-rear-spring-hanger-outrigger-slide-show/IMG_0177-756628.JPG"
 ---
 
 

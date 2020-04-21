@@ -4,7 +4,7 @@ title: "Time at the Bar Chart"
 
 date: "2018-11-27T08:43:49"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival-1024x630.jpg"
+featured_image: "/images/time-at-the-bar-chart/Kafkas-Beer-Festival-1024x630.jpg"
 ---
 
 

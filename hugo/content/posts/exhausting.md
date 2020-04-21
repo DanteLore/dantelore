@@ -4,7 +4,7 @@ title: "Exhausting"
 
 date: "2009-06-24T22:23:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0668-759003.jpg"
+featured_image: "/images/exhausting/IMG_0668-759003.jpg"
 ---
 
 

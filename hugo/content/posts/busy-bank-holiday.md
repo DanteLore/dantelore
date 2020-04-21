@@ -4,7 +4,7 @@ title: "Busy Bank Holiday"
 
 date: "2011-04-25T21:15:00"
 
-featured_image: "http://2.bp.blogspot.com/-nTuQirlWB6w/TbXf5IoCFjI/AAAAAAAACRc/KcnVxQlJC1Q/s320/IMG_0246.JPG"
+featured_image: "/images/busy-bank-holiday/IMG_0246.JPG"
 ---
 
 

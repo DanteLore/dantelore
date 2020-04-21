@@ -4,7 +4,7 @@ title: "Economy Dreams"
 
 date: "2009-11-09T21:12:00"
 
-featured_image: ""
+featured_image: "/images/economy-dreams/"
 ---
 
 

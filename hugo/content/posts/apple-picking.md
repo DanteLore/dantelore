@@ -4,7 +4,7 @@ title: "Apple Picking"
 
 date: "2012-11-05T22:00:12"
 
-featured_image: ""
+featured_image: "/images/apple-picking/"
 ---
 
 

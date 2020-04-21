@@ -4,7 +4,7 @@ title: "Put a lid on it"
 
 date: "2009-08-09T21:30:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0883-746078.JPG"
+featured_image: "/images/put-a-lid-on-it/IMG_0883-746078.JPG"
 ---
 
 

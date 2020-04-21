@@ -4,7 +4,7 @@ title: "Electrics Research"
 
 date: "2008-12-19T14:01:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/SUu8m6sH7ZI/AAAAAAAAADk/IUx32jSQSuU/s200/IMG_5335.JPG"
+featured_image: "/images/electrics-research/IMG_5335.JPG"
 ---
 
 

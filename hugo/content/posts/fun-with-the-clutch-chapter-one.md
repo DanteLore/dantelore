@@ -4,7 +4,7 @@ title: "Fun with the Clutch: Chapter One"
 
 date: "2010-02-14T17:43:00"
 
-featured_image: "http://3.bp.blogspot.com/_62oTnOHwOSo/S3g2W_WduTI/AAAAAAAACCk/c7izjvHBUCY/s320/IMG_7196-735645.JPG"
+featured_image: "/images/fun-with-the-clutch-chapter-one/IMG_7196-735645.JPG"
 ---
 
 

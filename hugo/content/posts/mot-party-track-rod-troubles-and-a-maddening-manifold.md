@@ -4,7 +4,7 @@ title: "MOT Party, Track Rod Troubles and a Maddening Manifold"
 
 date: "2009-10-25T17:10:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1963-700026.JPG"
+featured_image: "/images/mot-party-track-rod-troubles-and-a-maddening-manifold/IMG_1963-700026.JPG"
 ---
 
 

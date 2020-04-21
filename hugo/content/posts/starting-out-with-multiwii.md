@@ -4,7 +4,7 @@ title: "Starting out with MultiWii"
 
 date: "2012-12-05T12:19:38"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/MultiWii1.png"
+featured_image: "/images/starting-out-with-multiwii/MultiWii1.png"
 ---
 
 

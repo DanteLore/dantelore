@@ -4,7 +4,7 @@ title: "Panic Overdrive!"
 
 date: "2011-11-28T21:47:00"
 
-featured_image: "http://4.bp.blogspot.com/-_9X9u_TQfCc/TtP6Z2np9II/AAAAAAAACWc/EX46Zo-6G5U/s320/IMG_2662.JPG"
+featured_image: "/images/panic-overdrive/IMG_2662.JPG"
 ---
 
 

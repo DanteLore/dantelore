@@ -4,7 +4,7 @@ title: "Sodbury? Sod all more like..."
 
 date: "2011-05-15T19:10:00"
 
-featured_image: "http://2.bp.blogspot.com/-cijhK5zsL60/TdAc5RWvUNI/AAAAAAAACSc/Xo1Vnpi4sL0/s320/IMG_0524.JPG"
+featured_image: "/images/sodbury-sod-all-more-like/IMG_0524.JPG"
 ---
 
 

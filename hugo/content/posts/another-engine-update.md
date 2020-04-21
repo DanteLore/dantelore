@@ -4,7 +4,7 @@ title: "Another Engine Update"
 
 date: "2011-03-11T13:49:00"
 
-featured_image: "https://lh3.googleusercontent.com/-fhAC8wxSiJE/TXojjSPPBwI/AAAAAAAACQY/jIk9iYXyKzg/s320/IMG_5654.JPG"
+featured_image: "/images/another-engine-update/IMG_5654.JPG"
 ---
 
 

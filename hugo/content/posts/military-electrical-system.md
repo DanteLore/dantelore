@@ -4,7 +4,7 @@ title: "Military Electrical System"
 
 date: "2009-01-12T08:55:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/LandRoverTransistorised24v-736480.png"
+featured_image: "/images/military-electrical-system/LandRoverTransistorised24v-736480.png"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Back once again... with a gearbox"
 
 date: "2010-06-24T20:23:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/TCPH_e7CzKI/AAAAAAAACKs/kV-o2OJ3V3c/s320/IMG_9936.JPG"
+featured_image: "/images/back-once-again-with-a-gearbox/IMG_9936.JPG"
 ---
 
 

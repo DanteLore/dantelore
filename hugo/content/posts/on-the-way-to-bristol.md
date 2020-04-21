@@ -4,7 +4,7 @@ title: "On the way to Bristol..."
 
 date: "2010-03-21T18:31:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/S6ZmOeuONOI/AAAAAAAACII/PFupmlMQ-GE/s320/IMG_7364.JPG"
+featured_image: "/images/on-the-way-to-bristol/IMG_7364.JPG"
 ---
 
 

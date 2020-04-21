@@ -4,7 +4,7 @@ title: "MPG Shopping List"
 
 date: "2010-02-10T19:05:00"
 
-featured_image: ""
+featured_image: "/images/mpg-shopping-list/"
 ---
 
 

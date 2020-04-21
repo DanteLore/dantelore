@@ -4,7 +4,7 @@ title: "Super Quick Mini Quad"
 
 date: "2015-04-20T23:01:13"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2015/04/2015-04-19-15.35.03.jpg"
+featured_image: "/images/super-quick-mini-quad/2015-04-19-15.35.03.jpg"
 ---
 
 

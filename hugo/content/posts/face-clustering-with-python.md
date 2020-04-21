@@ -4,7 +4,7 @@ title: "Face Clustering with Python"
 
 date: "2018-09-12T13:49:55"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/09/Screenshot-2018-09-11-15.35.08.jpg"
+featured_image: "/images/face-clustering-with-python/Screenshot-2018-09-11-15.35.08.jpg"
 ---
 
 

@@ -4,7 +4,7 @@ title: "A Trip to Bruce Tunnel"
 
 date: "2012-08-05T20:45:00"
 
-featured_image: "http://1.bp.blogspot.com/-T-KWH1upcsE/UB7aV0bA3YI/AAAAAAAACas/ZS9ibKQpHCg/s320/WP_000204.jpg"
+featured_image: "/images/a-trip-to-bruce-tunnel/WP_000204.jpg"
 ---
 
 

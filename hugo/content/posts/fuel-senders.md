@@ -4,7 +4,7 @@ title: "Fuel Senders"
 
 date: "2009-03-07T17:10:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6809-706165.JPG"
+featured_image: "/images/fuel-senders/IMG_6809-706165.JPG"
 ---
 
 

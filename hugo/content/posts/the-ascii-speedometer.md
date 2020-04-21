@@ -4,7 +4,7 @@ title: "The ASCII Speedometer"
 
 date: "2012-10-25T19:36:48"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/10/105qmj5.jpg"
+featured_image: "/images/the-ascii-speedometer/105qmj5.jpg"
 ---
 
 

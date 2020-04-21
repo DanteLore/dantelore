@@ -4,7 +4,7 @@ title: "Frosty Brake Replacement"
 
 date: "2009-12-28T13:56:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6704-708768.JPG"
+featured_image: "/images/frosty-brake-replacement/IMG_6704-708768.JPG"
 ---
 
 

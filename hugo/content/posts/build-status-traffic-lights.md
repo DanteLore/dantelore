@@ -4,7 +4,7 @@ title: "Build Status Traffic Lights"
 
 date: "2013-08-29T12:00:58"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/08/2013-07-21-21.48.54.jpg"
+featured_image: "/images/build-status-traffic-lights/2013-07-21-21.48.54.jpg"
 ---
 
 

@@ -4,7 +4,7 @@ title: "New Year Hobjectives"
 
 date: "2013-01-02T13:27:30"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/12/20121202_080457.jpg"
+featured_image: "/images/new-year-hobjectives/20121202_080457.jpg"
 ---
 
 

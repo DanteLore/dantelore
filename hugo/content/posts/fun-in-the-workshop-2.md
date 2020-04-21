@@ -4,7 +4,7 @@ title: "Fun in the Workshop"
 
 date: "2010-11-19T10:11:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/TOZIpPgaS1I/AAAAAAAACNQ/RTZTD0mLQP0/s320/IMG_0927.JPG"
+featured_image: "/images/fun-in-the-workshop-2/IMG_0927.JPG"
 ---
 
 

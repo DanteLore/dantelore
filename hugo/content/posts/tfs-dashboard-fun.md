@@ -4,7 +4,7 @@ title: "TFS Dashboard Fun"
 
 date: "2012-11-24T22:22:13"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/Burndown2.png"
+featured_image: "/images/tfs-dashboard-fun/Burndown2.png"
 ---
 
 

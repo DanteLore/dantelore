@@ -4,7 +4,7 @@ title: "Data Engineering in Real Time"
 
 date: "2018-11-21T12:36:28"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Life-Events.jpg"
+featured_image: "/images/data-engineering-in-real-time/Life-Events.jpg"
 ---
 
 

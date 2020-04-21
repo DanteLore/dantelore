@@ -4,7 +4,7 @@ title: "Stuff I made in 2017"
 
 date: "2017-12-28T11:21:43"
 
-featured_image: "https://logicalgenetics.com/wp-content/uploads/2017/12/2017-04-06-17.56.27-1.jpg"
+featured_image: "/images/stuff-i-made-in-2017/2017-04-06-17.56.27-1.jpg"
 ---
 
 

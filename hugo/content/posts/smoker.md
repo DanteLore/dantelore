@@ -4,7 +4,7 @@ title: "Smoker"
 
 date: "2016-06-13T20:29:30"
 
-featured_image: "https://logicalgenetics.com/wp-content/uploads/2016/04/2016-04-09-11.35.50.jpg"
+featured_image: "/images/smoker/2016-04-09-11.35.50.jpg"
 ---
 
 

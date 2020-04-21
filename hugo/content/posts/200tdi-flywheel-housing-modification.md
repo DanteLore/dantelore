@@ -4,7 +4,7 @@ title: "200TDi Flywheel Housing Modification"
 
 date: "2011-03-20T20:18:00"
 
-featured_image: "https://lh3.googleusercontent.com/-aDRPc-H9uHE/TYZdrVz_azI/AAAAAAAACRQ/mP9qRFMWYZw/s320/IMG_5710.JPG"
+featured_image: "/images/200tdi-flywheel-housing-modification/IMG_5710.JPG"
 ---
 
 

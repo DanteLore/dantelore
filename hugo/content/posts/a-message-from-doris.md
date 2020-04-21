@@ -4,7 +4,7 @@ title: "A Message from DoRIS"
 
 date: "2009-02-17T09:37:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/hilton-735732.jpg"
+featured_image: "/images/a-message-from-doris/hilton-735732.jpg"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Tubs Tubbson"
 
 date: "2009-03-28T21:48:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_7015-768638.JPG"
+featured_image: "/images/tubs-tubbson/IMG_7015-768638.JPG"
 ---
 
 

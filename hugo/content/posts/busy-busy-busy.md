@@ -4,7 +4,7 @@ title: "Busy busy busy"
 
 date: "2009-08-16T15:52:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0916-700622.JPG"
+featured_image: "/images/busy-busy-busy/IMG_0916-700622.JPG"
 ---
 
 

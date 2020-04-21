@@ -4,7 +4,7 @@ title: "Frozen in Carbonite"
 
 date: "2012-10-02T09:34:52"
 
-featured_image: "http://logicalgenetics.com/assorted/upload/tn_IMG_7008.jpg"
+featured_image: "/images/frozen-in-carbonite/tn_IMG_7008.jpg"
 ---
 
 

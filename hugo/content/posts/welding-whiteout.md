@@ -4,7 +4,7 @@ title: "Welding Whiteout"
 
 date: "2010-01-11T19:36:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_7099-775657.JPG"
+featured_image: "/images/welding-whiteout/IMG_7099-775657.JPG"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Engine up and running again"
 
 date: "2009-11-07T16:11:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_2046-785531.JPG"
+featured_image: "/images/engine-up-and-running-again/IMG_2046-785531.JPG"
 ---
 
 

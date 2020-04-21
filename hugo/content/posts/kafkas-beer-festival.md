@@ -4,7 +4,7 @@ title: "Kafka's Beer Festival"
 
 date: "2018-11-22T12:31:08"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafka-Beer-with-Border.jpg"
+featured_image: "/images/kafkas-beer-festival/Kafka-Beer-with-Border.jpg"
 ---
 
 

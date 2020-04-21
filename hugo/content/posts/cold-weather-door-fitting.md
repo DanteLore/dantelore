@@ -4,7 +4,7 @@ title: "Cold Weather Door Fitting"
 
 date: "2009-01-10T22:40:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_5813-751491.JPG"
+featured_image: "/images/cold-weather-door-fitting/IMG_5813-751491.JPG"
 ---
 
 

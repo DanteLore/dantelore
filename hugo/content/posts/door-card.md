@@ -4,7 +4,7 @@ title: "Door Card"
 
 date: "2013-01-28T14:49:36"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/01/wpid-20130128_143550.jpg"
+featured_image: "/images/door-card/wpid-20130128_143550.jpg"
 ---
 
 

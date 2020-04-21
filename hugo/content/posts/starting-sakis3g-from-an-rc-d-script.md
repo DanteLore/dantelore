@@ -4,7 +4,7 @@ title: "Starting sakis3g from an rc.d script"
 
 date: "2012-10-13T11:10:11"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/10/IMG_7010-300x200.jpg"
+featured_image: "/images/starting-sakis3g-from-an-rc-d-script/IMG_7010-300x200.jpg"
 ---
 
 

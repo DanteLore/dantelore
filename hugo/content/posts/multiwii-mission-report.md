@@ -4,7 +4,7 @@ title: "MultiWii Mission Report"
 
 date: "2012-12-06T15:17:59"
 
-featured_image: ""
+featured_image: "/images/multiwii-mission-report/"
 ---
 
 

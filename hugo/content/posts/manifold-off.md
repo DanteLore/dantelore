@@ -4,7 +4,7 @@ title: "Manifold Off"
 
 date: "2009-10-27T21:40:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1996-723861.JPG"
+featured_image: "/images/manifold-off/IMG_1996-723861.JPG"
 ---
 
 

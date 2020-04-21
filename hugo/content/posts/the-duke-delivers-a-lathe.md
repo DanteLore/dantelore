@@ -4,7 +4,7 @@ title: "The Duke delivers a lathe"
 
 date: "2010-08-07T18:53:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/TF2siHUwZMI/AAAAAAAACMs/FPmcdNpUhJc/s320/IMG_9846.JPG"
+featured_image: "/images/the-duke-delivers-a-lathe/IMG_9846.JPG"
 ---
 
 

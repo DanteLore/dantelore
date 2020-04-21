@@ -4,7 +4,7 @@ title: "Drive Shaft"
 
 date: "2009-06-29T21:12:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0722-788277.jpg"
+featured_image: "/images/drive-shaft/IMG_0722-788277.jpg"
 ---
 
 

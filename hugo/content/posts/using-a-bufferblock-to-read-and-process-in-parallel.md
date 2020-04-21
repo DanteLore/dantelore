@@ -4,7 +4,7 @@ title: "Using a BufferBlock to Read and process in Parallel"
 
 date: "2013-03-19T18:22:19"
 
-featured_image: ""
+featured_image: "/images/using-a-bufferblock-to-read-and-process-in-parallel/"
 ---
 
 

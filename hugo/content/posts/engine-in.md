@@ -4,7 +4,7 @@ title: "Engine In"
 
 date: "2011-07-25T13:09:00"
 
-featured_image: "http://3.bp.blogspot.com/-fqJwa7sUN04/Ti1gYCOdoBI/AAAAAAAACUU/nlnvGQQjol8/s320/IMG_0722.JPG"
+featured_image: "/images/engine-in/IMG_0722.JPG"
 ---
 
 

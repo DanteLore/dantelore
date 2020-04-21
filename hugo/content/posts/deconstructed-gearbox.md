@@ -4,7 +4,7 @@ title: "Deconstructed gearbox"
 
 date: "2010-06-24T22:19:00"
 
-featured_image: "http://2.bp.blogspot.com/_62oTnOHwOSo/TCPaW0HNGFI/AAAAAAAACLk/sBZLwEO58aQ/s320/IMG_9963.JPG"
+featured_image: "/images/deconstructed-gearbox/IMG_9963.JPG"
 ---
 
 

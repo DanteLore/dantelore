@@ -4,7 +4,7 @@ title: "Thatcham Trains"
 
 date: "2016-06-22T13:24:04"
 
-featured_image: ""
+featured_image: "/images/thatcham-trains/"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Ups and Downs"
 
 date: "2008-12-21T22:19:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/SU7GXIA8EqI/AAAAAAAAAD8/SaUILfj4AwU/s200/IMG_5377.JPG"
+featured_image: "/images/ups-and-downs/IMG_5377.JPG"
 ---
 
 

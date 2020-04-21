@@ -4,7 +4,7 @@ title: "Shape Files and SQL Server"
 
 date: "2013-09-23T13:43:15"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/09/PolygonsInSqlServer.png"
+featured_image: "/images/shape-files-and-sql-server/PolygonsInSqlServer.png"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Bouncing Back"
 
 date: "2009-07-20T22:04:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_0041-758118.JPG"
+featured_image: "/images/bouncing-back/IMG_0041-758118.JPG"
 ---
 
 

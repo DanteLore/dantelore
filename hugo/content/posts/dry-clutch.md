@@ -4,7 +4,7 @@ title: "Dry Clutch"
 
 date: "2009-09-28T20:36:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1825-738139.JPG"
+featured_image: "/images/dry-clutch/IMG_1825-738139.JPG"
 ---
 
 

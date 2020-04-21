@@ -4,7 +4,7 @@ title: "Tracking Kanban with TFS"
 
 date: "2013-01-25T12:09:57"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/01/CumulativeFlowDiagram3.png"
+featured_image: "/images/tracking-kanban-with-tfs/CumulativeFlowDiagram3.png"
 ---
 
 

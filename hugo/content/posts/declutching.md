@@ -4,7 +4,7 @@ title: "Declutching"
 
 date: "2009-10-01T20:48:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_1844-727603.JPG"
+featured_image: "/images/declutching/IMG_1844-727603.JPG"
 ---
 
 

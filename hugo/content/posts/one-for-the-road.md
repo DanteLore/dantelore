@@ -4,7 +4,7 @@ title: "One for the Road"
 
 date: "2018-12-12T08:06:45"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/Kafkas-Beer-Festival-1024x630.jpg"
+featured_image: "/images/one-for-the-road/Kafkas-Beer-Festival-1024x630.jpg"
 ---
 
 

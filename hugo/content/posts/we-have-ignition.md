@@ -4,7 +4,7 @@ title: "We have ignition..."
 
 date: "2009-03-31T22:08:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_7178-725200.JPG"
+featured_image: "/images/we-have-ignition/IMG_7178-725200.JPG"
 ---
 
 

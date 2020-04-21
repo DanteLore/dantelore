@@ -4,7 +4,7 @@ title: "Historic (ish) Photos"
 
 date: "2009-01-09T19:04:00"
 
-featured_image: "http://danandtheduke.blogspot.co.uk/uploaded_images/bod6-760334.jpg"
+featured_image: "/images/historic-ish-photos/bod6-760334.jpg"
 ---
 
 

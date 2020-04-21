@@ -4,7 +4,7 @@ title: "A Trip to the Movies"
 
 date: "2018-11-06T13:54:05"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2018/11/actors1.png"
+featured_image: "/images/trip-to-the-movies/actors1.png"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Welding finished"
 
 date: "2010-01-17T16:50:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_7168-755445.JPG"
+featured_image: "/images/welding-finished/IMG_7168-755445.JPG"
 ---
 
 

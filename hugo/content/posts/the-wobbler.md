@@ -4,7 +4,7 @@ title: "The Wobbler"
 
 date: "2014-02-02T22:35:31"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2014/02/2014-01-23-21.07.06.jpg"
+featured_image: "/images/the-wobbler/2014-01-23-21.07.06.jpg"
 ---
 
 

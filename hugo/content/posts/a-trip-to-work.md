@@ -4,7 +4,7 @@ title: "A Trip To Work"
 
 date: "2012-09-14T20:27:54"
 
-featured_image: "http://logicalgenetics.com/assorted/upload/speedmap.png"
+featured_image: "/images/a-trip-to-work/speedmap.png"
 ---
 
 

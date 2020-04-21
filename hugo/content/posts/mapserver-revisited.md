@@ -4,7 +4,7 @@ title: "Mapserver Revisited"
 
 date: "2012-11-08T09:16:38"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2012/11/mapserv-web1.jpg"
+featured_image: "/images/mapserver-revisited/mapserv-web1.jpg"
 ---
 
 

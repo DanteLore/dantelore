@@ -4,7 +4,7 @@ title: "DIY Choke"
 
 date: "2010-11-27T18:18:00"
 
-featured_image: "http://1.bp.blogspot.com/_62oTnOHwOSo/TPFLNAv4JFI/AAAAAAAACN4/WQ0A1pRYPbA/s320/IMG_0950.JPG"
+featured_image: "/images/diy-choke/IMG_0950.JPG"
 ---
 
 

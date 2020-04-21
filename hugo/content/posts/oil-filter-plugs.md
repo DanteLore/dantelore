@@ -4,7 +4,7 @@ title: "Oil FIlter Plugs"
 
 date: "2011-05-10T21:21:00"
 
-featured_image: "http://2.bp.blogspot.com/-7_2MZzLGpRI/TcmjUem1tqI/AAAAAAAACSE/eLoaaIegaNA/s320/IMG_0302.JPG"
+featured_image: "/images/oil-filter-plugs/IMG_0302.JPG"
 ---
 
 

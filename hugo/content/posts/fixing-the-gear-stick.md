@@ -4,7 +4,7 @@ title: "Fixing the gear stick"
 
 date: "2013-11-02T21:13:32"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/11/wpid-20131102_1618531.jpg"
+featured_image: "/images/fixing-the-gear-stick/wpid-20131102_1618531.jpg"
 ---
 
 

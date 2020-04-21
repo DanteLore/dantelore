@@ -4,7 +4,7 @@ title: "Fairey Enough"
 
 date: "2011-01-12T00:03:00"
 
-featured_image: "http://4.bp.blogspot.com/_62oTnOHwOSo/TSzldyqsHaI/AAAAAAAACOU/cyOpIs517WY/s320/IMG_0980.JPG"
+featured_image: "/images/fairey-enough/IMG_0980.JPG"
 ---
 
 

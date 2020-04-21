@@ -4,7 +4,7 @@ title: "Post MOT Welding Woe"
 
 date: "2009-12-13T11:02:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_2102-795739.JPG"
+featured_image: "/images/post-mot-welding-woe/IMG_2102-795739.JPG"
 ---
 
 

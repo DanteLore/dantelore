@@ -4,7 +4,7 @@ title: "Bush Removal"
 
 date: "2009-05-10T20:04:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_9270-763171.JPG"
+featured_image: "/images/bush-removal/IMG_9270-763171.JPG"
 ---
 
 

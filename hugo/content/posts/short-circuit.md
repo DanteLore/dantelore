@@ -4,7 +4,7 @@ title: "Short Circuit"
 
 date: "2009-03-07T18:08:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/IMG_6876-705671.JPG"
+featured_image: "/images/short-circuit/IMG_6876-705671.JPG"
 ---
 
 

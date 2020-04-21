@@ -4,7 +4,7 @@ title: "Evolutionary Algorithm: Playable Demo"
 
 date: "2016-11-11T17:21:54"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2016/11/Screenshot-2016-11-11-17.25.56-150x150.jpg"
+featured_image: "/images/evolutionary-algorithm-playable-demo/Screenshot-2016-11-11-17.25.56-150x150.jpg"
 
 customJS: ["http://rawgit.com/DanteLore/games-of-life/master/one-d-genetic-algorithm.js",
            "/js/d3.v35.min.js"]

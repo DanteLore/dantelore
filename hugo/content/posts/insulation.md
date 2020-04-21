@@ -4,7 +4,7 @@ title: "Insulation"
 
 date: "2013-04-23T07:52:29"
 
-featured_image: "http://logicalgenetics.com/wp-content/uploads/2013/04/20130421_180253.jpg"
+featured_image: "/images/insulation/20130421_180253.jpg"
 ---
 
 

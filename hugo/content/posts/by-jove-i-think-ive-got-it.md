@@ -4,7 +4,7 @@ title: "By Jove, I think I've Got It!"
 
 date: "2009-01-13T00:24:00"
 
-featured_image: "http://danandtheduke.co.uk/uploaded_images/TheDuke-744552.png"
+featured_image: "/images/by-jove-i-think-ive-got-it/TheDuke-744552.png"
 ---
 
 
