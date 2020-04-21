@@ -7,7 +7,7 @@ date: "2016-11-09T18:22:53"
 featured_image: "/images/conways-game-of-life/Screenshot-2016-11-09-18.39.39-150x150.png"
 
 customJS: ["/js/d3.v35.min.js",
-           "https://www.rawgit.com/DanteLore/games-of-life/master/conway.js"]
+           "/js/conway.js"]
 ---
 
 

@@ -1,5 +1,5 @@
 function figure4(element) {
-  var url = "https://raw.githubusercontent.com/DanteLore/mot-data-in-spark/master/vis/results/passRateByAgeAndMileageBand.json";
+  var url = "/data/passRateByAgeAndMileageBand.json";
 
   var resolution = 100
 
@@ -86,7 +86,7 @@ function figure4(element) {
 }
 
 function figure2(element) {
-  var url = "https://raw.githubusercontent.com/DanteLore/mot-data-in-spark/master/vis/results/passRateByAgeBand.json";
+  var url = "/data/passRateByAgeBand.json";
 
   var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 550 - margin.left - margin.right,
@@ -153,7 +153,7 @@ function figure2(element) {
 }
 
 function figure1(element) {
-  var url = "https://raw.githubusercontent.com/DanteLore/mot-data-in-spark/master/vis/results/passRateByMileageBand.json";
+  var url = "/data/passRateByMileageBand.json";
 
   var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 550 - margin.left - margin.right,
@@ -222,7 +222,7 @@ function figure1(element) {
 
 function figure3(element) {
 
-  var url = "https://raw.githubusercontent.com/DanteLore/mot-data-in-spark/master/vis/results/passRateByAgeAndMileageBand.json";
+  var url = "/data/passRateByAgeAndMileageBand.json";
 
   var resolution = 25
 

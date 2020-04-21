@@ -1,0 +1,28 @@
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: #2b8cbe;
+}
+
+.bar:hover {
+  fill: #2ca25f;
+}
+
+.axis--x path {
+  display: none;
+}
+
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}

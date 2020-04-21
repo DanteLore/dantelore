@@ -6,9 +6,9 @@ date: "2016-11-11T17:21:54"
 
 featured_image: "/images/evolutionary-algorithm-playable-demo/Screenshot-2016-11-11-17.25.56-150x150.jpg"
 
-customJS: ["http://rawgit.com/DanteLore/games-of-life/master/one-d-genetic-algorithm.js",
+customJS: ["/js/one-d-genetic-algorithm.js",
            "/js/d3.v35.min.js"]
-customCSS: ["http://rawgit.com/DanteLore/games-of-life/master/life.css"]
+customCSS: ["/css/life.css"]
 ---
 
 Here I'm combining a bit of visualisation with my other favourite subject - the Evolutionary Algorithm (or Genetic Algorithm if you prefer).  I'm not going to write anything about the properties of the algorithm - you can just play with the controls below the chart and see how the different settings effect its ability to find a good solution, adapt to changes and explore the problem space.
