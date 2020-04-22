@@ -1,9 +1,7 @@
 <ul id="post-list">
     {{ range where .Paginator.Pages "Section" "ne" "" }}
         <li> 
-            {{ if .Params.featured_image }}
-              <div class="post_thumb"><img class="post_thumb" src="{{ .Params.featured_image }}"/></div>
-            {{ end }}
+            <a href='{{ .Permalink }}'><img class="post_thumb" src="{{ .Params.featured_image }}"/></a>
             <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2 2006" }}</aside></a>
             <a href='{{ .Permalink }}'>{{ .LinkTitle }}<h2>{{ .Description | markdownify }}</h2></a>
         </li>
