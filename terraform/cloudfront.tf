@@ -1,4 +1,5 @@
 resource "aws_cloudfront_distribution" "s3_distribution" {
+  count = length(var.domain_names)
   origin {
     domain_name = "${var.bucket_name}.s3-website-${var.aws_region}.amazonaws.com"
     origin_id   = "website"
@@ -16,7 +17,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   comment             = "Managed by Terraform"
   default_root_object = "index.html"
 
-  aliases = ["${var.domain_name}"]
+  aliases = ["${var.domain_names[count.index]}", "www.${var.domain_names[count.index]}"]
 
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
@@ -46,7 +47,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    acm_certificate_arn = var.certificate
+    acm_certificate_arn = var.certificates[count.index]
     ssl_support_method = "sni-only"
   }
 }
