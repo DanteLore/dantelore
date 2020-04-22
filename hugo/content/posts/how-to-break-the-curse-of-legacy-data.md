@@ -4,7 +4,7 @@ title: "How to Break the Curse of Legacy Data"
 
 date: "2019-08-02T15:13:03"
 
-featured_image: "/images/how-to-break-the-curse-of-legacy-data/"
+featured_image: "/images/gear48.png"
 ---
 
 
