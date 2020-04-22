@@ -4,7 +4,7 @@ title: "Stop Press"
 
 date: "2009-01-07T13:09:00"
 
-featured_image: "/images/stop-press/"
+featured_image: "/images/gear48.png"
 ---
 
 

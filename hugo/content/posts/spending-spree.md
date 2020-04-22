@@ -4,7 +4,7 @@ title: "Spending Spree"
 
 date: "2009-01-04T22:49:00"
 
-featured_image: "/images/spending-spree/"
+featured_image: "/images/gear48.png"
 ---
 
 

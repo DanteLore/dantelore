@@ -4,7 +4,7 @@ title: "Christening, Cruising then Crashing the Carbon-Copter"
 
 date: "2012-10-05T14:22:46"
 
-featured_image: "/images/christening-cruising-then-crashing-the-carbon-copter/"
+featured_image: "/images/gear48.png"
 ---
 
 

@@ -4,7 +4,7 @@ title: "People Who Like Debugging"
 
 date: "2012-11-16T18:13:56"
 
-featured_image: "/images/people-who-like-debugging/"
+featured_image: "/images/gear48.png"
 ---
 
 

@@ -4,7 +4,7 @@ title: "Stuff To Do"
 
 date: "2009-04-01T21:31:00"
 
-featured_image: "/images/stuff-to-do/"
+featured_image: "/images/gear48.png"
 ---
 
 

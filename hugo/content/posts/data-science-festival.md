@@ -4,7 +4,7 @@ title: "Data Science Festival"
 
 date: "2019-04-22T13:55:40"
 
-featured_image: "/images/data-science-festival/"
+featured_image: "/images/gear48.png"
 ---
 
 

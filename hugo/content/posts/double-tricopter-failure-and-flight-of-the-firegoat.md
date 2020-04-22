@@ -4,7 +4,7 @@ title: "Double Tricopter Failure and Flight of the Firegoat"
 
 date: "2012-09-26T13:05:07"
 
-featured_image: "/images/double-tricopter-failure-and-flight-of-the-firegoat/"
+featured_image: "/images/gear48.png"
 ---
 
 

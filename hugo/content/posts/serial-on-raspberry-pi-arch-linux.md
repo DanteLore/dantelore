@@ -4,7 +4,7 @@ title: "Serial on Raspberry Pi Arch Linux"
 
 date: "2013-09-01T19:56:13"
 
-featured_image: "/images/serial-on-raspberry-pi-arch-linux/"
+featured_image: "/images/gear48.png"
 ---
 
 

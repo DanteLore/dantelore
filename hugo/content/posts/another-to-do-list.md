@@ -4,7 +4,7 @@ title: "Another To Do List"
 
 date: "2009-07-22T12:42:00"
 
-featured_image: "/images/another-to-do-list/"
+featured_image: "/images/gear48.png"
 ---
 
 

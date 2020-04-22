@@ -4,7 +4,7 @@ title: "The Chuffer"
 
 date: "2014-06-18T13:32:02"
 
-featured_image: "/images/the-chuffer/"
+featured_image: "/images/gear48.png"
 ---
 
 

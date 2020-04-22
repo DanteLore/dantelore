@@ -4,7 +4,7 @@ title: "A new look!"
 
 date: "2012-06-29T21:46:29"
 
-featured_image: "/images/hello-world/"
+featured_image: "/images/gear48.png"
 ---
 
 

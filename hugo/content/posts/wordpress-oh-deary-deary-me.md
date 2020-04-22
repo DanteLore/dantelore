@@ -4,7 +4,7 @@ title: "Wordpress: Oh deary deary me!"
 
 date: "2013-07-28T21:29:39"
 
-featured_image: "/images/wordpress-oh-deary-deary-me/"
+featured_image: "/images/gear48.png"
 ---
 
 

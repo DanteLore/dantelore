@@ -4,7 +4,7 @@ title: "The Case of the Ersatz Duke"
 
 date: "2009-01-11T13:06:00"
 
-featured_image: "/images/the-case-of-the-ersatz-duke/"
+featured_image: "/images/gear48.png"
 ---
 
 

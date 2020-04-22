@@ -4,7 +4,7 @@ title: "Insured!"
 
 date: "2009-11-14T14:25:00"
 
-featured_image: "/images/insured/"
+featured_image: "/images/gear48.png"
 ---
 
 

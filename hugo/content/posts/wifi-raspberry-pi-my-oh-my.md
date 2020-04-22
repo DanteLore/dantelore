@@ -4,7 +4,7 @@ title: "WiFi, Raspberry Pi, My oh my"
 
 date: "2013-08-31T22:43:37"
 
-featured_image: "/images/wifi-raspberry-pi-my-oh-my/"
+featured_image: "/images/gear48.png"
 ---
 
 

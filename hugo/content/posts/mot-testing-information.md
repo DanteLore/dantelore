@@ -4,7 +4,7 @@ title: "MOT Testing Information"
 
 date: "2009-01-22T14:16:00"
 
-featured_image: "/images/mot-testing-information/"
+featured_image: "/images/gear48.png"
 ---
 
 

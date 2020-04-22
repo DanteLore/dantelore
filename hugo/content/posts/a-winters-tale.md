@@ -4,7 +4,7 @@ title: "A Winter's Tale"
 
 date: "2012-12-03T22:08:45"
 
-featured_image: "/images/a-winters-tale/"
+featured_image: "/images/gear48.png"
 ---
 
 

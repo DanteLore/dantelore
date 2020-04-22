@@ -4,7 +4,7 @@ title: "Making Me Dizzy"
 
 date: "2009-01-15T13:51:00"
 
-featured_image: "/images/making-me-dizzy/"
+featured_image: "/images/gear48.png"
 ---
 
 
