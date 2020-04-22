@@ -18,7 +18,7 @@ img.post_thumb {
 .gallery {
   display: inline;
   max-height: 200px;
-  max-width: 200px;
+  max-width: 30%;
   margin-left: 4px;
   margin-right: 4px;
 }
