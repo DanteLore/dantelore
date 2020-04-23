@@ -4,14 +4,33 @@ date: "2020-04-05T13:04:56"
 draft: false
 type: "about"
 customJS: ["/js/one-d-genetic-algorithm.js",
-           "/js/d3.v35.min.js"]
+           "/js/d3.v35.min.js",
+           "/js/conway.js"]
 customCSS: ["/css/life.css"]
 ---
 
 Hi, I'm Dan.  I run Data teams for a living and I'm a huge fan of all things data-driven.  I'm equally
 excited about the everyday things data can do for you, like telling you how many products you sold last month
 or how much money you spent on widgets last quarter, as I am about the 'clever' stuff like machine
-learning and AI.
+learning and AI. 
+
+Whether you're a business, a non-profit or an amateur meteorologist, you're going to be better at what you do if you have fast access to
+well-presented and accurate data. That's because good data can tell you if there's been an error on your website, 
+a sudden surge in demand for men's sandals, a rise in sea-levels or a change in oil prices - then you can act quickly to capitalise on the situation.
+
+<script type="text/javascript">
+window.onload = function() {
+  oneDGA(".ga_target", 240, 180, false);
+  conway(".conway_target", 20, 180, 180);
+};
+</script>
+
+<div class="about_thumb_bar">
+  <div class="ga_target" style="display: inline-block;"></div><img class="about_thumb" src="/images/mapdata.jpg"/>
+</div>
+
+There's lots of emphasis on machine learning, prediction and "insights" across the data community these days, but in reality, 
+the big challenge for most still lies in getting the basics working.
 
 * To find out about my professional interests and career, check out my [LinkedIn profile](https://www.linkedin.com/in/danwtaylor/).
 * If you want to check out some code (of varying degrees of quality!) check my [Github](https://github.com/DanteLore).
@@ -36,14 +55,9 @@ I do a few software projects on my own time too, I'm particularly proud of the [
 clustering project](/posts/face-clustering-with-neural-networks-and-k-means/) 
 and I always love working with open data sources, especially geospatial data.
 
-<script type="text/javascript">
-window.onload = function() {
-  oneDGA(".js_target", 240, 180, false);
-};
-</script>
-
 <div class="about_thumb_bar">
-  <div class="js_target" style="display: inline-block;"></div><img class="about_thumb" src="/images/combining-shape-files/london-big.jpg"/>
+  <img class="about_thumb" src="/images/combining-shape-files/london-big.jpg"/>
+  <div class="conway_target" style="display: inline-block;"></div>
 </div>
 
 I tend to blog randomly about all these things - sometimes just to record an achivement, sometimes to 

@@ -1,11 +1,11 @@
-function conway(element, resolution) {
+function conway(element, resolution, h=540, w=540) {
 
     // Equality comparison for elements
     var getKey = function(d) { return d.y * resolution + d.x; }
 
     var margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width = 540 - margin.left - margin.right,
-        height = 540 - margin.top - margin.bottom;
+        width = w - margin.left - margin.right,
+        height = h - margin.top - margin.bottom;
 
     var xScale = d3.scale.linear().range([0, width]).domain([0, resolution]);
     var yScale = d3.scale.linear().range([height, 0]).domain([0, resolution]);
