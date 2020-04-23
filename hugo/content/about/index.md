@@ -9,7 +9,7 @@ customJS: ["/js/one-d-genetic-algorithm.js",
 customCSS: ["/css/life.css"]
 ---
 
-Hi, I'm Dan.  I run Data teams for a living and I'm a huge fan of all things data-driven.  I'm equally
+Hi, I'm Dan.  I run big software teams for a living and I'm a huge fan of all things data-driven.  I'm equally
 excited about the everyday things data can do for you, like telling you how many products you sold last month
 or how much money you spent on widgets last quarter, as I am about the 'clever' stuff like machine
 learning and AI. 
@@ -31,6 +31,12 @@ window.onload = function() {
 
 There's lots of emphasis on machine learning, prediction and "insights" across the data community these days, but in reality, 
 the big challenge for most still lies in getting the basics working.
+
+I'm currently Head of Engineering for Data at [Trainline](http://trainline.com). Previously I ran the data team at Compare the Market and before that
+I've worked on geolocation tools for mobile telecoms, live TV broadcast and commercial refrigeration.  I've written software that's controlled live 
+TV at the touch of a button, monitored fridges with neural networks and collected and analysed data at a very large scale. Throughout all that, the
+same themes have been ever present: _"good teams run agile"_, _"data wins all arguements"_, _"customer benefit is the only measure of success in 
+software development"_.
 
 * To find out about my professional interests and career, check out my [LinkedIn profile](https://www.linkedin.com/in/danwtaylor/).
 * If you want to check out some code (of varying degrees of quality!) check my [Github](https://github.com/DanteLore).
