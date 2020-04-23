@@ -1,8 +1,8 @@
-function oneDGA(element) {
+function oneDGA(element, w=540, h=350, show_controls=true) {
     var element = element;
     var margin = {top: 10, right: 10, bottom: 16, left: 20};
-    var width = 540 - margin.left - margin.right;
-    var height = 350 - margin.top - margin.bottom;
+    var width = w - margin.left - margin.right;
+    var height = h - margin.top - margin.bottom;
 
     var xScale = d3.scale.linear().range([0, width]);
     var yScale = d3.scale.linear().range([height, 0]);
@@ -309,7 +309,9 @@ function oneDGA(element) {
     var findParent = findBestParent;
 
     t = 0;
-    initialiseControls();
+    if(show_controls) {
+      initialiseControls();
+    }
     initialiseChart();
     restartSimulation();
     (function() {
