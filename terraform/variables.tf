@@ -8,4 +8,5 @@ variable "email_txt_record" {}
 variable "google_txt_record" {}
 
 variable "domain_names" { type = list(string) }
+variable "domain_subdirectories" { type = list(string) }
 variable "certificates" { type = list(string) }

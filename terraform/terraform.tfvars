@@ -8,6 +8,7 @@ email_txt_record = "v=spf1 include:spf.improvmx.com ~all"
 google_txt_record = "google-site-verification=b_p8pRs5T5Y1IQ9Sv2r1703-S1Vvttj9pHD6V_HSF6E"
 
 domain_names = ["dantelore.com", "danandtheduke.co.uk", "logicalgenetics.com"]
+domain_subdirectories = ["", "/duke", ""]
 certificates = ["arn:aws:acm:us-east-1:382128238181:certificate/ee752c5a-df56-4044-994c-36995b6d53b3",
                 "arn:aws:acm:us-east-1:382128238181:certificate/69a64fb6-9abc-4109-b6be-152107732881",
                 "arn:aws:acm:us-east-1:382128238181:certificate/ca03da3f-caaa-4c85-8dbc-f8f026a74b67"]
