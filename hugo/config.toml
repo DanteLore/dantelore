@@ -1,14 +1,15 @@
+
 baseURL = "https://dantelore.com/"
 languageCode = "en-gb"
 title = "Dante Lore"
 
 # Site settings
-baseurl = "https://dantelore.com/"
 themesDir = "themes"
-#languageCode = "en-gb"
 theme = "cactus"
+
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-75202-6"
+
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
 

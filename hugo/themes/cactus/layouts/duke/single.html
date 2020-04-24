@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="post">
+  <div class="profile">   
+        <header id="header">
+                <img id="about-page-avatar" src="{{ "/images/duke.jpg" | absURL }}"/>
+            <h1>{{ .Params.title }}</h1>
+        </header>
+  </div>
+
+  <section id="post-body">
+        {{ .Content }}
+  </section>
+</article>
+
+{{ end }}
