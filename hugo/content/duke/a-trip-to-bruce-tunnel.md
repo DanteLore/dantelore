@@ -4,7 +4,7 @@ title: "A Trip to Bruce Tunnel"
 
 date: "2012-08-05T20:45:00"
 
-featured_image: "/images/a-trip-to-bruce-tunnel/WP_000204.jpg"
+featured_image: "https://dantelore.com/images/a-trip-to-bruce-tunnel/WP_000204.jpg"
 ---
 
 
@@ -15,7 +15,7 @@ On the way there and back we drove along a couple of short lanes and finally dir
 
 Thanks to Dr J for some of the photos!
 
-<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-T-KWH1upcsE/UB7aV0bA3YI/AAAAAAAACas/ZS9ibKQpHCg/s1600/WP_000204.jpg"><img src="/images/a-trip-to-bruce-tunnel/WP_000204.jpg"/></a>
-<a href="http://4.bp.blogspot.com/-62sDgk0M2ZE/UB7aYJsSO-I/AAAAAAAACa0/YnJn7h1_g1o/s1600/WP_000208.jpg"><img src="/images/a-trip-to-bruce-tunnel/WP_000208.jpg"/></a>
-<a href="http://3.bp.blogspot.com/-K_6ZKiuUVKQ/UB7aabLvCkI/AAAAAAAACa8/TSuAbLXSKU8/s1600/WP_000209.jpg"><img src="/images/a-trip-to-bruce-tunnel/WP_000209.jpg"/></a>
+<table align="center" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-T-KWH1upcsE/UB7aV0bA3YI/AAAAAAAACas/ZS9ibKQpHCg/s1600/WP_000204.jpg"><img src="https://dantelore.com/images/a-trip-to-bruce-tunnel/WP_000204.jpg"/></a>
+<a href="http://4.bp.blogspot.com/-62sDgk0M2ZE/UB7aYJsSO-I/AAAAAAAACa0/YnJn7h1_g1o/s1600/WP_000208.jpg"><img src="https://dantelore.com/images/a-trip-to-bruce-tunnel/WP_000208.jpg"/></a>
+<a href="http://3.bp.blogspot.com/-K_6ZKiuUVKQ/UB7aabLvCkI/AAAAAAAACa8/TSuAbLXSKU8/s1600/WP_000209.jpg"><img src="https://dantelore.com/images/a-trip-to-bruce-tunnel/WP_000209.jpg"/></a>
 Having a 16 foot canoe on the roof makes it much more of a challenge - spent as much time watching for branches as I did looking for potholes and ruts!

@@ -4,7 +4,7 @@ title: "Di Fuel Figures"
 
 date: "2011-10-29T10:44:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

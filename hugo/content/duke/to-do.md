@@ -4,7 +4,7 @@ title: "To Do"
 
 date: "2009-10-09T14:30:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

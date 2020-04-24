@@ -4,7 +4,7 @@ title: "Put a lid on it"
 
 date: "2009-08-09T21:30:00"
 
-featured_image: "/images/put-a-lid-on-it/IMG_0883-746078.JPG"
+featured_image: "https://dantelore.com/images/put-a-lid-on-it/IMG_0883-746078.JPG"
 ---
 
 
@@ -12,5 +12,5 @@ More help from Ron today means that the roof is now on!  Sadly, the rubber seal 
 
 Had a BBQ to celebrate the occasion!
 
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_0883-746085.JPG"><img src="/images/put-a-lid-on-it/IMG_0883-746078.JPG"/></a>
-<a href="http://danandtheduke.co.uk/uploaded_images/IMG_0881-746053.JPG"><img src="/images/put-a-lid-on-it/IMG_0881-746018.JPG"/></a>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_0883-746085.JPG"><img src="https://dantelore.com/images/put-a-lid-on-it/IMG_0883-746078.JPG"/></a>
+<a href="http://danandtheduke.co.uk/uploaded_images/IMG_0881-746053.JPG"><img src="https://dantelore.com/images/put-a-lid-on-it/IMG_0881-746018.JPG"/></a>

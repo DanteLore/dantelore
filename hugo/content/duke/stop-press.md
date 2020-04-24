@@ -4,7 +4,7 @@ title: "Stop Press"
 
 date: "2009-01-07T13:09:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

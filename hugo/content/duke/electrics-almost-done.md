@@ -4,7 +4,7 @@ title: "Electrics Almost Done"
 
 date: "2009-02-15T20:53:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

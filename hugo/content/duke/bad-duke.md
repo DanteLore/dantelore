@@ -4,7 +4,7 @@ title: "Bad Duke!"
 
 date: "2009-06-27T16:51:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

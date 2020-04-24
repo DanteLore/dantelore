@@ -4,7 +4,7 @@ title: "Mashin' on the Motorway"
 
 date: "2011-11-18T20:45:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

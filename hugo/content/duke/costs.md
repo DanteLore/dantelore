@@ -4,7 +4,7 @@ title: "Costs"
 
 date: "2009-06-24T21:53:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

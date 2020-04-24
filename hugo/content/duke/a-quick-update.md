@@ -4,7 +4,7 @@ title: "A Quick Update"
 
 date: "2009-09-28T08:17:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 

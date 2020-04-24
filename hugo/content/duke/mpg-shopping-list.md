@@ -4,7 +4,7 @@ title: "MPG Shopping List"
 
 date: "2010-02-10T19:05:00"
 
-featured_image: "/images/gear48.png"
+featured_image: "https://dantelore.com/images/gear48.png"
 ---
 
 
