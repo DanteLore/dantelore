@@ -67,7 +67,7 @@ and I always love working with open data sources, especially geospatial data.
 </div>
 
 I tend to blog randomly about all these things - sometimes just to record an achivement, sometimes to 
-remind me how I did something, so this site is a bit of a mix or random stuff.
+remind me how I did something, so this site is a bit of a mix of random stuff.
 
 This site goes by a couple of other names too - formerly it was logicalgenetics.com and some 
 of the more Land Rover-centric posts came from danandtheduke.co.uk.
