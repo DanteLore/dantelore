@@ -1,0 +1,192 @@
+html
+{
+  font-family: tahoma, sans-serif;
+  font-size: 10pt;
+}
+  
+body
+{
+  padding: 0px;
+  margin: 0px;
+  background: #d7b url(http://clive/~lorna/lornaland/shadeborder.gif) top center repeat-y;
+}
+
+table
+{
+  border-collapse: collapse;
+  margin: 0px;
+}
+table.menu
+{
+  margin: 12px;
+}
+
+td
+{
+  text-align: left;
+}
+
+td.main
+{
+  background-color: white;
+  padding-right: 10px;
+}
+td.picbox
+{
+  background-color: white;
+  padding: 0px;
+}
+
+table.menu
+{
+  background-color: #F9B7FF;
+  border: 3px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 12px;
+}
+td.menu
+{
+  background-color: #F9B7FF;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+td.menubar
+{
+  background: #fff url(http://clive/~lorna/lornaland/diagonal.gif) top right repeat-y;
+  padding-left: 12px;
+}
+
+a.menu
+{
+  color: #0066ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+a.menu:hover 
+{
+  text-decoration: underline;
+  color: #c28;
+}
+a
+{
+  color: #0000CD;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a.links
+{
+  color: #c28;
+  text-decoration: none;
+  font-weight: bold;
+}
+a.links:hover 
+{
+  text-decoration: underline;
+  color: #0066ff;
+}
+a.main
+{
+  color: #c28;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span.lorna
+{
+  color: #c28;
+  font-weight: bold;
+}
+span.blue
+{
+  color: #0066ff;
+  font-weight: bold;
+}
+
+img.header
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+li.main
+{
+  list-style: disc url(http://clive/~lorna/lornaland/diamond.gif) outside;
+}
+
+h1
+{
+  color: #c28;
+  font-size: 18px;
+  font-weight: bold;
+}
+h2
+{
+  color: #c28;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+img.gallery
+{
+  margin-right: 9px;
+  margin-left: 9px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid black;
+}
+img.leftpic
+{
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+img.rightpic
+{
+  float: right;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+img.indexpic
+{
+  float: left;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid black;
+}
+hr
+{
+  clear: both;
+}
+
+div.forward
+{
+  float: right;
+}
+div.back
+{
+  float: left;
+}
+
+div.holiday_countdown
+{
+  width: 150px;
+  height: 113px;
+  background-color: #0099ff;
+  color: white;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
