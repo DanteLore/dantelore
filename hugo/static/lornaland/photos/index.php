@@ -8,9 +8,9 @@
   $pics = pictures_for_album($album);
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
@@ -56,7 +56,7 @@
   <hr/>
   <p>
     Click on a picture for a larger version.
-    <a class="menu" href="http://lornaland.co.uk/photogallery.html">Click here to return to the gallery</a>.
+    <a class="menu" href="https://lornaland.co.uk/photogallery.html">Click here to return to the gallery</a>.
   </p>
   <hr/>
 

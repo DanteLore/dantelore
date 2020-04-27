@@ -8,7 +8,7 @@ body
 {
   padding: 0px;
   margin: 0px;
-  background: #d7b url(http://clive/~lorna/lornaland/shadeborder.gif) top center repeat-y;
+  background: #d7b url(https://clive/~lorna/lornaland/shadeborder.gif) top center repeat-y;
 }
 
 table
@@ -54,7 +54,7 @@ td.menu
 }
 td.menubar
 {
-  background: #fff url(http://clive/~lorna/lornaland/diagonal.gif) top right repeat-y;
+  background: #fff url(https://clive/~lorna/lornaland/diagonal.gif) top right repeat-y;
   padding-left: 12px;
 }
 
@@ -113,7 +113,7 @@ img.header
 
 li.main
 {
-  list-style: disc url(http://clive/~lorna/lornaland/diamond.gif) outside;
+  list-style: disc url(https://clive/~lorna/lornaland/diamond.gif) outside;
 }
 
 h1

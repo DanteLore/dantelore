@@ -23,7 +23,7 @@ img
   border: 0;
   width: 745px;
   text-align: left;
-  background: #fff url(http://www.blogblog.com/moto_ms/innerwrap.gif) top left repeat-y;
+  background: #fff url(https://www.blogblog.com/moto_ms/innerwrap.gif) top left repeat-y;
   font-size:90%;
 }
 
@@ -42,7 +42,7 @@ font-size: 24px;
 text-align: left;
 padding: 15px 20px 0 20px;
 margin: 0;
-background-image: url(http://www.blogblog.com/moto_ms/topper.gif);
+background-image: url(https://www.blogblog.com/moto_ms/topper.gif);
 background-repeat: repeat-x;
 background-position: top left;
 }
@@ -167,7 +167,7 @@ padding-top: 3px;
 }
 
 #sidebar ul li {
-list-style: disc url(http://www.blogblog.com/moto_ms/diamond.gif) inside;
+list-style: disc url(https://www.blogblog.com/moto_ms/diamond.gif) inside;
 vertical-align: top;
 padding: 0;
 margin: 0;
@@ -209,7 +209,7 @@ font-weight: bold;
 font-style: italic;
 margin-top: 35px;
 padding: 1px 0 0 18px;
-background: transparent url(http://www.blogblog.com/moto_ms/commentbug.gif) top left no-repeat;
+background: transparent url(https://www.blogblog.com/moto_ms/commentbug.gif) top left no-repeat;
 color: #aaa;
 }
 

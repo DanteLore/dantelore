@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
 <head>
-  <link rel=StyleSheet href="http://logicalgenetics.com/pictures.css" type="text/css"/>
+  <link rel=StyleSheet href="https://logicalgenetics.com/pictures.css" type="text/css"/>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
   <title>Logical Genetics</title>
 </head>

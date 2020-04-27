@@ -1,7 +1,7 @@
 <?
   include_once("exif.php");
 
-  $gallery_root_url = 'http://logicalgenetics.com/oldgallery/albums/';
+  $gallery_root_url = 'https://logicalgenetics.com/oldgallery/albums/';
   $gallery_root_dir = $site_base_dir . '/oldgallery/albums/';
 
 
