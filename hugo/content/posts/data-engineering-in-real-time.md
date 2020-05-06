@@ -8,7 +8,6 @@ featured_image: "/images/data-engineering-in-real-time/Life-Events.jpg"
 ---
 
 
-
 This article is part 1 of a mini-series about events and models.  The following parts are quite technical, with Kafka, Scala and KSQL code, but this part is a bit of an introduction to the problem at hand.  Enjoy!
 
 
@@ -17,8 +16,9 @@ This article is part 1 of a mini-series about events and models.  The following 
 
 I'm a Data Engineer by trade.  I've been working with Data Platforms for some years now, usually building tools to ingest and manage data, in a whole heap of industries from supermarket fridges to telecoms networks to insurance websites.  Each industry has it's own unique challenges, be it latency, data volume or data quality  but each use-case has ended up being essentially the same...
 
-<blockquote class="wp-block-quote is-style-large">"The fundamental role of a Data Engineer is to translate ***events*** into ***entities***"<cite>- Dan Taylor, Today
+<blockquote class="wp-block-quote is-style-large">"The fundamental role of a Data Engineer is to translate <strong>events</strong> into <strong>entities</strong>"<cite>- Dan Taylor, Today
 </cite></blockquote>
+
 
 Our lives, the universe, *everything* is simply a stream of events. People buy things on websites, make calls on their phones, order beers, click *like* on cat videos.  Everything that makes us who we are can be encapsulated in a time-ordered change log.  These days, many companies are adopting event-driven architectures to handle the endless firehose of stuff that happens.
 

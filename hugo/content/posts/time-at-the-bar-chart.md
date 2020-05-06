@@ -7,10 +7,11 @@ date: "2018-11-27T08:43:49"
 featured_image: "/images/time-at-the-bar-chart/Kafkas-Beer-Festival-1024x630.jpg"
 ---
 
+This is part three in a blog mini-series about the power of Streaming Platforms with Kafka, KSQL and Confluent.
 
-
-This is part three in a blog mini-series about the power of Streaming Platforms with Kafka, KSQL and Confluent.  Part 1 was an introduction to the problem of converting <a href="https://github.com/DanteLore/events_to_models">github</a>.
-
+Part 1 was an introduction to the problem of converting <a href="http://logicalgenetics.com/posts/data-engineering-in-real-time/">events to models in real time</a>
+Part 2 showed how we can <a href="http://logicalgenetics.com/posts/kafkas-beer-festival/">do that conversion using Kafka, Streams and KSQL</a>
+Remember that code can be downloaded from my <a href="https://github.com/DanteLore/events_to_models">github</a>.
 
 ---
 
@@ -19,11 +20,12 @@ This post is all about aggregations.  Looking at how we can get aggregated data 
 
 <img src="/images/time-at-the-bar-chart/Kafkas-Beer-Festival-1024x630.jpg"/>
 
-*Two full days* of work went into the job of extracting results from Kafka and displaying them on a chart!  I might write another article about how difficult it was, but for now we're just going to talk about aggregations in KSQL and forget the last 48 hours never happened... OK?
+*Two full days* of work went into the job of extracting results from Kafka and displaying them on a chart!  I might write another article about how difficult it was, but for now we're just going to talk about aggregations in KSQL and forget the last 48 hours ever happened... OK?
 
 ## Sales Report
 
 <blockquote class="wp-block-quote">In order to understand profitability and bar utilisation, as organiser of the beer festival, I want to see real time information on sales, aggregated by bar number.</blockquote>
+
 
 ```sql
 ksql> create stream live_sales \

@@ -9,7 +9,7 @@ featured_image: "/images/kafkas-beer-festival/Kafka-Beer-with-Border.jpg"
 
 
 
-In <a href="http://logicalgenetics.com/data-engineering-in-real-time/">part 1 of this series</a>, I explained the age-old problem of converting events (stuff that happens, y'know) into models (details about things; databases).  In this post I'm going to get down and dirty, showing some awesome features of Apache Kafka which make this unbelievably simple.
+In <a href="http://logicalgenetics.com/posts/data-engineering-in-real-time/">part 1 of this series</a>, I explained the age-old problem of converting events (stuff that happens, y'know) into models (details about things; databases).  In this post I'm going to get down and dirty, showing some awesome features of Apache Kafka which make this unbelievably simple.
 
 <img src="/images/kafkas-beer-festival/Kafka-Beer-with-Border.jpg"/>
 
