@@ -4,7 +4,7 @@ title: "Stuff I made in 2019"
 
 date: "2020-01-01T13:46:00"
 
-featured_image: "/images/stuff-i-made-in-2019/2019-02-24 16.43.20.jpg"
+featured_image: "/images/stuff-i-made-in-2019/2019-05-26%2017.24.19.jpg"
 ---
 
 Every year I like to do a quick roundup of all the things I've made. Making stuff is important, and it's nice to
