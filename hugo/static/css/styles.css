@@ -3,6 +3,10 @@ blockquote {
   margin-bottom: 1em;
 }
 
+h1, h2, h3, h4 {
+  margin-top: 1em;
+}
+
 img {
   max-height: 300px;
   max-width: 80%;
