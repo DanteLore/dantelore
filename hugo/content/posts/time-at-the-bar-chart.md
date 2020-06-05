@@ -69,7 +69,9 @@ Obviously, the beer festival can't pause every time the organisers want to draw 
 
 <img src="/images/time-at-the-bar-chart/DIY-Kafka-REST-Proxy-1-1024x233.png"/>
 
-The middle-tier is a basic self-contained REST service based on <a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/barchart.html">code here</a>), which pulls data from the middle tier in JSON format.  I'm not recommending this as a production architecture, but it's a nice demo!
+
+The middle-tier is a basic self-contained REST service based on <a href="http://scalatra.org/">Scalatra</a>, the world's leading web micro-framework for Scala.
+The front-end is a D3.js chart (<a href="https://github.com/DanteLore/events_to_models/blob/master/src/main/webapp/barchart.html">code here</a>), which pulls data from the middle tier in JSON format.&nbsp; I'm not recommending this as a production architecture, but it's a nice demo!
 
 <img src="/images/time-at-the-bar-chart/Screenshot-2018-11-26-21.14.26-1024x555.png"/>
 
