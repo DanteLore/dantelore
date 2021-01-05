@@ -1,7 +1,23 @@
+
+This is my personal website, so the content is probably better digested at http://dantelore.com
+However, you're very welcome to use the Terraform and Hugo setup if it's useful :)
+
+## Hugo Setup
+
+https://gohugo.io/getting-started/quick-start/
+
+```
+$ brew install hugo
+$ cd hugo
+$ hugo
+$ hugo server -D
+$ open http://localhost:1313
+```
+
+## Deploying the website to AWS 
+
 Manual config done first, following this (great) tutorial:
 https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/
-
-To deploy the website:
 
 ```
 $ aws configure --profile dantelore
